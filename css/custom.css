@@ -499,25 +499,25 @@ section.section-image-left, section.section-image-right{
 #owlFamily {
 	background-image: url('../images/owlFamilyCrop.png');		
 }
-.col_one_third .feature-box .fbox-icon a #donate {
+.col_one_third .feature-box .fbox-icon a #donateImg {
 	background-image: url('../images/donate-dark.png');
 	background-size: cover;
 }
-.col_one_third .feature-box .fbox-icon a:hover #donate {
+.col_one_third .feature-box .fbox-icon a:hover #donateImg {
 	background-image: url('../images/donate-white.png');
 }
-.col_one_third .feature-box .fbox-icon a #shop {
+.col_one_third .feature-box .fbox-icon a #shopImg {
 	background-image: url('../images/shop-dark.png');
 	background-size: cover;
 }
-.col_one_third .feature-box .fbox-icon a:hover #shop {
+.col_one_third .feature-box .fbox-icon a:hover #shopImg {
 	background-image: url('../images/shop-light.png');
 }
-.col_one_third .feature-box .fbox-icon a #volunteer {
+.col_one_third .feature-box .fbox-icon a #volunteerImg {
 	background-image: url('../images/volunteer-dark.png');
 	background-size: cover;
 }
-.col_one_third .feature-box .fbox-icon a:hover #volunteer {
+.col_one_third .feature-box .fbox-icon a:hover #volunteerImg {
 	background-image: url('../images/volunteer-light.png');
 }
 /**************************/
