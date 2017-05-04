@@ -666,3 +666,25 @@ a.button.button-plan-purple.button-3d:hover {
 	font-weight: 300;
     font-family: 'Lato', sans-serif;
 }
+/**************************/
+/*****BOARD OF DIRECTORS***/
+/**************************/
+.team-title span {
+	color: #7f3472;
+}
+/**************************/
+/*****CONTACT***/
+/**************************/
+.feature-box h3 span.subtitle {
+	font-size: 16px;
+}
+.feature-box.fbox-bg.fbox-center.fbox-plain .fbox-icon{
+	background-color: transparent;
+}
+.testimonial .text-center .i-plain{
+	float: none;
+	color: #7f3472 !important;
+}
+.feature-box.fbox-plain .fbox-icon i {
+	color: #7f3472;
+}
