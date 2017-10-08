@@ -27,6 +27,9 @@ a.button.button-sh-purple {
 a:hover {
 	color: #b5777d;
 }
+.font-18 {
+	font-size: 18px;
+}
 /*STICKY NOTE FONT*/
 .sticky-note-font p {
 	font-family: 'Permanent Marker', cursive !important;
@@ -760,6 +763,39 @@ a.button.button-plan-purple.button-3d:hover {
 .feature-box.fbox-plain .fbox-icon i {
 	color: #7f3472;
 }
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto;
+  line-height: 1.45;
+  position: relative;
+  border: 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  font-family: Georgia, serif;
+  font-size: 85px;
+  font-weight: bold;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+ 
+blockquote cite:before {
+  content: "\2014 \2009";
+}
 /**************************/
 /*****THEY WERE HERE***/
 /**************************/
@@ -943,4 +979,7 @@ a.button.button-plan-purple.button-3d:hover {
 		padding-left: 5px;
 		padding-right: 5px;
 	}
+  blockquote {
+    font-size: 12px;
+  }
 }
