@@ -2,6 +2,8 @@
 /***FULL SITE STYLES***/
 /**********************/
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+
 body {
 	color: #777;
 }
@@ -37,10 +39,16 @@ p span.p-link {
 /*IMAGE QUOTES*/
 
 .image-quote .sh-quote,
-.image-quote .sh-quote-author,
+.image-quote .sh-quote-author {
+	color: #fff;
+}
 .image-definition .sh-definition-word,
 .image-definition .sh-definition {
-	color: #fff;
+	color: #000;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.4;
+	font-family: 'Cousine';
 }
 .image-quote .sh-quote {
 	width: 80%;
@@ -48,19 +56,17 @@ p span.p-link {
 	position: relative;
 	top: -69px;
 }
-.image-quote .sh-quote p,
-.image-definition .sh-definition-word,
-.image-definition .sh-definition {
+.image-quote .sh-quote p {
 	font-size: 21px;
 	font-weight: 300;
 	line-height: 1.4;
 }
 .image-definition .sh-definition-word {
 	letter-spacing: 1.5px;
-	font-size: 25px;
+	font-size: 18px;
 }
 .image-definition .sh-definition {
-	margin-top: 200px;
+	margin-top: 10px;
 }
 .image-quote .sh-quote-sign{
 	background-repeat: no-repeat;
@@ -256,96 +262,24 @@ section.explanation-text-section .section  {
     font-size: 22px;
 }
 #standardNarrative .sticky-note {
-	width: 300px;
-	height: 250px;
-	margin-left: 25%;
+	max-width: 300px;
+  min-height: 250px;
+	margin: 25px auto;
 	padding: 15px;
 }
-#standardNarrative .sticky-correct-answer{
+#standardNarrative .sticky-correct-answer-heading{
 	margin-top: 50px;
 }
 #standardNarrative .first-sticky,
 #standardNarrative .second-sticky,
-#standardNarrative .third-sticky,
-#standardNarrative .sticky-correct-answer{
-	background: transparent;
-	opacity: 0;
+#standardNarrative .third-sticky {
+	background: rgba(255,0,0,0.2)
 }
-#standardNarrative .slash-left,
-#standardNarrative .slash-right {
-	position: relative;
-	opacity: 0;
+
+#standardNarrative .sticky-correct-answer {
+	background: rgba(75,211,57,0.2)
 }
-#standardNarrative .slash-left {
-	top: -195px;
-}
-#standardNarrative .slash-right {
-	top: -444px;
-}
-#standardNarrative .second-sticky .slash-left {
-	top: -233px;
-}
-#standardNarrative .second-sticky .slash-right {
-	top: -483px;
-}
-#standardNarrative.start .first-sticky {
-    -webkit-animation: stickyNoteZoom 3s ease-out forwards;
-       -moz-animation: stickyNoteZoom 3s ease-out forwards;
-        -ms-animation: stickyNoteZoom 3s ease-out forwards;
-         -o-animation: stickyNoteZoom 3s ease-out forwards;
-            animation: stickyNoteZoom 3s ease-out forwards;
-}
-#standardNarrative.start .second-sticky {
-    -webkit-animation: stickyNoteZoom 3s ease-out 3s forwards;
-       -moz-animation: stickyNoteZoom 3s ease-out 3s forwards;
-        -ms-animation: stickyNoteZoom 3s ease-out 3s forwards;
-         -o-animation: stickyNoteZoom 3s ease-out 3s forwards;
-            animation: stickyNoteZoom 3s ease-out 3s forwards;
-}
-#standardNarrative.start .third-sticky {
-    -webkit-animation: stickyNoteZoom 3s ease-out 6s forwards;
-       -moz-animation: stickyNoteZoom 3s ease-out 6s forwards;
-        -ms-animation: stickyNoteZoom 3s ease-out 6s forwards;
-         -o-animation: stickyNoteZoom 3s ease-out 6s forwards;
-            animation: stickyNoteZoom 3s ease-out 6s forwards;
-}
-#standardNarrative.start .sticky-correct-answer {
-    -webkit-animation: stickyNoteAppear 3s ease-out 6s forwards;
-       -moz-animation: stickyNoteAppear 3s ease-out 6s forwards;
-        -ms-animation: stickyNoteAppear 3s ease-out 6s forwards;
-         -o-animation: stickyNoteAppear 3s ease-out 6s forwards;
-            animation: stickyNoteAppear 3s ease-out 6s forwards;
-}
-#standardNarrative.start .slash-left {
-    -webkit-animation: slashleft 2s ease-out 6s forwards;
-       -moz-animation: slashleft 2s ease-out 6s forwards;
-        -ms-animation: slashleft 2s ease-out 6s forwards;
-         -o-animation: slashleft 2s ease-out 6s forwards;
-            animation: slashleft 2s ease-out 6s forwards;
-}
-#standardNarrative.start .slash-right {
-    -webkit-animation: slashRight 2s ease-out 8s forwards;
-       -moz-animation: slashRight 2s ease-out 8s forwards;
-        -ms-animation: slashRight 2s ease-out 8s forwards;
-         -o-animation: slashRight 2s ease-out 8s forwards;
-            animation: slashRight 2s ease-out 8s forwards;
-}
-@keyframes stickyNoteZoom {
-	from {background-color: transparent; opacity: 0;}
-	to {background-color: #dfcbf7; opacity: 1;}
-}
-@keyframes stickyNoteAppear {
-	from {opacity: 0;}
-	to {opacity: 1;}
-}
-@keyframes slashleft{
-	from{left:-100px;opacity:0} 
-	to{left:0;opacity:1}
-}
-@keyframes slashRight{
-	from{opacity:0} 
-	to{opacity:1}
-}
+
 /***************************/
 /***END STANDARD NARRATIVE**/
 /***************************/
@@ -360,27 +294,21 @@ section.section-image-left, section.section-image-right{
 #longTermHealing .image-right{
 	display: inline-block;
 }
+
+#longTermHealing .image-left,
+#longTermHealing .image-center,
+#longTermHealing .image-right{
+	display: block;
+}
 #longTermHealing .image-caption{
 	max-width: 165px;
-	margin-top: 15px;
+	margin: 15px auto 50px;
 	background-color: #431056;
 	padding: 5px 10px;
 	color: #fff;
 }
-#longTermHealing .image-left {
-	position: relative;
-	left: -45px;
-	top: -45px;
-}
 #longTermHealing .image-center {
-	position: relative;
-	top: 75px;
-	left: 15px;
-}
-#longTermHealing .image-right {
-	position: relative;
-	right: -60px;
-	top: -45px;
+	padding-top: 45px;
 }
 /************************/
 /***END RECENT STUDIES***/
@@ -724,7 +652,9 @@ a.button.button-plan-purple.button-3d:hover {
 	}
 }
 @media(max-width: 768px){
-	
+	#standardNarrative .sticky-note {
+	  min-height: 110px;
+	}
 	.sticky-note-font p {
 	    font-size: 20px;
 	}
@@ -807,6 +737,9 @@ a.button.button-plan-purple.button-3d:hover {
 	}
 	.stick-figure-family {
     	top: -10px;
+	}
+	#longTermHealing .image-center {
+		padding-top: 0px;
 	}
 }
 @media(max-width: 414px){
