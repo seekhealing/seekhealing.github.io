@@ -685,6 +685,10 @@ a.button.button-plan-purple.button-3d:hover {
 	float: none;
 	color: #7f3472 !important;
 }
+.testimonial a {
+	padding: 18px;
+	display: inline-block;
+}
 .feature-box.fbox-plain .fbox-icon i {
 	color: #7f3472;
 }
@@ -696,6 +700,11 @@ a.button.button-plan-purple.button-3d:hover {
 }
 .hide-under-1024 {
 	display: block;
+}
+@media(max-width: 1199px) {
+	.testimonial a {
+		padding: 15px 30px;
+	}	
 }
 @media(max-width: 1024px){
 	nav#primary-menu ul li:nth-child(5){
