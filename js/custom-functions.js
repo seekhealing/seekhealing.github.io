@@ -29,3 +29,7 @@ function checkAnimation() {
 $(window).scroll(function(){
     checkAnimation();
 });
+
+$(document).ready(function(){
+        $(".GaugeMeter").gaugeMeter();
+    });

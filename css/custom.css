@@ -581,6 +581,48 @@ a.button.button-plan-purple.button-3d:hover {
 .feature-box .fbox-icon a:hover #contactUs {
 	background-image: url('../images/contact-light.png');
 }
+.GaugeMeter {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  cursor: default;
+  display: inline-block;
+  margin: 0 40px;
+}
+.GaugeMeter span, .GaugeMeter B {
+  width: 54%;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  color: #777;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0 23%;
+}
+.GaugeMeter[data-style="Semi"] B {
+  width: 80%;
+  margin: 0 10%;
+}
+.GaugeMeter S, .GaugeMeter U {
+  text-decoration: none;
+  font-size: .60em;
+  font-weight: 200;
+  opacity: .6;
+}
+.GaugeMeter B {
+  color: #777;
+  font-weight: 200;
+  opacity: .8;
+}
+.GaugeDate {
+	font-size: .55em;
+	line-height: 10px;
+	font-weight: 300;
+}
+.heading-block.customHeader:after { margin: 0 auto; }
 /**************************/
 /*****END ABOUT US*********/
 /**************************/
