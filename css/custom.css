@@ -618,7 +618,7 @@ a.button.button-plan-purple.button-3d:hover {
   opacity: .8;
 }
 .GaugeDate {
-	font-size: .55em;
+	font-size: 10px;
 	line-height: 10px;
 	font-weight: 300;
 }
