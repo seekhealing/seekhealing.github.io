@@ -620,6 +620,16 @@ a.button.button-plan-purple.button-3d:hover {
 .feature-box.fbox-plain .fbox-icon i {
 	color: #7f3472;
 }
+/**************************/
+/*****THEY WERE HERE***/
+/**************************/
+.remembered ul {
+	list-style-type: none;
+}
+.remembered span {
+	font-style: italic;
+	font-size: 12px;
+}
 /***********************/
 /*****MOBILE STYLES*****/
 /***********************/
