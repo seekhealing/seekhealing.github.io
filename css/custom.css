@@ -725,6 +725,26 @@ a.button.button-plan-purple.button-3d:hover {
 /*****END ABOUT US*********/
 /**************************/
 /**************************/
+/*****GET INVOLVED*********/
+/**************************/
+.shop-thumbnails img {
+  width: 23%;
+  display: inline-block;
+}
+.volunteers {
+	text-align: center;
+	margin-top: 30px;
+}
+.subheader {
+	font-size: 20px;
+}
+.positions-list {
+	list-style-type: none;
+}
+/***********************/
+/*****MOBILE STYLES*****/
+/***********************/
+/**************************/
 /*******CONTACT US*********/
 /**************************/
 #contact-content h3 {
@@ -926,6 +946,9 @@ a.button.button-plan-purple.button-3d:hover {
 	.program-authentic {
 		margin: 0 auto;
 		padding: 0 30px 0 15px;
+  }
+	.shop-thumbnails img {
+	  width: 48%;
 	}
 }
 @media(max-width: 414px){
