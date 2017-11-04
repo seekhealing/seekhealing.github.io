@@ -822,6 +822,9 @@ blockquote cite:before {
 .remembered ul {
 	list-style-type: none;
 }
+.remembered ul>li {
+	padding-bottom: 30px;
+}
 .remembered span {
 	font-style: italic;
 	font-size: 12px;
