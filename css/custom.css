@@ -841,9 +841,6 @@ blockquote cite:before {
 	}	
 }
 @media(max-width: 1024px){
-	nav#primary-menu ul li:nth-child(5){
-		display: none;
-	}
 	.show-under-1024 {
 		display: block;
 	}
