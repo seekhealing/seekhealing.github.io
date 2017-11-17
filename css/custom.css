@@ -104,6 +104,13 @@ p span.p-link {
 	font-size: 22px;
 	color: #777;
 }
+.heading-block.two-lines:before {
+  content: '';
+  display:block;
+  border-top:2px solid #444;
+  width: 40px;
+  margin: 30px auto;
+}
 .entry-title h2 span.emphasized-header,
 .entry-title h2 span.non-emphasized-header{
 	text-transform: none;
@@ -829,6 +836,19 @@ blockquote cite:before {
 	font-style: italic;
 	font-size: 12px;
 }
+ul.resources {
+  list-style: none;
+}
+.resources li {
+  margin-bottom: 30px;
+}
+.resources i {
+  font-size: 35px;
+  margin: 5px 10px 0 0;
+}
+.resources-item {
+  display:table-cell;
+}
 /***********************/
 /*****MOBILE STYLES*****/
 /***********************/
@@ -986,6 +1006,9 @@ blockquote cite:before {
 	.shop-thumbnails img {
 	  width: 48%;
 	}
+  ul.resources {
+    font-size: 12px;
+  }
 }
 @media(max-width: 414px){
 	#slider .slider-caption-right {
