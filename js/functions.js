@@ -326,7 +326,7 @@ var SEMICOLON = SEMICOLON || {};
 					}
 					if( element.parents('.full-screen').length > 0 ) { scrHeight = element.parents('.full-screen').height(); }
 
-					if( $body.hasClass('device-xs') || $body.hasClass('device-xxs') ) {
+					if( $body.hasClass('device-xs') || $body.hasClass('device-xxs') || $body.hasClass('device-sm')  ) {
 						if( !element.hasClass('force-full-screen') ){ scrHeight = 'auto'; }
 					}
 
