@@ -193,8 +193,12 @@ footer .footer-social-icon:hover {
 	position: relative;
 	right: 0px;
 }
+.slider-caption p {
+	font-weight: 800;
+}
 p.cta {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 300;
   margin-top: 20px;
   margin-bottom: 0px;
 }
