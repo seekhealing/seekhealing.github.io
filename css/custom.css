@@ -855,8 +855,10 @@ blockquote cite:before {
 	padding-bottom: 30px;
 }
 .remembered span {
-	font-style: italic;
 	font-size: 12px;
+}
+.remembered span.by {
+  font-style: italic;
 }
 ul.resources {
   list-style: none;
