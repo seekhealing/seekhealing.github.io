@@ -33,6 +33,10 @@ a:hover {
 .font-18 {
 	font-size: 18px;
 }
+.bold-purple {
+  color: #7f3472;
+  font-weight: 800;
+}
 /*STICKY NOTE FONT*/
 .sticky-note-font p {
 	font-family: 'Permanent Marker', cursive !important;
