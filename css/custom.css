@@ -384,6 +384,10 @@ section.section-image-left, section.section-image-right{
   width:50%;
   margin:0 auto 10px;
 }
+.subscribe input[type="email"].form-control {
+  background-color: #fff;
+  padding: 6px 12px;
+}
 .btn-subscribe {
   margin: 0px;
   background-color: #7f3472;
