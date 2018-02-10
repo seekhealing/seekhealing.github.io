@@ -16,6 +16,9 @@ p {
 a {
 	color: #7f3472;
 }
+span.bold {
+	font-weight: bold;
+}
 a.button.button-sh-purple:hover:not(.button-fill),
 #gotoTop:hover {
 	background-color: #7f3472;
@@ -402,6 +405,92 @@ section.section-image-left, section.section-image-right{
 }
 /**************************/
 /***END SUBSCRIBE STYLES***/
+/**************************/
+/**************************/
+/***PILOT PROGRAM STYLES***/
+/**************************/
+.pilot-program-section {
+  padding: 60px 0;
+}
+.bull-elements {
+  font-size: 20px;
+  padding: 10px 15px;
+}
+.pilot-program-section h2 {
+  color: #49308C;
+  font-weight: normal;
+  margin: 20px;
+}
+.pilot-program-section h3 {
+  color: #49308C;
+  font-weight: normal;
+  font-size:48px;
+}
+.pilot-program-section h4 {
+  color: #49308C;
+  font-weight: bold;
+  font-size:24px;
+}
+.pilot-program-section p {
+  margin:20px;
+}
+h2.green-hdr, span.green {
+  color: #098A68;
+}
+.rowmargin {
+  margin: 75px auto;
+}
+.ashe-bball {
+  margin-top: 15%;
+}
+.match-left {
+  float: left;
+  width: 30%;
+  text-align: right;
+}
+.match-right {
+  float: left;
+  width: 60%;
+  text-align: left;
+}
+.match-inner-left {
+  float: left;
+  width: 75%;
+  text-align: left
+}
+.match-inner-right {
+  float: right;
+  width: 25%
+}
+.match-inner-p {
+  text-align: right;
+  clear: both
+}
+.match-inner-p p {
+  width: 75%;
+  text-align: justify;
+  float: right;
+}
+span.blue {
+  color: #0070C0;
+}
+.apply-rows .row {
+	margin: 10px auto;
+}
+.apply-rows p {
+  width: 80%;
+  margin: 0;
+}
+.apply-rows .button {
+  width: 80%;
+  text-align: center;
+  background-color: #7E4493;
+}
+.apply-btns {
+  text-align: right;
+}
+/**************************/
+/***END PILOT PROGRAM******/
 /**************************/
 /**************************//**************************/
 /***END HOME PAGE STYLES***//***END HOME PAGE STYLES***/
@@ -966,9 +1055,6 @@ input#mce-EMAIL {
 }
 
 /******************************************************************************
-/***********************/
-/*****MOBILE STYLES*****/
-/***********************/
 /**************************/
 /*******CONTACT US*********/
 /**************************/
@@ -1109,6 +1195,15 @@ ul.resources {
   }
 }
 @media(max-width: 992px){
+  .match-left {
+    width: 25%;
+  }
+  .match-right {
+    width: 75%;
+  }
+	.split-graphic {
+		width:60%;
+	}
 	.program-card {
 		padding: 20px;
 		min-height: 445px;
@@ -1125,6 +1220,27 @@ ul.resources {
   }
 }
 @media(max-width: 768px){
+  .apply-btns {
+    text-align: center;
+  }
+  .apply-rows p {
+    margin: 0 auto;
+  }
+  .match-left {
+    display: none;
+  }
+  .match-right {
+    width: 100%;
+  }
+	.bull-subheader {
+		padding-top: 10px;
+	}
+	.bull-subheader .bull-elements {
+		display: block;
+    visibility: hidden;
+    height: 10px;
+    padding: 0;
+	}
   ul.volunteer-skills {
     width: 100%;
   }
