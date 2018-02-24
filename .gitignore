@@ -1,3 +1,13 @@
 _site
 .sass-cache
 .jekyll-metadata
+Gemfile.*lock
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+.jekyll-metadata
+_asset_bundler_cache
+node_modules
+npm-debug.log*
+*.swp
