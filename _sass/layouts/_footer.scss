@@ -17,10 +17,6 @@ footer {
   }
 }
 
-.copyright-links a:first-child {
-  margin-left: 0;
-}
-
 .copyright-links a {
   color: rgba(255,255,255,0.25);
   display: inline-block;
@@ -31,6 +27,10 @@ footer {
   &:hover {
     color: rgba(255,255,255,0.35);
     border-bottom-color: rgba(255,255,255,0.35);
+  }
+
+  &:first-child {
+    margin-left: 0;
   }
 }
 
@@ -44,19 +44,19 @@ footer {
 }
 
 .footer-cp {
-  text-align: left;
+  text-align: center;
 
-  @media screen and (max-width: $screen-sm-min) {
-    text-align: center;
+  @media screen and (min-width: $screen-sm-min) {
+    text-align: left;
   }
 }
 
 .footer-soc {
-  padding-top: 0px;
-  text-align: right;
+  padding-top: 25px;
+  text-align: center;
 
-  @media screen and (max-width: $screen-sm-min) {
-    padding-top: 25px;
-    text-align: center;
+  @media screen and (min-width: $screen-sm-min) {
+    padding-top: 0px;
+    text-align: right;
   }
 }
