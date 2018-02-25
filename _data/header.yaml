@@ -4,3 +4,13 @@ nav:
   - target: ''
     title: Learn
     url: /learn/
+  - title: Heal
+    url: /our-programs/
+  - title: Help
+    url: /volunteer/
+  - title: Connect
+    url: /blog/
+  - title: Remember
+    url: /they-were-here/
+  - title: About Us
+    url: /about/
