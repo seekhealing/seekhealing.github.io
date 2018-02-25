@@ -37,10 +37,10 @@ collections:
         name: nav 
         widget: "list" 
         fields: 
-         - {label: "Title", name: title, widget: string}
-         - {label: "URL", name: url, widget: string}
-         - label: "Target"
+          - {label: "Title", name: title, widget: string}
+          - {label: "URL", name: url, widget: string}
+          - label: "Target"
             name: target
             widget: select
             options: ["", "_blank"]
-         - {label: "SubMenu", name: submenu, widget: list}
+          - {label: "SubMenu", name: submenu, widget: list}
