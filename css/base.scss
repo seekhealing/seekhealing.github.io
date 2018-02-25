@@ -4,15 +4,15 @@
 ---
 
 // Including bootstrap styles
-//@import 'helpers/custom-bootstrap-variables';
+@import 'helpers/custom-bootstrap-variables';
 @import 'bootstrap';
 
 // Including base scss eleemnts
-// @import 'base/typography';
-// @import 'base/base';
+@import 'base/typography';
+@import 'base/base';
 
 // Including layout scss 
-// @import 'layouts/header';
+@import 'layouts/header';
 // @import 'layouts/body';
 // @import 'layouts/footer';
 
@@ -28,7 +28,7 @@
 // @import 'components/buttons';
 // @import 'components/carousel';
 // @import 'components/errors';
-// @import 'components/icons';
+@import 'components/icons';
 // @import 'components/iframes';
 // @import 'components/links';
 // @import 'components/quick-links';

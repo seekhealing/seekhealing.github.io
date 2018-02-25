@@ -3,7 +3,7 @@ backend:
   repo: shredtechular/seekhealing.github.io
   branch: refactor
   site_domain: seekhealing-refactor.netlify.com
-media_folder: "assets/images"
+media_folder: "/assets/images"
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
     label: "Post" # Used in the UI
@@ -23,3 +23,24 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "nav" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Header & Footer Content" # Used in the UI, ie.: "New Post"
+    folder: "_data"
+    format: "yaml"
+    create: false # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - label: "Logo Image"
+        name: "logo"
+        widget: "image"
+      - {label: "Logo Alt Text", name: "logo-alt", widget: "string"}
+      - label: "Post Settings" 
+        name: nav 
+        widget: "list" 
+        fields: 
+         - {label: "Title", name: title, widget: string}
+         - {label: "URL", name: url, widget: string}
+         - label: "Target"
+            name: target
+            widget: select
+            options: ["", "_blank"]
+         - {label: "SubMenu", name: submenu, widget: list}

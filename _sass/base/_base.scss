@@ -1,0 +1,17 @@
+// File contains styles for base HTML Elements
+
+body {
+  color: #777;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+}
+
+dl, dt, dd, ol, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+    // color: #1ABC9C;
+}

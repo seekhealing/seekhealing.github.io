@@ -1,0 +1,102 @@
+---
+header:
+  logo: "logo-white.png"
+  logo-alt: "SeekHealing Logo"
+  nav:
+    - title: "Learn"
+      url: "/learn/"
+    - title: "Heal"
+      url: "/our-programs/"
+      submenu:
+        - title: "Program Methodology"
+          url: "/our-programs/"
+        - title: "Asheville Pilot Program"
+          url: "asheville-pilot-program.html"
+    - title: "Help"
+      url: "/volunteer/"
+      submenu:
+        - title: "Donate"
+          url: "https://seekhealing.kindful.com"
+          target: "_blank"
+        - title: "Shop"
+          url: "http://shop.seekhealing.org/"
+          target: "_blank"
+        - title: "Volunteer"
+          url: "/volunteer/"
+        - title: "Connection Agents"
+          url: "/connection-agents/"
+    - title: "Connect"
+      url: "/blog/"
+      submenu:
+      - title: "Blog"
+        url: "/blog/"
+      - title: "Upcoming Events"
+        url: "/upcoming-events/"
+    - title: "Remember"
+      url: "/they-were-here/"
+    - title: "About Us"
+      url: "/about/"
+booking-form:
+  title: "Get in touch"
+  subtitle: "Please enter your details below and we will get in touch with you directly."
+  legend: "Fields marked with (*) are mandatory. Please note we will not share your data with others and its going to be used for contact purposes only."
+  thankyou: "Thank you, we will be in touch."
+footer:
+  subscribe:
+    title: "Subscribe to our blogpost headlines"
+    btn: "Sign up now"
+  copyright: "Bright Young Things 2010-2015. All rights reserved."
+  nav:
+    col-1:
+    -
+      url: "/about/"
+      title: "About"
+    -
+      url: "/contact/"
+      title: "Contact"
+    -
+      url: "/careers/"
+      title: "Careers &#038; Tutor Registration"
+    -
+      url: "/terms-conditions/"
+      title: "Terms &#038; Conditions"
+    col-2:
+    -
+      url: "/private-tuition/"
+      title: "Private Tuition"
+    -
+      url: "/byt-international/"
+      title: "BYT International"
+    -
+      url: "/tuition-centres/"
+      title: "Tuition Centres"
+    -
+      url: "/the-insiders-school-guide/"
+      title: "The Insider&#8217;s School Guide"
+    -
+      url: "/what-we-teach/"
+      title: "What We Teach"
+    -  
+      url: "/resources/"
+      title: "Resources"
+    col-3:
+    -
+      url: "https://secure.tutorcruncher.com/byt/login/"
+      title: "Tutor Login"
+    -
+      url: "https://brightleap.com/"
+      title: "Online Practice"
+    -
+      url: "/prep-schools/"
+      title: "Prep Schools"
+    -
+      url: "/kent-schools/"
+      title: "Kent Schools"
+    -
+      url: "/hertfordshire-schools/"
+      title: "Hertfordshire Schools"
+  other-links:
+    logos:
+    - logo_topcompanies.jpg
+    - logo_ofsted.jpg
+    - logo_educationinvestor.jpg

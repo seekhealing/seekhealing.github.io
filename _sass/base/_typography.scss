@@ -1,0 +1,13 @@
+// Base Typography Classes
+
+// Main fonts used in site
+@font-face {
+	font-family: 'font-icons';
+	src:url('../assets/fonts/font-icons/font-icons.eot');
+	src:url('../assets/fonts/font-icons/font-icons.eot') format('embedded-opentype'),
+		url('../assets/fonts/font-icons/font-icons.woff') format('woff'),
+		url('../assets/fonts/font-icons/font-icons.ttf') format('truetype'),
+		url('../assets/fonts/font-icons/font-icons.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -7,13 +7,17 @@ layout: compress
 
 {% include head.html %} 
 
-  <body>
+  <body class="stretched">
+
+    <div id="wrapper" class="clearfix">
 
     {% include header.html %}
 
       {{ content }}
   
     {% include footer.html %}
+
+    </div><!-- #wrapper end -->
 
   </body>
 
