@@ -1,0 +1,25 @@
+copyright-text: "Copyrights &copy; 2017 SeekHealing."
+nav:
+  - target: ''
+    title: Learn
+    url: /learn/
+  - target: ''
+    title: Our Programs
+    url: /our-programs/
+  - target: ''
+    title: Get Involved
+    url: /get-involved/
+  - target: ''
+    title: Blog
+    url: /blog/
+social-media:
+  - icon: 'fab fa-facebook'
+    url: 'https://www.facebook.com/seekhealing/'
+  - icon: 'fab fa-twitter-square'
+    url: 'https://twitter.com/seek_healing'
+  - icon: 'fab fa-instagram'
+    url: 'https://www.instagram.com/seekhealing/'
+  - icon: 'fab fa-linkedin'
+    url: 'https://www.linkedin.com/company/15230410/'
+  - icon: 'fab fa-youtube'
+    url: 'https://www.youtube.com/channel/UCSM8rmdOFdHop_8z2UFz5-g'
