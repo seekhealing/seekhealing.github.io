@@ -29,23 +29,23 @@ collections:
     editor: 
       preview: false 
     files: 
-     - name: "header-footer" 
+      - name: "header-footer" 
         label: "Header and Footer Content" 
         file: "_data/header-footer-content.yaml" 
         description: "Header and Footer content" 
         fields: 
-        - label: "Logo Image"
-          name: "logo"
-          widget: "image"
-        - {label: "Logo Alt Text", name: "logo-alt", widget: "string"}
-        - label: "Header Navigation Items" 
-          name: nav 
-          widget: "list" 
-          fields: 
-            - {label: "Title", name: title, widget: string}
-            - {label: "URL", name: url, widget: string}
-            - label: "Target"
-              name: target
-              widget: select
-              options: ["", "_blank"]
-            - {label: "SubMenu", name: submenu, widget: list}
+          - label: "Logo Image"
+            name: "logo"
+            widget: "image"
+          - {label: "Logo Alt Text", name: "logo-alt", widget: "string"}
+          - label: "Header Navigation Items" 
+            name: nav 
+            widget: "list" 
+            fields: 
+              - {label: "Title", name: title, widget: string}
+              - {label: "URL", name: url, widget: string}
+              - label: "Target"
+                name: target
+                widget: select
+                options: ["", "_blank"]
+              - {label: "SubMenu", name: submenu, widget: list}
