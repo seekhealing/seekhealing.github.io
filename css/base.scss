@@ -7,6 +7,9 @@
 @import 'helpers/custom-bootstrap-variables';
 @import 'bootstrap';
 
+// Including fontaesome styles
+@import 'vendor/fontawesome/fontawesome';
+
 // Including base scss eleemnts
 @import 'base/typography';
 @import 'base/base';
@@ -14,7 +17,7 @@
 // Including layout scss 
 @import 'layouts/header';
 // @import 'layouts/body';
-// @import 'layouts/footer';
+@import 'layouts/footer';
 
 // // Page specific layouts
 // @import 'layouts/homepage';

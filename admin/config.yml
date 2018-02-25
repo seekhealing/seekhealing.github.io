@@ -29,10 +29,17 @@ collections:
     editor: 
       preview: false 
     files: 
+      - name: "global" 
+        label: "Global Site Content" 
+        file: "_data/global.yaml" 
+        description: "Global content" 
+        fields: 
+          - {label: "Email Address", name: "email", widget: "string"}
+          - {label: "Email Icon", name: "email-icon", widget: "string"}
       - name: "header" 
         label: "Header Content" 
         file: "_data/header.yaml" 
-        description: "Header and Footer content" 
+        description: "Header content" 
         fields: 
           - label: "Logo Image"
             name: "logo"
@@ -58,3 +65,25 @@ collections:
                     name: target
                     widget: select
                     options: ["", "_blank"]
+      - name: "footer" 
+        label: "Footer Content" 
+        file: "_data/footer.yaml" 
+        description: "Footer content" 
+        fields: 
+          - {label: "Copyright Text", name: "copyright-text", widget: "string"}
+          - label: "Footer Navigation Items" 
+            name: nav 
+            widget: "list" 
+            fields: 
+              - {label: "Title", name: title, widget: string}
+              - {label: "URL", name: url, widget: string}
+              - label: "Target"
+                name: target
+                widget: select
+                options: ["", "_blank"]
+          - label: "Footer Social Media Links" 
+            name: "social-media"
+            widget: "list" 
+            fields: 
+              - {label: "Icon class", name: icon, widget: string}
+              - {label: "URL", name: url, widget: string}

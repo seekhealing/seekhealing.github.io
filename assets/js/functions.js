@@ -3462,6 +3462,7 @@ var SEMICOLON = SEMICOLON || {};
 				} else {
 					$( '#primary-menu > ul, #primary-menu > div > ul' ).toggleClass("show");
 				}
+				$('.sticky-header').removeClass('sticky-header');
 				$body.toggleClass("primary-menu-open");
 				return false;
 			});
