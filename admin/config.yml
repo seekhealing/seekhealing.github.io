@@ -23,15 +23,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "other-content" 
+  - name: "otherContent" 
     label: "Miscellaneous Content" 
     delete: false # Prevent users from deleting documents in this collection
     editor: 
       preview: false 
     files: 
-      - name: "header-footer" 
-        label: "Header and Footer Content" 
-        file: "_data/header-footer-content.yaml" 
+      - name: "header" 
+        label: "Header Content" 
+        file: "_data/header.yaml" 
         description: "Header and Footer content" 
         fields: 
           - label: "Logo Image"

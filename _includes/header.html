@@ -9,7 +9,7 @@
 --> 
 {% endcomment %}
 
-{% assign header = site.data.header-footer-content.header %}
+{% assign header = site.data.header-footer-content %}
 
 <!-- add class transparent-header if home page -->
 <header id="header" class=" dark">
@@ -21,7 +21,7 @@
       <!-- Logo
       ============================================= -->
       <div id="logo">
-        <a href="index.html" class="standard-logo" data-dark-logo="{{ site.baseurl }}assets/images/{{ header.logo }}"><img src="{{ site.baseurl }}assets/images/{{ header.logo }}" alt="{{ header.logo-alt }}"></a>
+        <a href="index.html" class="standard-logo" data-dark-logo="{{ site.baseurl }}{{ header.logo }}"><img src="{{ site.baseurl }}{{ header.logo }}" alt="{{ header.logo-alt }}"></a>
       </div><!-- #logo end -->
 
 
