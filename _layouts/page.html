@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+{% for section in page.sections %}
+  {% include sections/{{ section.type }}.html title=section.title %}
+{% endfor %}

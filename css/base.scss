@@ -19,6 +19,9 @@
 // @import 'layouts/body';
 @import 'layouts/footer';
 
+// Including page section layouts
+@import 'layouts/hero';
+
 // // Page specific layouts
 // @import 'layouts/homepage';
 // @import 'layouts/blog';
@@ -28,7 +31,7 @@
 // // Include componets
 // @import 'components/accordions';
 // @import 'components/anchors';
-// @import 'components/buttons';
+@import 'components/buttons';
 // @import 'components/carousel';
 // @import 'components/errors';
 @import 'components/icons';

@@ -10,8 +10,7 @@
 
 {% assign header = site.data.header %}
 
-<!-- add class transparent-header if home page -->
-<header id="header" class=" dark">
+<header id="header" class="{% if page.transparent-header %}transparent-header {% endif %}dark">
 
   <div id="header-wrap">
 

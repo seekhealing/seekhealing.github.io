@@ -1,0 +1,111 @@
+{% comment %} 
+<!--
+  Hero Section
+
+  This partial is included on any page that has a "hero" layout with a full bg
+  picture and text/video in a 2 column layout.  Currently on the Home page.
+  
+--> 
+{% endcomment %}
+
+{% assign heros = site.sections|where:"type","hero" %}
+
+{% for hero in heros %}
+
+<section id="slider" class="slider-parallax full-screen dark">
+
+  <div class="slider-parallax-inner">
+
+    <div class="hero-area" style="background: url({{ hero.background }}) center center / cover no-repeat;">
+      <div class="container clearfix">
+        <div class="row slider-caption">
+          <div class="col-md-6 col-xs-12">
+            {{ hero.content }}
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9 hero-vid">
+               <iframe class="embed-responsive-item" src="{{ hero.video }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</section>
+
+{% endfor %}
+
+
+
+
+
+
+    <section id="eventsPromo">
+
+      <div class="content-wrap">
+
+        <div class="container clearfix">
+
+          <div class="nobottommargin">
+
+            <div id="posts" class="events small-thumbs">
+
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-xs-12">
+                  <blockquote>
+                    I have been a seeker and still am </br>
+                    but I stopped asking the books and the stars.</br>
+                    I started listening to the teaching of my soul.</br>
+                    <cite>Rumi</cite>
+                  </blockquote>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>        
+    </section>
+
+    <!-- Content
+    ============================================= -->
+
+    <section id="aboutHeader" class="explanation-text-section">
+      <div class="section">
+        <div class="container clearfix">
+          <div class="heading-block center">
+            <span class="non-emphasized-header">About </span>
+            <span class="emphasized-header">
+              SeekHealing
+            </span>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 text-center">
+              <p class="font-18">Healthy relationships are proven to be <a href="/science-of-connection.html">the number one factor in relapse prevention</a>. For many different reasons, modern life has made these types of connections harder and harder to find — especially for those who find themselves outcasted for mental health issues and self-destructive addiction behaviors.</p>
+
+              <p class="font-18">SeekHealing is building intentional communities, both online and offline, to connect those who’ve taken the first steps towards healing and shame-free living: <span class="bold-purple">seekers</span>. Whether you struggle with a chemical addiction or not, the medicine of authentic connection is something we all need.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="asheville" class="explanation-text-section">
+      <div class="section">
+        <div class="container clearfix">
+          <div class="heading-block center">
+            <span class="non-emphasized-header">Asheville Pilot Program 2018</span>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 text-center">
+              <p class="font-18">Our first grassroots program begins in Asheville, NC in March 2018. <a href="/asheville-pilot-program.html">Click here to learn more or sign up as a seeker or volunteer.</a></p>
+
+              <a href="/asheville-pilot-program.html" class="button button-3d button-rounded button-purple">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

@@ -53,109 +53,17 @@ compress_html:
 # Jekyll Collections
 # TBD AWN Review ***************************
 collections:
-  careers:
-    title: careers
-    output: true
-    permalink: /careers/:path/
-  exams:
-    title: exams
-    output: true
-    permalink: /exams/:path/
-  centres:
-    title: centres
-    output: true
-    permalink: /tuition-centres/:path/
-  faqs:
-    title: faqs
+  sections:
+    title: sections
     output: false
-    permalink: /faqs/:path/
-  tabular_data:
-    title: tabular_data
-    output: false
-    permalink: /tabs/:path/
-  schools:
-    title: schools
-    output: true
-    permalink: /:path/
-  team_members:
-    title: team_members
-    output: true
-    permalink: /our-team/:path/
-  tuition_services:
-    title: tuition_services
-    output: true
-    permalink: /private-tuition/services/:path/
-  tutors:
-    title: tutors
-    output: true
-    permalink: /tutors/:path/
-  what_we_teach:
-    title: what_we_teach
-    output: true
-    permalink: /what-we-teach/:path/
-  misc_sections:
-    title: faqs
-    output: false
-    permalink: /:path/
-  team_members:
-    output: false
+    permalink: /sections/:path/
 
 defaults:
   - scope:
-      path: "/careers/"
-      type: careers
+      path: "/sections/"
+      type: sections
     values:
-      layout: subpage
-  - scope:
-      path: "/exams/"
-      type: exams
-    values:
-      layout: subpage
-  - scope:
-      path: "/tuition-centres/"
-      type: centres
-    values:
-      layout: subpage
-  - scope:
-      path: "/faqs/"
-      type: faqs
-    values:
-      layout: subpage
-  - scope:
-      path: "/schools/"
-      type: schools
-    values:
-      layout: school
-  - scope:
-      path: "/our-team/"
-      type: team_members
-    values:
-      layout: our-team
-  - scope:
-      path: "/tabulars/"
-      type: tabular_data
-    values:
-      layout: subpage
-  - scope:
-      path: "/services/"
-      type: tuition_services
-    values:
-      layout: subpage
-  - scope:
-      path: "/tutors/"
-      type: tutors
-    values:
-      layout: subpage
-  - scope:
-      path: "/what-we-teach/"
-      type: what_we_teach
-    values:
-      layout: subpage
-  - scope:
-      path: "/misc/"
-      type: misc_sections
-    values:
-      layout: subpage
+      layout: page
 
 # gems
 plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-last-modified-at']

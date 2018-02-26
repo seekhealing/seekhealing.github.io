@@ -1,0 +1,65 @@
+// Contains button styles
+
+.button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  white-space: nowrap;
+  margin: 5px;
+  padding: 0 22px;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #1ABC9C;
+  color: #FFF;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+
+.button.button-rounded {
+  border-radius: 3px;
+}
+
+.button.button-border {
+	border: 2px solid #444;
+	background-color: transparent;
+	color: #333;
+	line-height: 36px;
+	font-weight: 600;
+	text-shadow: none;
+}
+
+body:not(.device-touch) .button {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.button.cta {
+  color: #fff;
+  background-color: #7f3472;
+  border: 1px solid #fff;
+  font-size: 20px;
+  padding: 10px;
+  position: relative;
+  margin: 10px 0;
+  height: auto;
+
+  &:hover {
+    border-color: transparent;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    font-size: 26px;
+  }
+}
