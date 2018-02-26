@@ -4,6 +4,6 @@ title: Home
 permalink: /
 transparent-header: true
 sections:
-  - type: "Hero"
+  - type: "hero"
     title: "home"
 ---
