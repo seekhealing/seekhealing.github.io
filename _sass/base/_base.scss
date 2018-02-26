@@ -11,8 +11,14 @@ dl, dt, dd, ol, ul, li {
   padding: 0;
 }
 
-a, a:hover {
+a {
+  color: #7f3472;
   text-decoration: none;
+
+  &:hover {
+    color: #b5777d;
+    text-decoration: none;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,4 +31,41 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
   position: relative;
+}
+
+p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
+  margin-bottom: 30px;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto;
+  line-height: 1.45;
+  position: relative;
+  border: 0;
+  text-align: center;
+
+  &:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    font-family: Georgia, serif;
+    font-size: 85px;
+    font-weight: bold;
+  }
+
+  cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+
+    &:before {
+      content: "\2014 \2009";
+    }
+  }
 }

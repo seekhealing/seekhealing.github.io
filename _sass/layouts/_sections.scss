@@ -1,0 +1,31 @@
+// Contains section styles
+
+.section {
+  position: relative;
+  padding: 60px 0;
+  overflow: hidden;
+  background-color: #F9F9F9;
+  font-size: 18px;
+
+  &.white {
+    background-color: #FFF;
+  }
+
+  h1 {
+    font-size: 22px;
+    color: #777;
+    font-weight: 300;
+
+    &:after {
+      content: '';
+      display: block;
+      margin: 30px auto 0;
+      width: 40px;
+      border-top: 2px solid #444;
+    }
+  }
+}
+
+section.bottom-border {
+  border-bottom: 3px solid #EEE;
+}

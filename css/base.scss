@@ -20,7 +20,8 @@
 @import 'layouts/footer';
 
 // Including page section layouts
-@import 'layouts/hero';
+@import 'layouts/heros';
+@import 'layouts/sections';
 
 // // Page specific layouts
 // @import 'layouts/homepage';
@@ -35,6 +36,7 @@
 // @import 'components/carousel';
 // @import 'components/errors';
 @import 'components/icons';
+@import 'components/headings';
 // @import 'components/iframes';
 // @import 'components/links';
 // @import 'components/quick-links';
