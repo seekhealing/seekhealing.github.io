@@ -12,4 +12,5 @@ sections:
     title: "about-seekhealing"
   - type: "single"
     title: "asheville-pilot-program"
+  - type: "subscribe"
 ---

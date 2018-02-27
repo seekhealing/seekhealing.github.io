@@ -42,6 +42,9 @@ collections:
         fields: 
           - {label: "Email Address", name: "email", widget: "string"}
           - {label: "Email Icon", name: "email-icon", widget: "string"}
+          - {label: "Subsribe Form Submission URL", name: "subscribe-url", widget: "string"}
+          - {label: "Subsribe Form Text", name: "subscribe-text", widget: "string"}
+          - {label: "Subsribe Form Button Text", name: "subscribe-btn-text", widget: "string"}
       - name: "header" 
         label: "Header Content" 
         file: "_data/header.yaml" 
