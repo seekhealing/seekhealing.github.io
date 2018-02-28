@@ -1,0 +1,38 @@
+{% comment %} 
+<!--
+  Testimonial Stories Section
+
+  This partial is used for the testimonial/stories section that is currently
+  on the bottom of the home page.
+  
+--> 
+{% endcomment %}
+
+{% assign stories = site.sections|where:"type","story"| sort | reverse %}
+
+<section>
+  <div class="section">
+    <div class="container clearfix">
+      <div class="row">
+
+      {% for story in stories %}
+
+        <div class="col-xs-12">
+          <div class="testimonial-card">
+<!--             <div class="heading-block nobottomborder nobottommargin center">
+              <span class="emphasized-header">My name is Michael, and I'm a seeker.</span>
+            </div>
+            <p><strong>Age:</strong> 29</p>
+            <p><strong>Occupation:</strong> Judicial Law Clerk</p>
+            <p><strong>Hardest part of my journey:</strong> The crushing feeling of loneliness. I had this feeling that life was a zero-sum game, and it was me against everyone else - always trying to get one over on them. It wore on me more than anything else.</p>
+            <p><strong>How connection helped me heal:</strong> Once I found a community of people like me; people who thought like me, who felt like me, who I could relate with; it started to get easier. For me it was awesome sober people who are diehard fans of touring jam-bands like Phish. I met people who were just like me who had found their way into recovery, and I identified with them. It made me feel like it was possible for me too.</p> -->
+            {{ story.content }}
+          </div>
+        </div>
+      
+      {% endfor %}
+      
+      </div>
+    </div>
+  </div>
+</section>

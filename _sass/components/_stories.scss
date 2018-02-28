@@ -1,0 +1,34 @@
+// Contains "Stories" component styles
+
+.testimonial-card {
+  background-color: #E6E6FA;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #AE9BDA;
+  margin-bottom: 50px;
+
+  h1 {
+    font-size: 22px;
+    color: #777;
+    font-family: 'Crete Round', serif;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+
+    &:after {
+      border: 0;
+      margin: 0;
+    }
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-size: 15px;
+
+    strong {
+      font-weight: 800;
+      color: #4A158A;
+    }
+  }
+}

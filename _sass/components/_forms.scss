@@ -7,6 +7,10 @@
 }
 
 #mc-embedded-subscribe-form .input-group {
-  width: 50%;
+  width: 100%;
   margin: 0 auto 10px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    width: 50%;
+  }
 }

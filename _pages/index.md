@@ -13,4 +13,5 @@ sections:
   - type: "single"
     title: "asheville-pilot-program"
   - type: "subscribe"
+  - type: "stories"
 ---

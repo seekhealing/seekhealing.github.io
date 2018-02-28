@@ -3,6 +3,7 @@ backend:
   repo: shredtechular/seekhealing.github.io
   branch: refactor
   site_domain: seekhealing-refactor.netlify.com
+publish_mode: editorial_workflow
 media_folder: "/assets/images"
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
