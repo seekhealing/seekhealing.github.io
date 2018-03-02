@@ -1,16 +1,12 @@
 copyright-text: "Copyrights &copy; 2017 SeekHealing."
 nav:
-  - target: ''
-    title: Learn
+  - title: Learn
     url: /learn/
-  - target: ''
-    title: Our Programs
+  - title: Our Programs
     url: /our-programs/
-  - target: ''
-    title: Get Involved
+  - title: Get Involved
     url: /get-involved/
-  - target: ''
-    title: Blog
+  - title: Blog
     url: /blog/
 social-media:
   - icon: 'fab fa-facebook'

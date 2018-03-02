@@ -1,8 +1,7 @@
 logo: /assets/images/logo-white.png
 logo-alt: SeekHealing Text
 nav:
-  - target: ''
-    title: Learn
+  - title: Learn
     url: /learn/
   - submenu:
       - title: Program Methodology

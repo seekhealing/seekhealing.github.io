@@ -712,8 +712,8 @@ var SEMICOLON = SEMICOLON || {};
 				loading : true,
 				loadingParentElement : 'body',
 				loadingClass : 'css3-spinner',
-				loadingHtml : loaderStyleHtml,
-				unSupportCss : [
+				loadingInner : loaderStyleHtml,
+				browser : [
 								 'animation-duration',
 								 '-webkit-animation-duration',
 								 '-o-animation-duration'
