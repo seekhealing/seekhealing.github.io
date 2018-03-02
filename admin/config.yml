@@ -28,7 +28,7 @@ collections:
         widget: "list"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Type", name: "type", widget: "select", options: ["hero", "single", "stories", "subnav" "subscribe"]}
+          - {label: "Type", name: "type", widget: "select", options: ["hero", "single", "stories", "subnav", "subscribe"]}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "otherContent" 
     label: "Miscellaneous Content" 
@@ -93,7 +93,7 @@ collections:
                 options: ["", "_blank"]
           - label: "Footer Social Media Links" 
             name: "social-media"
-            widget: "list" 
+            widget: "list"
             fields: 
               - {label: "Icon class", name: icon, widget: string}
               - {label: "URL", name: url, widget: string}
@@ -105,8 +105,8 @@ collections:
           - {label: "Contact Header", name: "location-header", widget: "string"}
           - label: "Location Contacts" 
             name: location-contacts 
-            widget: "list" 
-            fields: 
+            widget: "list"
+            fields:
               - {label: "City", name: city, widget: string}
               - {label: "State", name: state, widget: string}
               - {label: "Contact Email Address", name: email, widget: string}
