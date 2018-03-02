@@ -1,7 +1,7 @@
 ---
 type: hero
 title: home
-video: "http://www.youtube.com/embed/lpa80nrOg2o"
+video: "//www.youtube.com/embed/lpa80nrOg2o"
 background: "/assets/images/home-bkgrnd.jpg"
 ---
 
