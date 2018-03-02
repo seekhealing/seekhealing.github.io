@@ -1,0 +1,38 @@
+{% comment %} 
+<!--
+  Locations Section
+
+  This partial is included on any page that has a 4 column feature box layout.
+  Currently used on the Contact page and is using the Contact data file.
+  
+--> 
+{% endcomment %}
+
+{% assign location_content = site.data.contact %}
+
+<section>
+  <div class="section">
+    <div class="container clearfix">
+      <div class="row text-center">
+
+        <h1>{{ location_content.location-header }}</h1>
+
+        {% for contact in location_content.location-contacts %}
+
+        <div class="col-md-3 col-sm-6 bottommargin clearfix">
+          <div class="location-box">
+            <div class="icon">
+              <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+            </div>
+            <h2>{{ contact.city }}, {{ contact.state }}</h2>
+            <p><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
+          </div>
+        </div>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+  </div>
+</section>

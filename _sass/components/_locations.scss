@@ -1,0 +1,104 @@
+// Contains Features Styles
+
+.location-box {
+  padding: 68px 10px 30px;
+  background-color: #FFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  margin-top: 75px;
+
+  @media screen and (min-width: $screen-lg-min) {
+    padding: 68px 30px 30px;
+  }
+
+  &.connect {
+    padding: 20px;
+
+    a {
+      padding: 14px;
+      display: inline-block;
+
+      @media screen and (min-width: $screen-sm-min) {
+        padding: 26px;
+      }
+
+      @media screen and (min-width: $screen-md-min) {
+        padding: 18px;
+      }
+
+      @media screen and (min-width: $screen-lg-min) {
+        padding: 22px;
+      }
+    }
+
+    i {
+      color: #7f3472;
+      font-size: 26px;
+
+      @media screen and (min-width: $screen-sm-min) {
+        font-size: 34px;
+      }
+    }
+  }
+
+  .icon {
+    background-color: transparent;
+    position: absolute;
+    top: -48px;
+    left: 50%;
+    margin: 0 0 0 -48px;
+    width: 96px;
+    border: none;
+    height: auto;
+    display: block;
+
+    a {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      color: #FFF;
+    }
+
+    i {
+      font-size: 78px;
+      color: #7f3472;
+      line-height: 1;
+      border: none;
+      background-color: transparent;
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #777;
+    line-height: 1.5;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #444;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+    @media screen and (min-width: $screen-lg-min) {
+      font-size: 16px;
+    }
+  }
+
+}
+

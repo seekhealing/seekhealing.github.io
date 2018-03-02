@@ -97,3 +97,17 @@ collections:
             fields: 
               - {label: "Icon class", name: icon, widget: string}
               - {label: "URL", name: url, widget: string}
+      - name: "contact" 
+        label: "Contact Page Content" 
+        file: "_data/contact.yaml" 
+        description: "Contact Page content" 
+        fields: 
+          - {label: "Contact Header", name: "location-header", widget: "string"}
+          - label: "Location Contacts" 
+            name: location-contacts 
+            widget: "list" 
+            fields: 
+              - {label: "City", name: city, widget: string}
+              - {label: "State", name: state, widget: string}
+              - {label: "Contact Email Address", name: email, widget: string}
+          - {label: "Connect Header", name: "connect-header", widget: "string"}
