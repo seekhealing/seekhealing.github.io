@@ -28,7 +28,7 @@ collections:
         widget: "list"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Type", name: "type", widget: "select", options: ["hero", "single", "stories", "subnav", "subscribe"]}
+          - {label: "Type", name: "type", widget: "select", options: ["connect", "hero", "locations", "single", "stories", "subnav", "subscribe"]}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "otherContent" 
     label: "Miscellaneous Content" 
