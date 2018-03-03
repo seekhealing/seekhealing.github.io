@@ -28,7 +28,10 @@ collections:
         widget: "list"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Type", name: "type", widget: "select", options: ["connect", "hero", "locations", "single", "stories", "subnav", "subscribe"]}
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            options: ["connect", "directors", "gauges", "hero", "locations", "single", "stories", "subnav", "subscribe"]
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "otherContent" 
     label: "Miscellaneous Content" 
@@ -111,3 +114,15 @@ collections:
               - {label: "State", name: state, widget: string}
               - {label: "Contact Email Address", name: email, widget: string}
           - {label: "Connect Header", name: "connect-header", widget: "string"}
+      - name: "memorial-wall" 
+        label: "Memorial Wall Memorium" 
+        file: "_data/memorial-wall.yaml" 
+        description: "People listed on the Memorial Wall" 
+        fields: 
+          - label: "In Memorium" 
+            name: memorium
+            widget: "list"
+            fields:
+              - {label: "Name", name: name, widget: string}
+              - {label: "Remembered By", name: remembered-by, widget: string}
+              - {label: "Quote", name: quote, widget: string}

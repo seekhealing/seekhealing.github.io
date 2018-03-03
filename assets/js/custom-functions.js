@@ -1,9 +1,10 @@
+// Gauges being used on Board-of-Directors page
 $(document).ready(function(){
-        $(".GaugeMeter").gaugeMeter();
-    });
+  $(".GaugeMeter").gaugeMeter();
+});
 
 $(document).ready(function () {
-    $("[rel=tooltip]").tooltip();
+  $("[rel=tooltip]").tooltip();
 });
 
 // Connection Agent Form Submission

@@ -1,0 +1,18 @@
+// Contains Lists styles
+
+ul.remembered {
+  list-style-type: none;
+  font-size: 14px;
+
+  &>li {
+    padding-bottom: 30px;
+  }
+
+  span {
+    font-size: 12px;
+  }
+
+  .by {
+    font-style: italic;
+  }
+}

@@ -1,0 +1,61 @@
+// Contains Team Section Styles
+
+.team-image {
+  float: none;
+  width: 100%;
+
+  @media screen and (min-width: $screen-sm-min) {  
+    float: left;
+    width: 200px;
+    margin-right: 30px;
+  }
+
+  @media screen and (min-width: $screen-lg-min) {
+    width: 250px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.team-desc {
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+
+  h2 {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+  .title {
+    display: block;
+    color: #7f3472;
+    font-weight: 400;
+    font-family: 'Crete Round', serif;
+    font-style: italic;
+    font-size: 15px;
+  }
+}
+
+.team-content {
+  margin-top: 15px;
+  color: #777;
+  font-size: 16px;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 50px;
+}

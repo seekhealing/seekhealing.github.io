@@ -1,0 +1,48 @@
+// Contains Gauge Styles
+
+.GaugeMeter {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  cursor: default;
+  display: inline-block;
+  margin: 0 40px;
+
+  span, B {
+    width: 54%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    color: #777;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 23%;
+  }
+
+  &[data-style="Semi"] B {
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  S, U {
+    text-decoration: none;
+    font-size: .60em;
+    font-weight: 200;
+    opacity: .6;
+  }
+  
+  B {
+    color: #777;
+    font-weight: 200;
+    opacity: .8;
+  }
+}
+
+.GaugeDate {
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: 300;
+}

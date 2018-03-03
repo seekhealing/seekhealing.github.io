@@ -11,7 +11,7 @@
     background-color: #FFF;
   }
 
-  h1 {
+  .normal-header h1 {
     font-size: 22px;
     color: #777;
     font-weight: 300;
@@ -23,6 +23,52 @@
       width: 40px;
       border-top: 2px solid #444;
     }
+  }
+
+  .custom-header {
+    margin-bottom: 50px;
+    
+    h1 {
+      font-size: 22px;
+      color: #777;
+      font-weight: 300;
+      margin: 0;    
+    }
+
+    .subnav {
+      font-size: 16px;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      margin: 30px auto 0;
+      width: 40px;
+      border-top: 2px solid #444;
+    }
+  }
+
+  .subnav-header {
+    margin-bottom: 50px;
+    
+    h1 {
+      font-size: 22px;
+      color: #777;
+      font-weight: 300;
+      margin: 0;    
+    }
+
+    .subnav {
+      font-size: 16px;
+
+      &:after {
+        content: '';
+        display: block;
+        margin: 30px auto 0;
+        width: 40px;
+        border-top: 2px solid #444;
+      }
+    }    
   }
 }
 
@@ -36,4 +82,8 @@ section.dark-grey {
 
 section.thin {
   padding: 35px;
+}
+
+.section.no-top-padding {
+  padding-top: 0;
 }
