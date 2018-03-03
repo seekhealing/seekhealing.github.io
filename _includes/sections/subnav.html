@@ -23,7 +23,7 @@
           <div class="icon">
             <a href="{{ site.baseurl }}{{ nav.link }}"><i style="background-image: url({{ nav.image }})"></i></a>
           </div>
-          {{ nav.content }}
+          {{ nav.content | markdownify }}
         </div>
       </div>      
 

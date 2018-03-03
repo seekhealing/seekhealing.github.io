@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Remember
-permalink: /they-were-here/
 sections:
   - type: "memorial-wall"
     title: "memorial-wall"

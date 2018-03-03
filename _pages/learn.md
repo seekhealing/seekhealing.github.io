@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Learn
-permalink: /learn/
 sections:
   - type: "subnav"
     title: "Learn"

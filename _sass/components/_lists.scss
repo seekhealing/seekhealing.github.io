@@ -1,5 +1,13 @@
 // Contains Lists styles
 
+// default style used in most content layouts
+ul {
+  display: inline-block;
+  text-align: left;
+  width: 65%;
+  line-height: 25px;
+}
+
 ul.remembered {
   list-style-type: none;
   font-size: 14px;

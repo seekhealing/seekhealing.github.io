@@ -16,7 +16,7 @@
     <div class="container clearfix">
       <div class="row">
         <div class="{% if single.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 {% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center normal-header">
-          {{ single.content }}
+          {{ single.content | markdownify }}
         </div>
       </div>
     </div>

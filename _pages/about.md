@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About Us
-permalink: /about/
 sections:
   - type: "subnav"
     title: "About"

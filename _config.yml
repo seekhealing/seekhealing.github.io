@@ -53,12 +53,21 @@ compress_html:
 # Jekyll Collections
 # TBD AWN Review ***************************
 collections:
+  pages:
+    title: pages
+    output: true
+    permalink: /:path/
   sections:
     title: sections
     output: false
     permalink: /sections/:path/
 
 defaults:
+  - scope:
+      path: "/pages/"
+      type: pages
+    values:
+      layout: page
   - scope:
       path: "/sections/"
       type: sections
