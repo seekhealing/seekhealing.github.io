@@ -1,0 +1,13 @@
+events:
+  - city: Washington
+    state: DC
+    email: erin@seekhealing.org
+  - city: Nashville
+    state: TN
+    email: kyla@seekhealing.org
+  - city: Asheville
+    state: NC
+    email: jennifer@seekhealing.org
+  - city: Columbia
+    state: SC
+    email: nicole@seekhealing.org
