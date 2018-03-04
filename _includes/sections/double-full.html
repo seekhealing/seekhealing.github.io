@@ -16,7 +16,22 @@
   <div class="row clearfix display-flex">
 
     {% if double.img-pos == "left" %}
-    <div class="col-sm-6 hidden-xs text-center col-padding no-margin" style="background: url('{{ double.img }}') center center no-repeat; background-size: cover;"></div>
+    <div class="col-sm-6 hidden-xs text-center col-padding no-margin" style="background: url('{{ double.img }}') center center no-repeat; background-size: cover;">
+
+      {% if double.img-quote %}
+      <div class="image-quote">
+        <div class="quotes start">&nbsp;</div>
+        <div class="quote">                
+          {{ double.img-quote }}
+        </div>
+        <div class="quotes end">&nbsp;</div>
+        <div class="quote-author">
+          <em>- {{ double.img-quote-author}}</em>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
     {% endif %}
 
     <div class="col-sm-6 text-center col-padding no-margin{% if double.white-bg %} white{% endif %}">
@@ -24,7 +39,22 @@
     </div>
 
     {% if double.img-pos == "right" %}
-    <div class="col-sm-6 hidden-xs text-center col-padding no-margin" style="background: url('{{ double.img }}') center center no-repeat; background-size: cover;"></div>
+    <div class="col-sm-6 hidden-xs text-center col-padding no-margin" style="background: url('{{ double.img }}') center center no-repeat; background-size: cover;">
+
+      {% if double.img-quote %}
+      <div class="image-quote">
+        <div class="quotes start">&nbsp;</div>
+        <div class="quote">                
+          {{ double.img-quote }}
+        </div>
+        <div class="quotes end">&nbsp;</div>
+        <div class="quote-author">
+          <em>- {{ double.img-quote-author}}</em>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
     {% endif %}
 
   </div>

@@ -27,7 +27,17 @@
         {% for col in cols %}
 
           <div class="col-sm-6 col-xs-12 double{% if col.center %} text-center{% endif %}">
+
+          {% if col.sticky-note %}
+            <div class="sticky-note">
+          {% endif %}
+
               {{ col.content | markdownify }}
+
+          {% if col.sticky-note %}
+            </div>
+          {% endif %}
+
           </div>
 
         {% endfor %}

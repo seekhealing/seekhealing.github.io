@@ -1,0 +1,19 @@
+// Contains note styles
+
+.sticky-note {
+  max-width: 300px;
+  min-height: 250px;
+  margin: 25px auto;
+  padding: 15px;
+  background: rgba(255,0,0,0.2);
+
+  p {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+  }
+
+  &.green-note {
+    background: rgba(75,211,57,0.2);
+  }
+}
+

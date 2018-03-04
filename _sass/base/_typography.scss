@@ -51,3 +51,16 @@ span.green {
 .size-16 {
   font-size: 16px;
 }
+
+.definition {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  font-family: 'Cousine';
+
+  &.word {
+    letter-spacing: 1.5px;
+    font-size: 18px;
+  }
+}

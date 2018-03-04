@@ -8,7 +8,7 @@
   font-size: 18px;
 
   &.double-full {
-    padding: 10px 0;
+    padding: 0;
   }
 
   &.white, .col-padding.white {
@@ -77,6 +77,12 @@
 
   &.font-lg-light {
     font-size: 22px;
+    font-weight: 300;
+  }
+
+  h2 {
+    font-size: 22px;
+    color: #777;
     font-weight: 300;
   }
 }
