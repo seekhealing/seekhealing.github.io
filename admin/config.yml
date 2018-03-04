@@ -31,7 +31,7 @@ collections:
           - label: "Type"
             name: "type"
             widget: "select"
-            options: ["citation", "connect", "connection-agent-form", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "single", "stories", "stripe", "subnav", "subscribe", "team"]
+            options: ["citation", "connect", "connection-agent-form", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "otherContent" 
     label: "Miscellaneous Content" 
