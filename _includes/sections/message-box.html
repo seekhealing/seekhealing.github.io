@@ -1,0 +1,36 @@
+{% comment %} 
+<!--
+  Message Box Section
+
+  This partial is used for a message box section
+  Currently used on the Our Programs page.
+  
+--> 
+{% endcomment %}
+
+{% assign boxes = site.sections |where:"type","message-box" |where:"title",include.title %}
+
+{% for box in boxes %}
+
+<section>
+  <div class="section">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+
+          <div class="msg-box">
+            <h1>{{ box.header }}</h1>
+
+            <div class="msg-box-body">
+              {{ box.content | markdownify }}
+            </div>
+
+          </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endfor %}

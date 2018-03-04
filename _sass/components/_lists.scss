@@ -24,3 +24,16 @@ ul.remembered {
     font-style: italic;
   }
 }
+
+//double column lists
+.double ul {
+  padding: 0px 10px 0px 40px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.citations ol {
+  list-style-position: inside;
+  font-size: 12px;
+  line-height: 25px;
+}

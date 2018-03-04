@@ -1,0 +1,24 @@
+// contains image specific styles
+
+.medium {
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and (min-width: $screen-sm-min) {
+    width: 75%;
+  }
+}
+
+.seekhealing-logo-header {
+  width: 120px;
+  margin-right: 4px;
+  margin-bottom: 7px;
+}
+
+.program-sc {
+  width: 75%;
+}
+
+.program-hh {
+  width: 60%;
+}

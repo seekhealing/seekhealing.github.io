@@ -17,38 +17,27 @@
 
 // Including layout scss 
 @import 'layouts/header';
-// @import 'layouts/body';
 @import 'layouts/footer';
 
 // Including page section layouts
 @import 'layouts/heros';
 @import 'layouts/sections';
-
-// // Page specific layouts
-// @import 'layouts/homepage';
-// @import 'layouts/blog';
-// @import 'layouts/publications';
-// @import 'layouts/about';
+@import 'layouts/stripes';
 
 // // Include componets
-// @import 'components/accordions';
-// @import 'components/anchors';
 @import 'components/buttons';
-// @import 'components/carousel';
+@import 'components/cards';
 @import 'components/events';
 @import 'components/features';
 @import 'components/forms';
 @import 'components/icons';
+@import 'components/images';
 @import 'components/gauges';
 @import 'components/headings';
 @import 'components/locations';
 @import 'components/lists';
+@import 'components/msg-boxes';
 @import 'components/stories';
 @import 'components/teams';
 @import 'components/transitions';
-// @import 'components/iframes';
-// @import 'components/links';
-// @import 'components/quick-links';
-// @import 'components/grids';
-// @import 'components/tables';
-// @import 'components/video';
+@import 'components/videos';

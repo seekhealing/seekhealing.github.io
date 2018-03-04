@@ -1,0 +1,42 @@
+{% comment %} 
+<!--
+  Triple Bordered Section
+
+  This partial is used for 3 column layouts and each column has a border.
+  Currently used on the Our Programs page.
+  
+--> 
+{% endcomment %}
+
+{% assign triples = site.sections |where:"type","triple" |where:"title",include.title %}
+
+{% for triple in triples %}
+
+<section{% if triple.section-bottom-border %} class="bottom-border"{% endif %}>
+  <div class="section{% if triple.white-bg %} white{% endif %}">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="{% if triple.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2{% elsif triple.col-width == "wide" %}col-md-12{% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center {% if triple.header %}{{ triple.header }}{% else %}normal-header{% endif %}">
+          {{ triple.content | markdownify }}
+        </div>
+      </div>
+      <div class="row display-flex ">
+
+        {% assign cols = site.sections |where:"type","triple-col" |where:"col-names",triple.col-names |order: "order" %}
+
+        {% for col in cols %}
+
+          <div class="col-sm-4 col-xs-12">
+            <div class="card">
+              {{ col.content | markdownify }}
+            </div>
+          </div>
+
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endfor %}

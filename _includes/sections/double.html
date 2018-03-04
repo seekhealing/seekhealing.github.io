@@ -1,0 +1,40 @@
+{% comment %} 
+<!--
+  Double Section
+
+  This partial is used for 2 column layouts.
+  Currently used on the Our Programs page.
+  
+--> 
+{% endcomment %}
+
+{% assign doubles = site.sections |where:"type","double" |where:"title",include.title %}
+
+{% for double in doubles %}
+
+<section{% if double.section-bottom-border %} class="bottom-border"{% endif %}>
+  <div class="section{% if double.white-bg %} white{% endif %}">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="{% if double.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2{% elsif double.col-width == "wide" %}col-md-12{% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center {% if double.header %}{{ double.header }}{% else %}normal-header{% endif %}">
+          {{ double.content | markdownify }}
+        </div>
+      </div>
+      <div class="row display-flex ">
+
+        {% assign cols = site.sections |where:"type","double-col" |where:"col-names",double.col-names |order: "order" %}
+
+        {% for col in cols %}
+
+          <div class="col-sm-6 col-xs-12 double{% if col.center %} text-center{% endif %}">
+              {{ col.content | markdownify }}
+          </div>
+
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endfor %}
