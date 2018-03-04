@@ -114,7 +114,7 @@ collections:
               - {label: "State", name: state, widget: string}
               - {label: "Contact Email Address", name: email, widget: string}
           - {label: "Connect Header", name: "connect-header", widget: "string"}
-      - name: "memorial-wall" 
+      - name: "memorial-wall"
         label: "Memorial Wall Memorium" 
         file: "_data/memorial-wall.yaml" 
         description: "People listed on the Memorial Wall" 
@@ -126,3 +126,51 @@ collections:
               - {label: "Name", name: name, widget: string}
               - {label: "Remembered By", name: remembered-by, widget: string}
               - {label: "Quote", name: quote, widget: string}
+      - name: "asheville-pilot-program"
+        label: "Asheville Pilot Content" 
+        file: "_data/asheville-pilot-program.yaml" 
+        description: "Content for Asheville Pilot Program Page" 
+        fields: 
+          - {label: "header", name: header, widget: string}
+          - {label: "Subheader", name: subheader, widget: string}
+          - {label: "Seeker Image", name: seeker-img, widget: string}
+          - {label: "Seeker Image Alt Text", name: seeker-img-alt, widget: string}
+          - {label: "Seeker Header", name: seeker-header, widget: string}
+          - {label: "Seeker Description", name: seeker-desc, widget: string}
+          - {label: "Seeker Image 2", name: seeker-img-2, widget: string}
+          - {label: "Seeker Image 2 Alt Text", name: seeker-img-2-alt, widget: string}
+          - {label: "Seeker Side Text 1", name: seeker-side-1, widget: string}
+          - {label: "Seeker Side Text 2", name: seeker-side-2, widget: string}
+          - {label: "Connection Agent Activities Image", name: conn-agent-acts, widget: string}
+          - {label: "Connection Agent Activities Image Alt Text", name: conn-agent-acts-alt, widget: string}
+          - {label: "Connection Basketball Image", name: conn-bball, widget: string}
+          - {label: "Connection Basketball Image Alt Text", name: conn-bball-alt, widget: string}
+          - {label: "Connection Agent Header", name: conn-agent-header, widget: string}
+          - {label: "Connection Agent Description", name: conn-agent-desc, widget: string}
+          - {label: "Connection Gathering Image", name: conn-gathering, widget: string}
+          - {label: "Connection Gathering Image Alt Text", name: conn-gathering-alt, widget: string}
+          - {label: "Connection Gathering Header", name: conn-gathering-header, widget: string}
+          - {label: "Connection Gathering Description", name: conn-gathering-desc, widget: string}
+          - {label: "Big Stick Figure Image", name: big-stick, widget: string}
+          - {label: "Big Stick Figure Image Alt Text", name: big-stick-alt, widget: string}
+          - {label: "Match text", name: match, widget: string}
+          - {label: "Match Image", name: match-img, widget: string}
+          - {label: "Match Image Alt Text", name: match-img-alt, widget: string}
+          - {label: "Match Description", name: match-desc, widget: string}
+          - {label: "Match Description 2", name: match-desc-2, widget: string}
+          - {label: "Yoga Image", name: yoga, widget: string}
+          - {label: "Yoga Image Alt Text", name: yoga-alt, widget: string}
+          - {label: "Match Description 3", name: match-desc-3, widget: string}
+          - {label: "Data Image", name: data, widget: string}
+          - {label: "Data Image Alt Text", name: data-alt, widget: string}
+          - {label: "Data Header", name: data-header, widget: string}
+          - {label: "Data Description", name: data-desc, widget: string}
+          - {label: "Apply Header", name: apply-header, widget: string}
+          - label: "Apply Links" 
+            name: apply-links
+            widget: "list"
+            fields:
+              - {label: "Description", name: title, widget: string}
+              - {label: "URL", name: url, widget: string}
+              - {label: "Button Text", name: btn-txt, widget: string}
+          - {label: "Sub-Text", name: subtext, widget: string}

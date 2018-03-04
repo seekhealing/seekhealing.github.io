@@ -1,0 +1,51 @@
+header: '<span class="emphasized-header">Asheville Pilot Program</span>'
+subheader: 'Where: Asheville, NC
+	<span class="bull-elements">&bull;</span>
+	When: March-Oct 2018
+	<span class="bull-elements">&bull;</span>
+	Phone: 828-547-0222'
+seeker-img: "/assets/images/asheville-purplesticks.png"
+seeker-img-alt: "purple stick figures"
+seeker-header: "Seekers"
+seeker-desc: "Human beings who’ve made a commitment to become the happiest, healthiest humans they can be."
+seeker-img-2: "/assets/images/asheville-seeker-arrows.png"
+seeker-img-2-alt: "Two Groups of Seekers"
+seeker-side-1: "Seekers who aren’t in crisis, who volunteer to help, and who have been trained in the art of listening."
+seeker-side-2: "Seekers who are actively healing from an addiction crisis."
+conn-agent-acts: "/assets/images/asheville-connection-agent-acts.png"
+conn-agent-acts-alt: "Connection Agent Activities"
+conn-bball: "/assets/images/asheville-basketball.png"
+conn-bball-alt: "Connection agent basketball graphic"
+conn-agent-header: "Connection Agent"
+conn-agent-desc: "Small business owners &amp; nonprofit leaders who are willing to offer discounted introductions to their communities."
+conn-gathering: "/assets/images/asheville-gathering.png"
+conn-gathering-alt: "SeekHealing Monthly Gathering image"
+conn-gathering-header: "SeekHealing Monthly Gathering"
+conn-gathering-desc: '<span class="bold">First Sunday of every month:</span> all seekers gather for an evening of food, hanging out, and playing games designed to inspire vulnerability and to teach the art of building healthy relationships.'
+big-stick: "/assets/images/asheville-big.png"
+big-stick-alt: "Big Stick Figure"
+match: '<span class="bold">We match each seeker with their <span class="blue">Person</span>.</span>'
+match-img: "/assets/images/asheville-match.png"
+match-img-alt: "Two Stick Figures"
+match-desc: "You meet with your Person once a week. In each session, you decide together who will listen, and who will share. Both people receive the medicine of authentic connection."
+match-desc-2: '<span class="bold">We match each seeker with <span class="green">Connection Agents</span>.</span>'
+yoga: "/assets/images/asheville-yoga.png"
+yoga-alt: "Yoga Activity Stick Figures"
+match-desc-3: "You talk to your Person about what interests you, or browse our library to find a thing you want to try. The Connection Agent for that thing introduces you to it through intro classes or meetings, for free or cheap."
+data: "/assets/images/asheville-data.png"
+data-alt: "SeekHealing Weekly Data Collection"
+data-header: "Weekly Data Collection"
+data-desc: '<span class="bold">Every week:</span> all seekers meet in their Person pairs, fill out a data collection form and submit an (optional) selfie video to document your experience.'
+heal-header: "And together, we heal."
+apply-header: "APPLY TO JOIN TODAY"
+apply-links:
+  - title: '<span class="bold">Register as a <span class="purple">seeker</span> actively recovering from an addiction crisis.</span>'
+    btn-txt: "bit.ly/seekAVL"
+    url: "https://bit.ly/seekAVL"
+  - title: '<span class="bold">Volunteer and get trained to <span class="blue">listen.</span></span> (Three 8-hour training days spanning 2 weekends)'
+    btn-txt: "bit.ly/listenAVL"
+    url: "https://bit.ly/listenAVL"
+  - title: '<span class="bold">Become a <span class="green">Connection Agent</span> for your business or non-profit.</span>'
+    btn-txt: "bit.ly/connectAVL"
+    url: "bit.ly/connectAVL"
+subtext: "SeekHealing is a 501(c)3 non-profit. All program participation is free of charge. Donations for listener training and connection agent contracts are suggested, but not required."

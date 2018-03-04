@@ -22,3 +22,11 @@
 .program-hh {
   width: 60%;
 }
+
+.split-graphic {
+  width: 60%;
+
+  @media screen and (min-width: $screen-sm-min) {
+    width: 60%;
+  }
+}
