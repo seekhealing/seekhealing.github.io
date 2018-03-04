@@ -7,7 +7,11 @@
   background-color: #F9F9F9;
   font-size: 18px;
 
-  &.white {
+  &.double-full {
+    padding: 10px 0;
+  }
+
+  &.white, .col-padding.white {
     background-color: #FFF;
   }
 
@@ -70,6 +74,11 @@
       }
     }    
   }
+
+  &.font-lg-light {
+    font-size: 22px;
+    font-weight: 300;
+  }
 }
 
 section.bottom-border {
@@ -86,4 +95,36 @@ section.thin {
 
 .section.no-top-padding {
   padding-top: 0;
+}
+
+.col-padding {
+  padding: 60px;
+}
+
+
+.parallax {
+  background-repeat: repeat;
+  margin-top: 0px;
+
+  .section {
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+.parallax-txt-bg {
+  border: 0;
+  box-shadow: none;
+  color: #EEE;
+
+  .inner {
+    background-color: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+
+    &.font-lg-light {
+      font-size: 22px;
+      font-weight: 300;
+    }
+  }
 }
