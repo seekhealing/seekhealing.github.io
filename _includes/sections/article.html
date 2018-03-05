@@ -1,0 +1,45 @@
+{% comment %} 
+<!--
+  Article Section
+
+  This partial is used for article sections of text.
+  
+--> 
+{% endcomment %}
+
+{% assign articles = site.sections|where:"type","article"|where:"title",include.title %}
+
+{% for article in articles %}
+
+<section{% if article.section-bottom-border %} class="bottom-border"{% endif %}>
+  <div class="article section{% if article.white-bg %} white{% endif %}{% if article.font == "large"%} font-lg-light{% endif %}">
+    <div class="container clearfix text-center normal-header">
+      
+      <img src="/assets/images/owl-science-250.png" width="150px" height="auto" class="bottommargin text-center" />
+      <h1>{{ article.header }}</h1>
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 bottommargin text-center">
+          <div class="team team-list clearfix">
+            <div class="team-image">
+              <img src="/assets/images/team-headshot-rachel.jpg" alt="Rachel Wurzman, PhD, Chief Science Officer">
+            </div>
+            <div class="team-desc">
+              <div class="team-title"><h4>{{ article.author }}</h4><span>{{ article.auth-title }}</span></div>
+              <div class="team-content">
+                <p><em>{{ article.studied }}</em></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 text-center">
+          {{ article.content | markdownify }}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% endfor %}

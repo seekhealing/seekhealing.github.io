@@ -1,0 +1,30 @@
+resources:
+  - title: '"The Naked Empress. Modern neuro­science and the concept of addiction."'
+    subtext: "Peter Cohen (2009), Presentation at the 12th Plaform for Drug Treatment, Mondsee Austria, 21­22 March 2009."
+    url: "/downloads/Dr.Peter.Cohen.research-.The.naked.empress.pdf"
+    icon: "far fa-file-pdf"
+  - title: '"Time to connect: bringing social context into addiction neuroscience."'
+    subtext: "Nat Rev Neurosci. 2016 September ; 17(9): 592–599. doi:10.1038/nrn.2016.67."
+    url: "/downloads/NATUREREVIEW_SOCIAL-CONTEXT-ADDICTION.pdf"
+    icon: "far fa-file-pdf"
+  - title: '"Social influences on Neuroplasticity: Stress and Interventions to Promote Well-being."'
+    subtext: "Nature Neuroscience, Volume 15, Number 5, May 2012"
+    url: "/downloads/social_influences_on_neuroplasticity_NatNeurosci.pdf"
+    icon: "far fa-file-pdf"
+  - title: '"The Molecular Neurobiology of Twelve Steps Program &amp; Fellowship: Connecting the Dots for Recovery."'
+    subtext: "J Reward Defic Syndr. 2015 ; 1(1): 46–64. doi:10.17756/jrds.2015-008."
+    url: "/downloads/molecular_neurobio_12step.pdf"
+    icon: "far fa-file-pdf"
+  - title: '"Brain Health and the Science of Spirituality."'
+    subtext: "By Jeff Skolnick, MD, Ph.D"
+    url: "/downloads/Skolnick_brain_health_neuroplasticity_spirituality.pdf"
+    icon: "far fa-file-pdf"
+  - title: 'American Carnage: The New Landscape of Opioid Addiction'
+    subtext: "By Christopher Caldwell"
+    url: "https://www.firstthings.com/article/2017/04/american-carnage"
+    icon: "fas fa-external-link-alt"
+    target: "_blank"
+  - title: 'Johann Hari: Everything You Think You Know About Addiction Is Wrong'
+    url: "https://www.ted.com/talks/johann_hari_everything_you_think_you_know_about_addiction_is_wrong"
+    icon: "fas fa-external-link-alt"
+    target: "_blank"

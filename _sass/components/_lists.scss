@@ -37,3 +37,22 @@ ul.remembered {
   font-size: 12px;
   line-height: 25px;
 }
+
+ul.resources {
+  list-style-type: none;
+  font-size: 14px;
+  width: 100%;
+
+  li {
+    margin-bottom: 30px;
+  }
+
+  i {
+    font-size: 35px;
+    margin: 5px 10px 0 0;
+  }
+  
+  .resources-item {
+    display: table-cell;
+  }
+}

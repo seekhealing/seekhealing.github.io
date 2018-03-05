@@ -31,7 +31,7 @@ collections:
           - label: "Type"
             name: "type"
             widget: "select"
-            options: ["citation", "connect", "connection-agent-form", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
+            options: ["article", "citation", "connect", "connection-agent-form", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "resource", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "otherContent" 
     label: "Miscellaneous Content" 
@@ -126,6 +126,23 @@ collections:
               - {label: "Name", name: name, widget: string}
               - {label: "Remembered By", name: remembered-by, widget: string}
               - {label: "Quote", name: quote, widget: string}
+      - name: "resources"
+        label: "Resources" 
+        file: "_data/resources.yaml" 
+        description: "List of resources used in site" 
+        fields: 
+          - label: "Resources" 
+            name: resources
+            widget: "list"
+            fields:
+              - {label: "Title", name: title, widget: string}
+              - {label: "Sub-title", name: subtext, widget: string}
+              - {label: "Link", name: url, widget: string}
+              - {label: "Icon", name: icon, widget: string}
+              - label: "Target"
+                name: target
+                widget: select
+                options: ["", "_blank"]
       - name: "asheville-pilot-program"
         label: "Asheville Pilot Content" 
         file: "_data/asheville-pilot-program.yaml" 
