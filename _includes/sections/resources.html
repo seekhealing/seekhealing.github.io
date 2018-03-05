@@ -25,9 +25,9 @@
 
             {% for resource in resources.resources %}
             <li>
-              <a href="{{ resource.url }}" class="pull-left"><i class="{{ resource.icon }}" aria-hidden="true"></i></a>
+              <a href="{{ resource.url }}" class="pull-left"{% if resource.target %} target="{{ resource.target }}"{% endif %}><i class="{{ resource.icon }}" aria-hidden="true"></i></a>
               <div class="text-left resources-item">
-                <a href="{{ resource.url }}">{{ resource.title }}</a><br/>
+                <a href="{{ resource.url }}"{% if resource.target %} target="{{ resource.target }}"{% endif %}>{{ resource.title }}</a><br/>
                 {{ resource.subtext }}
               </div>
             </li>
