@@ -193,6 +193,24 @@ collections:
               - {label: "URL", name: url, widget: string}
               - {label: "Button Text", name: btn-txt, widget: string}
           - {label: "Sub-Text", name: subtext, widget: string}
+  - name: "section-article" # Used in routes, e.g. /admin/collections/blog
+    label: "Section_Article" # Used in the UI
+    folder: "_sections/article" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template 
+    fields: # The fields for each document, usually in front matter
+      - {label: "Type", name: "type", widget: "hidden", default: "article"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "Article Header", name: "header", widget: "string"}
+      - {label: "Article Header Image", name: "header-img", widget: "image", required: false}
+      - {label: "Author Name", name: "author", widget: "string"}
+      - {label: "Author's Job Title", name: "author-title", widget: "string"}
+      - {label: "Author's Picture", name: "author-img", widget: "image"}
+      - {label: "Author Sub-header", name: "author-subheader", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-hero" # Used in routes, e.g. /admin/collections/blog
     label: "Section_Hero" # Used in the UI
     folder: "_sections/hero" # The path to the folder where the documents are stored
@@ -205,7 +223,48 @@ collections:
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
       - {label: "Background Image", name: "background", widget: "image", default: "/assets/images/home-bkgrnd.jpg"}
-      - {label: "Video URL", name: "video", widget: "string"}
+      - {label: "Video URL", name: "video", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-single" # Used in routes, e.g. /admin/collections/blog
+    label: "Section_Single" # Used in the UI
+    folder: "_sections/single" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template 
+    fields: # The fields for each document, usually in front matter
+      - {label: "Type", name: "type", widget: "hidden", default: "single"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: "false", required: false}
+      - label: "Font Size" 
+        name: "apply-links"
+        widget: "select"
+        options: ["large", "regular"]
+        default: "regular"
+        required: false
+      - label: "Header Type"
+        name: "header"
+        widget: "select"
+        options: ["regular", "subnav-header"]
+        default: "regular"
+        required: false
+      - label: "Column Width"
+        name: "col-width"
+        widget: "select"
+        options: ["regular", "sticky", "thin", "wide"]
+        default: "regular"
+        required: false
+      - label: "Sticky Note Content"
+        name: "sticky-header"
+        widget: "string"
+        default: ""
+        required: false
+      - label: "Bottom Border on Section?"
+        name: "section-bottom-border"
+        widget: "boolean"
+        default: "false"
+        required: false
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-team" # Used in routes, e.g. /admin/collections/blog
     label: "Section_Team" # Used in the UI

@@ -11,23 +11,26 @@
 
 {% for article in articles %}
 
-<section{% if article.section-bottom-border %} class="bottom-border"{% endif %}>
-  <div class="article section{% if article.white-bg %} white{% endif %}{% if article.font == "large"%} font-lg-light{% endif %}">
+<section>
+  <div class="article section">
     <div class="container clearfix text-center normal-header">
       
-      <img src="/assets/images/owl-science-250.png" width="150px" height="auto" class="bottommargin text-center" />
+    {% if article.header-img %}
+      <img src="{{ site.baseurl }}{{ article.header-img }}" width="150px" height="auto" class="bottommargin text-center" />
+    {% endif %}
+  
       <h1>{{ article.header }}</h1>
 
       <div class="row">
         <div class="col-md-8 col-md-offset-2 bottommargin text-center">
           <div class="team team-list clearfix">
             <div class="team-image">
-              <img src="/assets/images/team-headshot-rachel.jpg" alt="Rachel Wurzman, PhD, Chief Science Officer">
+              <img src="{{ site.baseurl }}{{ article.author-img }}" alt="{{ article.author }}, {{ article.author-title }}">
             </div>
             <div class="team-desc">
-              <div class="team-title"><h4>{{ article.author }}</h4><span>{{ article.auth-title }}</span></div>
+              <div class="team-title"><h4>{{ article.author }}</h4><span>{{ article.author-title }}</span></div>
               <div class="team-content">
-                <p><em>{{ article.studied }}</em></p>
+                <p><em>{{ article.author-subheader }}</em></p>
               </div>
             </div>
           </div>
