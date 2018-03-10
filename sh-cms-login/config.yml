@@ -6,21 +6,21 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "/assets/images"
 collections:
-  - name: "post" # Used in routes, e.g. /admin/collections/blog
-    label: "Post" # Used in the UI
-    folder: "_posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "post"
+    label: "Post"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" #i.e. YYYY-MM-DD-title.md
+    fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "page" # Used in routes, e.g. /admin/collections/blog
-    label: "Page" # Used in the UI
-    folder: "_pages" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template 
-    fields: # The fields for each document, usually in front matter
+  - name: "page"
+    label: "Page"
+    folder: "_pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Permalink", name: "permalink", widget: "hidden", default: ""}
       - {label: "Title", name: "title", widget: "string"}
@@ -193,12 +193,12 @@ collections:
               - {label: "URL", name: url, widget: string}
               - {label: "Button Text", name: btn-txt, widget: string}
           - {label: "Sub-Text", name: subtext, widget: string}
-  - name: "section-article" # Used in routes, e.g. /admin/collections/blog
-    label: "Section_Article" # Used in the UI
-    folder: "_sections/article" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template 
-    fields: # The fields for each document, usually in front matter
+  - name: "section-article"
+    label: "Section_Article"
+    folder: "_sections/article"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Type", name: "type", widget: "hidden", default: "article"}
       - label: "Title"
         name: "title"
@@ -211,32 +211,32 @@ collections:
       - {label: "Author's Picture", name: "author-img", widget: "image"}
       - {label: "Author Sub-header", name: "author-subheader", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-citation" # Used in routes, e.g. /admin/collections/blog
-    label: "Section_Citation" # Used in the UI
-    folder: "_sections/citation" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template 
-    fields: # The fields for each document, usually in front matter
+  - name: "section-citation"
+    label: "Section_Citation"
+    folder: "_sections/citation"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Type", name: "type", widget: "hidden", default: "citation"}
       - label: "Title"
         name: "title"
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-  - name: "section-connection-agent-form" # Used in routes, e.g. /admin/collections/blog
-    label: "Section_Connection-Agent-form" # Used in the UI
-    folder: "_sections/connection-agent-form" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template 
-    fields: # The fields for each document, usually in front matter
+  - name: "section-connection-agent-form"
+    label: "Section_Connection-Agent-form"
+    folder: "_sections/connection-agent-form"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Type", name: "type", widget: "hidden", default: "connection-agent-form"}
       - {label: "Form", name: "form", widget: "hidden", default: "connection-agent-form"}
       - {label: "Form Header", name: "header", widget: "string"}
-  - name: "section-double" # Used in routes, e.g. /admin/collections/blog
-    label: "Section_Double" # Used in the UI
-    folder: "_sections/double" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template 
-    fields: # The fields for each document, usually in front matter
+  - name: "section-double"
+    label: "Section_Double"
+    folder: "_sections/double"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Type", name: "type", widget: "hidden", default: "double"}
       - label: "Title"
         name: "title"
@@ -254,20 +254,27 @@ collections:
         options: ["regular", "sticky", "thin", "wide"]
         default: "regular"
         required: false
-      - label: "Column Grouping Name"
-        name: "col-names"
-        widget: "select"
-        options: ["regular", "sticky", "thin", "wide"]
-        default: "regular"
-        required: false
-      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: "false", required: false}
+      - {label: "Column Grouping Name", name: "col-names", widget: "string"}
+      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-hero" # Used in routes, e.g. /admin/collections/blog
-    label: "Section_Hero" # Used in the UI
-    folder: "_sections/hero" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template 
-    fields: # The fields for each document, usually in front matter
+  - name: "section-double-cols"
+    label: "Section_Double_Columns"
+    folder: "_sections/double-columns"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "double-col"}
+      - {label: "Column Grouping Name", name: "col-names", widget: "string"}
+      - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: "1"}
+      - {label: "Center Column Content?", name: "center", widget: "boolean", default: false, required: false}
+      - {label: "Is content a sticky note format?", name: "sticky-note", widget: "boolean", default: false, required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-hero"
+    label: "Section_Hero"
+    folder: "_sections/hero"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Type", name: "type", widget: "hidden", default: "hero"}
       - label: "Title"
         name: "title"
@@ -276,18 +283,18 @@ collections:
       - {label: "Background Image", name: "background", widget: "image", default: "/assets/images/home-bkgrnd.jpg"}
       - {label: "Video URL", name: "video", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-single" # Used in routes, e.g. /admin/collections/blog
-    label: "Section_Single" # Used in the UI
-    folder: "_sections/single" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template 
-    fields: # The fields for each document, usually in front matter
+  - name: "section-single"
+    label: "Section_Single"
+    folder: "_sections/single"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Type", name: "type", widget: "hidden", default: "single"}
       - label: "Title"
         name: "title"
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: "false", required: false}
+      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
       - label: "Font Size" 
         name: "apply-links"
         widget: "select"
@@ -317,12 +324,12 @@ collections:
         default: "false"
         required: false
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-team" # Used in routes, e.g. /admin/collections/blog
-    label: "Section_Team" # Used in the UI
-    folder: "_sections/team" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template 
-    fields: # The fields for each document, usually in front matter
+  - name: "section-team"
+    label: "Section_Team"
+    folder: "_sections/team"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - {label: "Type", name: "type", widget: "hidden", default: "team"}
       - {label: "Category", name: "category", widget: "string", default: "Directors"}
       - {label: "Name", name: "name", widget: "string"}
