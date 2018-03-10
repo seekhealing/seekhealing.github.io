@@ -1,5 +1,6 @@
 ---
 type: subnav
+title: financials
 nav: About
 image: /assets/images/subnav-donate.png
 link: "/financials/"

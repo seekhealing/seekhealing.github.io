@@ -14,10 +14,10 @@
 {% for single in singles %}
 
 <section>
-  <div class="section{% if single.white-bg %} white{% endif %}{% if single.font == "large"%} font-lg-light{% endif %}">
+  <div class="section{% if single.white-bg %} white{% endif %}">
     <div class="container clearfix">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-xs-12 text-center {% if single.header %}{{ single.header }}{% else %}normal-header{% endif %}">
+        <div class="col-md-10 col-md-offset-1 col-xs-12 text-center normal-header">
 
           {{ single.content | markdownify }}
 

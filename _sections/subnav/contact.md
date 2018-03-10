@@ -1,5 +1,6 @@
 ---
 type: subnav
+title: contact
 nav: About
 image: /assets/images/subnav-contact.png
 link: "/contact/"

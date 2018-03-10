@@ -1,7 +1,8 @@
 ---
 type: event
+title: "SeekHealing Launch Party"
 name: 'SeekHealing <span class="emphasized-header">Launch Party</span>'
-date: May 06
+date: '2001-05-06'
 time: 4:00pm - 7:00pm
 location: Washington, DC
 ticket-btn: "Buy Tickets"

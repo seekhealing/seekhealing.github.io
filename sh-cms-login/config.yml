@@ -269,6 +269,48 @@ collections:
       - {label: "Center Column Content?", name: "center", widget: "boolean", default: false, required: false}
       - {label: "Is content a sticky note format?", name: "sticky-note", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-double-full"
+    label: "Section_Double_Full"
+    folder: "_sections/double-full"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "double-full"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
+      - label: "Font Size" 
+        name: "apply-links"
+        widget: "select"
+        options: ["large", "regular"]
+        default: "regular"
+        required: false
+      - {label: "Background Image", name: "img", widget: "image"}
+      - label: "Background Image Position" 
+        name: "img-pos"
+        widget: "select"
+        options: ["left", "right"]
+        default: "left"
+      - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
+      - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-events"
+    label: "Section_Events"
+    folder: "_sections/events"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "double-events"}
+      - {label: "Name of Event", name: "name", widget: "string"}
+      - {label: "Event Date", name: "date", widget: "date", default: ""}
+      - {label: "Event Time", name: "time", widget: "string"}
+      - {label: "Event Location", name: "location", widget: "string"}
+      - {label: "Event Image", name: "image", widget: "image"}
+      - {label: "Ticket Button Text", name: "ticket-btn", widget: "string", default: "Buy Tickets"}
+      - {label: "Button URL", name: "ticket-url", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-hero"
     label: "Section_Hero"
     folder: "_sections/hero"
@@ -282,6 +324,53 @@ collections:
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
       - {label: "Background Image", name: "background", widget: "image", default: "/assets/images/home-bkgrnd.jpg"}
       - {label: "Video URL", name: "video", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-message-box"
+    label: "Section_Message_Box"
+    folder: "_sections/message-box"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "message-box"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "Box Header", name: "header", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-parallax"
+    label: "Section_Parallax"
+    folder: "_sections/parallax"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "parallax"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - label: "Font Size" 
+        name: "apply-links"
+        widget: "select"
+        options: ["large", "regular"]
+        default: "large"
+        required: false
+      - {label: "Background Image", name: "bg-img", widget: "image"}
+      - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
+      - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-resources"
+    label: "Section_Resources"
+    folder: "_sections/resources"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "resources"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-single"
     label: "Section_Single"
@@ -324,6 +413,49 @@ collections:
         default: "false"
         required: false
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-story"
+    label: "Section_Story"
+    folder: "_sections/story"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "story"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-stripe"
+    label: "Section_Stripe"
+    folder: "_sections/stripe"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "stripe"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-subnav"
+    label: "Section_Subnav"
+    folder: "_sections/subnav"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "subnav"}
+      - label: "Section Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - label: "Navigation Grouping Title"
+        name: "nav"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "Subnav Link", name: "link", widget: "string"}
+      - {label: "Link Image", name: "image", widget: "image"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-team"
     label: "Section_Team"
     folder: "_sections/team"
@@ -336,4 +468,39 @@ collections:
       - {label: "Job Title", name: "title", widget: "string"}
       - {label: "Director's Picture", name: "image", widget: "image"}
       - {label: "Order", name: "order", widget: "number", valueType: "int", min: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-triple"
+    label: "Section_Triple"
+    folder: "_sections/triple"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "triple"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - label: "Header Type"
+        name: "header"
+        widget: "select"
+        options: ["regular", "subnav-header"]
+        default: "regular"
+        required: false
+      - label: "Column Width"
+        name: "col-width"
+        widget: "select"
+        options: ["regular", "sticky", "thin", "wide"]
+        default: "regular"
+        required: false
+      - {label: "Column Grouping Name", name: "col-names", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-triple-cols"
+    label: "Section_Triple_Columns"
+    folder: "_sections/triple-columns"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "triple-col"}
+      - {label: "Column Grouping Name", name: "col-names", widget: "string"}
+      - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: "1"}
       - {label: "Body", name: "body", widget: "markdown"}
