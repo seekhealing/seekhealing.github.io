@@ -22,6 +22,7 @@ collections:
     slug: "{{slug}}" # Filename template 
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: ""}
       - {label: "Title", name: "title", widget: "string"}
       - label: "Sections"
         name: "sections"
@@ -32,7 +33,8 @@ collections:
             name: "type"
             widget: "select"
             options: ["article", "citation", "connect", "connection-agent-form", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "resource", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Transparent Header?", name: "transparent-header", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "otherContent" 
     label: "Miscellaneous Content" 
     delete: false # Prevent users from deleting documents in this collection
@@ -46,9 +48,9 @@ collections:
         fields: 
           - {label: "Email Address", name: "email", widget: "string"}
           - {label: "Email Icon", name: "email-icon", widget: "string"}
-          - {label: "Subsribe Form Submission URL", name: "subscribe-url", widget: "string"}
-          - {label: "Subsribe Form Text", name: "subscribe-text", widget: "string"}
-          - {label: "Subsribe Form Button Text", name: "subscribe-btn-text", widget: "string"}
+          - {label: "Subscribe Form Submission URL", name: "subscribe-url", widget: "string"}
+          - {label: "Subscribe Form Text", name: "subscribe-text", widget: "string"}
+          - {label: "Subscribe Form Button Text", name: "subscribe-btn-text", widget: "string"}
       - name: "header" 
         label: "Header Content" 
         file: "_data/header.yaml" 
@@ -191,3 +193,30 @@ collections:
               - {label: "URL", name: url, widget: string}
               - {label: "Button Text", name: btn-txt, widget: string}
           - {label: "Sub-Text", name: subtext, widget: string}
+  - name: "section-hero" # Used in routes, e.g. /admin/collections/blog
+    label: "Section_Hero" # Used in the UI
+    folder: "_sections/hero" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template 
+    fields: # The fields for each document, usually in front matter
+      - {label: "Type", name: "type", widget: "hidden", default: "hero"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "Background Image", name: "background", widget: "image", default: "/assets/images/home-bkgrnd.jpg"}
+      - {label: "Video URL", name: "video", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-team" # Used in routes, e.g. /admin/collections/blog
+    label: "Section_Team" # Used in the UI
+    folder: "_sections/team" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template 
+    fields: # The fields for each document, usually in front matter
+      - {label: "Type", name: "type", widget: "hidden", default: "team"}
+      - {label: "Category", name: "category", widget: "string", default: "Directors"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Job Title", name: "title", widget: "string"}
+      - {label: "Director's Picture", name: "image", widget: "image"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
