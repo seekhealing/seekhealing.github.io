@@ -14,7 +14,7 @@
     <div class="container clearfix">
       <div class="row normal-header">
         <div class="col-md-10 col-md-offset-1 col-xs-12">  
-          {% for content in form %}
+        {% for content in form %}
           
           <h1 class="text-center">{{ content.header }}</h1>
 
@@ -28,9 +28,9 @@
           <div class="connection-agent-form text-left">
             {{ content.content | markdownify }}
           </div>
-        </div>
 
         {% endfor %}
+        </div>
 
         <div class="col-md-10 col-md-offset-1 col-xs-12">
 

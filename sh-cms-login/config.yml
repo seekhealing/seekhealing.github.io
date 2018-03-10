@@ -211,6 +211,57 @@ collections:
       - {label: "Author's Picture", name: "author-img", widget: "image"}
       - {label: "Author Sub-header", name: "author-subheader", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-citation" # Used in routes, e.g. /admin/collections/blog
+    label: "Section_Citation" # Used in the UI
+    folder: "_sections/citation" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template 
+    fields: # The fields for each document, usually in front matter
+      - {label: "Type", name: "type", widget: "hidden", default: "citation"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  - name: "section-connection-agent-form" # Used in routes, e.g. /admin/collections/blog
+    label: "Section_Connection-Agent-form" # Used in the UI
+    folder: "_sections/connection-agent-form" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template 
+    fields: # The fields for each document, usually in front matter
+      - {label: "Type", name: "type", widget: "hidden", default: "connection-agent-form"}
+      - {label: "Form", name: "form", widget: "hidden", default: "connection-agent-form"}
+      - {label: "Form Header", name: "header", widget: "string"}
+  - name: "section-double" # Used in routes, e.g. /admin/collections/blog
+    label: "Section_Double" # Used in the UI
+    folder: "_sections/double" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template 
+    fields: # The fields for each document, usually in front matter
+      - {label: "Type", name: "type", widget: "hidden", default: "double"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - label: "Header Type"
+        name: "header"
+        widget: "select"
+        options: ["regular", "subnav-header"]
+        default: "regular"
+        required: false
+      - label: "Column Width"
+        name: "col-width"
+        widget: "select"
+        options: ["regular", "sticky", "thin", "wide"]
+        default: "regular"
+        required: false
+      - label: "Column Grouping Name"
+        name: "col-names"
+        widget: "select"
+        options: ["regular", "sticky", "thin", "wide"]
+        default: "regular"
+        required: false
+      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: "false", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-hero" # Used in routes, e.g. /admin/collections/blog
     label: "Section_Hero" # Used in the UI
     folder: "_sections/hero" # The path to the folder where the documents are stored
