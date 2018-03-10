@@ -16,7 +16,7 @@
   <div class="row clearfix display-flex">
 
     {% if double.img-pos == "left" %}
-    <div class="col-sm-6 hidden-xs text-center col-padding no-margin" style="background: url('{{ double.img }}') center center no-repeat; background-size: cover;">
+    <div class="col-sm-6 hidden-xs text-center col-padding no-margin" style="background: url('{{ site.baseurl }}{{ double.img }}') center center no-repeat; background-size: cover;">
 
       {% if double.img-quote %}
       <div class="image-quote">
@@ -39,7 +39,7 @@
     </div>
 
     {% if double.img-pos == "right" %}
-    <div class="col-sm-6 hidden-xs text-center col-padding no-margin" style="background: url('{{ double.img }}') center center no-repeat; background-size: cover;">
+    <div class="col-sm-6 hidden-xs text-center col-padding no-margin" style="background: url('{{ site.baseurl }}{{ double.img }}') center center no-repeat; background-size: cover;">
 
       {% if double.img-quote %}
       <div class="image-quote">
