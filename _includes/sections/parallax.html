@@ -1,0 +1,43 @@
+{% comment %} 
+<!--
+  Parallax Section
+
+  This partial is used for parallax sections.  Currently used on the Why We
+  Care page.
+  
+--> 
+{% endcomment %}
+
+{% assign laxes = site.sections |where:"type","parallax" |where:"title",include.title %}
+
+{% for lax in laxes %}
+
+<div class="section parallax nobottommargin" data-stellar-background-ratio="0.4" style="background-image: url({{ site.baseurl }}{{ lax.bg-img }});">
+  <div class="section{% if double.white-bg %} white{% endif %}" data-animation="fade">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-xs-12 text-center parallax-txt-bg">
+          <div class="{% if lax.img-quote %}par-quote{% else %}inner{% endif %}{% if lax.font == "large"%} font-lg-light{% endif %}">
+            {{ lax.content | markdownify }}
+
+            {% if lax.img-quote %}
+            <div class="image-quote">
+              <div class="quotes start parallax">&nbsp;</div>
+              <div class="quote">                
+                {{ lax.img-quote }}
+              </div>
+              <div class="quotes end parallax">&nbsp;</div>
+              <div class="quote-author">
+                <em>- {{ lax.img-quote-author}}</em>
+              </div>
+            </div>
+            {% endif %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endfor %}

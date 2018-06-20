@@ -1,0 +1,23 @@
+{% comment %} 
+<!--
+  Stripe Section
+
+  This partial is used for stripe sections that go full width across a page.
+  Used for notices and currently on the Our Programs page.
+  
+--> 
+{% endcomment %}
+
+{% assign stripes = site.sections|where:"type","stripe"|where:"title",include.title %}
+
+{% for stripe in stripes %}
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 red-stripe text-center bottommargin">
+      {{ stripe.content | markdownify }}
+    </div>
+  </div>
+</div>
+
+{% endfor %}

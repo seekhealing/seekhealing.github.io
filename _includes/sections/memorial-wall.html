@@ -1,0 +1,46 @@
+{% comment %} 
+<!--
+  Memorial Wall Section
+
+  This partial is used for the memorial wall for remembering.
+  
+--> 
+{% endcomment %}
+
+{% assign people = site.data.memorial-wall.memorium %}
+
+
+
+<section>
+  <div class="section">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="text-center subnav-header">
+
+          {{ page.content | markdownify }}
+
+          <ul class="remembered">
+
+            {% for person in people %}
+
+            <li>
+              {{ person.name }}
+              <br/>
+              - <span class="by">remembered by {{ person.remembered-by }}</span>
+
+              {% if person.quote %}
+              <br/>
+              <span>"{{ person.quote }}"<span>
+              {% endif %}
+
+            </li>
+            
+            {% endfor %}
+            
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

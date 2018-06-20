@@ -1,0 +1,47 @@
+---
+# Frontmatter comment ensures Jekyll reads the file to be transformed into CSS later.
+# Only Main files contain this front matter, not partials.
+---
+
+// Including bootstrap styles
+@import 'helpers/custom-bootstrap-variables';
+@import 'bootstrap';
+
+// Including fontaesome styles
+@import 'vendor/fontawesome/fontawesome';
+@import 'vendor/animate/animate';
+
+// Including base scss eleemnts
+@import 'base/typography';
+@import 'base/base';
+
+// Including layout scss 
+@import 'layouts/header';
+@import 'layouts/footer';
+
+// Including page section layouts
+@import 'layouts/articles';
+@import 'layouts/asheville';
+@import 'layouts/heros';
+@import 'layouts/sections';
+@import 'layouts/stripes';
+
+// // Include componets
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/events';
+@import 'components/features';
+@import 'components/forms';
+@import 'components/icons';
+@import 'components/images';
+@import 'components/gauges';
+@import 'components/headings';
+@import 'components/locations';
+@import 'components/lists';
+@import 'components/msg-boxes';
+@import 'components/quotes';
+@import 'components/stickies';
+@import 'components/stories';
+@import 'components/teams';
+@import 'components/transitions';
+@import 'components/videos';

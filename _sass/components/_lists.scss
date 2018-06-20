@@ -1,0 +1,58 @@
+// Contains Lists styles
+
+// default style used in most content layouts
+ul {
+  display: inline-block;
+  text-align: left;
+  width: 65%;
+  line-height: 25px;
+}
+
+ul.remembered {
+  list-style-type: none;
+  font-size: 14px;
+
+  &>li {
+    padding-bottom: 30px;
+  }
+
+  span {
+    font-size: 12px;
+  }
+
+  .by {
+    font-style: italic;
+  }
+}
+
+//double column lists
+.double ul {
+  padding: 0px 10px 0px 40px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.citations ol {
+  list-style-position: inside;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+ul.resources {
+  list-style-type: none;
+  font-size: 14px;
+  width: 100%;
+
+  li {
+    margin-bottom: 30px;
+  }
+
+  i {
+    font-size: 35px;
+    margin: 5px 10px 0 0;
+  }
+  
+  .resources-item {
+    display: table-cell;
+  }
+}

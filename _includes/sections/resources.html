@@ -1,0 +1,44 @@
+{% comment %} 
+<!--
+  Resources Section
+
+  This partial is used for resources sections of text.
+  
+--> 
+{% endcomment %}
+
+{% assign singles = site.sections|where:"type","resource"|where:"title",include.title %}
+
+{% assign resources = site.data.resources %}
+
+{% for single in singles %}
+
+<section>
+  <div class="section{% if single.white-bg %} white{% endif %}">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 col-xs-12 text-center normal-header">
+
+          {{ single.content | markdownify }}
+
+          <ul class="resources">
+
+            {% for resource in resources.resources %}
+            <li>
+              <a href="{{ resource.url }}" class="pull-left"{% if resource.target %} target="{{ resource.target }}"{% endif %}><i class="{{ resource.icon }}" aria-hidden="true"></i></a>
+              <div class="text-left resources-item">
+                <a href="{{ resource.url }}"{% if resource.target %} target="{{ resource.target }}"{% endif %}>{{ resource.title }}</a><br/>
+                {{ resource.subtext }}
+              </div>
+            </li>
+            {% endfor %}
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endfor %}

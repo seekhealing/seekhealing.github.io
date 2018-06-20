@@ -1,0 +1,48 @@
+{% comment %} 
+<!--
+  Article Section
+
+  This partial is used for article sections of text.
+  
+--> 
+{% endcomment %}
+
+{% assign articles = site.sections|where:"type","article"|where:"title",include.title %}
+
+{% for article in articles %}
+
+<section>
+  <div class="article section">
+    <div class="container clearfix text-center normal-header">
+      
+    {% if article.header-img %}
+      <img src="{{ site.baseurl }}{{ article.header-img }}" width="150px" height="auto" class="bottommargin text-center" />
+    {% endif %}
+  
+      <h1>{{ article.header }}</h1>
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 bottommargin text-center">
+          <div class="team team-list clearfix">
+            <div class="team-image">
+              <img src="{{ site.baseurl }}{{ article.author-img }}" alt="{{ article.author }}, {{ article.author-title }}">
+            </div>
+            <div class="team-desc">
+              <div class="team-title"><h4>{{ article.author }}</h4><span>{{ article.author-title }}</span></div>
+              <div class="team-content">
+                <p><em>{{ article.author-subheader }}</em></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 text-center">
+          {{ article.content | markdownify }}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% endfor %}

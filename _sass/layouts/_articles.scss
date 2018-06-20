@@ -1,0 +1,41 @@
+// article styles
+
+.article p {
+  font-size: 16px;
+}
+
+.team-title h4 {
+  display: block;
+  margin-bottom: 0;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.team-title span {
+  color: #7f3472;
+  display: block;
+  font-weight: 400;
+  font-family: 'Crete Round', serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.team-content {
+  margin-top: 15px;
+  color: #777;
+}
+
+.bottommargin {
+  margin-bottom: 50px;
+}
+
+.two-lines:before, .two-lines:after  {
+  content: '';
+  display: block;
+  border-top: 2px solid #444;
+  width: 40px;
+  margin: 30px auto;
+}

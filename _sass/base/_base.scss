@@ -1,0 +1,90 @@
+// File contains styles for base HTML Elements
+
+body {
+  color: #777;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+}
+
+dl, dt, dd, ol, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #7f3472;
+  text-decoration: none;
+
+  &:hover {
+    color: #b5777d;
+    text-decoration: none;
+  }
+}
+
+img {
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0 0 30px 0;
+  font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 767px) {
+
+  h1 { font-size: 28px; }
+
+  h2 { font-size: 24px; }
+
+  h3 { font-size: 20px; }
+
+  h4 { font-size: 16px; }
+}
+
+section {
+  position: relative;
+}
+
+p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
+  margin-bottom: 30px;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto;
+  line-height: 1.45;
+  position: relative;
+  border: 0;
+  text-align: center;
+
+  &:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    font-family: Georgia, serif;
+    font-size: 85px;
+    font-weight: bold;
+  }
+
+  cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+
+    &:before {
+      content: "\2014 \2009";
+    }
+  }
+}
+
+form {
+  margin: 0;
+}

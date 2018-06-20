@@ -1,0 +1,41 @@
+{% comment %} 
+<!--
+  Team Section
+
+  This partial is used for team types of layouts.  Currently used on the
+  Board of Directors page.
+  
+--> 
+{% endcomment %}
+
+{% assign portfolio = site.sections |where:"type","team" |where:"category",include.title |sort: "order" %}
+
+<section>
+  <div class="section no-top-padding">
+    <div class="container clearfix">
+      <div class="row display-flex">
+
+        {% for profile in portfolio %}
+        
+          <div class="col-md-6 bottommargin">
+            <div class="team clearfix">
+              <div class="team-image">
+                <img src="{{ site.baseurl }}{{ profile.image }}" alt="{{ profile.name }}, {{ profile.title }}">
+              </div>
+              <div class="team-desc">
+                <h2>{{ profile.name }}</h2>
+                <p class="title">{{ profile.title }}</p>
+                <div class="team-content">
+                  {{ profile.content | markdownify }}
+                </div>
+              </div>
+            </div>
+          </div>
+
+        {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,71 +1,73 @@
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="dark">
-			<div id="copyrights">
+{% comment %} 
+<!--
+  Footer
 
-				<div class="container clearfix">
+  This partial is included on every page except the observatory page to
+  consistently display the same footer on each page.
+  
+--> 
+{% endcomment %}
 
-					<div class="col_half">
-						<div class="copyright-links"><a href="learn.html">Learn</a> / <a href="our-programs.html">Our Programs</a> / <a href="get-involved.html">Get Involved</a> / <a href="blog.html">Blog</a><!-- / <a href="get-help-now.html">Get help now</a> --></div>
-						Copyrights &copy; 2017 SeekHealing.
-					</div>
+{% assign footer = site.data.footer %}
+{% assign global = site.data.global %}
 
-					<div class="col_half col_last tright">
-						<div class="fright clearfix">
-							<a href="https://www.facebook.com/seekhealing/" target="_blank" class="footer-social-icon">
-								<i class="fa fa-facebook-official"></i>
-							</a>
-							<a href="https://twitter.com/seek_healing" target="_blank" class="footer-social-icon">
-								<i class="fa fa-twitter-square"></i>
-							</a>
-							<a href="https://www.instagram.com/seekhealing/" target="_blank" class="footer-social-icon">
-								<i class="fa fa-instagram"></i>
-							</a>
-							<a href="https://www.linkedin.com/company/15230410/" target="_blank" class="footer-social-icon">
-								<i class="fa fa-linkedin"></i>
-							</a>
-							<a href="https://www.youtube.com/channel/UCSM8rmdOFdHop_8z2UFz5-g" target="_blank" class="footer-social-icon">
-								<i class="fa fa-youtube"></i>
-							</a>
-						</div>
+<!-- Footer
+============================================= -->
+<footer id="footer" class="dark">
+  <div class="footer-inner">
 
-						<div class="clear"></div>
+    <div class="container clearfix">
+      <div class="row">
 
-						<i class="fa fa-envelope"></i> info@seekhealing.com
-					</div>
+        <div class="col-xs-12 col-sm-6 footer-cp">
+          <div class="copyright-links">
 
-				</div>
+          <!-- Footer Navigation Links
+          ============================================= -->
+          {% for nav in footer.nav %}
 
-			</div><!-- #copyrights end -->
+            {% if nav.url contains '://' %}
+              {% assign nav_url = nav.url %}
+            {% else %}
+              {% capture nav_url %}{{ site.baseurl }}{{ nav.url }}{% endcapture%}
+            {% endif %}
 
-		</footer><!-- #footer end -->
+            <a href="{{ nav_url }}"{% if nav.target %} target="{{ nav.target }}"{% endif %}>
+              {{ nav.title }}
+            </a>
 
-	</div><!-- #wrapper end -->
+          {% endfor %}
 
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="fa fa-caret-up"></div>
+          </div>
 
-	<!-- Google Analytics -->
-		<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          <!-- Footer Copyright Text
+          ============================================= -->
+          {{ footer.copyright-text }}
 
-	ga('create', '{{ site.ga_property_id }}', 'auto');
-	ga('send', 'pageview');
-	</script>
-	<!-- End Google Analytics -->
-	<!-- External JavaScripts
-	============================================= -->
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/plugins.js"></script>
+        </div>
 
-	<!-- Footer Scripts
-	============================================= -->
-	<script type="text/javascript" src="js/functions.js"></script>
-	<script type="text/javascript" src="js/custom-functions.js"></script>
+        <div class="col-xs-12 col-sm-6 footer-soc">
+          <div>
 
-</body>
-</html>
+          <!-- Social Media Links
+          ============================================= -->
+          {% for social in footer.social-media %}
+
+            <a href="{{ social.url }}" target="_blank" class="footer-social-icon">
+              <i class="{{ social.icon }}"></i>
+            </a>
+
+          {% endfor %}
+
+          </div>
+
+          <i class="{{ global.email-icon }}"></i> {{ global.email }}
+        </div>
+
+      </div>
+
+    </div>
+
+  </div><!-- #copyrights end -->
+
+</footer><!-- #footer end -->

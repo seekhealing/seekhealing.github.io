@@ -1,29 +1,82 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-<head>
+{% comment %} 
+<!--
+  Header
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta name="author" content="SeekHealing">
+  This partial is included on every page except to consistently
+  display the same header on each page.
 
-	<!-- Stylesheets
-	============================================= -->
-	<link href="//fonts.googleapis.com/css?family=Permanent+Marker|Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css">
-	<link rel="icon" href="images/favicon-196x196.png" sizes="196x196"/>
-	<link rel="icon" href="images/favicon-32x32.png" sizes="32x32"/>
-	<link rel="icon" href="images/favicon-16x16.png" sizes="16x16"/>
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="css/swiper.css" type="text/css">
-	<link rel="stylesheet" href="css/dark.css" type="text/css">
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css">
-	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-	<link rel="stylesheet" href="css/animate.css" type="text/css">
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-	<link rel="stylesheet" href="css/responsive.css" type="text/css">
-	<link rel="stylesheet" href="css/custom.css" type="text/css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Document Title
-	============================================= -->
-	<title>{{ include.page_title }} | {{ site.title }}</title>
+--> 
+{% endcomment %}
 
-</head>
+{% assign header = site.data.header %}
+
+<header id="header" class="{% if page.transparent-header %}transparent-header {% endif %}dark">
+
+  <div id="header-wrap">
+
+    <div class="container clearfix">
+
+      <!-- Logo
+      ============================================= -->
+      <div id="logo">
+        <a href="{{ site.baseurl }}/" class="standard-logo" data-dark-logo="{{ site.baseurl }}{{ header.logo }}"><img src="{{ site.baseurl }}{{ header.logo }}" alt="{{ header.logo-alt }}"></a>
+      </div><!-- #logo end -->
+
+
+      <!-- Primary Navigation
+      ============================================= -->
+      <nav id="primary-menu">
+        <ul>
+
+          {% for nav in header.nav %}
+
+            {% if nav.url contains '://' %}
+              {% assign nav_url = nav.url %}
+            {% else %}
+              {% capture nav_url %}{{ site.baseurl }}{{ nav.url }}{% endcapture%}
+            {% endif %}
+
+            <li>
+              <a href="{{ nav_url }}"{% if nav.target %} target="{{ nav.target }}"{% endif %}>
+                {{ nav.title }}
+              </a>
+
+              <!-- Submenu Navigation
+              ============================================= -->
+              {% if nav.submenu %}
+              <ul>
+
+                {% for subnav in nav.submenu %}
+
+                  {% if subnav.url contains '://' %}
+                    {% assign subnav_url = subnav.url %}
+                  {% else %}
+                    {% capture subnav_url %}{{ site.baseurl }}{{ subnav.url }}{% endcapture%}
+                  {% endif %}
+
+                  <li>
+                    <a href="{{ subnav_url }}"{% if subnav.target %} target="{{ subnav.target }}"{% endif %}>
+                      {{ subnav.title }}
+                    </a>
+                  </li>
+
+                {% endfor %}
+
+              </ul>
+              {% endif %}
+
+            </li>
+
+          {% endfor %}
+
+        </ul>
+      </nav><!-- #primary-menu end -->
+      
+
+      <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+    </div>
+
+  </div>
+
+</header><!-- #header end -->

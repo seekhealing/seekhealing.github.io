@@ -1,0 +1,48 @@
+// Message box styles
+
+.msg-box {
+  background-color: #611bb8;
+  text-align: center;
+  padding: 30px 15px 30px 15px;
+
+  h1 {
+    font-size: 22px;
+    color: #fff;
+
+    &:after {
+      content: '';
+      display: block;
+      margin: 30px auto 0;
+      width: 40px;
+      border-top: 2px solid #fff;
+    }
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .msg-box-body {
+    background-color: #fff;
+    padding: 25px 15px;
+    margin: -15px -10px -25px;
+  }
+
+  .button {
+    background-color: #611bb8;
+    color: #fff;
+    border: 3px solid #611bb8;
+    padding-bottom: 5px;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: #fff !important;
+      color: #611bb8;
+      border: 3px solid #611bb8;
+    }
+  }
+
+  .no-bot-margin {
+    margin-bottom: 0;
+  }
+}

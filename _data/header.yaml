@@ -1,0 +1,36 @@
+logo: /assets/images/logo-white.png
+logo-alt: SeekHealing Text
+nav:
+  - title: Learn
+    url: /learn/
+  - submenu:
+      - title: Program Methodology
+        url: /our-programs/
+      - title: Asheville Pilot Program
+        url: /asheville-pilot-program/
+    title: Heal
+    url: /our-programs/
+  - submenu:
+      - target: _blank
+        title: Donate
+        url: 'https://seekhealing.kindful.com'
+      - target: _blank
+        title: Shop
+        url: 'http://shop.seekhealing.org/'
+      - title: Volunteer
+        url: /volunteer/
+      - title: Connection Agents
+        url: /connection-agents/
+    title: Help
+    url: /volunteer/
+  - submenu:
+      - title: Blog
+        url: /blog/
+      - title: Upcoming Events
+        url: /upcoming-events/
+    title: Connect
+    url: /blog/
+  - title: Remember
+    url: /they-were-here/
+  - title: About Us
+    url: /about/

@@ -1,0 +1,67 @@
+// contains quote styles
+
+.quotes {
+  background-repeat: no-repeat;
+  width: 125px;
+  height: 90px;
+  position: relative;
+
+  &.start {
+    // background-image: url(/assets/images/quotes-start.png);
+
+    &.parallax {
+      left: 160px;
+      top: -7px;
+    }
+  }
+
+  &.end {
+    // background-image: url(/assets/images/quotes-end.png);
+    top: -175px;
+    right: -77%;
+
+    &.parallax {
+      top: -125px;
+      right: -465px;
+    }
+  }
+}
+
+.quote {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #fff;
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+  top: -69px;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " ";
+    background: url(/assets/images/quotes-start.png);
+    background-size: 100% 100%;
+    width: 125px;
+    height: 90px;
+  }
+
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: " ";
+    background: url(/assets/images/quotes-end.png);
+    background-size: 100% 100%;
+    width: 125px;
+    height: 90px;
+  }
+}
+
+.quote-author {
+  font-style: italic;
+  color: #fff;
+  font-size: 14px;
+}

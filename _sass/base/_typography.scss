@@ -1,0 +1,66 @@
+// Base Typography Classes
+
+// Main fonts used in site
+@font-face {
+	font-family: 'font-icons';
+	src:url('../assets/fonts/font-icons/font-icons.eot');
+	src:url('../assets/fonts/font-icons/font-icons.eot') format('embedded-opentype'),
+		url('../assets/fonts/font-icons/font-icons.woff') format('woff'),
+		url('../assets/fonts/font-icons/font-icons.ttf') format('truetype'),
+		url('../assets/fonts/font-icons/font-icons.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+span.blue {
+  color: #0070C0;
+}
+
+span.green {
+  color: #098A68;
+}
+
+.bold-purple {
+  color: #7f3472;
+  font-weight: 800;
+}
+
+.white-txt {
+  color: #FFF;
+}
+
+.purple-label {
+  background-color: #611bb8;
+  padding: 20px;
+  display: table;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.bull-elements {
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.definition {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  font-family: 'Cousine';
+
+  &.word {
+    letter-spacing: 1.5px;
+    font-size: 18px;
+  }
+}

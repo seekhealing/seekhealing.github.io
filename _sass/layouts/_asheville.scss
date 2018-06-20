@@ -1,0 +1,82 @@
+// Asheville Pilot Program Layout Styles
+
+.pilot-program-section h2 {
+  color: #49308C;
+  font-weight: normal;
+  margin: 20px;
+}
+
+.pilot-program-section p {
+  margin: 20px;
+}
+
+.rowmargin {
+  margin: 75px auto;
+}
+
+.match-left {
+  float: left;
+  width: 30%;
+  text-align: right;
+}
+
+.match-right {
+  float: left;
+  width: 60%;
+  text-align: left;
+}
+
+.match-inner-left {
+  float: left;
+  width: 75%;
+  text-align: left;
+}
+
+.match-inner-right {
+  float: right;
+  width: 25%;
+}
+
+.match-inner-p {
+  text-align: right;
+  clear: both;
+
+  p {
+    width: 75%;
+    text-align: justify;
+    float: right;
+    font-size: 16px;
+	}
+}
+
+.pilot-program-section h3 {
+  color: #49308C;
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.pilot-program-section h4 {
+  color: #49308C;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.apply-rows .row {
+  margin: 10px auto;
+}
+
+.apply-rows .button {
+  width: 80%;
+  text-align: center;
+  background-color: #7E4493;
+}
+
+.apply-rows p {
+  width: 80%;
+  margin: 0;
+  font-size: 16px;
+}
+
+.apply-btns {
+  text-align: right;
+}

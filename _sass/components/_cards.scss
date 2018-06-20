@@ -1,0 +1,16 @@
+// Contains card styles
+
+.card {
+  border: 1px solid #4A158A;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #888888;
+  height: 100%;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+
+  img {
+    padding: 30px;
+    width: auto;
+  }
+}

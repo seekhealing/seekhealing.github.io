@@ -1,0 +1,40 @@
+{% comment %} 
+<!--
+  Gauges Section
+
+  This partial is used to display gauges on a page.  The gauge data should come
+  from a yaml data file or frontmatter.
+  
+--> 
+{% endcomment %}
+
+{% assign gauges = site.data.directors.gauge-section %}
+
+<section>
+  <div class="section">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="{% if single.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 {% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center custom-header">
+          <h1 class="no-bot-border">{{ gauges.header }}</h1>
+          <p class="subnav">{{ gauges.subheader }}</p>
+
+          {% for gauge in gauges.gauges %}
+            <div class="GaugeMeter" 
+              data-percent="{{ gauge.percent }}"
+              data-text="<font style='font-size:.75em;'>{{ gauge.amount }}</font>"
+              data-size="200"
+              data-color="#333"
+              data-back="RGBa(0,0,0,.1)"
+              data-width="15"
+              data-label="{{ gauge.header }}"
+              data-style="Semi"
+              data-label_color="#777">
+              <div class="GaugeDate">{{ gauge.date }}</div>
+            </div>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

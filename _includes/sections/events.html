@@ -1,0 +1,48 @@
+{% comment %} 
+<!--
+  Connect Section
+
+  This partial is included on any page that should include social sharing info.
+  Currently used on the Contact page and is using the footer data file to get
+  social sharing information.
+  
+--> 
+{% endcomment %}
+
+{% assign events = site.sections |where:"type","event" |sort: "date" %}
+
+<section>
+  <div class="section">
+    <div class="container clearfix">
+      <div class="row display-flex">
+
+        {% for event in events %}
+        
+          <div class="col-md-12 bottommargin">
+            <div class="clearfix">
+              <div class="event-image">
+                <img src="{{ site.baseurl }}{{ event.image }}" alt="Event">
+                <div class="event-date">{{ event.date | date: "%d" }}<span>{{ event.date | date: "%B" }}</span></div>
+              </div>
+              <div class="subnav-header">
+                <h1>{{ event.name }}</h1>
+                <p class="event-meta">
+                  <i class="far fa-clock"></i>{{ event.time }}
+                  <span class="meta-separator">/</span>
+                  <i class="fas fa-map-marker-alt"></i>{{ event.location }}</p>
+                <div class="event-content">
+                  {{ event.content }}
+
+                  <p><a href="{{ event.ticket-url }}" target="_blank" class="button button-purple">{{ event.ticket-btn }}</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

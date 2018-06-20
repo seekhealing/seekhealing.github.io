@@ -13,18 +13,68 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: SeekHealing, Rethink Rehab
+title: "SeekHealing, Rethink Rehab"
+excerpt_separator: <!--more-->
+maps-key: "AIzaSyAWAqhAjwPii-qZQy4Qd8MjcgTl8CenG8g"
 email: info@seekhealing.org
 description: > # this means to ignore newlines until "baseurl:"
   It's time to rethink rehab. SeekHealing is fighting the heroin &amp; opioid
   epidemic with the only medicine that works for everyone: authentic connection.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://seekhealing.org" # the base hostname & protocol for your site, e.g. http://example.com
 ga_property_id: UA-96579534-1
 
-
 # Build settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://seekhealing.org" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: "/blog/:title/"
+sass:
+  sass_dir: _sass
+  style: compressed
+include:
+- _pages
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - CNAME
+- .gitignore
+- README.md
+- Gemfile
+- Gemfile.lock
+- CNAME
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  auto_ids:       true
+  auto_id_stripping:    true
+
+# HTML Compression settings
+compress_html:
+  clippings: [ ]
+  blanklines: false
+  profile: false
+
+# Jekyll Collections
+# TBD AWN Review ***************************
+collections:
+  pages:
+    title: pages
+    output: true
+    permalink: /:path/
+  sections:
+    title: sections
+    output: false
+    permalink: /sections/:path/
+
+defaults:
+  - scope:
+      path: "/pages/"
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: "/sections/"
+      type: sections
+    values:
+      layout: page
+
+# gems
+plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-last-modified-at']
+paginate: 1
+paginate_path: "/blog/page/:num"

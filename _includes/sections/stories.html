@@ -1,0 +1,31 @@
+{% comment %} 
+<!--
+  Testimonial Stories Section
+
+  This partial is used for the testimonial/stories section that is currently
+  on the bottom of the home page.
+  
+--> 
+{% endcomment %}
+
+{% assign stories = site.sections|where:"type","story"| sort | reverse %}
+
+<section>
+  <div class="section">
+    <div class="container clearfix">
+      <div class="row">
+
+      {% for story in stories %}
+
+        <div class="col-xs-12">
+          <div class="testimonial-card">
+            {{ story.content | markdownify }}
+          </div>
+        </div>
+      
+      {% endfor %}
+      
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,38 @@
+{% comment %} 
+<!--
+  Hero Section
+
+  This partial is included on any page that has a "hero" layout with a full bg
+  picture and text/video in a 2 column layout.  Currently on the Home page.
+  
+--> 
+{% endcomment %}
+
+{% assign heros = site.sections|where:"type","hero"|where:"title",include.title %}
+
+{% for hero in heros %}
+
+<section id="slider" class="slider-parallax full-screen dark">
+
+  <div class="slider-parallax-inner">
+
+    <div class="hero-area" style="background: url({{ hero.background }}) center center / cover no-repeat;">
+      <div class="container clearfix">
+        <div class="row slider-caption">
+          <div class="col-md-6 col-xs-12">
+            {{ hero.content | markdownify }}
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9 hero-vid">
+               <iframe class="embed-responsive-item" src="{{ hero.video }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+{% endfor %}

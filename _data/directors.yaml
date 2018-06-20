@@ -1,0 +1,12 @@
+gauge-section:
+  header: '<span class="emphasized-header">Board</span> of <span class="emphasized-header">Directors</span>'
+  subheader: "100% volunteer"
+  gauges:
+    - date: "As of October 2017"
+      header: "Board Hours"
+      amount: "410"
+      percent: "75"
+    - date: "As of October 2017"
+      header: "Board Donation"
+      amount: "$6000"
+      percent: "100"

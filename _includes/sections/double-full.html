@@ -1,0 +1,63 @@
+{% comment %} 
+<!--
+  Double Picture Section
+
+  This partial is used for 2 column full layouts with a picture on one side.
+  Currently used on the Why We Care page.
+  
+--> 
+{% endcomment %}
+
+{% assign doubles = site.sections |where:"type","double-full" |where:"title",include.title %}
+
+{% for double in doubles %}
+
+<section class="section double-full{% if double.font == "large"%} font-lg-light{% endif %}">
+  <div class="row clearfix display-flex">
+
+    {% if double.img-pos == "left" %}
+    <div class="col-sm-6 hidden-xs text-center col-padding no-margin" style="background: url('{{ site.baseurl }}{{ double.img }}') center center no-repeat; background-size: cover;">
+
+      {% if double.img-quote %}
+      <div class="image-quote">
+        <div class="quotes start">&nbsp;</div>
+        <div class="quote">                
+          {{ double.img-quote }}
+        </div>
+        <div class="quotes end">&nbsp;</div>
+        <div class="quote-author">
+          <em>- {{ double.img-quote-author}}</em>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+    {% endif %}
+
+    <div class="col-sm-6 text-center col-padding no-margin{% if double.white-bg %} white{% endif %}">
+      {{ double.content | markdownify }}
+    </div>
+
+    {% if double.img-pos == "right" %}
+    <div class="col-sm-6 hidden-xs text-center col-padding no-margin" style="background: url('{{ site.baseurl }}{{ double.img }}') center center no-repeat; background-size: cover;">
+
+      {% if double.img-quote %}
+      <div class="image-quote">
+        <div class="quotes start">&nbsp;</div>
+        <div class="quote">                
+          {{ double.img-quote }}
+        </div>
+        <div class="quotes end">&nbsp;</div>
+        <div class="quote-author">
+          <em>- {{ double.img-quote-author}}</em>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+    {% endif %}
+
+  </div>
+</section>
+
+{% endfor %}

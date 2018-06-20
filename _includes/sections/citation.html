@@ -1,0 +1,23 @@
+{% comment %} 
+<!--
+  Citations Section
+
+  This partial is used for a citations section meant for a bottom of a page.
+  Currently used on the Our Programs page.
+  
+--> 
+{% endcomment %}
+
+{% assign citations = site.sections |where:"type","citation" |where:"title",include.title %}
+
+{% for cite in citations %}
+
+<section class="citations">
+  <div class="section">
+    <div class="container clearfix">
+      {{ cite.content | markdownify }}
+    </div>
+  </div>
+</section>
+
+{% endfor %}
