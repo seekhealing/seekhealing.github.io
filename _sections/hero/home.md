@@ -7,7 +7,7 @@ background: "/assets/images/home-bkgrnd.jpg"
 
 # It's time to <span class="emphasized-header">#RethinkRehab</span>
 
-## Detox aftercare services that liberate human beings from opioid addiction relapse.
+## Free aftercare and integration services that liberate people from addiction through human connection.
 
 Be a part of the solution to the opioid epidemic in the Mid-Atlantic US &rarr;
 
