@@ -13,16 +13,12 @@ Long-term healing is rare because <span class="emphasized-header">most options</
 
 {:nomarkdown}
 <div class="row bottommargin">
-	<div class="col-md-4 center">
+	<div class="col-md-6 center image-center">
 		<img src="/assets/images/rehab-icon.png" width="135px" height="auto" alt="Rehab graphic">
 		<p class="image-caption">Rehab</p>
 	</div>
-	<div class="col-md-4 center image-center">
+	<div class="col-md-6 center image-center">
 		<img src="/assets/images/rehab-prison-icon.png" width="135px" height="auto" alt="Prison graphic">
 		<p class="image-caption">Prison and/or solitary confinement</p>
-	</div>
-	<div class="col-md-4 center">
-		<img src="/assets/images/rehab-chemical-bond.png" width="135px" height="auto" alt="Chemical graphic">
-		<p class="image-caption">Methadone clinics</p>
 	</div>
 </div>
