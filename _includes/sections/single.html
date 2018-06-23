@@ -12,7 +12,7 @@
 {% for single in singles %}
 
 <section{% if single.section-bottom-border %} class="bottom-border"{% endif %}>
-  <div class="section{% if single.white-bg %} white{% endif %}{% if single.font == "large"%} font-lg-light{% endif %}">
+  <div class="section{% if single.white-bg %} white{% endif %}{% if single.font == "large"%} font-lg-light{% endif %}{% if single.padding %} {{ single.padding }}{% endif %}">
     <div class="container clearfix">
       <div class="row">
         <div class="{% if single.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2{% elsif single.col-width == "wide" %}col-md-12{% elsif single.col-width == "sticky" %}col-sm-6 col-sm-offset-3{% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center {% if single.header %}{{ single.header }}{% else %}normal-header{% endif %}">

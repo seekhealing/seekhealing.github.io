@@ -15,6 +15,18 @@
     background-color: #FFF;
   }
 
+  &.no-top-padding {
+    padding-top: 0;
+  }
+
+  &.no-bot-padding {
+    padding-bottom: 0;
+  }
+
+  &.no-padding {
+    padding: 0;
+  }
+
   .normal-header h1 {
     font-size: 22px;
     color: #777;
@@ -97,10 +109,6 @@ section.dark-grey {
 
 section.thin {
   padding: 35px;
-}
-
-.section.no-top-padding {
-  padding-top: 0;
 }
 
 .col-padding {

@@ -6,6 +6,11 @@ ul {
   text-align: left;
   width: 65%;
   line-height: 25px;
+
+  &.full {
+    width: 100%;
+    padding: 0 0px 0 40px;
+  }
 }
 
 ul.remembered {
@@ -55,4 +60,11 @@ ul.resources {
   .resources-item {
     display: table-cell;
   }
+}
+
+ul.centered {
+  text-align: center;
+  list-style-position: inside;
+  font-size: 12px;
+  line-height: 25px;
 }
