@@ -12,7 +12,7 @@
 	font-style: normal;
 }
 
-span.bold {
+span.bold, .bold {
   font-weight: bold;
 }
 
@@ -24,9 +24,18 @@ span.green {
   color: #098A68;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .bold-purple {
   color: #7f3472;
   font-weight: 800;
+}
+
+.italic-purple {
+  color: #7f3472;
+  font-style: italic;
 }
 
 .white-txt {
@@ -48,6 +57,14 @@ span.green {
   padding: 10px 15px;
 }
 
+.size-14 {
+  font-size: 14px;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .size-16 {
   font-size: 16px;
 }
@@ -63,4 +80,8 @@ span.green {
     letter-spacing: 1.5px;
     font-size: 18px;
   }
+}
+
+.no-bot-margin {
+  margin-bottom: 0;
 }

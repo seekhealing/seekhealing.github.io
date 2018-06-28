@@ -46,3 +46,33 @@
     margin-bottom: 0;
   }
 }
+
+.msg-box.black-basic {
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+  font-size: 14px;
+
+  .msg-box-body {
+    background-color: #222;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 18px;
+
+    &:after {
+      border:0;
+    }
+  }
+
+  p {
+    text-align: left;
+  }
+
+  ul {
+    padding: 0 30px;
+  }
+}

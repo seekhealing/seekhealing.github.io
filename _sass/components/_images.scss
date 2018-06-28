@@ -15,6 +15,18 @@
   margin-bottom: 7px;
 }
 
+.owl {
+  width: 35%;
+
+  @media screen and (min-width: $screen-sm-min) {
+    width: 50%;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    width: 35%;
+  }
+}
+
 .program-sc {
   width: 75%;
 }

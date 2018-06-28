@@ -13,12 +13,12 @@
 {% for box in boxes %}
 
 <section>
-  <div class="section">
+  <div class="section{% if box.padding %} {{ box.padding }}{% endif %}">
     <div class="container clearfix">
       <div class="row">
         <div class="col-sm-6 col-sm-offset-3 col-xs-12">
 
-          <div class="msg-box">
+          <div class="msg-box{% if box.style %} {{ box.style }}{% endif %}">
             <h1>{{ box.header }}</h1>
 
             <div class="msg-box-body">
