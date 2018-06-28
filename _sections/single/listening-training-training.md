@@ -23,7 +23,4 @@ col-width: thin
 
 [LEARN MORE AT AN INFO SESSION](https://www.eventbrite.com/e/seekhealing-info-session-tickets-44272326721){:class="button button-purple" target="_new"}
 
-Form takes about 20min. Due to restrictions in Google Forms, you can't save and come back, so make sure you're ready to start when you hit the button!
-{:class="italic size-14"}
-
 ![Owl Friends](/assets/images/owlFriends.png){:max-width="560px" class="img-responsive"}
