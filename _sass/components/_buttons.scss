@@ -106,6 +106,15 @@ body:not(.device-touch) .button {
   }
 }
 
+.button-group {
+  text-align: center;
+
+  p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+}
 // body:not(.device-touch) #gotoTop {
 //     transition: background-color .2s linear;
 //     -webkit-transition: background-color .2s linear;

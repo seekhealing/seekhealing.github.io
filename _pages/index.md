@@ -10,7 +10,7 @@ sections:
     title: "rumi-quote"
   - type: "single"
     title: "about-seekhealing"
-  - type: "single"
+  - type: "triple"
     title: "asheville-pilot-program"
   - type: "subscribe"
   - type: "stories"

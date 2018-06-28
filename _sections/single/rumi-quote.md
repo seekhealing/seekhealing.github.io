@@ -9,3 +9,5 @@ section-bottom-border: true
 > but I stopped asking the books and the stars.   
 > I started listening to the teaching of my soul.
 > <cite>Rumi</cite>
+
+![Owl Friends](/assets/images/owlFriends.png){:height="150px"}
