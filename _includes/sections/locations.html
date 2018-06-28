@@ -19,12 +19,12 @@
 
         {% for contact in location_content.location-contacts %}
 
-        <div class="col-md-3 col-sm-6 bottommargin clearfix">
+        <div class="col-md-4 col-sm-6 bottommargin clearfix">
           <div class="location-box">
             <div class="icon">
               <a href="#"><i class="fas fa-map-marker-alt"></i></a>
             </div>
-            <h2>{{ contact.city }}, {{ contact.state }}</h2>
+            <h2>{{ contact.city }}{% if contact.state %}, {{ contact.state }}{% endif %}</h2>
             <p><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
           </div>
         </div>

@@ -8,8 +8,9 @@ location-contacts:
     email: kyla@seekhealing.org
   - city: Asheville
     state: NC
-    email: jennifer@seekhealing.org
-  - city: Columbia
-    state: SC
+    email: megan@seekhealing.org
+  - city: Northern Virginia
     email: nicole@seekhealing.org
+  - city: US Virgin Islands
+    email: rachel@seekhealing.org
 connect-header: '<span class="emphasized-header">Connect</span> With <span class="emphasized-header">Us</span>'
