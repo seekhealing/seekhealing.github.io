@@ -6,10 +6,12 @@ nav:
   - submenu:
       - title: Program Methodology
         url: /our-programs/
-      - title: Asheville Pilot Program
-        url: /asheville-pilot-program/
       - title: Listening Training
         url: /listening-training/
+      - title: Asheville Pilot Program
+        url: /asheville-pilot-program/
+      - title: Asheville Connection Agent Partners
+        url: /asheville-connection-agent-partners/
     title: Heal
     url: /our-programs/
   - submenu:

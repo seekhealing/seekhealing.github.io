@@ -68,3 +68,23 @@ ul.centered {
   font-size: 12px;
   line-height: 25px;
 }
+ul.partners {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+
+  li {
+    padding: 0;
+    margin: 15px 1%;
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    width: 20%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
