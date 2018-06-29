@@ -29,8 +29,6 @@ permalink: "/blog/:title/"
 sass:
   sass_dir: _sass
   style: compressed
-include:
-- _pages
 exclude:
 - .gitignore
 - README.md

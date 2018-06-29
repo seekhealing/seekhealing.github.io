@@ -47,7 +47,7 @@ apply-links:
     url: "https://bit.ly/listenAVL"
   - title: '<span class="bold">Become a <span class="green">Connection Agent</span> for your business or non-profit.</span>'
     btn-txt: "bit.ly/connectAVL"
-    url: "bit.ly/connectAVL"
+    url: "https://bit.ly/connectAVL"
 subtext: "SeekHealing is a 501(c)3 non-profit. All program participation is free of charge. Donations for listener training and connection agent contracts are suggested, but not required."
 partner-text: "Click here to check out our local Connection Agent partners in Asheville"
 partner-link: "/asheville-connection-agent-partners/"
