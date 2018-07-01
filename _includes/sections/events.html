@@ -9,12 +9,28 @@
 --> 
 {% endcomment %}
 
-{% assign events = site.sections |where:"type","event" |sort: "date" %}
+{% if include.title == "upcoming" %}
+  {% assign events = site.sections |where:"type","event" | where:"timing",include.title |sort: "date" %}
+{% else %}
+  {% assign events = site.sections |where:"type","event" | where:"timing",include.title |sort: "date" | reverse %}
+{% endif %}
+
+{% assign events_content = site.data.global %}
 
 <section>
-  <div class="section">
-    <div class="container clearfix">
+  <div class="section{% if include.title == "upcoming" %} white{% endif %}">
+    <div class="container clearfix events">
       <div class="row display-flex">
+
+        <div class="normal-header">
+          <h1>
+            {% if include.title == "upcoming" %} 
+              {{ events_content.events-upcoming-text }}
+            {% else %}
+              {{ events_content.events-past-text }}
+            {% endif %}
+          </h1>
+        </div>
 
         {% for event in events %}
         
@@ -31,9 +47,12 @@
                   <span class="meta-separator">/</span>
                   <i class="fas fa-map-marker-alt"></i>{{ event.location }}</p>
                 <div class="event-content">
-                  {{ event.content }}
+                  {{ event.content | markdownify }}
 
-                  <p><a href="{{ event.ticket-url }}" target="_blank" class="button button-purple">{{ event.ticket-btn }}</a></p>
+                  {% if event.ticket-btn %}
+                    <p><a href="{{ event.ticket-url }}" target="_blank" class="button button-purple">{{ event.ticket-btn }}</a></p>
+                  {% endif %}
+
                 </div>
               </div>
             </div>
@@ -41,7 +60,6 @@
 
         {% endfor %}
 
-        </div>
       </div>
     </div>
   </div>

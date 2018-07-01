@@ -302,7 +302,12 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "double-events"}
+      - {label: "Type", name: "type", widget: "hidden", default: "events"}
+      - label: "Is the event past or upcoming?" 
+        name: "timing"
+        widget: "select"
+        options: ["past", "upcoming"]
+        default: "upoming"
       - {label: "Name of Event", name: "name", widget: "string"}
       - {label: "Event Date", name: "date", widget: "date", default: ""}
       - {label: "Event Time", name: "time", widget: "string"}
