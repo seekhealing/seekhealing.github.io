@@ -27,11 +27,11 @@ layout: default
 
 		<div class="row text-center">
 			<div class="col-xs-6 text-center">
-				<p>{{ ash.seeker-side-1 }}</p>
+				<p>{{ ash.seeker-side-1 | markdownify }}</p>
 			</div>
 
 			<div class="col-xs-6 text-center">
-				<p>{{ ash.seeker-side-2 }}</p>
+				<p>{{ ash.seeker-side-2 | markdownify }}</p>
 			</div>
 		</div>
 
@@ -90,8 +90,11 @@ layout: default
 		<div class="row text-center rowmargin">
 			<div class="col-xs-12 text-center">
 				<img src="{{ ash.data }}" alt="{{ ash.data-alt }}">
-				<h2>{{ ash.data-header }}</h2>
-				<p>{{ ash.data-desc }}</p>
+				<h2>{{ ash.group-header | markdownify }}</h2>
+				<p>{{ ash.group-desc | markdownify }}</p>
+
+				<h2>{{ ash.data-header | markdownify }}</h2>
+				<p>{{ ash.data-desc | markdownify }}</p>
 			</div>
 		</div>
 
