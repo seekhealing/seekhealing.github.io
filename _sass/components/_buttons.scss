@@ -21,7 +21,7 @@
   text-decoration: none;
   border-radius: 3px;
 
-  &:hover {
+  &:hover, &:focus {
     background-color: #5D4157;
     opacity: 0.9;
     color: #FFF;

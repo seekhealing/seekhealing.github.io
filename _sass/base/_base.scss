@@ -88,3 +88,8 @@ blockquote {
 form {
   margin: 0;
 }
+
+// Bootstrap iOS fix
+.row.display-flex:after, .row.display-flex:before {
+  display: none;
+}
