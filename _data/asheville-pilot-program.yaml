@@ -1,16 +1,12 @@
 header: '<span class="emphasized-header">Asheville Pilot Program</span>'
-subheader: 'Where: Asheville, NC
-	<span class="bull-elements">&bull;</span>
-	When: March-Oct 2018
-	<span class="bull-elements">&bull;</span>
-	Phone: 828-547-0222'
+subheader: 
 seeker-img: "/assets/images/asheville-purplesticks.png"
 seeker-img-alt: "purple stick figures"
 seeker-header: "Seekers"
 seeker-desc: "Human beings who’ve made a commitment to become the happiest, healthiest humans they can be."
 seeker-img-2: "/assets/images/asheville-seeker-arrows.png"
 seeker-img-2-alt: "Two Groups of Seekers"
-seeker-side-1: "Seekers who aren’t in crisis, who volunteer to help, and who have been trained in the art of listening."
+seeker-side-1: "Seekers who aren’t in crisis, who volunteer to help, and who have been [trained in the art of listening](/listening-training/)."
 seeker-side-2: "Seekers who are actively healing from an addiction crisis."
 conn-agent-acts: "/assets/images/asheville-connection-agent-acts.png"
 conn-agent-acts-alt: "Connection Agent Activities"
@@ -33,6 +29,8 @@ yoga: "/assets/images/asheville-yoga.png"
 yoga-alt: "Yoga Activity Stick Figures"
 match-desc-3: "You talk to your Person about what interests you, or browse our library to find a thing you want to try. The Connection Agent for that thing introduces you to it through intro classes or meetings, for free or cheap."
 data: "/assets/images/asheville-data.png"
+group-header: "Weekly Group Meeting"
+group-desc: "Optional weekly meeting with local partner, [Original Recovery](http://originalrecovery.org){:target='_new'} : a different kind of meeting where you write your own rules for your recovery."
 data-alt: "SeekHealing Weekly Data Collection"
 data-header: "Weekly Data Collection"
 data-desc: '<span class="bold">Every week:</span> all seekers meet in their Person pairs, fill out a data collection form and submit an (optional) selfie video to document your experience.'
@@ -40,13 +38,13 @@ heal-header: "And together, we heal."
 apply-header: "APPLY TO JOIN TODAY"
 apply-links:
   - title: '<span class="bold">Register as a <span class="purple">seeker</span> actively recovering from an addiction crisis.</span>'
-    btn-txt: "bit.ly/seekAVL"
+    btn-txt: "START A CONVERSATION"
     url: "https://bit.ly/seekAVL"
   - title: '<span class="bold">Volunteer and get trained to <span class="blue">listen.</span></span> (Three 8-hour training days spanning 2 weekends)'
-    btn-txt: "bit.ly/listenAVL"
+    btn-txt: "BECOME A LISTENER"
     url: "https://bit.ly/listenAVL"
   - title: '<span class="bold">Become a <span class="green">Connection Agent</span> for your business or non-profit.</span>'
-    btn-txt: "bit.ly/connectAVL"
+    btn-txt: "OFFER YOUR SERVICES"
     url: "https://bit.ly/connectAVL"
 subtext: "SeekHealing is a 501(c)3 non-profit. All program participation is free of charge. Donations for listener training and connection agent contracts are suggested, but not required."
 partner-text: "Click here to check out our local Connection Agent partners in Asheville"
