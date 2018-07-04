@@ -24,7 +24,17 @@
           <ul class="partners">
             {% for partner in partners %}
             <li class="partner-item">
-              <image src="{{ partner.image | prepend: "/assets/images/" | prepend: site.baseurl }}" class="" title="{{ partner.title }}">
+
+              {% if partner.link %}
+              <a href="{{ partner.link }}" target="_blank">
+              {% endif %}
+
+                <image src="{{ partner.image | prepend: "/assets/images/" | prepend: site.baseurl }}" class="" title="{{ partner.title }}">
+
+              {% if partner.link %}
+              </a>
+              {% endif %}
+
             </li>
             {% endfor %}
           </ul>

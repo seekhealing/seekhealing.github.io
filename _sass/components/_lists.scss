@@ -87,4 +87,11 @@ ul.partners {
   img {
     width: 100%;
   }
+
+  a>img:hover {
+    opacity: 0.8;
+    -moz-box-shadow: 0 0 40px #000;
+    -webkit-box-shadow: 0 0 40px #000;
+    box-shadow: 0 0px 40px #000;
+  }
 }
