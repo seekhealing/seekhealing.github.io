@@ -2,11 +2,11 @@
 type: team
 category: Directors
 name: Kyla Trainor
-title: Director of Development
+title: Vice President
 image: /assets/images/team-headshot-kyla.png
 order: 2
 ---
 
 Background: Business development, sales & marketing
 
-Responsibilities: SeekConnection program oversight
+<kyla@seekhealing.org>
