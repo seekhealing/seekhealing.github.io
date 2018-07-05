@@ -6,8 +6,6 @@ name: 'SeekHealing <span class="emphasized-header">Launch Party</span>'
 date: '2017-05-06'
 time: 4:00pm - 7:00pm
 location: Washington, DC
-ticket-btn: "Buy Tickets"
-ticket-url: "https://www.eventbrite.com/e/seekhealing-launch-party-tickets-32637108470"
 image: /assets/images/events-placeholder.jpg
 ---
 

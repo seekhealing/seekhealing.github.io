@@ -9,6 +9,3 @@ location: Asheville, NC
 image: /assets/images/events-2018-03-happy-hour.jpg
 ---
 
-&nbsp;
-
-&nbsp;
