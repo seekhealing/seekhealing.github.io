@@ -3,5 +3,7 @@ layout: page
 title: Upcoming Events
 sections:
   - type: "events"
-    title: "Events"
+    title: "upcoming"
+  - type: "events"
+    title: "past"
 ---
