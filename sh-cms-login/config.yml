@@ -364,6 +364,19 @@ collections:
       - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
       - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "section-press"
+    label: "Section_Press"
+    folder: "_sections/press"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "message-box"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "Link Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-resources"
     label: "Section_Resources"
     folder: "_sections/resources"
