@@ -22,7 +22,7 @@
       </div>
       <div class="row display-flex ">
 
-        {% assign cols = site.sections |where:"type","double-col" |where:"col-names",double.col-names |order: "order" %}
+        {% assign cols = site.sections |where:"type","double-col" |where:"col-names",double.col-names |sort: "order" %}
 
         {% for col in cols %}
 
