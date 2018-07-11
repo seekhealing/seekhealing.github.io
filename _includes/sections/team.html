@@ -3,36 +3,46 @@
   Team Section
 
   This partial is used for team types of layouts.  Currently used on the
-  Board of Directors page.
+  Team page.
   
 --> 
 {% endcomment %}
 
-{% assign portfolio = site.sections |where:"type","team" |where:"category",include.title |sort: "order" %}
+{% assign members = site.sections |where:"type","team" |where:"category",include.title |sort: "order" %}
+
+{% assign gauges = site.data.directors.gauge-section %}
 
 <section>
-  <div class="section no-top-padding">
+  <div class="section">
     <div class="container clearfix">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-xs-12 text-center normal-header">
+          <h1 class="no-bot-border">{{ include.title }}</h1>
+        </div>
+      </div>      
+
       <div class="row display-flex">
 
-        {% for profile in portfolio %}
+        {% for member in members %}
         
-          <div class="col-md-6 bottommargin">
+          <div class="col-xs-6 col-sm-4 col-md-3 bottommargin">
             <div class="team clearfix">
               <div class="team-image">
-                <img src="{{ site.baseurl }}{{ profile.image }}" alt="{{ profile.name }}, {{ profile.title }}">
+                <img src="{{ site.baseurl }}{{ member.image }}" alt="{{ member.name }}, {{ member.title }}">
               </div>
               <div class="team-desc">
-                <h2>{{ profile.name }}</h2>
-                <p class="title">{{ profile.title }}</p>
+                <h2>{{ member.name }}</h2>
+                <p class="title">{{ member.title }}</p>
                 <div class="team-content">
-                  {{ profile.content | markdownify }}
+                  {{ member.content | markdownify }}
                 </div>
               </div>
             </div>
           </div>
 
         {% endfor %}
+
+
 
         </div>
       </div>

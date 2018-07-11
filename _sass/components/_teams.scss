@@ -1,6 +1,6 @@
 // Contains Team Section Styles
 
-.team-image {
+.director-image {
   float: none;
   width: 100%;
 
@@ -20,7 +20,7 @@
   }
 }
 
-.team-desc {
+.director-desc {
   position: relative;
   overflow: hidden;
   text-align: left;
@@ -44,7 +44,7 @@
   }
 }
 
-.team-content {
+.director-content {
   margin-top: 15px;
   color: #777;
   font-size: 16px;
@@ -61,5 +61,63 @@
 
   &.no-margin {
     margin: 0;
+  }
+}
+
+.team-image {
+  width: 100%;
+
+  @media screen and (min-width: $screen-sm-min) {  
+    width: 200px;
+    margin-right: 30px;
+  }
+
+  @media screen and (min-width: $screen-lg-min) {
+    width: 250px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+.team-desc {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+  h2 {
+    display: block;
+    margin: 5px 0;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+  .title {
+    display: block;
+    color: #7f3472;
+    font-weight: 400;
+    font-family: 'Crete Round', serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 5px
+  }
+}
+
+.team-content {
+  color: #777;
+  font-size: 16px;
+
+  a {
+    font-size: 13px;
+
+    @media screen and (min-width: $screen-sm-min) {  
+      font-size: 16px;
+    }
+
   }
 }

@@ -1,10 +1,12 @@
 ---
 type: team
-category: Team
+category: Directors
 name: Joshua Ginsberg
-title: Director of Technology
+title: Treasurer
 image: /assets/images/team-headshot-jag.jpg
-order: 3
+order: 4
 ---
+
+Background: Chief Architect at Ansible by Red Hat, Inc
 
 <joshua@seekhealing.org>
