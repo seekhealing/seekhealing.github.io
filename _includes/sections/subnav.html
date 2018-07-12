@@ -10,6 +10,16 @@
 
 {% assign subnavs = site.sections|where:"type","subnav"|where:"nav",include.title | sort: "order" %}
 
+{% comment %} 
+<!-- Determine column layout for page based on collection size -->
+{% endcomment %}
+{% assign subnavs_count = subnavs | size %}
+{% if subnavs_count == 4 %}
+  {% assign layout_size = "col-lg-3 col-sm-6" %}
+{% else %}
+  {% assign layout_size = "col-sm-4" %}
+{% endif %}
+
 <section>
   <div class="section" >
     <div class="container clearfix text-center normal-header">
@@ -18,7 +28,7 @@
 
       {% for nav in subnavs %}
       
-      <div class="col-sm-4 col-xs-12">
+      <div class="{{ layout_size }} col-xs-12">
         <div class="feature-box">
           <div class="icon">
             <a href="{{ site.baseurl }}{{ nav.link }}"><i style="background-image: url({{ nav.image }})"></i></a>

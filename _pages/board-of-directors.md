@@ -4,6 +4,6 @@ title: Board of Directors
 sections:
   - type: "gauges"
     title: "Directors"
-  - type: "team"
+  - type: "directors"
     title: "Directors"
 ---

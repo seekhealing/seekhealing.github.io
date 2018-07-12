@@ -32,7 +32,7 @@ collections:
           - label: "Type"
             name: "type"
             widget: "select"
-            options: ["article", "citation", "connect", "connection-agent-form", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "resource", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
+            options: ["article", "citation", "connect", "connection-agent-form", "directors", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "press", "resource", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
       - {label: "Transparent Header?", name: "transparent-header", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "otherContent" 
@@ -231,6 +231,19 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "connection-agent-form"}
       - {label: "Form", name: "form", widget: "hidden", default: "connection-agent-form"}
       - {label: "Form Header", name: "header", widget: "string"}
+  - name: "section-directors"
+    label: "Section_Directors"
+    folder: "_sections/directors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "team"}
+      - {label: "Category", name: "category", widget: "string", default: "Directors"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Job Title", name: "title", widget: "string"}
+      - {label: "Director's Picture", name: "image", widget: "image"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: "1"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-double"
     label: "Section_Double"
     folder: "_sections/double"
