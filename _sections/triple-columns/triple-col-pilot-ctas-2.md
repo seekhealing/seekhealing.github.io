@@ -1,7 +1,7 @@
 ---
 type: triple-col
 col-names: "pilot-ctas-parts"
-order: 2
+order: 3
 class: button-group
 ---
 
