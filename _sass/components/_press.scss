@@ -1,0 +1,51 @@
+// Contains Team Section Styles
+
+.press {
+  background-color: #F9F9F9;
+  position: relative;
+  padding: 60px 0;
+  border-bottom: 1px solid #e7eaec;
+
+  &.white {
+    background-color: #FFFFFF;
+  }
+
+  .press-image {
+    float: none;
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 0 0 30px 0;
+
+    @media screen and (min-width: $screen-sm-min) {  
+      float: left;
+      width: 280px;
+      margin-right: 30px;
+      padding: 0;
+    }
+
+    @media screen and (min-width: $screen-md-min) {  
+      float: left;
+      width: 400px;
+      margin-right: 30px;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .press-content {
+    h2 {
+      color: #777;
+      font-size: 28px;
+      font-weight: 300;
+      line-height: 1.135;
+
+      @media screen and (min-width: $screen-md-min) {  
+        font-size: 38px;
+      }
+    }
+  }
+}
