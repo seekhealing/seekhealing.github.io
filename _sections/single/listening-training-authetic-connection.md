@@ -19,10 +19,7 @@ Volunteer and receive focused training in
 to help someone heal from an addiction crisis and to challenge your own emotional growth.
 {:class="italic-purple"}
 
-[Apply Now](http://bit.ly/seeklistening){:class="button button-purple" target="_new"}
-
-Form takes about 20min. Due to restrictions in Google Forms, you can't save and come back, so make sure you're ready to start when you hit the button!
-{:class="italic size-14"}
+[Sign Up Now](http://bit.ly/listenAVL){:class="button button-purple" target="_new"}
 
 <hr>
 
