@@ -3,7 +3,7 @@ type: team
 category: Team
 name: Megan Piscitelle
 title: Community Manager
-image: /assets/images/avatar.png
+image: /assets/images/team-headshot-megan-piscitelle.jpg
 order: 6
 ---
 

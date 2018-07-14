@@ -3,7 +3,7 @@ type: team
 category: Team
 name: Alan Muskat
 title: Director of Strategic Development
-image: /assets/images/avatar.png
+image: /assets/images/team-headshot-alan-muskat.jpg
 order: 4
 ---
 
