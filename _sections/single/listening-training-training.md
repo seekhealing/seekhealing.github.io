@@ -21,6 +21,6 @@ col-width: thin
 - safety training in how to manage and respond to suicidal ideation
 - role-play training & practice
 
-[LEARN MORE AT AN INFO SESSION](https://www.eventbrite.com/e/seekhealing-info-session-tickets-44272326721){:class="button button-purple" target="_new"}
+[Sign Up Now](http://bit.ly/listenAVL){:class="button button-purple" target="_new"}
 
 ![Owl Friends](/assets/images/owlFriends.png){:max-width="560px" class="img-responsive"}
