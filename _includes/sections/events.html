@@ -20,21 +20,23 @@
 <section>
   <div class="section{% if include.title == "upcoming" %} white{% endif %}">
     <div class="container clearfix events">
-      <div class="row display-flex">
+      <div class="row display-flex {% if include.title == "upcoming" %}upcoming-events{% else %}past-events{% endif %}">
 
         <div class="normal-header">
           <h1>
-            {% if include.title == "upcoming" %} 
+            {% if include.title == "upcoming" %}
               {{ events_content.events-upcoming-text }}
+              {% assign event_class = "col-md-12 bottommargin expiration-date" %}
             {% else %}
               {{ events_content.events-past-text }}
+              {% assign event_class = "col-md-12 bottommargin" %}
             {% endif %}
           </h1>
         </div>
 
         {% for event in events %}
         
-          <div class="col-md-12 bottommargin">
+          <div class="{{ event_class }}"{% if include.title == "upcoming" %} data-limit="{{ event.date }}"{% endif %}>
             <div class="clearfix">
               <div class="event-image">
                 <img src="{{ site.baseurl }}{{ event.image }}" alt="Event">
@@ -50,7 +52,7 @@
                   {{ event.content | markdownify }}
 
                   {% if event.ticket-btn %}
-                    <p><a href="{{ event.ticket-url }}" target="_blank" class="button button-purple">{{ event.ticket-btn }}</a></p>
+                    <p><a href="{{ event.ticket-url }}" target="_blank" class="button button-purple rsvp">{{ event.ticket-btn }}</a></p>
                   {% endif %}
 
                 </div>
