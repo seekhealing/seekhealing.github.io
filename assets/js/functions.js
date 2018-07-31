@@ -2110,3 +2110,16 @@ var SEMICOLON = SEMICOLON || {};
 	$window.on( 'resize', SEMICOLON.documentOnResize.init );
 
 })(jQuery);
+
+// On Events page - moves expired events to the "past events" section
+$(function() {
+  var currentDate = Date.now();
+  $(".expiration-date").each(function() {
+    var specifiedDateLimit = $(this).data('limit');
+    var date = Date.parse(specifiedDateLimit);
+    if(!isNaN(date) && currentDate - date > 0) {
+      $(".past-events>.normal-header").after(this);
+      $( this ).find(".rsvp").hide();
+    }
+  });
+});
