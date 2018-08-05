@@ -1,12 +1,12 @@
 ---
 type: team
-category: Directors
+category: Officers of the Board
 name: Joshua Ginsberg
 title: Treasurer
 image: /assets/images/team-headshot-jag.jpg
-order: 4
+order: 3
 ---
 
-Background: Chief Architect at Ansible by Red Hat, Inc
+Background: Technologist and Entrepreneur
 
 <joshua@seekhealing.org>

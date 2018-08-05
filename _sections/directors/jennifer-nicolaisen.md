@@ -1,6 +1,6 @@
 ---
 type: team
-category: Directors
+category: Officers of the Board
 name: Jennifer Nicolaisen
 title: President
 image: /assets/images/team-headshot-jennifer.jpg

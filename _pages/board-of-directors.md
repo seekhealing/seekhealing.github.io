@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Board of Directors
+title: Leadership Team
 sections:
   - type: "gauges"
     title: "Directors"
   - type: "directors"
-    title: "Directors"
+    title: "Officers of the Board"
+  - type: "directors"
+    title: "Advisory Board"
 ---
