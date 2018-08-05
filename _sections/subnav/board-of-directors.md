@@ -7,6 +7,6 @@ link: "/board-of-directors/"
 order: 1
 ---
 
-## Board of Directors
+## Leadership Team
 
-Meet our dedicated leadership team
+Meet the dedicated professionals of our Board

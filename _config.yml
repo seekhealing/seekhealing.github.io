@@ -35,6 +35,8 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - CNAME
+- vendor/
+- .bundle/
 
 # Markdown settings
 markdown: kramdown
