@@ -1,12 +1,12 @@
 ---
 type: article
 title: science-connection
-header: 'Neuroscience of <span class="emphasized-header">Connection and connectedness:</span>'
-header-img: "/assets/images/owl-science-250.png"
 author: "Rachel Wurzman, PhD"
 author-img: "/assets/images/team-headshot-rachel.jpg"
 author-title: SeekHealing Director of Science
 author-subheader: "Postdoctoral Fellow at the University of Pennsylvania"
+white-bg: true
+padding: no-bot-padding
 ---
 
 Dr. Rachel Wurzman is a Fellow with the Center for Neuroscience and Society, and a Postdoctoral Research Fellow in Neurology with the Laboratory for Cognition and Neural Stimulation at the University of Pennsylvania, Philadelphia, PA, USA. Previously, Rachel served as an Intern in the Science Division of the Office of Science and Technology Policy in the Executive Office of the President of the United States, an Independent Contractor for the World Technology Evaluation Center (dba WTEC, Inc.) in support of the National Nanotechnology Coordinating Center, a Neuroscience Scholar Program Fellow with the Society for Neuroscience, and a Researcher in Residence in the Neuroethics Studies Program of the Pellegrino Center for Clinical Bioethics at Georgetown University.
@@ -15,19 +15,6 @@ Rachel is the author of over 20 peer reviewed journal articles and book chapters
 
 Rachel received her PhD in Neuroscience from Georgetown University’s Interdisciplinary Program in Neuroscience, where her she was an NIH Ruth L. Kirschstein National Research Service Award Fellow. She received her M.S. in Physiology and Biophysics from Georgetown University, and her B.A. in Neuroscience from Smith College.
 {:class="bottommargin"}
-
-## Addiction is an maladaptation to an unhealthy social environment.
-{:class="two-lines bottommargin"}
-
-Even more than our primate cousins, homo sapiens have complex genetic and neurochemical factors that incentivize social connection. We have an evolutionary advantage for social behavior, social connection, and forming group bonds in order to survive and build civilizations and complex social structures. There’s a lot of complex neurochemistry happening to drive those behaviors, and
-
-**opioid compounds specifically are implicated in the neurochemistry of human social bonding.**
-
-It turns out that naturally-occurring opioid compounds are intricately involved in the reward systems our brains use to reinforce social connection. These naturally occurring opioids make social connection literally feel good: in a part of the brain called the striatum.
-
-[Blocking opioids attenuates physical warmth-induced feelings of social connection](http://psycnet.apa.org/record/2015-27044-001)
-
-# &nbsp;
 
 *By Dr. Rachel Wurzman*
 
