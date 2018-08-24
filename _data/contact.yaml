@@ -1,16 +1,11 @@
 location-header: 'Serving the <span class="emphasized-header">Mid-Atlantic Region</span> of the USA'
 location-contacts:
-  - city: Washington
-    state: DC
-    email: erin@seekhealing.org
-  - city: Nashville
-    state: TN
-    email: kyla@seekhealing.org
   - city: Asheville
     state: NC
     email: megan@seekhealing.org
-  - city: Northern Virginia
-    email: nicole@seekhealing.org
+  - city: Nashville
+    state: TN
+    email: kyla@seekhealing.org
   - city: US Virgin Islands
     email: rachel@seekhealing.org
 connect-header: '<span class="emphasized-header">Connect</span> With <span class="emphasized-header">Us</span>'
