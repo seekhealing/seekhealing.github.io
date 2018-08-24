@@ -26,15 +26,13 @@ nav:
     title: Help
     url: /volunteer/
   - submenu:
-      - title: Blog
-        url: /blog/
       - title: Upcoming Events
         url: /upcoming-events/
-      - title: Press
-        url: /press/
+      - title: Contact Us
+        url: /contact/
     title: Connect
-    url: /blog/
+    url: /contact/
   - title: Remember
     url: /they-were-here/
-  - title: About Us
+  - title: About
     url: /about/
