@@ -1,9 +1,9 @@
 ---
 type: event
-timing: upcoming
+timing: past
 title: "August 2018 Asheville Listening Training"
 name: 'August 2018 Asheville <span class="emphasized-header">Listening Training</span>'
-date: '2018-09-08'
+date: '2018-08-25'
 time: 
 location: Asheville, NC
 image: /assets/images/events-asheville-listening-training.jpg
