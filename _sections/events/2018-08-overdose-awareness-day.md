@@ -1,6 +1,6 @@
 ---
 type: event
-timing: upcoming
+timing: past
 title: "2018 Overdose Awareness Day Event"
 name: '2018 <span class="emphasized-header">Overdose Awareness</span> Day Event'
 date: '2018-08-31'

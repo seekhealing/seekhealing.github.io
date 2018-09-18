@@ -1,6 +1,6 @@
 ---
 type: event
-timing: upcoming
+timing: past
 title: "September 2018 Asheville Listening Training"
 name: 'September 2018 Asheville <span class="emphasized-header">Listening Training</span>'
 date: '2018-09-01'
