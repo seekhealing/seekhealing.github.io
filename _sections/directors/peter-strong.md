@@ -3,7 +3,7 @@ type: team
 category: Advisory Board
 name: Peter Strong, MD
 title: Psychiatrist
-image: /assets/images/team-headshot-peter.png
+image: /assets/images/team-headshot-peter.jpg
 order: 3
 ---
 
