@@ -7,5 +7,5 @@ class: button-group
 
 [join the family](http://bit.ly/listenAVL){:class="button button-purple"}
 
-Next Listening Training: August 25-26 2018
+Next Listening Training: October 13 and 21
 {:class="button-caption"}
