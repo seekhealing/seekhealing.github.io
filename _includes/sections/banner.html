@@ -1,0 +1,24 @@
+{% comment %} 
+<!--
+  banner Section
+
+  This partial is used for banner sections to insert into pages.
+  
+--> 
+{% endcomment %}
+
+{% assign banners = site.sections|where:"type","banner"|where:"title",include.title %}
+
+{% for banner in banners %}
+
+<section class="dark-grey thin">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        {{ banner.content | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endfor %}

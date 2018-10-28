@@ -84,7 +84,7 @@ ul.partners {
   }
 
   img {
-    width: 100%;
+    max-width: 100%;
   }
 
   a>img:hover {
@@ -92,5 +92,21 @@ ul.partners {
     -moz-box-shadow: 0 0 40px #000;
     -webkit-box-shadow: 0 0 40px #000;
     box-shadow: 0 0px 40px #000;
+  }
+}
+
+.list-checkmarks {
+  padding-left:1.5rem;
+
+  li {
+    list-style-type:none;
+    padding-left:1rem;
+
+    &:before {    
+      font-family: 'FontAwesome';
+      content: "\f00c";
+      margin:0 10px 0 -28px;
+      color: #7f3472;
+    }
   }
 }

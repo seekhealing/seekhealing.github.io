@@ -1,11 +1,11 @@
 ---
 type: triple-col
 col-names: "pilot-ctas-parts"
-order: 3
+order: 2
 class: button-group
 ---
 
-[join the family](http://bit.ly/listenAVL){:class="button button-purple"}
+[Live a more connected life](/listening-training/){:class="button button-purple"}
 
-Next Listening Training: October 13 and 21
+Confront self-isolating tendencies and get the opportunity to connect intentionally with others
 {:class="button-caption"}

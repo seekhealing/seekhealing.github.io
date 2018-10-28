@@ -7,8 +7,8 @@ background: "/assets/images/home-bkgrnd.jpg"
 
 # It's time to <span class="emphasized-header">#RethinkRehab</span>
 
-## Free aftercare and integration services that liberate people from addiction through human connection.
+## Healing from addiction through human connection
 
-Be a part of the solution to the opioid epidemic in the Mid-Atlantic US &rarr;
+Be a part of the solution to the overdose epidemic &rarr;
 
 [Donate today!](https://seekhealing.kindful.com){:target="_blank" class="button cta"}

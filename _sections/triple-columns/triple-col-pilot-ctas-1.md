@@ -5,7 +5,7 @@ order: 1
 class: button-group
 ---
 
-[Learn More](/asheville-pilot-program/){:class="button button-purple"}
+[Attend Listening Training](/listening-training/){:class="button button-purple"}
 
-For more information about how the program works
+Connect with people who need support
 {:class="button-caption"}
