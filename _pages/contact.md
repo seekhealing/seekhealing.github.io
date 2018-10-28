@@ -2,8 +2,8 @@
 layout: page
 title: Contact Us
 sections:
-  - type: "locations"
-    title: "Contact"
+  - type: "boxes"
+    title: "contact"
   - type: "connect"
     title: "Contact"
 ---

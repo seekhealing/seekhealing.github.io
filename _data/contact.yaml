@@ -1,11 +1,14 @@
-location-header: 'Serving the <span class="emphasized-header">Mid-Atlantic Region</span> of the USA'
-location-contacts:
+header: 'Serving the <span class="emphasized-header">Mid-Atlantic Region</span> of the USA'
+box-content:
   - city: Asheville
     state: NC
     email: megan@seekhealing.org
+    icon-class: "fas fa-map-marker-alt"
   - city: Nashville
     state: TN
     email: kyla@seekhealing.org
+    icon-class: "fas fa-map-marker-alt"
   - city: US Virgin Islands
     email: rachel@seekhealing.org
+    icon-class: "fas fa-map-marker-alt"
 connect-header: '<span class="emphasized-header">Connect</span> With <span class="emphasized-header">Us</span>'
