@@ -9,8 +9,6 @@ sections:
   - type: "double"
     title: "listening-training-benefits"
   - type: "single"
-    title: "listening-training-education"
-  - type: "single"
     title: "listening-training-training"
   - type: "message-box"
     title: "post-training"
