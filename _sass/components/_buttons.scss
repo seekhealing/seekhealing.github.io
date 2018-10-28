@@ -114,6 +114,10 @@ body:not(.device-touch) .button {
     font-size: 14px;
     color: #888;
   }
+
+  .large {
+    font-size: 24px;
+  }
 }
 // body:not(.device-touch) #gotoTop {
 //     transition: background-color .2s linear;
