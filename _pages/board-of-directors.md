@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Leadership Team
+title: SeekHealing Advisory Council
 sections:
   - type: "gauges"
     title: "Directors"
-  - type: "directors"
-    title: "Officers of the Board"
   - type: "directors"
     title: "Advisory Board"
 ---

@@ -16,7 +16,6 @@
       <div class="row">
         <div class="{% if single.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 {% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center custom-header">
           <h1 class="no-bot-border">{{ gauges.header }}</h1>
-          <p class="subnav">{{ gauges.subheader }}</p>
 
           {% for gauge in gauges.gauges %}
             <div class="GaugeMeter" 
