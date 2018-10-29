@@ -3,8 +3,9 @@ type: triple
 title: asheville-pilot-program
 col-width: "wide"
 col-names: "pilot-ctas-parts"
+padding: no-bot-padding
 ---
 
-# <span class="emphasized-header">Asheville</span> Pilot Program 2018
+# <span class="emphasized-header">Asheville</span>, NC Program
 
-Our first grassroots program is underway in Asheville, NC.
+What do you want to do?

@@ -3,10 +3,13 @@ type: single
 title: about-seekhealing
 ---
 
-# About <span class="emphasized-header">SeekHealing</span>
+# How do we build a community that is inherently <span class="emphasized-header">resilient</span> to addiction?
 
-Healthy relationships are proven to be [the number one factor in relapse prevention](/science-of-connection/). For many different reasons, modern life has made these types of connections harder and harder to find — especially for those who find themselves outcasted for mental health issues and self-destructive addiction behaviors.
+- <span class="bold">Public harm reduction education</span>: training in overdose reversal and redefining addiction
+- <span class="bold">Open door policy</span>: current drug users, abstinence-only, & medication-assisted treatment all welcome
+- <span class="bold">Ongoing support</span>: pairing with trained volunteers, community activities, & therapeutic services
+- <span class="bold">Training in authentic connection</span>: how to better listen to others and yourself
+- <span class="bold">Community re-integration</span>: see “How SeekHealing Works”
+{:class="list-checkmarks"}
 
-SeekHealing is building intentional communities, both online and offline, to connect those who’ve taken the first steps towards healing and shame-free living: <span class="bold-purple">seekers</span>. Whether you struggle with a chemical addiction or not, the medicine of authentic connection is something we all need.
-
-[Download Brochure](/downloads/About-SeekHealing_v4.pdf){:class="button button-purple"}
+[Download Brochure](/downloads/About-SeekHealing_Oct2018.pdf){:class="button button-purple"}

@@ -1,6 +1,7 @@
 ---
 type: partners
-title: "Asheville Connection Agent Partners"
+title: "partners"
+heading: "Asheville Connection Agent Partners"
 white-bg: true
 col-width: wide
 ---
