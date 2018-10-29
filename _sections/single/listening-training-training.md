@@ -5,6 +5,8 @@ padding: no-padding
 col-width: thin
 ---
 
+<hr>
+
 3-day training includes:
 {:class="bold underline text-left"}
 
@@ -15,12 +17,11 @@ col-width: thin
 - in-depth training of active listening and peer support techniques
 - in-depth training in boundary setting and overcoming the caregiver complex 
 - toolkit for managing text-based interactions
-- harm reduction education and awareness of local resources (like syringe exchanges)
-- education about best practices for managing detox and withdrawal
+- harm reduction education, naloxone training, and exposure to local resources like syringe exchange
+- education about best practices for managing opioid detox and withdrawal
 - safety training in how to manage and respond to relapse 
 - safety training in how to manage and respond to suicidal ideation
-- role-play training & practice
 
-[Sign Up Now](http://bit.ly/listenAVL){:class="button button-purple" target="_new"}
+[Sign Up Now](https://mailchi.mp/b384804f5c90/seekhealing){:class="button button-purple" target="_new"}
 
 ![Owl Friends](/assets/images/owlFriends.png){:max-width="560px" class="img-responsive"}

@@ -5,7 +5,7 @@ order: 2
 margin: no-margin
 ---
 
-- <span class="bold">Help liberate</span> someone from addiction relapse
+- <span class="bold">Help liberate</span> yourself and others from addiction relapse patterns
 - <span class="bold">Destigmatize</span> addiction
 - <span class="bold">Challenge</span> yourself to grow
 - <span class="bold">Set</span> better boundaries
