@@ -37,6 +37,13 @@ ul.remembered {
   width: 100%;
 }
 
+ol.references {
+  text-align: left;
+  font-size: 14px;
+  padding: 0px 10px 0px 40px;
+  word-wrap: break-word;
+}
+
 .citations ol {
   list-style-position: inside;
   font-size: 12px;
