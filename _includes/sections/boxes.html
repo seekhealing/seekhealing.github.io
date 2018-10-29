@@ -1,0 +1,48 @@
+{% comment %} 
+<!--
+  Boxes Section
+
+  This partial is included on any page that has a 3 column feature box layout.
+  Currently used on the Donate & contact page.
+  
+--> 
+{% endcomment %}
+
+{% assign data_cat = include.title %}
+
+{% assign boxes = site.data.[data_cat] %}
+
+<section>
+  <div class="section">
+    <div class="container clearfix">
+      <div class="row text-center normal-header">
+
+      {% if boxes.header %}
+        <h1>{{ boxes.header }}</h1>
+      {% endif %}
+
+        {% for box in boxes.box-content %}
+
+        <div class="col-md-4 col-sm-6 bottommargin clearfix">
+          <div class="location-box">
+            <div class="icon">
+              <a href="#"><i class="{{ box.icon-class }}"></i></a>
+            </div>
+            {% if include.title == 'contact' %}
+              <h2>{{ box.city }}{% if box.state %}, {{ box.state }}{% endif %}</h2>
+              <p><a href="mailto:{{ box.email }}">{{ box.email }}</a></p>
+            {% else %}
+              <h2>{{ box.header }}</h2>
+              <p class="small"> {{ box.content }}</p>
+              <p><a href="{{ box.link }}">{{ box.link-text }}</a></p>
+            {% endif %}
+          </div>
+        </div>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+  </div>
+</section>
