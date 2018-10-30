@@ -20,10 +20,18 @@
       {% if boxes.header %}
         <h1>{{ boxes.header }}</h1>
       {% endif %}
-
+        <div class="row">
+          <div class="col-xs-12 col-md-4 col-md-offset-4">
+            <div class="location-box">
+            <h2>General Questions</h2>
+            <p><a href="mailto:info@seekhealing.org">info@seekhealing.org</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
         {% for box in boxes.box-content %}
 
-        <div class="col-md-4 col-sm-6 bottommargin clearfix">
+        <div class="col-md-4 col-sm-6 bottommargin">
           <div class="location-box">
             <div class="icon">
               <a href="#"><i class="{{ box.icon-class }}"></i></a>
@@ -40,7 +48,7 @@
         </div>
 
         {% endfor %}
-
+        </div>
       </div>
 
     </div>
