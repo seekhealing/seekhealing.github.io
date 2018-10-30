@@ -20,6 +20,7 @@
       {% if boxes.header %}
         <h1>{{ boxes.header }}</h1>
       {% endif %}
+      {% if data_cat == 'contact' %}
         <div class="row">
           <div class="col-xs-12 col-md-4 col-md-offset-4">
             <div class="location-box">
@@ -28,6 +29,7 @@
             </div>
           </div>
         </div>
+      {% endif %}
         <div class="row">
         {% for box in boxes.box-content %}
 
