@@ -8,5 +8,3 @@ order: 2
 ---
 
 ## Financials
-
-Take a look at our financials and documentation for your tax deductions
