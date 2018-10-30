@@ -109,24 +109,24 @@ partners:
   - title: "Buncombe County District Attorney"
     image: "partner-buncombe-county-district-attorney.png"
     link: "https://www.buncombeda.org/"
-    include-page: "home-partners"
+    include-page: ["home-partners","asheville-partners"]
   - title: "Goodwill"
     image: "partner-goodwill.png"
     link: "https://www.goodwillnwnc.org/"
-    include-page: "home-partners"
+    include-page: ["home-partners","asheville-partners"]
   - title: "Buncombe County Justice Resource Center"
     image: "partner-buncombe-county-justice-resource-center.png"
     link: "https://www.buncombecounty.org/law-safety/community-initiatives/justice-resource-center.aspx"
-    include-page: "home-partners"
+    include-page: ["home-partners","asheville-partners"]
   - title: "Mission Health"
     image: "partner-mission-health.png"
     link: "https://missionhealth.org/"
-    include-page: "home-partners"
+    include-page: ["home-partners","asheville-partners"]
   - title: "Buncombe County Health & Human Services"
     image: "partner-buncombe-county-health-human-services.png"
     link: "https://www.buncombecounty.org/Governing/Depts/HHS/Default.aspx"
-    include-page: "home-partners"
+    include-page: ["home-partners","asheville-partners"]
   - title: "Comprehensive Care Center"
     image: "partner-comprehesive-care-center-logo.png"
     link: "https://www.c3356.org/services/peer-living-room/"
-    include-page: ["partners","home-partners"]
+    include-page: ["partners","home-partners","asheville-partners"]
