@@ -8,5 +8,3 @@ order: 1
 ---
 
 ## Advisory Council
-
-Meet our Directors and Advisory Board

@@ -8,5 +8,3 @@ order: 4
 ---
 
 ## Team
-
-Meet our team!

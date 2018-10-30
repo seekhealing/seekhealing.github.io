@@ -8,5 +8,3 @@ order: 3
 ---
 
 ## Press
-
-Find out what they're are saying about us
