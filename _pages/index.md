@@ -7,6 +7,8 @@ sections:
   - type: "hero"
     title: "home"
   - type: "single"
+    title: "elevator-pitch"
+  - type: "single"
     title: "rumi-quote"
   - type: "single"
     title: "about-seekhealing"

@@ -5,7 +5,7 @@ order: 1
 class: button-group
 ---
 
-[Donate](https://seekhealing.kindful.com/){:class="button button-purple"}
+[Donate](https://seekhealing.kindful.com/){:class="button btn-block button-purple"}
 
 To sponsor people who need support healing from addiction
 {:class="button-caption"}
