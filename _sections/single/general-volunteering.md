@@ -14,6 +14,7 @@ Right now, we're particularly in need of volunteers who have the following skill
 - <span class="bold">Web Developer</span> (proficiency in Python preferred)
 - <span class="bold">Web Designer</span> (able to create wire frames)
 - <span class="bold">Social Media Manager</span> (create content, organize posting schedule, and run campaigns across Facebook, Instagram, & Twitter)
+
 (last updated: November 2018)
 
 Please click the button below to submit an application for a general volunteering position in our organization.
