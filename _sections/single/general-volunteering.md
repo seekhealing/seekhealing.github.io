@@ -10,13 +10,11 @@ We are always looking for volunteers who share our vision to help support our op
 
 Right now, we're particularly in need of volunteers who have the following skills:
 
-- accounting (specifically nonprofit or tax accounting)
-- web development (proficiency in Python preferred)
-- web design (able to create wire frames)
-- research & data analysis (a detail oriented person who can stay on top of collecting and organizing weekly, confidential psychometric data from our pilot program participants)
-- community manager (someone to help manage relationships (remotely) and triage support issues with connection agents, listeners and seekers. Communities will be managed through Facebook and private messaging)
-
-(last updated: January 2018)
+- <span class="bold">Accountant</span> (specifically nonprofit or tax accounting)
+- <span class="bold">Web Developer</span> (proficiency in Python preferred)
+- <span class="bold">Web Designer</span> (able to create wire frames)
+- <span class="bold">Social Media Manager</span> (create content, organize posting schedule, and run campaigns across Facebook, Instagram, & Twitter)
+(last updated: November 2018)
 
 Please click the button below to submit an application for a general volunteering position in our organization.
 

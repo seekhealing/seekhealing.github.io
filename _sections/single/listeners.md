@@ -3,12 +3,12 @@ type: single
 title: listeners
 ---
 
-# <span class="emphasized-header">Listeners</span>
+# <span class="emphasized-header">Volunteer to listen</span>
 
-Are you committed to constantly striving to become the best person you can be? Have you experienced firsthand how meaningful connection leads to healing and growth?
+Join our community and sign up for Listening Training (link to Listening Training page) today. After training, you’ll be paired with another person in the Asheville, NC community for a high-impact volunteering opportunity that asks you to meet in person once a week to practice deliberate, authentic human connection. The SeekHealing community includes folks at all stages in the addiction healing process; some of whom are at risk for overdose and enrolled in our Extra Care Program (link). No matter who you’re paired with, you will be part of treating addiction at a societal level in Western North Carolina and helping to build a community that is inherently resilient to addiction.
 
-Apply today to give the gift of listening and peer-based support to another seeker actively healing from an addiction crisis? *You don't have to have a history with chemical addiction yourself to become a Listener - just a humble awareness of your own personal growth and healing journey.*
+After completing Listening Training, there are additional opportunities to volunteer in a more direct way with people who need extra care (like ride-sharing, going to activities together, and serving in community mediator roles)
 
 <span class="bold-purple">January 2018</span>: We're currently recruiting Listeners for our pilot program in Asheville, NC.
 
-[Apply to Listen in Asheville, NC](https://bit.ly/listenAVL){:class="button button-purple" target="_blank" }
+[Apply to Listen in Asheville, NC](https://mailchi.mp/b384804f5c90/seekhealing){:class="button button-purple" target="_blank" }
