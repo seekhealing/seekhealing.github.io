@@ -9,6 +9,4 @@ Join our community and sign up for <a href="/listening-training/">Listening Trai
 
 After completing Listening Training, there are additional opportunities to volunteer in a more direct way with people who need extra care (like ride-sharing, going to activities together, and serving in community mediator roles)
 
-<span class="bold-purple">January 2018</span>: We're currently recruiting Listeners for our pilot program in Asheville, NC.
-
 [Apply to Listen in Asheville, NC](https://mailchi.mp/b384804f5c90/seekhealing){:class="button button-purple" target="_blank" }
