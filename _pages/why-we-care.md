@@ -13,5 +13,7 @@ sections:
   - type: "parallax"
     title: "why-because"
   - type: "single"
+    title: "why-report"
+  - type: "single"
     title: "why-data"
 ---
