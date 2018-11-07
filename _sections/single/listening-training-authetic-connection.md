@@ -37,7 +37,7 @@ By completing this training, you’ll become part of a radically different addic
 
 The training will span two weekends and cover techniques on how to offer listening and peer-based support to someone healing from opioid addiction. It will also teach you how to better listen to yourself and identify your own needs, whether your struggle with substance use or some other manifestation of addiction. Listening Training facilitates a unique experience of healing and transformative growth for all attendees.
 
-After the training, you’ll be paired with someone else in the SeekHealing community in order to practice the art of human connection on a weekly basis. The subsequent program (link the word program to “How SeekHealing works” page) will accelerate both of your healing & growth and you’ll also have access to discounted (donation-based) groups, meetings and activities to explore with other people in the community.
+After the training, you’ll be paired with someone else in the SeekHealing community in order to practice the art of human connection on a weekly basis. The subsequent [program](/heal/) will accelerate both of your healing & growth and you’ll also have access to discounted (donation-based) groups, meetings and activities to explore with other people in the community.
 
 Listening Training is provided by SeekHealing, a 501(c)3 nonprofit dedicated to serving those at risk for overdose and helping communities heal from addiction through authentic connection. The program is entirely donation based. A $50 donation to cover the cost of training is not required but greatly appreciated.
 {:class="italic size-14"}
