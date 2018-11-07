@@ -5,4 +5,4 @@ order: 2
 sticky-note: true
 ---
 
-B. A disease that hijacks a person's brain and a chemical reality that you cannot change.
+B. A result of chemical "hooks" that are so strong you automatically get addicted.
