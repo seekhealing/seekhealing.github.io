@@ -29,6 +29,8 @@
               <div class="text-left resources-item">
                 <a href="{{ resource.url }}"{% if resource.target %} target="{{ resource.target }}"{% endif %}>{{ resource.title }}</a><br/>
                 {{ resource.subtext }}
+
+                <p>{{ resource.blurb }}</p>
               </div>
             </li>
             {% endfor %}
