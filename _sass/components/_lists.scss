@@ -87,7 +87,15 @@ ul.partners {
     margin: 15px 1%;
     display: inline-block;
     list-style: none;
-    width: 20%;
+    width: 75%;
+
+    @media screen and (min-width: $screen-sm-min) { 
+      width: 46%;
+    }
+
+    @media screen and (min-width: $screen-md-min) { 
+      width: 25%;
+    }
   }
 
   img {
@@ -99,6 +107,11 @@ ul.partners {
     -moz-box-shadow: 0 0 40px #000;
     -webkit-box-shadow: 0 0 40px #000;
     box-shadow: 0 0px 40px #000;
+  }
+
+  p {
+    font-size: 16px;
+    padding-top: 15px;
   }
 }
 

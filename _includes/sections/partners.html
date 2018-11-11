@@ -37,6 +37,22 @@
               </a>
               {% endif %}
 
+              {% if partner.title %}
+                <p>
+                
+                {% if partner.link %}
+                <a href="{{ partner.link }}" target="_blank">
+                {% endif %}
+
+                  {{ partner.title }}
+
+                {% if partner.link %}
+                </a>
+                {% endif %}
+
+                </p>
+              {% endif %}
+
             </li>
             {% endfor %}
           </ul>
