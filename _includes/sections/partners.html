@@ -30,11 +30,26 @@
               {% if partner.link %}
               <a href="{{ partner.link }}" target="_blank">
               {% endif %}
-              <img src="{{ partner.image | prepend: "/assets/images/" | prepend: site.baseurl }}" class="image-center" title="{{ partner.title }}" style="width: 60%">
+              <img src="{{ partner.image | prepend: "/assets/images/" | prepend: site.baseurl }}" class="image-center" title="{{ partner.title }}" style="height: 300px">
               {% if partner.link %}
               </a>
               {% endif %}
               </p>
+              {% if partner.title %}
+                <p>
+                
+                {% if partner.link %}
+                <a href="{{ partner.link }}" target="_blank">
+                {% endif %}
+
+                  {{ partner.title }}
+
+                {% if partner.link %}
+                </a>
+                {% endif %}
+
+                </p>
+              {% endif %}
             </div>
             {% endfor %}
           </div>
