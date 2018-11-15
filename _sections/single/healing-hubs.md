@@ -14,7 +14,7 @@ We're currently fundraising to build residential facilities where people can com
 
 [Donate today help us raise capital for construction today](https://seekhealing.kindful.com/?campaign=340536){:class="size-22"}
 
-Contact our [leadership team](mailto: alan@seekhealing.org) to find out how you can get involved in the development process for Healing Hubs.
+Contact our [leadership team](mailto:alan@seekhealing.org) to find out how you can get involved in the development process for Healing Hubs.
 
 ![Healing Hubs Development](/assets/images/hh-potatoes.png)
 
@@ -36,6 +36,6 @@ Hub facilities are neither halfway houses nor rehab programs. This is a hybrid c
 
 [Donate today help us raise capital for construction today](https://seekhealing.kindful.com/?campaign=340536){:class="size-22"}
 
-Contact our [leadership team](mailto: alan@seekhealing.org) to find out how you can get involved in the development process for Healing Hubs.
+Contact our [leadership team](mailto:alan@seekhealing.org) to find out how you can get involved in the development process for Healing Hubs.
 
 ![Healing Hubs Greenhouse](/assets/images/hh-backless-girl-in-field.png)
