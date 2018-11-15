@@ -15,4 +15,4 @@ padding: no-top-padding
 
 14 seekers enrolled in extra care program
 
-33 local connection agent partners (link to Asheville Connection Agent Partners page)
+33 local [connection agent partners](/asheville-connection-agent-partners/)
