@@ -12,7 +12,7 @@ class: "max-image-dims"
 
 We're currently fundraising to build residential facilities where people can come to experience [how SeekHealing works](/heal/) and heal from addiction through human connection. The SeekHealing project includes couple of passionate land-owners who have pledged two sites in North Carolina. The Healing Hubs we build on these sites will be co-housing projects that use farm land and unique living arrangements to create self-sustaining, intentional communities and a totally new concept for residential rehab.
 
-[Donate today help us raise capital for construction today](https://seekhealing.kindful.com/?campaign=340536){:class="size-22"}
+[Donate today help us raise capital for construction](https://seekhealing.kindful.com/?campaign=340536){:class="size-22"}
 
 Contact our [leadership team](mailto:alan@seekhealing.org) to find out how you can get involved in the development process for Healing Hubs.
 
