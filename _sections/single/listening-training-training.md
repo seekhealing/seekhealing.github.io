@@ -7,7 +7,7 @@ col-width: thin
 
 <hr>
 
-3-day training includes:
+This 16 hour course split between two days includes:
 {:class="bold underline text-left"}
 
 {:class="full size-16"}
@@ -22,6 +22,6 @@ col-width: thin
 - safety training in how to manage and respond to relapse 
 - safety training in how to manage and respond to suicidal ideation
 
-[Sign Up Now](https://mailchi.mp/b384804f5c90/seekhealing){:class="button button-purple" target="_new"}
+[Find the next training and RSVP](/upcoming-events/){:class="button button-purple" target="_new"}<br>
 
 ![Owl Friends](/assets/images/owlFriends.png){:max-width="560px" class="img-responsive"}
