@@ -9,6 +9,20 @@ If you’re currently trying to make a major change to your relationship with a 
 
 ![Seeker Hand](/assets/images/events-2018-hands.png){:class="img-responsive"}
 
+Whether you are:
+{:class="text-left"}
+
+- a current drug user
+- trying to stay 100% abstinent
+- trying to moderate
+- on medication assisted treatment (MAT) like suboxone or methadone
+you’re welcome in this program.
+
+The only requirement is that you’re a **_Seeker_**.
+
+<b>seek·er |ˈsēkər | noun:</b>
+a human being who has committed to constantly re-evaluating their relationship with chemicals and/or behaviors that don’t serve them.
+
 In the last six months, if you have:
 {:class="text-left"}
 
