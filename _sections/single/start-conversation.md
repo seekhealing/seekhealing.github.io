@@ -10,5 +10,5 @@ class: button-group
 Call or text 828-547-0222 to book your appointment.
 {:class="bold large"}
 
-Currently only available locally in Asheville, NC. Limited capacity. Program is non-residential and does not provide transportation.
+Scholarships available. Currently only available locally in Asheville, NC. Limited capacity. Program is non-residential and does not provide transportation.
 {:class="italic"}
