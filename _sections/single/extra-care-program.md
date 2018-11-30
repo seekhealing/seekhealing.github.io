@@ -22,12 +22,3 @@ The only requirement is that you’re a **_Seeker_**.
 
 <b>seek·er |ˈsēkər | noun:</b>
 a human being who has committed to constantly re-evaluating their relationship with chemicals and/or behaviors that don’t serve them.
-
-In the last six months, if you have:
-{:class="text-left"}
-
-- gone through detox one or more times (either home detox, medical detox, or ibogaine-assisted detox)
-- participated in an addiction treatment program
-- resided in sober living housing
-
-You may qualify for SeekHealing’s extra care program to receive free, ongoing support as you navigate this major life transition.

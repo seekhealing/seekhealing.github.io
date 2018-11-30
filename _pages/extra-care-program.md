@@ -4,6 +4,10 @@ title: Extra Care Program
 sections:
   - type: "single"
     title: "extra-care-program"
+  - type: "banner"
+    title: "extra-care-banner"
+  - type: "single"
+    title: "extra-care-qualifications"
   - type: "single"
     title: "start-conversation"
   - type: "single"
