@@ -5,6 +5,8 @@ title: extra-care-program
 
 # <span class="emphasized-header">SeekHealing</span> Extra Care Program
 
+If you’re currently trying to make a major change to your relationship with a certain drug or chemical, you may qualify for SeekHealing’s Extra Care Program scholarships.
+
 ![Seeker Hand](/assets/images/events-2018-hands.png){:class="img-responsive"}
 
 In the last six months, if you have:
