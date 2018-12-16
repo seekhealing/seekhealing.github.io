@@ -30,7 +30,7 @@ jekyll serve         # Build and compile the site & assets
 | assets/js | Contains the js libraries for the project. |
 | assets/images | Contains all the image files for the site |
 | css | Contains the base css file holder for the project. |
-| downlaods | Contains all the downloadable files for the site (ex. - PDFs, DOCs, etc) |
+| downloads | Contains all the downloadable files for the site (ex. - PDFs, DOCs, etc) |
 
 
 ## Editing Content in Netlify CMS
