@@ -1,22 +1,8 @@
 ---
 type: article
 title: science-connection
-author: "Rachel Wurzman, PhD"
-author-img: "/assets/images/team-headshot-rachel.jpg"
-author-title: SeekHealing Director of Science
-author-subheader: "Postdoctoral Fellow at the University of Pennsylvania"
 white-bg: true
-padding: no-bot-padding
 ---
-
-Dr. Rachel Wurzman is a Fellow with the Center for Neuroscience and Society, and a Postdoctoral Research Fellow in Neurology with the Laboratory for Cognition and Neural Stimulation at the University of Pennsylvania, Philadelphia, PA, USA. Previously, Rachel served as an Intern in the Science Division of the Office of Science and Technology Policy in the Executive Office of the President of the United States, an Independent Contractor for the World Technology Evaluation Center (dba WTEC, Inc.) in support of the National Nanotechnology Coordinating Center, a Neuroscience Scholar Program Fellow with the Society for Neuroscience, and a Researcher in Residence in the Neuroethics Studies Program of the Pellegrino Center for Clinical Bioethics at Georgetown University.
-
-Rachel is the author of over 20 peer reviewed journal articles and book chapters on various topics in developmental, cognitive, and systems neuroscience, neuroethics, and science policy. Throughout her career, Rachel has investigated neurodevelopmental mechanisms for plasticity in brain circuits whose wiring, and sometimes mis-wiring, contribute to neuropsychiatric disorders on the addiction, obsessive-compulsive, and autistic spectrums. Her current research in the field of neurorehabilitation at the University of Pennsylvania seeks to understand mechanisms for neuroplasticity in brain networks, using non-invasive brain stimulation techniques, neuroimaging, and network neuroscience methods. Additionally, ongoing research in neuroethics addresses the implications of a biopsychosocial and systems-oriented perspective on neuropsychiatric spectrum phenomena (such as addiction) for research, treatment, and social policy.
-
-Rachel received her PhD in Neuroscience from Georgetown University’s Interdisciplinary Program in Neuroscience, where her she was an NIH Ruth L. Kirschstein National Research Service Award Fellow. She received her M.S. in Physiology and Biophysics from Georgetown University, and her B.A. in Neuroscience from Smith College.
-{:class="bottommargin"}
-
-*By Dr. Rachel Wurzman*
 
 Most people know that medical science considers addiction to be a disease. They say this because we know that the cycle of addiction starts with the brain and gets locked in by the brain. But that’s not the whole story. We know that the brain is plastic, which means that it is constantly being wired and re-wired by the way we experience the world around us. Science tends to think about how technologies like medications or physical brain stimulators can help encourage the brain to rewire itself away from neurological and psychological illness states and towards healthier ones. But we also know that there are some conditions— and addiction is one— where the most effective treatments known are things that help to change thoughts and behavior.
 

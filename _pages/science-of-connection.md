@@ -7,8 +7,6 @@ sections:
   - type: "single"
     title: "addiction-maladaption"
   - type: "article"
-    title: "gabor-mate"
-  - type: "article"
     title: "science-connection"
   - type: "triple"
     title: "science-connection-ctas"
