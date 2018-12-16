@@ -2,6 +2,7 @@
 type: single
 title: addiction-maladaption
 col-width: "wide"
+padding: no-bot-padding
 white-bg: true
 ---
 
@@ -18,3 +19,4 @@ Even more than our primate cousins, homo sapiens have complex genetic and neuroc
 It turns out that naturally-occurring opioid compounds are intricately involved in the reward systems our brains use to reinforce social connection. These naturally occurring opioids make social connection literally feel good: in a part of the brain called the striatum.
 
 Research Study: [Blocking opioids attenuates physical warmth-induced feelings of social connection](http://psycnet.apa.org/record/2015-27044-001)
+{:class="no-bot-margin"}

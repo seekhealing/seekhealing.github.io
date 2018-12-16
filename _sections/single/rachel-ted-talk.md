@@ -17,4 +17,3 @@ white-bg: true
 
 Dr. Rachel Wurzman, TEDxMidAtlantic, October 2017
 {:class="size-14 italic"}
-
