@@ -121,6 +121,7 @@ partners:
   - title: "Still Point Wellness"
     image: "partner-stillpoint.png"
     link: "https://stillpointwell.com/"
+    include-page: "partners"
   - title: "Well Played"
     image: "partner-well-played.png"
     link: "https://wellplayedasheville.com/"
