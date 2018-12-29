@@ -37,7 +37,7 @@
             {% endif %}
 
             <li>
-              <a href="{{ nav_url }}"{% if nav.target %} target="{{ nav.target }}"{% endif %}>
+              <a href="{{ nav_url }}"{% if nav.class %} class="{{ nav.class }}"{% endif %}{% if nav.target %} target="{{ nav.target }}"{% endif %}>
                 {{ nav.title }}
               </a>
 

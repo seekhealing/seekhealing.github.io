@@ -41,3 +41,7 @@ nav:
     url: /contact/
   - title: About
     url: /about/
+  - title: Donate
+    class: "donate-header"
+    target: _blank
+    url: https://seekhealing.kindful.com/
