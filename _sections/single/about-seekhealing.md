@@ -12,4 +12,4 @@ title: about-seekhealing
 - <span class="bold">Training in authentic connection</span>: how to better listen to others and yourself
 {:class="list-checkmarks"}
 
-[Download Brochure](/downloads/About.SeekHealing_Nov2018.pdf){:class="button button-purple"}
+[Download Brochure](/downloads/About.SeekHealing_Dec2018.pdf){:class="button button-purple"}
