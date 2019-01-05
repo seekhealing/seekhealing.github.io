@@ -13,6 +13,8 @@ sections:
   - type: "single"
     title: "weekly-meetings"
   - type: "single"
+    title: "gatherings-and-socials"
+  - type: "single"
     title: "listening-training"
   - type: "single"
     title: "connection-boosters"
