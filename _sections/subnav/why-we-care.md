@@ -7,6 +7,4 @@ link: "/why-we-care/"
 order: 1
 ---
 
-## The Heroin Epidemic
-
-Why are we doing this?
+## The Heroin Overdose Epidemic

@@ -15,6 +15,6 @@ white-bg: true
 [Disconnected Brains: How isolation fuels opioid addiction](https://www.ted.com/talks/rachel_wurzman_how_isolation_fuels_opioid_addiction){:target="_blank"}
 {:class="no-bot-margin margin-top-10 size-20"}
 
-Dr. Rachel Wurzman, TEDxMidAtlantic, October 2017
+Dr. Rachel Wurzman, TED.com, published October, 2018
 {:class="size-14 italic"}
 

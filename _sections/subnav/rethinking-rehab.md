@@ -8,5 +8,3 @@ order: 2
 ---
 
 ## Rethinking Rehab
-
-Programs that unlock the benefits of authentic connection to empower sustainable healing after detox from heroin & opioid addiction.
