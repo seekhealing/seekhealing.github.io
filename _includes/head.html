@@ -14,12 +14,20 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="author" content="SeekHealing">
 
-  {% if page.keywords %}
-  <meta name="keywords" content="{{ page.keywords }}" >
-  {% endif %}
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.page_title %}{{ page.page_title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  {% if page.sitemap == false %}
+    <meta name="robots" content="noindex">
+  {% endif %}
+
+  {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}" >
+  {% endif %}
+
+  {% if page.description %}
+    <meta name="Description" content="{{ page.description }}">
+  {% endif %}
   
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/favicons/apple-touch-icon.png">
