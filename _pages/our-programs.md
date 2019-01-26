@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Our Programs
+sitemap: false
 sections:
   - type: "single"
     title: "program-methodology"
