@@ -39,7 +39,7 @@
           <div class="{{ event_class }}"{% if include.title == "upcoming" %} data-limit="{{ event.date }}"{% endif %}>
             <div class="clearfix">
               <div class="event-image">
-                <img src="{{ site.baseurl }}{{ event.image }}" alt="Event">
+                <img src="{{ site.baseurl }}{{ event.image }}" alt="Event" class="img-responsive">
                 <div class="event-date">{{ event.date | date: "%d" }}<span>{{ event.date | date: "%b" }}</span></div>
               </div>
               <div class="subnav-header">
