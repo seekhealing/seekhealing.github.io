@@ -5,6 +5,10 @@
     width: 100%;
     text-align: center;
   }
+
+  div.col-md-12 {
+    width: 100%;
+  }
 }
 
 .event-image {
@@ -12,6 +16,7 @@
   width: 100%;
   display: block;
   position: relative;
+  text-align: left;
 
   @media screen and (min-width: $screen-sm-min) {  
     float: left;
@@ -20,9 +25,12 @@
   }
 
   img {
-    display: block;
-    width: 100%;
+    display: inline;
     max-height: 225px;
+
+    @media screen and (min-width: $screen-sm-min) {  
+      width: 300px;
+    }
   }
 
   .event-date {
