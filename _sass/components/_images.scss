@@ -27,6 +27,16 @@
   }
 }
 
+.double-img-right {
+  float: none;
+
+  @media screen and (min-width: $screen-sm-min) {
+    float: right;
+    margin-right: 10%;
+  }
+}
+
+
 .program-sc {
   width: 75%;
 }

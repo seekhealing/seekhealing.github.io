@@ -11,16 +11,16 @@ Sign up and receive focused training in
 {:class="italic-purple no-bot-margin"}
 
 {:class="centered"}
-- harm reduction for substance use
-- how harm reduction applies to recovery
+- harm reduction for addiction
+- understanding how harm reduction applies to recovery
 - redefining addiction
 - destigmatizing addiction
 - eliminating shame in conversation
 - interacting with more empathy
-- authentic relating
-- nonviolent communication
-- boundary-setting
-- peer support
+- relating with others more authentically
+- using nonviolent communication techniques
+- setting compassionate boundaries
+- providing peer-support for addiction recovery
 
 to help someone heal from an addiction crisis and to challenge your own emotional growth.
 {:class="italic-purple"}
@@ -33,11 +33,11 @@ Note: Listening Training hours may count towards your Peer Support Specialist qu
 
 <hr>
 
-By completing this training, you’ll become part of a radically different addiction treatment program in Buncombe County, NC. The disease of addiction shows up in individuals because it is first a disease of the community and how individuals within a community relate with one another. This program treats addiction disease at the community level.
+By completing this training, you'll become part of a radically different addiction treatment program in Buncombe County, NC. The disease of addiction shows up in individuals because it is first a disease of the community: a problem with how individuals within a group relate with one another. SeekHealing "treats" addiction disease at the community level.
 
-The training is a 16-hour course spanning two days (one day on each of two weekends) and covers techniques on how to offer listening and peer-based support to someone healing from opioid addiction. It will also teach you how to better listen to yourself and identify your own needs, whether your struggle with substance use or some other manifestation of addiction. Listening Training facilitates a unique experience of healing and transformative growth for all attendees.
+The training is a 16-hour course spanning two days (one day on each of two weekends) and covers techniques on how to offer listening and peer-based support to someone healing from opioid addiction. It will also teach you how to better listen to yourself and identify your own needs, whether you struggle with substance use or some other type of addiction.
 
-After the training, you’ll be paired with someone else in the SeekHealing community in order to practice the art of human connection on a weekly basis. The subsequent [program](/heal/) will accelerate both of your healing & growth and you’ll also have access to discounted (donation-based) groups, meetings and activities to explore with other people in the community.
+After the training, you’ll be paired with someone else in the SeekHealing community in order to practice the art of human connection on a weekly basis. The subsequent [program](/heal/) will accelerate both of your healing & growth and you'll also have access to all kinds of awesome, donation-based groups, meetings and activities to explore with other people in the community.
 
-Listening Training is provided by SeekHealing, a 501(c)3 nonprofit dedicated to serving those at risk for overdose and helping communities heal from addiction through authentic connection. The program is entirely donation based. A $50 donation to cover the cost of training is not required but greatly appreciated.
+Listening Training is provided free of cost by SeekHealing, a 501(c)3 nonprofit. The program is entirely donation based. A donation is not required but greatly appreciated.
 {:class="italic size-14"}

@@ -10,7 +10,7 @@ padding: no-padding
 {:class="underline"}
 
 {:class="full"}
-- 1-2 hour in-person meeting with your Person every week
-- 1-2 hours of availability with your Person throughout the week for texting and phone-calls at your convenience
-- 30min weekly administrative check-in & data collection
-- 2 hour Gathering with other pairs, once per month
+- 1-2 hour in-person meeting with your person-pair every week
+- 1-2 hours of availability with your person-pair throughout the week for texting and phone calls at your convenience
+- Gathering with other pairs, once per month
+- Regularly attending socials, group activities and meetings with other people in the community
