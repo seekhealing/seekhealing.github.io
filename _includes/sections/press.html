@@ -27,7 +27,7 @@
               <div class="row">
                 <div class="col-md-12 bottommargin">
                   <div class="clearfix">
-                    <div class="press-image">
+                    <div class="press-image {% if resource.image-class %}{{ resource.image-class }}{% endif %}">
                       <img src="{{ site.baseurl }}/assets/images/{{ resource.image }}" alt="Event">
                     </div>
                     <div class="press-content text-left">
