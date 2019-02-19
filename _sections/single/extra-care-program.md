@@ -9,13 +9,14 @@ If you’re currently trying to make a major change to your relationship with a 
 
 ![Seeker Hand](/assets/images/events-2018-hands.png){:class="img-responsive"}
 
-Whether you are:
+Whether your intention is:
 {:class="text-left"}
 
-- a current drug user
-- trying to stay 100% abstinent
-- trying to moderate
-- on medication assisted treatment (MAT) like suboxone or methadone
+- to stay 100% abstinent from all alcohol, drugs & chemicals
+- to stay abstinent from one/some particular drug(s) and moderate with others
+- to use medication assisted treatment (MAT) or other medicine to maintain a safer habit
+- to use medication assisted treatment (MAT) or other medicine to step down to abstinence
+
 you’re welcome in this program.
 
 The only requirement is that you’re a **_Seeker_**.
