@@ -21,6 +21,14 @@
   text-decoration: none;
   border-radius: 3px;
 
+  &.small-text {
+    font-size: 12px;
+
+    @media screen and (min-width: $screen-sm-min) {
+      font-size: 10px;
+    }
+  }
+
   &:hover, &:focus {
     background-color: #5D4157;
     opacity: 0.9;

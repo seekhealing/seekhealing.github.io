@@ -19,8 +19,6 @@ sections:
     title: "gabor-quote"
   - type: "triple"
     title: "asheville-pilot-program"
-  - type: "triple"
-    title: "more-ctas"
   - type: "subscribe"
   - type: "single"
     title: "testimonial-travis"

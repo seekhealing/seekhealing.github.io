@@ -5,7 +5,7 @@ order: 2
 class: button-group
 ---
 
-[Enroll for extra care](/extra-care-program/){:class="button button-purple"}
+[Learn more about extra care program](/extra-care-program/){:class="button button-purple small-text"}
 
 If you’ve gone through detox once or more in the past 6 months
 {:class="button-caption"}

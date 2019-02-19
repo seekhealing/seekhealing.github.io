@@ -26,7 +26,7 @@
 
         {% for col in cols %}
 
-          <div class="col-sm-4 col-xs-12">
+          <div class="{% if triple.col-grid %}{{ triple.col-grid }}{% else %}col-sm-4{% endif %} col-xs-12">
             <div class="{{ col.class }}">
               {{ col.content | markdownify }}
             </div>
