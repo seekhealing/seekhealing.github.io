@@ -7,5 +7,5 @@ class: button-group
 
 [Attend Listening Training](/listening-training/){:class="button button-purple small-text"}
 
-Connect with people who need support
+Learn how to better listen to yourself and others
 {:class="button-caption"}
