@@ -7,5 +7,5 @@ class: button-group
 
 [Learn more about extra care program](/extra-care-program/){:class="button button-purple small-text"}
 
-If you’ve gone through detox once or more in the past 6 months
+If you're a person who may be at risk for overdose
 {:class="button-caption"}

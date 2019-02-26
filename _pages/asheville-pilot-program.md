@@ -3,9 +3,9 @@ layout: page
 title: Asheville Program
 sections:
   - type: "single"
-    title: "gathering-table"
+    title: "calendar"
   - type: "single"
-    title: "oct-2018-update"
+    title: "join-the-program"
   - type: "triple"
     title: "asheville-ctas"
   - type: "partners"
