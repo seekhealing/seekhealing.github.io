@@ -118,6 +118,12 @@
     @media screen and (min-width: $screen-sm-min) {  
       font-size: 16px;
     }
+  }
 
+  .sub-title {
+    font-family: 'Crete Round', serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 5px
   }
 }
