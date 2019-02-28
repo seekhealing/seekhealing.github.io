@@ -22,17 +22,16 @@
     <div class="container clearfix events">
       <div class="row display-flex {% if include.title == "upcoming" %}upcoming-events{% else %}past-events{% endif %}">
 
+      {% if include.title == "upcoming" %}
+        {% assign event_class = "col-md-12 bottommargin expiration-date" %}
+      {% else %}
         <div class="normal-header">
           <h1>
-            {% if include.title == "upcoming" %}
-              {{ events_content.events-upcoming-text }}
-              {% assign event_class = "col-md-12 bottommargin expiration-date" %}
-            {% else %}
-              {{ events_content.events-past-text }}
-              {% assign event_class = "col-md-12 bottommargin" %}
-            {% endif %}
+            {{ events_content.events-past-text }}
+            {% assign event_class = "col-md-12 bottommargin" %}
           </h1>
         </div>
+      {% endif %}
 
         {% for event in events %}
         

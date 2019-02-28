@@ -32,6 +32,14 @@
   margin-bottom: 50px;
 }
 
+.one-line:after  {
+  content: '';
+  display: block;
+  border-top: 2px solid #444;
+  width: 40px;
+  margin: 30px auto;
+}
+
 .two-lines:before, .two-lines:after  {
   content: '';
   display: block;
