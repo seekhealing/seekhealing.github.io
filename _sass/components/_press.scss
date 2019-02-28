@@ -40,6 +40,30 @@
     }
   }
 
+  .press-video {
+    float: none;
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 0 0 30px 0;
+    min-height: 335px;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: $screen-sm-min) {  
+      float: left;
+      width: 280px;
+      margin-right: 30px;
+      margin-bottom: 0px;
+      padding: 0;
+      min-height: 210px;
+    }
+
+    @media screen and (min-width: $screen-md-min) {  
+      width: 400px;
+      min-height: 225px;
+    }
+  }
+
   .press-content {
     h2 {
       color: #777;
