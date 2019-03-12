@@ -3,6 +3,7 @@ type: single
 title: how-it-works
 header: "subnav-header"
 col-width: "wide"
+white-bg: true
 ---
 
 # How <span class="emphasized-header">SeekHealing</span> Works
