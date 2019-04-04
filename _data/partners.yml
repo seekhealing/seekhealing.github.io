@@ -146,6 +146,10 @@ partners:
     image: "partner-sweetriverwellness-logo.jpg"
     link: "https://sweetriverwellness.com"
     include-page: "partners"
+  - title: "United Way of Asheville & Buncombe County"
+    image: "partner-united-way.jpg"
+    link: "https://unitedwayabc.org"
+    include-page: ["home-partners", "asheville-partners"]
   - title: "Well Played"
     image: "partner-well-played.png"
     link: "https://wellplayedasheville.com/"
