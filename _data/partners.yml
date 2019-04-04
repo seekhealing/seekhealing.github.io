@@ -47,6 +47,10 @@ partners:
     image: "partner-eye-on-soul-logo.jpg"
     link: "https://www.eyeonsoul.com/"
     include-page: "partners"
+  - title: "Faces and Voices of Recovery"
+    image: "partner-fandv-recovery.png"
+    link: "https://facesandvoicesofrecovery.org/"
+    include-page: ["home-partners","asheville-partners"]
   - title: "Gearu Yoga & Outdoor Sports"
     image: "partner-gearu-logo.png"
     link: "https://gearuwnc.com/"
