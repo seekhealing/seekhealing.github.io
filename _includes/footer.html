@@ -14,7 +14,7 @@
 <!-- Footer
 ============================================= -->
 <footer id="footer" class="dark">
-  <div class="footer-inner">
+  <div class="footer-inner vcard">
 
     <div class="container clearfix">
       <div class="row">
@@ -42,8 +42,7 @@
 
           <!-- Footer Copyright Text
           ============================================= -->
-          {{ footer.copyright-text }}
-
+          Copyright &copy; 2019 <span class="org">SeekHealing</span><br>
         </div>
 
         <div class="col-xs-12 col-sm-6 footer-soc">
@@ -61,9 +60,20 @@
 
           </div>
 
-          <i class="{{ global.email-icon }}"></i> {{ global.email }}
+          <i class="email {{ global.email-icon }}"></i> {{ global.email }}
         </div>
 
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="text-center">
+            <span class="adr">
+              <span class="street-address">50 S. French Broad Avenue #300</span><br>
+              <span class="locality">Asheville</span>, <span class="region">NC</span> <span class="postal-code">28801</span>
+            </span><br>
+            <span class="tel">828-547-0222</span>
+          </div>
+        </div>
       </div>
 
     </div>
