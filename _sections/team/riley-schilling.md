@@ -4,7 +4,7 @@ category: Team
 name: Riley Schilling
 title: Meeting Facilitator
 image: /assets/images/team-headshot-riley.jpg
-order: 8
+order: 9
 ---
 
 Founder of [Original Recovery](https://originalrecovery.org/){:target="_new"}
