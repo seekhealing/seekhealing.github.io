@@ -26,10 +26,11 @@
             <li>
               {{ person.name }}
               <br/>
-              - <span class="by">remembered by {{ person.remembered-by }}</span>
+              {% for rb in person.remembered-by %}
+              <span class="by">- remembered by {{ rb }}</span>
+              {% endfor %}
 
               {% if person.quote %}
-              <br/>
               <span>"{{ person.quote }}"<span>
               {% endif %}
 
