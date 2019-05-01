@@ -1,6 +1,6 @@
 ---
 type: event
-timing: upcoming
+timing: past
 title: "Opioid Addiction 101"
 name: 'Opioid Addiction <span class="emphasized-header">101</span>'
 date: '2019-04-23'

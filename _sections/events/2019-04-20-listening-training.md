@@ -1,6 +1,6 @@
 ---
 type: event
-timing: upcoming
+timing: past
 title: "April Listening Training"
 name: 'April <span class="emphasized-header">Listening Training</span>'
 date: '2019-04-20'
