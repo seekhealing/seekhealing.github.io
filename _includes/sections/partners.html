@@ -22,38 +22,6 @@
           {% if partner_page.heading %}
             <h1>{{ partner_page.heading }}</h1>
           {% endif %}
-          {% if partner_page.one-per-row %}
-          <div class="row">
-            {% for partner in partners %}
-            <div class="col-xs-12 col-md-offset-2 col-md-8">
-              <p class="text-center"
-              {% if partner.link %}
-              <a href="{{ partner.link }}" target="_blank">
-              {% endif %}
-              <img src="{{ partner.image | prepend: "/assets/images/" | prepend: site.baseurl }}" class="image-center" title="{{ partner.title }}" style="height: 300px">
-              {% if partner.link %}
-              </a>
-              {% endif %}
-              </p>
-              {% if partner.title %}
-                <p>
-                
-                {% if partner.link %}
-                <a href="{{ partner.link }}" target="_blank">
-                {% endif %}
-
-                  {{ partner.title }}
-
-                {% if partner.link %}
-                </a>
-                {% endif %}
-
-                </p>
-              {% endif %}
-            </div>
-            {% endfor %}
-          </div>
-          {% else %}
           <ul class="partners">
             {% for partner in partners %}
             <li class="partner-item">
@@ -68,9 +36,12 @@
               </a>
               {% endif %}
 
+              <table>
+                <tr>
+                  <td>
+
               {% if partner.title %}
-                <p>
-                
+              
                 {% if partner.link %}
                 <a href="{{ partner.link }}" target="_blank">
                 {% endif %}
@@ -81,13 +52,14 @@
                 </a>
                 {% endif %}
 
-                </p>
               {% endif %}
+                  </td>
+                </tr>
+              </table>
 
             </li>
             {% endfor %}
           </ul>
-          {% endif %}
         </div>
       </div>
     </div>
