@@ -2,7 +2,6 @@
 type: single
 title: addiction-video
 col-width: "wide"
-white-bg: true
 ---
 
 <div class="medium max-vid-width">

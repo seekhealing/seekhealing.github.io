@@ -22,22 +22,31 @@
 
 <section>
   <div class="section" >
-    <div class="container clearfix text-center normal-header">
+    <div class="container clearfix text-center {% if include.title == 'Learn' %}subnav-header{% else %}normal-header{% endif %}">
 
       {{ page.content | markdownify }}
 
+      <div class="row subnav-row">
+
       {% for nav in subnavs %}
+        {% if forloop.index == 4 and layout_size == "col-sm-4" %}
+          {% assign layout_size = "col-sm-5 col-sm-offset-1 subnav-wrapped-item" %}
+        {% elsif forloop.index == 5 %}
+          {% assign layout_size = "col-sm-5 subnav-wrapped-item" %}
+        {% endif %}  
       
-      <div class="{{ layout_size }} col-xs-12">
-        <div class="feature-box">
-          <div class="icon">
-            <a href="{{ site.baseurl }}{{ nav.link }}"><i style="background-image: url({{ nav.image }})"></i></a>
+        <div class="{{ layout_size }} col-xs-12">
+          <div class="feature-box">
+            <div class="icon">
+              <a href="{{ site.baseurl }}{{ nav.link }}"><i style="background-image: url({{ nav.image }})"></i></a>
+            </div>
+            {{ nav.content | markdownify }}
           </div>
-          {{ nav.content | markdownify }}
-        </div>
-      </div>      
+        </div>      
 
       {% endfor %}
+
+      </div>
 
     </div>
   </div>
