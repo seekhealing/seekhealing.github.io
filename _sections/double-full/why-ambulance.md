@@ -7,10 +7,6 @@ img-pos: left
 font: "large"
 ---
 
-Because <span class="emphasized-header">[7.7 million Americans are currently living with an illicit drug use disorder,](https://addiction.surgeongeneral.gov/executive-summary.pdf){:target="_blank"}</span> according to the most recent report from the US Surgeon General’s office.
+Because <span class="emphasized-header">[lack of human connection reduces the interaction of endogenous opioids in the human brain](/science-of-connection/)</span>, the loneliness epidemic colliding with a saturated pharmaceutical opioid market was a perfect storm for addiction. <span class="emphasized-header">[Millions of people became dependent on and bonded to prescription painkillers](https://www.youtube.com/watch?v=5pdPrQFjo2o){:target="_blank"}</span>. The most recent study shows that <span class="emphasized-header">[44% of Americans](https://www.ncadd.org/blogs/in-the-news/44-of-americans-know-someone-who-has-been-addicted-to-prescription-painkillers){:target="_blank"}</span> personally know someone who has been addicted to some kind of opioid.
 
-Because there is a loneliness epidemic underlying the overdose epidemic in America: <span class="emphasized-header">[54 percent of Americans feel that no one knows them very well](https://www.ajc.com/news/health-med-fit-science/why-are-americans-lonely-massive-study-finds-nearly-half-feels-alone-young-adults-most-all/bbIKsU2Rr3qZI8WlukHfpK/){:target="_blank"}</span>, and 56 percent feel like the people they're surrounded with "are not necessarily with them."
-
-Because <span class="emphasized-header">[115 people in this country die everyday](https://www.drugabuse.gov/drugs-abuse/opioids/opioid-overdose-crisis#one){:target="_blank"}</span> from opioid-related overdoses. 
-
-Because in 2017, <span class="emphasized-header">[72,000 people](https://www.drugabuse.gov/related-topics/trends-statistics/overdose-death-rates){:target="_blank"}</span> died from drug overdoses. 68% of those deaths involved opioids like heroin, fentanyl, or prescription pain-killers.
+In response, the US government created increasingly strict regulations to limit prescriber protocols for opioid painkillers. Since the loneliness epidemic only continued to worsen during this time, demand for synthetic opioids to supplement endogenous opioid production did not decrease. So as prescription painkillers became more and more difficult to procure legally, it became more economical for millions of Americans who were bonded to opioids to purchase heroin on the prohibition market.
