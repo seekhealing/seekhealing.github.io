@@ -7,7 +7,8 @@ img-pos: left
 font: "large"
 ---
 
-As we grow, we learn how to <span class="emphasized-header">continuously transition </span>between these roles with humility and grace. Usually, with the help &amp; community support of a <span class="emphasized-header">particular booster</span> 
+As we grow, we learn how to <span class="emphasized-header">continuously transition </span>between really listening to others and speaking up for our own needs with humility and grace. It takes practice, and we do this with the help &amp; community support of a <span class="emphasized-header">connection booster</span>
+
 
 ![Owl Love Thought](/assets/images/owlLightbulb-250.png){:width="120px"}
 
