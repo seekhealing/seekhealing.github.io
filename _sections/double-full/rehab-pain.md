@@ -14,5 +14,5 @@ In the <span class="emphasized-header">face of pain</span> we all have the choic
 seek &middot; er / ˈsēkər / *noun*
 {:class="definition word"}
 
-a person who is actively seeking to become a better human by overcoming unhealthy behaviors, addictions, and/or compulsions and their associated emotional triggers.
+a person who is committed to the process of constantly evaluating their relationships with chemicals or behaviors that don't serve them.
 {:class="definition"}
