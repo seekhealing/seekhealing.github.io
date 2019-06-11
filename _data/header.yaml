@@ -30,8 +30,6 @@ nav:
         url: /healing-hubs/
     title: Heal
     url: /heal/
-  - title: Remember
-    url: /they-were-here/
   - submenu:
       - title: Upcoming Events
         url: /upcoming-events/
@@ -41,6 +39,8 @@ nav:
     url: /contact/
   - title: About
     url: /about/
+  - title: Remember
+    url: /they-were-here/
   - title: Donate
     class: "donate-header"
     target: _blank
