@@ -7,8 +7,6 @@ img-pos: right
 font: "large"
 ---
 
-Because morgue infrastructure is failing due to the <span class="emphasized-header">[sheer number](https://www.ajc.com/news/local/gbi-morgue-scramble-handle-more-bodies/J26nQ8FD85Hrl62WHum0uM/){:target="_blank"}</span> of dead bodies flooding the system.
+It is now estimated that nearly <span class="emphasized-header">[140 people die every day from opioid-related overdoses](https://www.safeproject.us/){:target="_blank"}</span>. In 2017, more than 72,000 Americans lost their lives to drug overdoses -- more than 70% of those related to opioids. Overdose deaths now account for <span class="emphasized-header">[more unintentional fatalities every year than automobile accidents](http://www.nbcnews.com/health/health-news/drug-overdoses-killed-50-000-u-s-more-car-crashes-n694001){:target="_blank"}</span>. 
 
-Because <span class="emphasized-header">[67% of heroin users](http://www.journal-news.com/news/local/drug-expert-heroin-putting-employers-very-difficult-position/FBypLrFondvvdk1rfc2l2M/){:target="_blank"}</span> who are revived by Narcan will use heroin again within the next 24 hours.
-
-Because <span class="emphasized-header">[80% of people](https://www.ncbi.nlm.nih.gov/pubmed/20669601){:target="_blank"}</span> who complete a drug rehab program will relapse within the first month after treatment.
+<span class="emphasized-header">[Morgue infrastructure is starting to fail in multiple cities](https://www.ajc.com/news/local/gbi-morgue-scramble-handle-more-bodies/J26nQ8FD85Hrl62WHum0uM/){:target="_blank"}</span> due to the sheer number of dead bodies flooding the system. The economic toll of opioid crisis is believed to have exceeded $1 trillion from 2001 to 2017.
