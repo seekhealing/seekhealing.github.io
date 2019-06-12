@@ -3,18 +3,8 @@ logo-alt: SeekHealing Text
 nav:
   - title: Learn
     url: /learn/
-  - submenu:
-      - title: Donate
-        url: '/donate/'
-      - target: _blank
-        title: Shop
-        url: 'http://shop.seekhealing.org/'
-      - title: Volunteer
-        url: /volunteer/
-      - title: Connection Agents
-        url: /connection-agents/
-    title: Help
-    url: /volunteer/
+  - title: Help
+    url: /help/
   - submenu:
       - title: How SeekHealing Works
         url: /heal/
