@@ -2,9 +2,9 @@
 type: team
 category: Team
 name: Maribeth Collins
-title: Program Coordinator
+title: Volunteer Coordinator
 image: /assets/images/team-headshot-maribeth.jpg
-order: 7
+order: 6
 ---
 
 <maribeth@seekhealing.org>
