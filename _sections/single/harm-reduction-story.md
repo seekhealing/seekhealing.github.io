@@ -2,6 +2,10 @@
 type: single
 title: harm-reduction-story
 section-bottom-border: true
+align: left
+col-width: wide
+padding: no-bot-padding
+section-bottom-border: false
 ---
 
 Harm reduction is something we all practice whenever we take risks, which happens on a moment to moment basis in life. We are almost constantly going through the process of assessing risk, deciding what level or risk we're willing to take, and doing things to minimize the risks we don't want to take.
@@ -35,19 +39,3 @@ Once all this is out on the table, awkwardness and shame and all, then we sudden
 This means that medical treatment and detox may be part of a person's recovery process, and it may not. This means some people may need total abstinence from all mind-altering chemicals forever or for a while, and some may not. It means some people might choose to substitute one chemical bond for a less dangerous one, like switching from heroin to methadone, or from meth to Adderall, or from liquor to beer. It also gives that same person the space to eventually renegotiate their relationship with the safer substance.
 
 The process of healing from addiction is inherently non-linear and multi-layered. Harm reduction and recovery are often considered opposites: either you're supporting drug users, or you're telling them that their behavior is categorically wrong and they have to change. At the end of the day, we're all humans, and we all need to be supported with compassion, connection, and non-judgment. We are all on a healing or recovery journey of some kind.
-
-&nbsp;
-{: class="one-line bottommargin"}
-
-If you:
-{:class="text-left"}
-
-- have any questions about harm reduction
-- are in active addiction (or know someone who is)
-- would like to learn more about how harm reduction techniques can keep you or your loved ones safe while actively using drugs
-- need access to Naloxone (Narcan)
-
-Please contact SeekHealing Harm Reduction Coordinator, Khyrstyne Williams, by phone or text at (828) 571-0070 or email at [kw@seekhealing.org](mailto:kw@seekhealing.org).
-
-
-
