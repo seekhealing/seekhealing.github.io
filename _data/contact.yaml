@@ -4,10 +4,6 @@ box-content:
     state: NC
     email: megan@seekhealing.org
     icon-class: "fas fa-map-marker-alt"
-  - city: Nashville
-    state: TN
-    email: kyla@seekhealing.org
-    icon-class: "fas fa-map-marker-alt"
   - city: US Virgin Islands
     email: rachel@seekhealing.org
     icon-class: "fas fa-map-marker-alt"
