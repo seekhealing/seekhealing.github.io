@@ -3,6 +3,14 @@ type: single
 title: Financials
 ---
 
-# Coming Soon...
-
-First year fiscal data will be available in Q2 2018. Please email kyla@seekhealing.org for documentation of your tax-deductible donation.
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+[Click here to download 2018 Financial Report](/downloads/SeekHealing Financial Report - May 2018 through April 2019.pdf){:class="button button-purple"}
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
