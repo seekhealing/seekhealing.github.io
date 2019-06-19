@@ -8,4 +8,6 @@ sections:
     title: "harm-reduction-quote"
   - type: "single"
     title: "harm-reduction-story"
+  - type: "single"
+    title: "harm-reduction-summary"
 ---

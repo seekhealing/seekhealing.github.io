@@ -1,6 +1,10 @@
 // Contains Lists styles
 
 // default style used in most content layouts
+p.pre-list {
+  margin-bottom: 10px;
+}
+
 ul {
   display: inline-block;
   text-align: left;
