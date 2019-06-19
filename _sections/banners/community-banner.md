@@ -3,5 +3,5 @@ type: banner
 title: community-banner
 ---
 
-### SeekHealing is a community-sourced treatment model that empowers seekers to heal rather than requiring addicts to achieve certain outcomes.
+### The SeekHealing project is about empowering people to heal from trauma rather than requiring "addicts" to achieve certain outcomes.
 {:class="white-txt no-bot-margin"}

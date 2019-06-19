@@ -40,7 +40,7 @@
                 <tr>
                   <td>
 
-              {% if partner.title %}
+              {% if partner.title and include.title != "home-partners" %}
               
                 {% if partner.link %}
                 <a href="{{ partner.link }}" target="_blank">

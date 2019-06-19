@@ -26,6 +26,28 @@ form#mc-embedded-subscribe-form {
     background-color: #fff;
     padding: 6px 12px;
   }
+
+  .sbsrb-donate {
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+    position: relative;
+    padding-bottom: 25px;
+
+    @media screen and (min-width: $screen-sm-min) {
+      width: 50%;
+    }
+  }
+
+  .sbscrb-donate-blurb {
+    display: table-cell;
+    width: 99%;
+  }
+
+  .sbscrb-donate-link {
+    display: table-cell;
+    width: 1%;
+  }
 }
 
 /* Form Styling */
