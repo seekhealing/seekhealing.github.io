@@ -5,5 +5,9 @@ col-width: thin
 section-bottom-border: true
 ---
 
-SeekHealing is a 501(c)3 non-profit serving people at risk for overdose. We provide free support services to anyone at any stage in the addiction healing process.
-{:class="size-26"}
+SeekHealing works to prevent drug overdoses by treating both the individual and the community for addiction. 
+
+We provide free support services to anyone at any stage in the addiction healing process, and we educate the community about healthy social connection.
+
+[How does connection prevent addiction?](/learn/){: class="italic"}
+

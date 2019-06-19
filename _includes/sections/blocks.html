@@ -1,0 +1,41 @@
+{% comment %} 
+<!--
+  Blocks Section
+
+  This partial is used for groups of blocks to include on a page.
+  
+--> 
+{% endcomment %}
+
+{% assign blcks_arr = site.sections|where:"type","blocks"|where:"title",include.title %}
+
+{% for blocks in blcks_arr %}
+
+<section{% if blocks.section-bottom-border %} class="bottom-border"{% endif %}>
+  <div class="section{% if blocks.white-bg %} white{% endif %}{% if blocks.font == "large"%} font-lg-light{% endif %}{% if blocks.padding %} {{ blocks.padding }}{% endif %}">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-xs-12 text-center {% if blocks.header %}{{ blocks.header }}{% else %}normal-header{% endif %}">
+          
+          {{ blocks.content | markdownify }}
+          
+          <ul class="blocks">
+
+            {% assign blck_arr = site.sections |where:"type","block" |where:"block-title",blocks.block-title |sort: "order" %}
+            
+            {% for block in blck_arr %}
+            <a href="{{ block.link }}"><li>
+
+              {{ block.content | markdownify }}
+
+            </li></a>
+            {% endfor %}
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endfor %}
