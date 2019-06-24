@@ -1,12 +1,11 @@
 ---
 type: single
 title: home-asheville
-col-width: thin
+col-width: wide
 section-bottom-border: true
-padding: no-top-padding
 ---
 
-SeekHealing's first non-residential program to treat addiction disease at the community level is currently operating in Asheville, NC.
+# SeekHealing's first non-residential program to treat addiction disease at the community level is currently operating in Asheville, NC.
 
 [Join the Program](https://form.jotform.com/90764612050148){:class="button button-purple small-text" target="_blank"}
 {:class="no-bot-margin"}
