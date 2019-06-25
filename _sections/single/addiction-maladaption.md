@@ -22,6 +22,6 @@ We now know that social isolation and loneliness are directly correlated with ad
 
 Please follow the link below to read a detailed research summary of how social isolation drives addiction behaviors.
 
-[Research Summary](/rat-park-experiments/){:class="button button-purple"}
+[Research Summary](/research-summary/){:class="button button-purple"}
 
 [Additional Resources](/additional-resources/){:class="button button-purple"}
