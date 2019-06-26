@@ -21,7 +21,7 @@ This program is right for you if you:
 - Need extra support making the transition from treatment to real life
 - Want to volunteer and support those around you who are healing from addiction
 
-[Join the Program](/asheville-pilot-program/){:class="button button-purple"}
+[Join the Program](/calendar/){:class="button button-purple"}
 {:class="no-bot-margin"}
 
 Currently available locally in Asheville, NC

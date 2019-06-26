@@ -1,8 +1,8 @@
 ---
 type: single
-title: join-the-program
+title: asheville-become-a-seeker
 col-width: "wide"
-padding: no-top-padding
+padding: no-bot-padding
 ---
 
 # Become a <span class="emphasized-header">seeker</span> today

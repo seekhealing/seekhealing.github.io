@@ -5,7 +5,7 @@ header: "subnav-header"
 col-width: "wide"
 ---
 
-# <span class="emphasized-header">Asheville</span>, NC Program
+# Program Calendar
 
 SeekHealing’s first non-residential program to treat addiction disease at the community level is currently in operation in Asheville, NC.
 {: class="subnav"}
