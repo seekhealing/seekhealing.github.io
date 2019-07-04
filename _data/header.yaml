@@ -9,13 +9,7 @@ nav:
       - title: How SeekHealing Works
         url: /heal/
       - title: Asheville Program
-        url: /asheville-pilot-program/
-      - title: Asheville Connection Agent Partners
-        url: /asheville-connection-agent-partners/
-      - title: Listening Training
-        url: /listening-training/
-      - title: Extra Care Program
-        url: /extra-care-program/
+        url: /asheville-program/
       - title: Healing Hubs
         url: /healing-hubs/
     title: Heal
@@ -25,6 +19,8 @@ nav:
         url: /upcoming-events/
       - title: Contact Us
         url: /contact/
+      - title: Program Sign-up
+        url: https://form.jotform.com/90764612050148
     title: Connect
     url: /contact/
   - title: About

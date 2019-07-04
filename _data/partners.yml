@@ -30,7 +30,7 @@ partners:
   - title: "C3-356 Comprehensive Care Center"
     image: "partner-c3-356 logo2.png"
     link: "https://www.c3356.org/services/peer-living-room/"
-    include-page: ["partners","home-partners","asheville-partners"]
+    include-page: ["partners","home-partners"]
   - title: "Celebration"
     image: "partner-celebration-commune.png"
     link: "https://www.celebrationcommune.com/"
@@ -54,7 +54,7 @@ partners:
   - title: "Faces and Voices of Recovery"
     image: "partner-fandv-recovery.png"
     link: "https://facesandvoicesofrecovery.org/"
-    include-page: ["home-partners","asheville-partners"]
+    include-page: ["home-partners"]
   - title: "Gearu Yoga & Outdoor Sports"
     image: "partner-gearu-logo.png"
     link: "https://gearuwnc.com/"
@@ -157,7 +157,7 @@ partners:
   - title: "United Way of Asheville & Buncombe County"
     image: "partner-united-way.jpg"
     link: "https://unitedwayabc.org"
-    include-page: ["home-partners", "asheville-partners"]
+    include-page: ["home-partners"]
   - title: "Well Played"
     image: "partner-well-played.png"
     link: "https://wellplayedasheville.com/"
@@ -176,20 +176,20 @@ partners:
   - title: "Buncombe County District Attorney"
     image: "partner-buncombe-county-district-attorney.png"
     link: "https://www.buncombeda.org/"
-    include-page: ["home-partners","asheville-partners"]
+    include-page: ["home-partners"]
   - title: "Goodwill"
     image: "partner-goodwill.png"
     link: "https://www.goodwillnwnc.org/"
-    include-page: ["home-partners","asheville-partners"]
+    include-page: ["home-partners"]
   - title: "Buncombe County Justice Resource Center"
     image: "partner-jrc logo.png"
     link: "https://www.buncombecounty.org/law-safety/community-initiatives/justice-resource-center.aspx"
-    include-page: ["home-partners","asheville-partners"]
+    include-page: ["home-partners"]
   - title: "Mission Health"
     image: "partner-mission health logo.png"
     link: "https://missionhealth.org/"
-    include-page: ["home-partners","asheville-partners"]
+    include-page: ["home-partners"]
   - title: "Buncombe County Health & Human Services"
     image: "partner-buncombe-county-health-human-services.png"
     link: "https://www.buncombecounty.org/Governing/Depts/HHS/Default.aspx"
-    include-page: ["home-partners","asheville-partners"]
+    include-page: ["home-partners"]
