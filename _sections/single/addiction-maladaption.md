@@ -3,12 +3,14 @@ type: single
 title: addiction-maladaption
 col-width: "wide"
 white-bg: true
+align: left
 ---
 
-![science owl](/assets/images/owl-science-250.png){:width="150px" height="auto" class="bottommargin text-center"}
+![science owl](/assets/images/owl-science-250.png){:width="150px" height="auto" class="bottommargin"}
+{:class="text-center"}
 
 ## Addiction states indicate both <span class="emphasized-header">physiological disease</span> as well as <span class="emphasized-header">maladaptation</span> to an unhealthy social environment.
-{:class="two-lines bottommargin"}
+{:class="two-lines bottommargin text-center"}
 
 Modern scientific discourse and medical models clearly show that there are three main drivers of addiction behavior and emotional health issues on the [bio-psycho-social spectrum](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1466742/){:target="_blank"}.  
 
@@ -23,5 +25,7 @@ We now know that social isolation and loneliness are directly correlated with ad
 Please follow the link below to read a detailed research summary of how social isolation drives addiction behaviors.
 
 [Research Summary](/research-summary/){:class="button button-purple"}
+{:class="text-center"}
 
 [Additional Resources](/additional-resources/){:class="button button-purple"}
+{:class="text-center"}
