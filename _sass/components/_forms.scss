@@ -145,6 +145,10 @@ a.definition {
 	margin-left: 0;
 }
 
+.checkbox-inline+.checkbox-inline {
+  margin-left: 0px;
+}
+
 .row.invalid-row {
   background-color: #ffebee;
 }

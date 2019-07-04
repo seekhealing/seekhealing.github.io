@@ -1,0 +1,474 @@
+{% comment %} 
+<!--
+  General Volunteering Form Section
+
+  This partial is used for the general volunteering form
+
+--> 
+{% endcomment %}
+
+{% assign form = site.sections |where:"type","general-volunteering-form" %}
+
+<section>
+  <div class="section">
+    <div class="container clearfix">
+      <div class="row normal-header">
+        <div class="col-md-10 col-md-offset-1 col-xs-12">  
+        {% for content in form %}
+          
+          <h1 class="text-center">{{ content.header }}</h1>
+
+          <div class="alert alert-success text-center">
+            <h4>
+              <i class="fa fa-check fa-big" aria-hidden="true"></i> Thank you!</h4>
+              <hr class="message-inner-separator">
+            <p>Someone from SeekHealing will be in touch with you shortly.</p>
+          </div>
+
+          <div class="connection-agent-form text-left">
+            {{ content.content | markdownify }}
+          </div>
+
+        {% endfor %}
+        </div>
+
+        <div class="col-md-10 col-md-offset-1 col-xs-12 form-container">
+
+          <form name="cuForm" id="cuForm" method="POST">
+            <input type="hidden" name="form-identifier" id="form-identifier" value="volunteer">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="form-legend">
+                  <span class="req">* Required</span>
+                </div>
+              </div>
+            </div>
+            <div class="row form-subheader">
+              <div class="col-xs-12">
+                <div class="form-subheader-container" role="heading">
+                  <div>Basic Info</div>
+                </div>
+                <div class="form-subheader-triangle">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 14 10" preserveAspectRatio="none">
+                    <polygon class="freebirdSolidFill" points="0,0 13,0 0,13"></polygon>
+                  </svg>
+                </div>
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 field">
+                <div>
+                  <label for="emailAddress">Email Address <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="email" class="form-control" placeholder="Your email" id="emailAddress" name="emailAddress" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 field">
+                <div>
+                  <label for="entry.846913479">First Name <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your first name" id="entry.846913479" name="entry.846913479" required>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 field">
+                <div>
+                  <label for="entry.1795807081">Last Name <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your last name" id="entry.1795807081" name="entry.1795807081" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div>
+                  <label for="entry.2034545276">Preferred Pronouns </label>
+                </div>
+                <div class="btn-group btn-group-vertical" data-toggle="buttons">
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.2034545276" value="Female">Female
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.2034545276" value="Male">Male
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.2034545276" value="Neutral">Neutral
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.2034545276" id="entry.2034545276.other-option" value="__other_option__">Other <input type="text" class="form-control other" id="entry.2034545276.other_option_response" name="entry.2034545276.other_option_response">
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 field">
+                <div>
+                  <label for="entry.1092307086">Phone <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your phone number" id="entry.1092307086" name="entry.1092307086" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.1176467097">Street Address <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.1176467097" name="entry.1176467097" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-4 field">
+                <div>
+                  <label for="entry.253097227">City <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your city" id="entry.253097227" name="entry.253097227" required>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 field">
+                <div>
+                  <label for="entry.1155394761">State <span class="req">*</span></label>
+                </div>
+                <div>
+                  <select name="entry.1155394761">
+                    <option value="">Choose Your State</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California">California</option>
+                    <option value="Colorado">Colorado</option>
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="District Of Columbia">District Of Columbia</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="New Hampshire">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 field">
+                <div>
+                  <label for="entry.1919291625">Zip Code <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your zip code" id="entry.1919291625" name="entry.1919291625" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div>
+                  <label for="entry.994084297">Preferred communication <span class="req">*</span></label>
+                </div>
+                <div class="btn-group btn-group-vertical" data-toggle="buttons">
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.994084297" value="Email" required>Email
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.994084297" value="Text">Text
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.994084297" value="Call">Call
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.2034545276">Race </label>
+                </div>
+                <div class="btn-group btn-group-vertical" data-toggle="buttons">
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.1222597092" value="American Indian or Alaska Native">American Indian or Alaska Native
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.1222597092" value="Asian">Asian
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.1222597092" value="Black or African American">Black or African American
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.1222597092" value="Native Hawaiian or Other Pacific Islander">Native Hawaiian or Other Pacific Islander
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.1222597092" value="White">White
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.1222597092" value="Prefer not to answer">Prefer not to answer
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.1222597092" id="entry.1222597092.other-option" value="__other_option__">Other <input type="text" class="form-control other" id="entry.1222597092.other_option_response" name="entry.1222597092.other_option_response">
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.2034545276">Ethnicity </label>
+                </div>
+                <div class="btn-group btn-group-vertical" data-toggle="buttons">
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.491983898" value="Hispanic">Hispanic
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.491983898" value="Non-Hispanic">Non-Hispanic
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="entry.491983898" id="entry.491983898.other-option" value="__other_option__">Other <input type="text" class="form-control other" id="entry.491983898.other_option_response" name="entry.491983898.other_option_response">
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 field">
+                <div>
+                  <label for="entry.1701320964">Employer </label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.1701320964" name="entry.1701320964">
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 field">
+                <div>
+                  <label for="entry.1629088672">Occupation </label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.1629088672" name="entry.1629088672">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.1108994647">If you are a student, what is your school and current field of study?</label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.1108994647" name="entry.1108994647">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.427570014">Do you speak any other languages? If yes, please list.</label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.427570014" name="entry.427570014">
+                </div>
+              </div>
+            </div>
+            <div class="row form-subheader">
+              <div class="col-xs-12">
+                <div class="form-subheader-container" role="heading">
+                  <div>Volunteer Interests</div>
+                </div>
+                <div class="form-subheader-triangle">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 14 10" preserveAspectRatio="none">
+                    <polygon class="freebirdSolidFill" points="0,0 13,0 0,13"></polygon>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.192522447">How did you find out about SeekHealing? <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.192522447" name="entry.192522447" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.1503886762">When are you able to volunteer? <span class="req">*</span></label>
+                </div>
+                <div>
+                  <textarea id="entry.1503886762" name="entry.1503886762" required rows="4"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.946209595">What are your volunteer interests? Please check all that apply. <span class="req">*</span></label>
+                </div>
+                <div class="btn-group btn-group-vertical" data-toggle="buttons">
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Getting trained as a Listener to work one-on-one with people in crisis" required>Getting trained as a Listener to work one-on-one with people in crisis
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Fundraising">Fundraising
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Special events">Special events
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Marketing & outreach communications">Marketing &amp; outreach communications
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Administrative & data entry">Administrative &amp; data entry
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Developing community partnerships">Developing community partnerships
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Contracts & legal">Contracts &amp; legal
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Accounting">Accounting
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Web development">Web development
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Research & data analysis">Research &amp; data analysis
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" value="Community administration">Community administration
+                  </label>
+                  <label class="form-control checkbox-inline">
+                    <input type="checkbox" name="entry.946209595" id="entry.946209595.other-option" value="__other_option__">Other <input type="text" class="form-control other" id="entry.946209595.other_option_response" name="entry.946209595.other_option_response">
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.622248581">Please describe any skills you have that are relevant to the above selection(s). </label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.339336416" name="entry.339336416">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.2117418303">Do you have any special services to offer? </label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.61216532" name="entry.61216532">
+                </div>
+              </div>
+            </div>
+            <div class="row form-subheader">
+              <div class="col-xs-12">
+                <div class="form-subheader-container" role="heading">
+                  <div>Motivation</div>
+                </div>
+                <div class="form-subheader-triangle">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 14 10" preserveAspectRatio="none">
+                    <polygon class="freebirdSolidFill" points="0,0 13,0 0,13"></polygon>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.119543290">Why are you interested in volunteering with SeekHealing? <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.119543290" name="entry.119543290" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.1729729189">How has addiction (opioid or otherwise) impacted your life or the lives of your loved ones? <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.1729729189" name="entry.1729729189" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.266948802">Please describe your current and/or previous volunteer experience(s), if any. <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.266948802" name="entry.266948802" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="entry.266948802">What are your goals and expectations as a SeekHealing volunteer? <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="entry.1764745327" name="entry.1764745327" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="form-group">  
+                  <button type="submit" class="btn btn-lg btn-success submitbtn">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

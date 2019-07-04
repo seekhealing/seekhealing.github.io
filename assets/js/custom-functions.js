@@ -12,16 +12,22 @@ $(function () {
     if ($("#cuForm").length) {
       $("#cuForm").submit(function() {
 
-        var pgHistory = "&pageHistory=0&fbzx=6549222362718651000&fvv=1"
+        var pgHistory = "&pageHistory=0&fbzx=6549222362718651000&fvv=1";
+        var url = "https://docs.google.com/forms/d/e/1FAIpQLSeTtbYt0OKcqCYJqvwyQr284R_18TIXde02beSnvwATZCvxJQ/formResponse";
+        if ($("#form-identifier").val() == "volunteer") {
+          url = "https://docs.google.com/forms/d/e/1FAIpQLScEc_LvhC85sTBeHLUKUlEf7BG8m-kXZxJXdj9NE5uj6jmm8g/formResponse";
+          pgHistory = "&pageHistory=0,1,2,3&fbzx=6340107043479412568&fvv=1"
+        }
 
         $.ajax({
           type: 'POST',
-          url: "https://docs.google.com/forms/d/e/1FAIpQLSeTtbYt0OKcqCYJqvwyQr284R_18TIXde02beSnvwATZCvxJQ/formResponse",
+          url: url,
           data: $("#cuForm").serialize().replace(/[^&]+=&/g, '').replace(/&[^&]+=$/g, '') + pgHistory,
           dataType: "xml",
           complete: function() {
            $(".alert.alert-success").show();
            $(".connection-agent-form").hide();
+           $(".form-container").hide();
           }
         });
 
