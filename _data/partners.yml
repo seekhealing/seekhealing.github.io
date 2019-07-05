@@ -2,194 +2,194 @@ partners:
   - title: "Asheville Reiki Connection"
     image: "partner-asheville-reiki-connection-logo.png"
     link: "http://www.ashevillereikiconnection.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Asheville Sound Healing"
     image: "partner-ash-logo.jpg"
     link: "https://www.facebook.com/ASHdirectory/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Asheville Sport & Social Club"
     image: "partner-ashevillessc-logo.png"
     link: "https://www.ashevillessc.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Asheville 12 Step Club"
     image: "partner-avl.jpg"
     link: "http://www.asheville12stepclub.org/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Aurora Art Studio"
     image: "partner-aurora-art-studio.jpg"
     link: "http://www.aurorastudio-gallery.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Authentic Asheville"
     image: "partner-authentic-asheville-logo.png"
     link: "https://www.facebook.com/events/2086679578213196/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Blue Ridge Chaga Connection"
     image: "partner-chaga.jpg"
     link: "https://blueridgechagaconnection.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "C3-356 Comprehensive Care Center"
     image: "partner-c3-356 logo2.png"
     link: "https://www.c3356.org/services/peer-living-room/"
-    include-page: ["partners","home-partners"]
+    include-page: ["partners","home-partners", "strategic-partners", "conn-agent-partners"]
   - title: "Celebration"
     image: "partner-celebration-commune.png"
     link: "https://www.celebrationcommune.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "The Circling Institute"
     image: "partner-circling-logo.jpg"
     link: "https://www.circlinginstitute.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Embodied Breath"
     image: "partner-EB3.png"
     link: "https://www.yourembodiedbreath.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Empyrean Arts"
     image: "partner-empyrean-arts.jpg"
     link: "http://empyreanarts.org/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Eye on Soul"
     image: "partner-eye-on-soul-logo.jpg"
     link: "https://www.eyeonsoul.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Faces and Voices of Recovery"
     image: "partner-fandv-recovery.png"
     link: "https://facesandvoicesofrecovery.org/"
-    include-page: ["home-partners"]
+    include-page: ["home-partners", "strategic-partners"]
   - title: "Gearu Yoga & Outdoor Sports"
     image: "partner-gearu-logo.png"
     link: "https://gearuwnc.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Golds Gym"
     image: "partner-golds-gym-logo.jpg"
     link: "https://www.goldsgym.com/patton/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Healing Roots"
     image: "partner-healing-roots.png"
     link: "http://www.healingrootsshiatsu.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Integrative Family Medicine of Asheville"
     image: "partner-ifma.png"
     link: "https://www.integrativeasheville.org/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Kratom of Life"
     image: "partner-kratom-of-life.png"
     link: "https://kratomoflife.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Making Whole Craft Apprenticeships"
     image: "partner-making-whole.png"
     link: "http://makingwhole.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "ManKind Project"
     image: "partner-mkp-logo.png"
     link: "https://www.meetup.com/The-Greater-Asheville-ManKind-Project-Community/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Nature's Vitamins & Herbs"
     image: "partner-natures-vitamins-herbs-logo.png"
     link: "http://www.naturesvitaminsandherbs.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Nector Healing Arts"
     image: "partner-nector-logo.jpg"
     link: "http://www.nectarme.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "No Taste Like Home"
     image: "partner-no-taste-home.png"
     link: "https://notastelikehome.org/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Open Path Psychotherapy Collective"
     image: "partner-open-path-logo.png"
     link: "https://openpathcollective.org/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Original Recovery"
     image: "partner-original-recovery.png"
     link: "https://originalrecovery.org/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Orison Books"
     image: "partner-orison-books-logo.jpg"
     link: "https://orisonbooks.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "The People's Acupuncture of Asheville"
     image: "partner-people-acupuncture-logo.jpg"
     link: "http://peoplesacupunctureavl.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Pivot Point WNC"
     image: "partner-pivot-point.jpg"
     link: "https://www.pivotpointwnc.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Pure Yoga"
     image: "partner-pure-yoga.png"
     link: "http://pureyogaavl.com"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Purium"
     image: "partner-purium.svg"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "The Purpose Collective"
     image: "partner-purpose-collective-logo.jpg"
     link: "https://www.thepurposecollective.org/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Radiant Wholeness Coaching"
     image: "partner-radiant-wholeness.jpg"
     link: "https://www.radiantwholeness.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "The REAL Center"
     image: "partner-real-center.png"
     link: "http://www.therealcenter.org"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Refuge Recovery"
     image: "partner-refuge-recovery-asheville-logo.png"
     link: "http://refugerecoveryavl.org/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Secrets of Natural Walking"
     image: "partner-sonwa-logo.png"
     link: "http://sonwasheville.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Slacklibrium"
     image: "partner-slack-librium-logo.png"
     link: "https://slacklibrium.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Still Point Wellness"
     image: "partner-stillpoint.png"
     link: "https://stillpointwell.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Sweet River Wellness"
     image: "partner-sweetriverwellness-logo.jpg"
     link: "https://sweetriverwellness.com"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "United Way of Asheville & Buncombe County"
     image: "partner-united-way.jpg"
     link: "https://unitedwayabc.org"
-    include-page: ["home-partners"]
+    include-page: ["home-partners", "strategic-partners"]
   - title: "Well Played"
     image: "partner-well-played.png"
     link: "https://wellplayedasheville.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "WRAP group"
     image: "partner-wrap.png"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "YMCA"
     image: "partner-ymca-logo.svg"
     link: "https://www.ymcawnc.org/centers/asheville-ymca"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Zen Tubing"
     image: "partner-zen-tubing-logo.png"
     link: "https://zentubing.com/"
-    include-page: "partners"
+    include-page: ["partners", "conn-agent-partners"]
   - title: "Buncombe County District Attorney"
     image: "partner-buncombe-county-district-attorney.png"
     link: "https://www.buncombeda.org/"
-    include-page: ["home-partners"]
+    include-page: ["home-partners", "strategic-partners"]
   - title: "Goodwill"
     image: "partner-goodwill.png"
     link: "https://www.goodwillnwnc.org/"
-    include-page: ["home-partners"]
+    include-page: ["home-partners", "strategic-partners"]
   - title: "Buncombe County Justice Resource Center"
     image: "partner-jrc logo.png"
     link: "https://www.buncombecounty.org/law-safety/community-initiatives/justice-resource-center.aspx"
-    include-page: ["home-partners"]
+    include-page: ["home-partners", "strategic-partners"]
   - title: "Mission Health"
     image: "partner-mission health logo.png"
     link: "https://missionhealth.org/"
-    include-page: ["home-partners"]
+    include-page: ["home-partners", "strategic-partners"]
   - title: "Buncombe County Health & Human Services"
     image: "partner-buncombe-county-health-human-services.png"
     link: "https://www.buncombecounty.org/Governing/Depts/HHS/Default.aspx"
-    include-page: ["home-partners"]
+    include-page: ["home-partners", "strategic-partners"]
