@@ -23,7 +23,18 @@ nav:
         url: https://form.jotform.com/90764612050148
     title: Connect
     url: /contact/
-  - title: About
+  - submenu:
+      - title: Leadership
+        url: /board-of-directors/
+      - title: Financials
+        url: /financials/
+      - title: Press
+        url: /press/
+      - title: Team
+        url: /team/
+      - title: Partners
+        url: /partners/
+    title: About
     url: /about/
   - title: Remember
     url: /they-were-here/
