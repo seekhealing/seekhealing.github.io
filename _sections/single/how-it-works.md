@@ -9,20 +9,21 @@ white-bg: true
 # How <span class="emphasized-header">SeekHealing</span> Works
 {: class="no-bot-border"}
 
-SeekHealing is a community-sourced treatment model that empowers people to heal rather than achieve certain outcomes. We provide free support services to any stage in the addiction healing process.
+The SeekHealing project is a community-sourced treatment model that empowers people to heal from trauma rather than achieve certain outcomes. We provide free support services to any stage in the addiction healing process.
 {: class="subnav"}
 
-![How it works infographic](/assets/images/how-it-works.png){:class="img-responsive"}
+<object data="/assets/images/how-it-works.svg" type="image/svg+xml" class="img-responsive"></object>
 
-This program is right for you if you:
-
-- Want to live a more connected life
-- Self-isolate less
-- Need extra support making the transition from treatment to real life
-- Want to volunteer and support those around you who are healing from addiction
-
-[Join the Program](/calendar/){:class="button button-purple"}
+[Join the Program](https://form.jotform.com/90764612050148){:class="button button-purple" target="_blank"}
 {:class="no-bot-margin"}
 
-Currently available locally in Asheville, NC
+Currently only available locally in Asheville, NC. Housing and transportation not provided. 
 {:class="size-14 italic"}
+
+Whether you're in recovery, trying to change a substance use pattern, want to volunteer, want to offer your business services seekers, or just want to live a more connected life, click the button above to get started. You’ll fill out a short form and then schedule a First Conversation at our office to connect with someone 1-on-1.
+
+<div class="medium max-vid-width">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0z-2jYwrd70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
