@@ -11,7 +11,3 @@ sections:
 ---
 
 # <span class="emphasized-header">Science, Stats, and Research</span>
-{: class="no-bot-border"}
-
-You can’t heal in the same environment where you got sick.
-{: class="subnav"}
