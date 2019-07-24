@@ -35,7 +35,7 @@ Note: Listening Training hours may count towards your Peer Support Specialist qu
 
 By completing this training, you'll become part of a radically different addiction treatment program in Buncombe County, NC. The disease of addiction shows up in individuals because it is first a disease of the community: a problem with how individuals within a group relate with one another. SeekHealing "treats" addiction disease at the community level.
 
-The training is a 16-hour course spanning two days (one day on each of two weekends) and covers techniques on how to offer listening and peer-based support to someone healing from opioid addiction. It will also teach you how to better listen to yourself and identify your own needs, whether you struggle with substance use or some other type of addiction.
+The training takes place over the course of a 6-week series or 2-day weekend retreat, and covers techniques on how to listen supportively to someone healing from opioid addiction (which also involves listening to yourself and learning how to set compassionate boundaries).
 
 After the training, you’ll be paired with someone else in the SeekHealing community in order to practice the art of human connection on a weekly basis. The subsequent [program](/heal/) will accelerate both of your healing & growth and you'll also have access to all kinds of awesome, donation-based groups, meetings and activities to explore with other people in the community.
 
