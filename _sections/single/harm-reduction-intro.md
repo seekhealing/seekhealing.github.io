@@ -12,4 +12,6 @@ padding: no-bot-padding
 How to apply harm reduction principles to addiction treatment and recovery
 {: class="subnav"}
 
+[RSVP to the next Opiod Addiction 101 Class](https://www.eventbrite.com/e/opioid-addiction-101-tickets-61125687577){:target="_blank" class="button button-purple"}
+
 The most evidence-based approach for stopping overdoses is giving people the equipment they need to stay safe while they are using drugs. This approach is known as harm reduction.
