@@ -1,9 +1,9 @@
 ---
 type: team
 category: Team
-name: Khyrstyne Williams
+name: Kay Williams
 title: Harm Reduction Coordinator
-image: /assets/images/team-headshot-khyrstyne.jpg
+image: /assets/images/team-headshot-kay.jpg
 order: 5
 ---
 
