@@ -3,19 +3,8 @@ type: single
 title: extra-care-qualifications
 ---
 
-In the last six months, if you have:
-{:class="text-left"}
-
-- survived an overdose
-- gone through detox one or more times<br><i>home detox, medical detox, ibogaine-assisted detox, or other detox</i>
-- participated in an addiction treatment program
-- resided in sober living housing
-- have a history of opioid or amphetamine use
-
-You may qualify for one of SeekHealing's extra care program scholarships to receive free, ongoing support as you navigate this major life transition.
-
 Program Requirements:
-{:class="text-left"}
+{:class="text-left bold underline"}
 
 - 6 month commitment
 - Weekly check-ins with program management via phone or text
@@ -25,8 +14,8 @@ Program Requirements:
 - Weekly participation in community calendar events and meetings
 - Regular participation in connection training events & practice groups
 
-Scholarship Includes:
-{:class="text-left"}
+Services Include:
+{:class="text-left bold underline"}
 
 - Limited number of bodywork sessions
 - 1 community acupuncture session per week after initial 3 sessions
