@@ -12,7 +12,9 @@ padding: no-bot-padding
 Learn how to better listen to yourself and others.
 {: class="subnav"}
 
-Join us for 16 hours of professional training in authentic human connection and peer-based addiction support. It's a one-of-a-kind opportunity to dig deeper into your own personal growth &amp; healing journey while lifting others up along the way.
+Practical training in active listening: the foundation for more meaningful connection with others. This course teaches you how to better listen to others, and yourself. It's a one-of-a-kind opportunity to dig deeper into your own personal growth & healing journey while lifting others up along the way. 
+
+Offered as a 6-week series (email [megan@seekhealing.org](mailto:megan@seekhealing.org) for next sign-up date) or weekend retreat ([click here](/upcoming-events/) to see when the next one is).
 
 Listening Training is provided free of cost by SeekHealing, a 501(c)3 nonprofit. The program is entirely donation based. A donation is not required but greatly appreciated.
 {:class="italic size-14"}
