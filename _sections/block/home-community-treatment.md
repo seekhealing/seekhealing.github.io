@@ -3,7 +3,7 @@ type: block
 title: home-community-treatment
 block-title: home-blocks
 link: /heal/
-order: 2
+order: 5
 ---
 
 ## Community Treatment Program

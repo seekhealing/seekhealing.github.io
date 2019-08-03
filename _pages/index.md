@@ -28,6 +28,12 @@ sections:
     title: "testimonial-travis"
   - type: "double"
     title: "testimonial-farrell"
+  - type: "double"
+    title: "testimonial-nopics-1"
+  - type: "double"
+    title: "testimonial-nopics-2"
+  - type: "double"
+    title: "testimonial-nopics-3"
   - type: "partners"
     title: "home-partners"
 ---
