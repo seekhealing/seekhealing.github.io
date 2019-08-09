@@ -3,9 +3,9 @@ type: block
 title: home-harm-reduction
 block-title: home-blocks
 link: /harm-reduction/
-order: 1
+order: 4
 ---
 
-## Public harm reduction education
+## Public Harm Reduction Education
 
 Training in overdose reversal and redefining addiction

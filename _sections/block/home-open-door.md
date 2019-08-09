@@ -3,7 +3,7 @@ type: block
 title: home-open-door
 block-title: home-blocks
 link: /heal/
-order: 3
+order: 1
 ---
 
 ## Open Door Policy
