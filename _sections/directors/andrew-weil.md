@@ -1,8 +1,7 @@
 ---
 type: team
-category: Advisory Board
+category: Advisory Council
 name: Andrew Weil, MD
-title: Pioneer in Integrative Medicine
 image: /assets/images/team-headshot-andrew.jpg
 order: 2
 ---

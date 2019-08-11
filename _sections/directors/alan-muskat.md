@@ -1,10 +1,9 @@
 ---
 type: team
-category: Officers of the Board
+category: Board of Directors
 name: Alan Muskat
-title: Director of Strategic Development
 image: /assets/images/team-headshot-alan-muskat.jpg
-order: 3
+order: 2
 ---
 
 Background: Entrepreneur & Innovator

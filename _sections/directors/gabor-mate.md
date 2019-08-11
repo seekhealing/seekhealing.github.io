@@ -1,8 +1,7 @@
 ---
 type: team
-category: Advisory Board
+category: Advisory Council
 name: Gabor Maté, MD
-title: Addiction Expert and Bestselling Author
 image: /assets/images/team-headshot-gabor.jpg
 order: 1
 ---
