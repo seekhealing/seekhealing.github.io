@@ -1,8 +1,7 @@
 ---
 type: team
-category: Advisory Board
+category: Advisory Council
 name: Bill White
-title: Senior Research Consultant
 image: /assets/images/team-headshot-bill.jpg
 order: 4
 ---

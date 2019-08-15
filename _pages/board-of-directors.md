@@ -5,7 +5,7 @@ sections:
   - type: "gauges"
     title: "Directors"
   - type: "directors"
-    title: "Officers of the Board"
+    title: "Board of Directors"
   - type: "directors"
-    title: "Advisory Board"
+    title: "Advisory Council"
 ---

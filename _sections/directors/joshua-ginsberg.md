@@ -1,10 +1,9 @@
 ---
 type: team
-category: Officers of the Board
+category: Board of Directors
 name: Joshua Ginsberg
-title: Treasurer
 image: /assets/images/team-headshot-jag.jpg
-order: 4
+order: 3
 ---
 
 Background: Technologist and Entrepreneur
