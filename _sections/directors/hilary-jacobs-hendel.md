@@ -2,6 +2,7 @@
 type: team
 category: Advisory Council
 name: Hilary Jacobs Hendel, DDS, LCSW
+name-link: https://www.hilaryjacobshendel.com/what-is-the-change-triangle-c18dd
 image: /assets/images/team-headshot-hilary-jacobs-hendel.jpg
 order: 5
 ---
