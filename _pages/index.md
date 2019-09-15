@@ -34,6 +34,10 @@ sections:
     title: "testimonial-nopics-2"
   - type: "double"
     title: "testimonial-nopics-3"
+  - type: "banner"
+    title: "made-possible-by"
+  - type: "double"
+    title: "possible-sponsors"
   - type: "partners"
     title: "home-partners"
 ---
