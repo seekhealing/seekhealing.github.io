@@ -4,18 +4,22 @@
 [class^="icon-line-"], [class*=" icon-line-"],
 [class^="icon-line2-"], [class*=" icon-line2-"],
 .side-header #primary-menu ul > li.sub-menu > a:after {
-	display: inline-block;
-	font-family: 'font-icons';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: inherit;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-family: 'font-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-reorder:before {
-	content: "\e76d";
+  content: "\e76d";
+}
+
+.candle-icon {
+  width: 75px;;
 }
