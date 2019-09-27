@@ -2,7 +2,7 @@
 type: team
 category: Team
 name: Maribeth Collins
-title: Volunteer Coordinator
+title: Community Navigator
 image: /assets/images/team-headshot-maribeth.jpg
 order: 6
 ---
