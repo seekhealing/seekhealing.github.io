@@ -29,7 +29,11 @@
                 <img src="{{ site.baseurl }}{{ profile.image }}" alt="{{ profile.name }}, {{ profile.title }}">
               </div>
               <div class="director-desc">
-                <h2>{{ profile.name }}</h2>
+                {% if profile.name-link %}
+                  <h2><a href="{{ profile.name-link }}">{{ profile.name }}</a></h2>
+                {% else %}
+                  <h2>{{ profile.name }}</h2>
+                {% endif %}
                 <div class="director-content">
                   {{ profile.content | markdownify }}
                 </div>
