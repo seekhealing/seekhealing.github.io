@@ -15,6 +15,10 @@
     background-color: #FFF;
   }
 
+  &.black, .col-padding.black {
+    background-color: #333;
+  }
+
   &.no-top-padding {
     padding-top: 0;
   }
