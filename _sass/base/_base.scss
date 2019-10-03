@@ -89,6 +89,16 @@ form {
   margin: 0;
 }
 
+audio {
+  filter: sepia(10%) saturate(70%) grayscale(1) contrast(99%) invert(19%);
+  width: 100%;
+  height: 50px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    width: 50%;
+  }
+}
+
 // Bootstrap iOS fix
 .row.display-flex:after, .row.display-flex:before {
   display: none;
