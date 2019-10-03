@@ -9,5 +9,5 @@ margin: no-margin
 The memory of Shaun Kay
 {:class="no-bot-margin size-20 white-txt"}
 
-The worst trumpet player in the whole world!
+Forever 34
 {:class="italic"}
