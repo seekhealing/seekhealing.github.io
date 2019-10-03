@@ -142,6 +142,10 @@ partners:
     image: "partner-sonwa-logo.png"
     link: "http://sonwasheville.com/"
     include-page: ["partners", "conn-agent-partners"]
+  - title: "Shaolin Kung Fu of Asheville t"
+    image: "partner-shaolin-kung-fu.png"
+    link: "http://www.ashevilleshaolin.com/"
+    include-page: ["conn-agent-partners"]
   - title: "Slacklibrium"
     image: "partner-slack-librium-logo.png"
     link: "https://slacklibrium.com/"
