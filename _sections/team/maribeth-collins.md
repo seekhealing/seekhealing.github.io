@@ -4,7 +4,7 @@ category: Team
 name: Maribeth Collins
 title: Community Navigator
 image: /assets/images/team-headshot-maribeth.jpg
-order: 6
+order: 5
 ---
 
 <maribeth@seekhealing.org>
