@@ -71,6 +71,10 @@ partners:
     image: "partner-ifma.png"
     link: "https://www.integrativeasheville.org/"
     include-page: ["partners", "conn-agent-partners"]
+  - title: "Journey Consulting Services"
+    image: "partner-journey-consulting-services.png"
+    link: "https://www.nvc.coach"
+    include-page: ["conn-agent-partners"]
   - title: "Kratom of Life"
     image: "partner-kratom-of-life.png"
     link: "https://kratomoflife.com/"
