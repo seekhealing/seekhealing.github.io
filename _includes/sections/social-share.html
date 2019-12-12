@@ -1,0 +1,105 @@
+{% comment %} 
+<!--
+  Social Sharing Section
+
+  This partial is used for 2 column layouts for social sharing.
+  Currently used on the Home page.
+  
+--> 
+{% endcomment %}
+
+{% assign socials = site.sections |where:"type","social-share" |where:"title",include.title %}
+
+{% for social in socials %}
+
+<section{% if social.section-bottom-border %} class="bottom-border"{% endif %}>
+  <div class="section{% if social.white-bg %} white{% elsif social.black-bg %} black{% endif %}{% if social.padding %} {{ social.padding }}{% endif %}">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="{% if social.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2{% elsif social.col-width == "wide" %}col-md-12{% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center {% if social.header %}{{ social.header }}{% else %}normal-header{% endif %}">
+          {{ social.content | markdownify }}
+        </div>
+      </div>
+      <div class="row display-flex ">
+
+        {% assign cols = site.sections |where:"type","social-col" |where:"col-names",social.col-names |sort: "order" %}
+
+        {% for col in cols %}
+
+          <div class="col-sm-6 col-xs-12 social{% if col.center %} text-center{% endif %}{% if col.margin =="no-margin" %} no-margin{% endif %}">
+
+          {% case col.share-type %}
+            {% when "facebook" %}
+            <div class="social-share">
+              <a href="https://www.facebook.com/sharer.php?u={{ col.share-post }}">
+                <img class="social-share__image" src="/assets/images/{{ col.share-image }}" alt="{{ col.share-alt }}">
+              </a>
+              <div class="social-share__content">
+                <svg class="social-share__content__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.893 266.895">
+                  <path d="M262.3,18.8v229.3c0,7.9-6.4,14.2-14.2,14.2h-65.7v-99.8h33.5l5-38.9h-38.5V98.8c0-11.3,3.1-18.9,19.3-18.9l20.6,0V45
+                    c-3.6-0.5-15.8-1.5-30-1.5c-29.7,0-50,18.1-50,51.4v28.7h-33.6v38.9h33.6v99.8H18.8c-7.9,0-14.2-6.4-14.2-14.2V18.8
+                    C4.6,11,11,4.6,18.8,4.6h229.3C255.9,4.6,262.3,11,262.3,18.8z"></path>
+                </svg>
+                <div class="social-share__content__copy">{{ col.content | markdownify }}</div>
+              </div>
+              <a class="button button--has-icon" href="https://www.facebook.com/sharer.php?u={{ col.share-post }}">
+                <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 266.893 266.895">
+                  <path d="M262.3,18.8v229.3c0,7.9-6.4,14.2-14.2,14.2h-65.7v-99.8h33.5l5-38.9h-38.5V98.8c0-11.3,3.1-18.9,19.3-18.9l20.6,0V45
+                    c-3.6-0.5-15.8-1.5-30-1.5c-29.7,0-50,18.1-50,51.4v28.7h-33.6v38.9h33.6v99.8H18.8c-7.9,0-14.2-6.4-14.2-14.2V18.8
+                    C4.6,11,11,4.6,18.8,4.6h229.3C255.9,4.6,262.3,11,262.3,18.8z"></path>
+                </svg>
+                Share
+              </a>
+            </div>
+
+            {% when "twitter" %}
+            <div class="social-share">
+              <div class="social-share__content">
+                <svg class="social-share__content__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.00006 244.18703">
+                  <g transform="translate(-539.17946,-568.85777)" id="layer1">
+                    <path d="m 633.89823,812.04479 c 112.46038,0 173.95627,-93.16765 173.95627,-173.95625 0,-2.64628 -0.0539,-5.28062 -0.1726,-7.90305 11.93799,-8.63016 22.31446,-19.39999 30.49762,-31.65984 -10.95459,4.86937 -22.74358,8.14741 -35.11071,9.62551 12.62341,-7.56929 22.31446,-19.54304 26.88583,-33.81739 -11.81284,7.00307 -24.89517,12.09297 -38.82383,14.84055 -11.15723,-11.88436 -27.04079,-19.31655 -44.62892,-19.31655 -33.76374,0 -61.14426,27.38052 -61.14426,61.13233 0,4.79784 0.5364,9.46458 1.58538,13.94057 -50.81546,-2.55686 -95.87353,-26.88582 -126.02546,-63.87991 -5.25082,9.03545 -8.27852,19.53111 -8.27852,30.73006 0,21.21186 10.79366,39.93837 27.20766,50.89296 -10.03077,-0.30992 -19.45363,-3.06348 -27.69044,-7.64676 -0.009,0.25652 -0.009,0.50661 -0.009,0.78077 0,29.60957 21.07478,54.3319 49.0513,59.93435 -5.13757,1.40062 -10.54335,2.15158 -16.12196,2.15158 -3.93364,0 -7.76596,-0.38716 -11.49099,-1.1026 7.78383,24.2932 30.35457,41.97073 57.11525,42.46543 -20.92578,16.40207 -47.28712,26.17062 -75.93712,26.17062 -4.92898,0 -9.79834,-0.28036 -14.58427,-0.84634 27.05868,17.34379 59.18936,27.46396 93.72193,27.46396"></path>
+                  </g>
+                </svg>
+                <div class="social-share__content__copy">{{ col.content | markdownify }}</div>
+              </div>
+              <a class="button button--has-icon" href="https://twitter.com/intent/tweet?text={{ col.content | replace: 'SeekHealing.org', 'https://seekhealing.org' }}">
+                <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.00006 244.18703">
+                  <g transform="translate(-539.17946,-568.85777)" id="layer1">
+                    <path d="m 633.89823,812.04479 c 112.46038,0 173.95627,-93.16765 173.95627,-173.95625 0,-2.64628 -0.0539,-5.28062 -0.1726,-7.90305 11.93799,-8.63016 22.31446,-19.39999 30.49762,-31.65984 -10.95459,4.86937 -22.74358,8.14741 -35.11071,9.62551 12.62341,-7.56929 22.31446,-19.54304 26.88583,-33.81739 -11.81284,7.00307 -24.89517,12.09297 -38.82383,14.84055 -11.15723,-11.88436 -27.04079,-19.31655 -44.62892,-19.31655 -33.76374,0 -61.14426,27.38052 -61.14426,61.13233 0,4.79784 0.5364,9.46458 1.58538,13.94057 -50.81546,-2.55686 -95.87353,-26.88582 -126.02546,-63.87991 -5.25082,9.03545 -8.27852,19.53111 -8.27852,30.73006 0,21.21186 10.79366,39.93837 27.20766,50.89296 -10.03077,-0.30992 -19.45363,-3.06348 -27.69044,-7.64676 -0.009,0.25652 -0.009,0.50661 -0.009,0.78077 0,29.60957 21.07478,54.3319 49.0513,59.93435 -5.13757,1.40062 -10.54335,2.15158 -16.12196,2.15158 -3.93364,0 -7.76596,-0.38716 -11.49099,-1.1026 7.78383,24.2932 30.35457,41.97073 57.11525,42.46543 -20.92578,16.40207 -47.28712,26.17062 -75.93712,26.17062 -4.92898,0 -9.79834,-0.28036 -14.58427,-0.84634 27.05868,17.34379 59.18936,27.46396 93.72193,27.46396"></path>
+                  </g>
+                </svg>
+                Tweet
+              </a>
+            </div>
+
+            {% else %}
+              <div class="social-share">
+                <div class="social-share__content">
+                  <svg class="social-share__content__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <path d="M98.2,19.6l-38.1,36c-2.7,2.6-6.3,3.9-9.9,3.9c-3.6,0-7.2-1.3-9.9-3.9l-38.1-36c-1,1.7-1.6,3.6-1.6,5.7V75c0,6.1,5,11,11,11
+                      h77.3c6.1,0,11-5,11-11V25.3C99.8,23.2,99.2,21.2,98.2,19.6z M56.3,51.6l38-35.9c-1.6-0.9-3.5-1.5-5.5-1.5H11.5
+                      c-2,0-3.8,0.5-5.5,1.5l38,35.9C47.4,54.7,53,54.7,56.3,51.6z"></path>
+                  </svg>
+                  <div class="social-share__content__copy">{{ col.content | markdownify }}</div>
+                </div>
+                <a class="button button--has-icon" href="mailto:?subject={{ col.email-subject }}&amp;body={{ col.content | replace: 'SeekHealing.org', 'https://seekhealing.org' }}">
+                  <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <path d="M98.2,19.6l-38.1,36c-2.7,2.6-6.3,3.9-9.9,3.9c-3.6,0-7.2-1.3-9.9-3.9l-38.1-36c-1,1.7-1.6,3.6-1.6,5.7V75c0,6.1,5,11,11,11
+                      h77.3c6.1,0,11-5,11-11V25.3C99.8,23.2,99.2,21.2,98.2,19.6z M56.3,51.6l38-35.9c-1.6-0.9-3.5-1.5-5.5-1.5H11.5
+                      c-2,0-3.8,0.5-5.5,1.5l38,35.9C47.4,54.7,53,54.7,56.3,51.6z"></path>
+                  </svg>
+                  Email
+                </a>
+              </div>
+          {% endcase %}
+              
+          </div>
+
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endfor %}
