@@ -235,10 +235,14 @@ input[type="checkbox"]:checked ~ .reveal-if-active {
   h3 {
     color: #3e203a;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 18px;
     text-align: center;
     border-bottom: 1px solid #bbb;
     margin-bottom: 0;
+
+    @media screen and (min-width: $screen-sm-min) {
+      font-size: 26px;
+    }
   }
 
   h4 {
@@ -270,7 +274,11 @@ input[type="checkbox"]:checked ~ .reveal-if-active {
     >p {
       color: #777;
       margin: 10px 0;
-      font-size: 16px;
+      font-size: 14px;
+
+      @media screen and (min-width: $screen-sm-min) {
+        font-size: 16px;
+      }
     }
 
     .progress {
@@ -283,9 +291,13 @@ input[type="checkbox"]:checked ~ .reveal-if-active {
     }
 
     .donate-btn-group {
-      margin: 0 10px 0 0;
+      margin: 5px 10px 5px 0;
       height: 35px;
       line-height: 35px;
+
+      @media screen and (min-width: $screen-sm-min) {
+        margin: 0 10px 0 0;
+      }
     }
 
     .form-group {
