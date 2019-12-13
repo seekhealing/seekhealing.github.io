@@ -11,5 +11,4 @@ _asset_bundler_cache
 node_modules
 npm-debug.log*
 *.swp
-vendor/
 .bundle/
