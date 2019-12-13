@@ -1,6 +1,20 @@
-// Gauges being used on Board-of-Directors page
+// Get Campaign progress
 $(document).ready(function(){
-  $(".GaugeMeter").gaugeMeter();
+  if ($('.progress-bar').length) {
+    $.get( "https://seekhealing.kindful.com/public/api/v1/campaigns/0efd7b88-00fa-4b91-848e-629db0677a23.json", function( data ) {
+      let raisedAmt = Math.round(data.campaign.total_raised_amount_in_cents / 100);
+      let goalAmt = Math.round(data.campaign.goal_amount_in_cents / 100);
+      let percentComplete = Math.round(raisedAmt / goalAmt);
+      
+      $(".label-raised").text("$" + raisedAmt.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Raised");
+      $(".label-goal").text("$" + goalAmt.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Goal");
+      $(".progress-bar").text(percentComplete + "% Complete");
+      $(".progress-bar").attr({
+        "style" : "width:" + percentComplete + "%",
+        "aria-valuenow" : percentComplete
+      });
+    });
+  }
 });
 
 $(document).ready(function () {
@@ -130,3 +144,41 @@ function replaceValidationUI( form ) {
         }
     });
 }
+
+$(function () {
+  $('.donate-btn-group').click(function(){
+    $('#donate-amount').val(($(this).val()).substr(1));
+  })
+
+  $('#holiday-donate-form').submit(function(e){
+    e.preventDefault(); 
+    try {
+      var items = 0;
+      var donation_amount = $('#donate-amount').val();
+      var campaign_id = 1048136;
+      
+      var url = "https://seekhealing.kindful.com/widget?campaign_id=" + campaign_id;
+      url += "&schedule=0" 
+      url += "&success_action=GET"
+      url += "&success_url=http%3A//seekhealing.org/"
+      url += "&cart[desc]=Holiday Fundraiser Donation from website";
+      
+      if (donation_amount > 0){
+        url += "&cart[items]["+items+"][amount]="+donation_amount;
+        url += "&cart[items]["+items+"][desc]=Online Donation"
+        url += "&cart[items]["+items+"][product_id]=online_donation"
+        url += "&cart[items]["+items+"][quantity]=1";
+        items ++;
+      }
+      if (items > 0){
+        window.location.href = url;
+      }else{
+        alert('Please select a donation amount')
+      }
+    } catch (e) {
+     throw new Error(e.message);
+    }
+    return false;   
+  })
+});
+

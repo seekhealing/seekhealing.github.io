@@ -223,3 +223,94 @@ input[type="checkbox"]:checked ~ .reveal-if-active {
   overflow: visible;
 }
 
+
+#slider .infoCard {
+  -moz-box-shadow: 0px 0px 15px rgba(155,155,155,0.8);
+  -webkit-box-shadow: 0px 0px 15px rgba(155,155,155,0.8);
+  box-shadow: 0px 0px 15px rgba(155,155,155,0.8);
+  background: rgba(255,255,255,0.85);
+  margin: 20px auto;
+  border-radius: 10px;
+
+  h3 {
+    color: #3e203a;
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    font-size: 14px;
+    color: #777;
+    font-weight: 500;
+    margin: 5px 0;
+  }
+
+  .goal-progress {
+    font-size: 14px;
+    color: #777;
+    font-weight: 300;   
+
+    .label-raised {
+      float: left;
+    }
+
+    .label-goal {
+      float: right;
+    }
+  }
+
+  >form {
+    background-color: initial;
+    border: 0;
+    padding: 10px 20px;
+
+    >p {
+      color: #777;
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .progress {
+      margin-bottom: 15px;
+    }
+
+    .progress-bar {
+      background-color: #3e203a;
+      min-width: 2em;
+    }
+
+    .donate-btn-group {
+      margin: 0 10px 0 0;
+      height: 35px;
+      line-height: 35px;
+    }
+
+    .form-group {
+      margin: 10px 0;
+    }
+
+    .form-control {
+      background-color: #eee;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      border-radius: 4px;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      width: 50%;
+    }
+  }
+
+  .float-left {
+    float: left;
+    color: #008000;
+  }
+
+  .float-right {
+    float: right;
+    color: #FF0000;
+  }
+}

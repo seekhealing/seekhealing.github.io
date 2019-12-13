@@ -8,7 +8,7 @@ nav:
   - title: Blog
     url: /blog/
 social-media:
-  - icon: 'fab fa-facebook'
+  - icon: 'fab fa-facebook-square'
     alt-icon: 'fab fa-facebook-f'
     url: 'https://www.facebook.com/seekhealing/'
   - icon: 'fab fa-twitter-square'
