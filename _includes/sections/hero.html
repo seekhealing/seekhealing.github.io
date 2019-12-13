@@ -19,14 +19,55 @@
     <div class="hero-area" style="background: url({{ hero.background }}) center center / cover no-repeat;">
       <div class="container clearfix">
         <div class="row slider-caption">
+          
           <div class="col-md-6 col-xs-12">
             {{ hero.content | markdownify }}
           </div>
           <div class="col-md-6 col-xs-12">
-            <div class="embed-responsive embed-responsive-16by9 hero-vid">
-               <iframe class="embed-responsive-item" src="{{ hero.video }}" frameborder="0" allowfullscreen></iframe>
+
+            <div class="infoCard">
+                  
+              <form id="holiday-donate-form" action="/" accept-charset="UTF-8" method="get">
+                <h3><i class="fab fa-sleigh"></i>Holiday fundraising campaign<i class="fa fa-gifts"></i></h3>
+                <p>Giving season is officially underway! December represents one of the most <span class="emphasized-header">critical</span> times of the year for <span class="emphasized-header">SeekHealing</span> and all the people it serves.<p>
+                <p>This holiday season, <span class="emphasized-header">help change lives</span> by giving to help raise $10K and be a part of the solution! Together we can build a world that we all want to live in, rather than escape from</p>
+
+                <h4><i class="fa fa-snowman"></i>Progress</h4>
+                <div class="goal-progress">
+                  <span class="label-raised"></span>
+                  <span class="label-goal"></span>
+                  <span class="clearfix"></span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" style=""></div>
+                </div>
+
+                <h4><i class="fa fa-snowflake"></i>Select or enter an amount</h4>
+                <div class="donation-buttons-wrapper" data-defaults="[10, 25, 50, 100]" data-currency="$">
+                      <input class="button donate-btn-group" type="button" value="$50" style="">
+                      <input class="button donate-btn-group" type="button" value="$100" style="">
+                      <input class="button donate-btn-group active" type="button" value="$250" style="">
+                      <input class="button donate-btn-group" type="button" value="$500" style="">
+                </div>
+
+                <div class="form-group">
+                  <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">$</div>
+                    <input type="number" class="form-control" id="donate-amount" placeholder="Amount" value="" min=0.01 step=0.01>
+                  </div>
+                </div>
+              
+                <div class="form-group">
+                  <button type="submit" class="btn btn-success">DONATE</button>
+                </div>
+
+              </form>
+
             </div>
+
           </div>
+
         </div>
       </div>
     </div>

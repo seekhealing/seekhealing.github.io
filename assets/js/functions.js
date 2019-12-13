@@ -1714,12 +1714,10 @@ var SEMICOLON = SEMICOLON || {};
 					if( $body.hasClass('device-lg') || $body.hasClass('device-md') ){
 						element.appear( function(){
 							if (!skillsBar.hasClass('skills-animated')) {
-								element.find('.counter-instant span').countTo();
 								skillsBar.find('.progress').css({width: skillValue + "%"}).addClass('skills-animated');
 							}
 						},{accX: 0, accY: -120},'easeInCubic');
 					} else {
-						element.find('.counter-instant span').countTo();
 						skillsBar.find('.progress').css({width: skillValue + "%"});
 					}
 				});
