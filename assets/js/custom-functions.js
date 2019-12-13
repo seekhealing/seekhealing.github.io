@@ -2,9 +2,12 @@
 $(document).ready(function(){
   if ($('.progress-bar').length) {
     $.get( "https://seekhealing.kindful.com/public/api/v1/campaigns/0efd7b88-00fa-4b91-848e-629db0677a23.json", function( data ) {
-      let raisedAmt = Math.round(data.campaign.total_raised_amount_in_cents / 100);
+      let raisedAmt = 250;
+      if (Math.round(data.campaign.total_raised_amount_in_cents / 100) > 250) {
+        raisedAmt = Math.round(data.campaign.total_raised_amount_in_cents / 100);
+      }
       let goalAmt = Math.round(data.campaign.goal_amount_in_cents / 100);
-      let percentComplete = Math.round(raisedAmt / goalAmt);
+      let percentComplete = Math.floor((raisedAmt / goalAmt) * 100);
       
       $(".label-raised").text("$" + raisedAmt.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Raised");
       $(".label-goal").text("$" + goalAmt.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " Goal");
