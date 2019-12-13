@@ -151,7 +151,7 @@ section.thin {
 .social-share {
   text-align: right;
   img {
-    max-width: 100%;
+    width: 100%;
   }
 
   .social-share__content {
@@ -171,7 +171,11 @@ section.thin {
 
   .social-share__content__copy {
     display: inline-block;
-    width: calc(100% - 50px);
+    width: calc(100% - 40px);
+
+    @media screen and (min-width: $screen-sm-min) {
+      width: calc(100% - 50px);
+    }
   }
 
 
