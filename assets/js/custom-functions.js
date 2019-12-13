@@ -2,6 +2,7 @@
 $(document).ready(function(){
   if ($('.progress-bar').length) {
     $.get( "https://seekhealing.kindful.com/public/api/v1/campaigns/0efd7b88-00fa-4b91-848e-629db0677a23.json", function( data ) {
+      // $( ".result" ).html( data );
       let raisedAmt = Math.round(data.campaign.total_raised_amount_in_cents / 100);
       let goalAmt = Math.round(data.campaign.goal_amount_in_cents / 100);
       let percentComplete = Math.round(raisedAmt / goalAmt);
@@ -13,6 +14,11 @@ $(document).ready(function(){
         "style" : "width:" + percentComplete + "%",
         "aria-valuenow" : percentComplete
       });
+
+      console.log(data.campaign.total_raised_amount_in_cents);
+      console.log(data.campaign.goal_amount_in_cents);
+      console.log(data);
+      console.log(percentComplete);
     });
   }
 });
