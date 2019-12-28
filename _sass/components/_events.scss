@@ -31,6 +31,14 @@
     @media screen and (min-width: $screen-sm-min) {  
       width: 300px;
     }
+
+    &.small-img {
+      @media screen and (min-width: $screen-sm-min) {  
+        width: 300px;
+        padding-bottom: 70px;
+      }
+    }
+
   }
 
   .event-date {
