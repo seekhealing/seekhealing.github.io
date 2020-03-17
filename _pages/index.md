@@ -23,8 +23,6 @@ sections:
     title: "gabor-quote"
   - type: "single"
     title: "home-asheville"
-  - type: "social-share"
-    title: "main-share"
   - type: "subscribe"
   - type: "double"
     title: "testimonial-travis"
