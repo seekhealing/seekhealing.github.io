@@ -3,7 +3,7 @@ type: subnav
 title: donate
 nav: Help
 image: /assets/images/subnav-donate.png
-link: "https://seekhealing.kindful.com/?campaign=264477"
+link: "/donate/"
 order: 1
 ---
 
