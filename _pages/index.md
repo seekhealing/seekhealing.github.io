@@ -17,8 +17,6 @@ sections:
     title: "about-seekhealing"
   - type: "banner"
     title: "community-banner"
-  - type: "single"
-    title: "info-session-video"
   - type: "double"
     title: "gabor-quote"
   - type: "single"
