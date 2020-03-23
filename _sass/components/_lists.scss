@@ -68,7 +68,7 @@ ul.resources {
     font-size: 35px;
     margin: 5px 10px 0 0;
   }
-  
+
   .resources-item {
     display: table-cell;
   }
@@ -92,15 +92,15 @@ ul.partners {
     margin: 15px 1%;
     display: inline-block;
     list-style: none;
-    width: 75%;
+    width: 40%;
     vertical-align: bottom;
 
-    @media screen and (min-width: $screen-sm-min) { 
-      width: 46%;
+    @media screen and (min-width: $screen-sm-min) {
+      width: 30%;
     }
 
-    @media screen and (min-width: $screen-md-min) { 
-      width: 25%;
+    @media screen and (min-width: $screen-md-min) {
+      width: 20%;
     }
 
     table {
@@ -153,11 +153,11 @@ ul.blocks {
     background-color: #A88CC6;
     border-radius: 25px;
 
-    @media screen and (min-width: $screen-sm-min) { 
+    @media screen and (min-width: $screen-sm-min) {
       width: 46%;
     }
 
-    @media screen and (min-width: $screen-md-min) { 
+    @media screen and (min-width: $screen-md-min) {
       width: 25%;
     }
 
@@ -182,7 +182,7 @@ ul.blocks {
     list-style-type:none;
     padding-left:1rem;
 
-    &:before {    
+    &:before {
       font-family: 'FontAwesome';
       content: "\f14a";
       margin:0 10px 0 -28px;
