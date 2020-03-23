@@ -47,12 +47,12 @@
 
   .custom-header {
     margin-bottom: 50px;
-    
+
     h1 {
       font-size: 22px;
       color: #777;
       font-weight: 300;
-      margin: 0;    
+      margin: 0;
     }
 
     .subnav {
@@ -70,12 +70,12 @@
 
   .subnav-header {
     margin-bottom: 50px;
-    
+
     h1 {
       font-size: 22px;
       color: #777;
       font-weight: 300;
-      margin: 0;    
+      margin: 0;
     }
 
     .subnav {
@@ -88,7 +88,7 @@
         width: 40px;
         border-top: 2px solid #444;
       }
-    }    
+    }
   }
 
   &.font-lg-light {
@@ -109,6 +109,14 @@ section.bottom-border {
 
 section.dark-grey {
   background-color: #333;
+}
+
+section.dark-red {
+  background-color: #92140C;
+
+  a {
+    color: #FCDE9C;
+  }
 }
 
 section.thin {

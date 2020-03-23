@@ -9,6 +9,8 @@ sections:
     title: "home"
   - type: "single"
     title: "elevator-pitch"
+  - type: "alert"
+    title: "covid19-alert"
   - type: "single"
     title: "rumi-quote"
   - type: "blocks"
