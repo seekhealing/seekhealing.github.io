@@ -13,8 +13,6 @@ sections:
     title: "covid19-alert"
   - type: "single"
     title: "rumi-quote"
-  - type: "blocks"
-    title: "about-seekhealing"
   - type: "single"
     title: "about-seekhealing"
   - type: "banner"
