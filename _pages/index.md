@@ -20,6 +20,8 @@ sections:
   - type: "double"
     title: "gabor-quote"
   - type: "single"
+    title: "featured-article"
+  - type: "single"
     title: "home-asheville"
   - type: "subscribe"
   - type: "double"
