@@ -201,3 +201,30 @@ partners:
     image: "partner-buncombe-county-health-human-services.png"
     link: "https://www.buncombecounty.org/Governing/Depts/HHS/Default.aspx"
     include-page: ["home-partners", "strategic-partners"]
+  - title: "WNCAP"
+    image: "partner-wncap.png"
+    link: "https://wncap.org/"
+    include-page: ["home-partners", "strategic-partners"]
+  - title: "12 Baskets"
+    image: "partner-12-baskets.png"
+    link: "https://www.ashevillepovertyinitiative.org/"
+    include-page: ["home-partners", "strategic-partners"]
+  - title: "Julian F. Keith Alcohol and Drug Abuse Treatment Center"
+    image:
+    link: "https://www.ncdhhs.gov/divisions/dsohf/julian-f-keith-alcohol-and-drug-abuse-treatment-center"
+    include-page: ["home-partners", "strategic-partners"]
+  - title: "Sunrise Community"
+    image: "partner-sunrise.png"
+    include-page: ["home-partners", "strategic-partners"]
+  - title: "Harmonia"
+    image: "partner-harmonia.png"
+    link: "https://harmoniasanctuary.org/"
+    include-page: ["home-partners", "strategic-partners"]
+  - title: "Making Whole"
+    image: "partner-making-whole.png"
+    link: "http://makingwhole.com/"
+    include-page: ["home-partners", "strategic-partners"]
+  - title: "Firestorm Books"
+    image: "partner-firestorm.png"
+    link: "https://www.firestorm.coop/"
+    include-page: ["home-partners", "strategic-partners"]

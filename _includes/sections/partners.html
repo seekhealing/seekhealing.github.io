@@ -1,10 +1,10 @@
-{% comment %} 
+{% comment %}
 <!--
   Partners Section
 
   This partial is used for groups of partner logos to include on a page.
-  
---> 
+
+-->
 {% endcomment %}
 
 {% assign partner_pages = site.sections|where:"type","partners"|where:"title",include.title %}
@@ -18,7 +18,7 @@
     <div class="container clearfix">
       <div class="row">
         <div class="{% if partner_page.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2{% elsif partner_page.col-width == "wide" %}col-md-12{% elsif partner_page.col-width == "sticky" %}col-sm-6 col-sm-offset-3{% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center {% if partner_page.header %}{{ partner_page.header }}{% else %}normal-header{% endif %}">
-          
+
           {% if partner_page.heading %}
             <h1>{{ partner_page.heading }}</h1>
           {% endif %}
@@ -30,7 +30,11 @@
               <a href="{{ partner.link }}" target="_blank">
               {% endif %}
 
+                {% if partner.image %}
                 <image src="{{ partner.image | prepend: "/assets/images/" | prepend: site.baseurl }}" class="" title="{{ partner.title }}">
+                {% else %}
+                {{ partner.title }}
+                {% endif %}
 
               {% if partner.link %}
               </a>
@@ -40,19 +44,20 @@
                 <tr>
                   <td>
 
-              {% if partner.title and include.title != "home-partners" and include.title != "strategic-partners" %}
-              
-                {% if partner.link %}
-                <a href="{{ partner.link }}" target="_blank">
-                {% endif %}
+                    {% if partner.title and include.title != "home-partners" and include.title != "strategic-partners" %}
 
-                  {{ partner.title }}
+                      {% if partner.link %}
+                      <a href="{{ partner.link }}" target="_blank">
+                      {% endif %}
 
-                {% if partner.link %}
-                </a>
-                {% endif %}
+                        {{ partner.title }}
 
-              {% endif %}
+                      {% if partner.link %}
+                      </a>
+                      {% endif %}
+
+                    {% endif %}
+                    
                   </td>
                 </tr>
               </table>
