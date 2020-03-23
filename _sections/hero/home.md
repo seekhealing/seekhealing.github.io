@@ -2,8 +2,8 @@
 type: hero
 title: home
 background: "/assets/images/home-bkgrnd.jpg"
-video: "/downloads/wlos-profile.mp4"
-video-preview: "/assets/images/news-video-preview.png"
+video: "/downloads/SH-WLOS.mp4"
+video-preview: "assets/images/wlos-video-preview.png"
 ---
 
 # It's time to <span class="emphasized-header">#RethinkRehab</span>
