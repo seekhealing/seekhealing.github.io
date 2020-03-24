@@ -6,9 +6,6 @@ padding: no-bot-padding
 header: subnav-header
 white-bg: true
 section-bottom-border: true
-sections:
-  - type: "press"
-    title: "quartz-article"
 ---
 
 ## <span class="emphasized-header">Featured International News Article</span>
