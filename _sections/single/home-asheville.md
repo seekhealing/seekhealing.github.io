@@ -2,7 +2,7 @@
 type: single
 title: home-asheville
 col-width: wide
-section-bottom-border: true
+section-bottom-border: false
 header: "subnav-header"
 ---
 
@@ -14,5 +14,5 @@ Whether you're in recovery, trying to change a substance use pattern, want to vo
 [Join the Program](https://form.jotform.com/90764612050148){:class="button button-purple small-text" target="_blank"}
 {:class="margin-bot-10"}
 
-You'll fill out a short form and then schedule a First Conversation at our office to connect with someone 1-on-1. 
+You'll fill out a short form and then schedule a First Conversation at our office to connect with someone 1-on-1.
 {:class="size-14"}
