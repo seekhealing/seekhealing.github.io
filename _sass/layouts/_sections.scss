@@ -76,6 +76,7 @@
       color: #777;
       font-weight: 300;
       margin: 0;
+      margin-bottom: 30px;
     }
 
     .subnav {
@@ -89,6 +90,11 @@
         border-top: 2px solid #444;
       }
     }
+  }
+
+  .heading-one {
+    font-size: 36px;
+    margin-bottom: 30px;
   }
 
   &.font-lg-light {
