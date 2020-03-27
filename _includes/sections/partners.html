@@ -40,28 +40,6 @@
               </a>
               {% endif %}
 
-              <table>
-                <tr>
-                  <td>
-
-                    {% if partner.title and include.title != "home-partners" and include.title != "strategic-partners" %}
-
-                      {% if partner.link %}
-                      <a href="{{ partner.link }}" target="_blank">
-                      {% endif %}
-
-                        {{ partner.title }}
-
-                      {% if partner.link %}
-                      </a>
-                      {% endif %}
-
-                    {% endif %}
-                    
-                  </td>
-                </tr>
-              </table>
-
             </li>
             {% endfor %}
           </ul>
