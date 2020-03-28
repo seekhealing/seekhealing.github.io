@@ -103,11 +103,18 @@ body:not(.device-touch) .button {
   display: inline-block;
   color: #fff;
   border-color: #57AF98;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 14px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
+  &:hover {
+    color: #fff;
+    background-color: darken(#57AF98,8%);
+    border-color: transparent;
+  }
 }
 
 #gotoTop {
