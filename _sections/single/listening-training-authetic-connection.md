@@ -26,7 +26,7 @@ to help someone heal from an addiction crisis and to challenge your own emotiona
 {:class="italic-purple"}
 
 {:class="no-bot-margin"}
-[Join the Program](https://form.jotform.com/90764612050148){:class="button button-purple" target="_new"}
+[Join the Program](https://form.jotform.com/90764612050148){:class="button button-green" target="_new"}
 
 Note: Listening Training hours may count towards your Peer Support Specialist qualification & continuing education credits, however, you are not required to be a Peer Support Specialist or even have a substance use history to attend Listening Training.
 {:class="size-14"}
