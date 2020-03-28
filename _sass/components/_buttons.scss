@@ -44,6 +44,39 @@
 	text-shadow: none;
 }
 
+.button.button-purple {
+	background-color: #AF79F2;
+
+  &:hover {
+    color: #fff;
+    background-color: darken(#AF79F2,8%);
+    border-color: transparent;
+  }
+}
+
+.button.button-large {
+  color: #fff;
+  font-size: 20px;
+  padding: 0.5em 1em;
+  position: relative;
+  height: auto;
+  text-decoration: none;
+
+  &:hover {
+    color: #fff;
+    border-color: transparent;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 22px;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    font-size: 24px;
+  }
+}
+
 body:not(.device-touch) .button {
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
