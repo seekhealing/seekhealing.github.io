@@ -9,7 +9,7 @@ section-bottom-border: true
 {:class="heading-one"}
 
 Behind the opioid overdose epidemic is a much greater <span class="emphasized-header">loneliness</span> epidemic: an increasing lack of <span class="emphasized-header">meaningful connection</span> in society, and the trauma that goes hand-in-hand with isolation.
-{:class="heading-two"}
+{:class="heading-three"}
 
 In a new approach to the epidemic, <span class="emphasized-header">SeekHealing addresses the social drivers of addiction.</span> We help each other experience real human connection and we provide <span class="emphasized-header">free</span> access to holistic healing services.
-{:class="heading-two"}
+{:class="heading-three"}
