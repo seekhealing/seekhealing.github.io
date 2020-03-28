@@ -30,7 +30,8 @@ form#mc-embedded-subscribe-form {
   .sbsrb-donate {
     width: 100%;
     margin: 0 auto;
-    display: table;
+    display: flex;
+    justify-content: center;
     position: relative;
     padding-bottom: 25px;
 
@@ -40,13 +41,12 @@ form#mc-embedded-subscribe-form {
   }
 
   .sbscrb-donate-blurb {
-    display: table-cell;
-    width: 99%;
+    margin-bottom: 0px;
+    margin-right: 10px;
   }
 
   .sbscrb-donate-link {
-    display: table-cell;
-    width: 1%;
+    align-self: center;
   }
 }
 
@@ -78,7 +78,7 @@ textarea {
   color:#db4437;
 }
 
-.form-control, .btn.form-control, .form-control:focus, .form-control.focus, 
+.form-control, .btn.form-control, .form-control:focus, .form-control.focus,
 .form-control.active.focus, .form-control>span:focus, label, label:focus,
 .btn.active:focus {
   border: 0;
@@ -255,7 +255,7 @@ input[type="checkbox"]:checked ~ .reveal-if-active {
   .goal-progress {
     font-size: 14px;
     color: #777;
-    font-weight: 300;   
+    font-weight: 300;
 
     .label-raised {
       float: left;
