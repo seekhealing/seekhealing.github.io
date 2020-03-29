@@ -11,7 +11,7 @@ sections:
     title: "elevator-pitch"
   - type: "alert"
     title: "covid19-alert"
-  - type: "single"
+  - type: "double"
     title: "rumi-quote"
   - type: "single"
     title: "about-seekhealing"

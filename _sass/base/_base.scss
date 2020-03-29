@@ -85,6 +85,22 @@ blockquote {
   }
 }
 
+blockquote.large-blockquote {
+  font-size: 24px;
+
+  cite {
+    font-size: 17px;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    font-size: 27px;
+
+    cite {
+      font-size: 18px;
+    }
+  }
+}
+
 form {
   margin: 0;
 }

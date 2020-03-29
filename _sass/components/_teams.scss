@@ -62,6 +62,22 @@
 
   &.no-margin {
     margin: 0;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.row.display-flex > [class*='col-'].align-center {
+  align-self: center;
+}
+
+.row.display-flex > [class*='col-'].align-center.first-flex-item {
+  margin: 10px 25px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    margin: 0px;
   }
 }
 

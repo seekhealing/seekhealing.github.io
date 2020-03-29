@@ -1,11 +1,11 @@
-{% comment %} 
+{% comment %}
 <!--
   Double Section
 
   This partial is used for 2 column layouts.
   Currently used on the Our Programs page.
-  
---> 
+
+-->
 {% endcomment %}
 
 {% assign doubles = site.sections |where:"type","double" |where:"title",include.title %}
@@ -26,7 +26,7 @@
 
         {% for col in cols %}
 
-          <div class="col-sm-6 col-xs-12 double{% if col.center %} text-center{% endif %}{% if col.margin =="no-margin" %} no-margin{% endif %}">
+          <div class="col-sm-6 col-xs-12 double{% if col.center %} text-center{% endif %}{% if col.margin == "no-margin" %} no-margin{% endif %}{% if col.align-center %} align-center{% endif %}{% if forloop.index == 1 %} first-flex-item{% endif %}">
 
           {% if col.sticky-note %}
             <div class="sticky-note">
