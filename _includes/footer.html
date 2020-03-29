@@ -1,11 +1,11 @@
-{% comment %} 
+{% comment %}
 <!--
   Footer
 
   This partial is included on every page except the observatory page to
   consistently display the same footer on each page.
-  
---> 
+
+-->
 {% endcomment %}
 
 {% assign footer = site.data.footer %}
@@ -19,7 +19,7 @@
     <div class="container clearfix">
       <div class="row">
 
-        <div class="col-xs-12 col-sm-6 footer-cp">
+        <div class="col-xs-12 col-sm-4 footer-cp">
           <div class="copyright-links">
 
           <!-- Footer Navigation Links
@@ -42,10 +42,13 @@
 
           <!-- Footer Copyright Text
           ============================================= -->
-          Copyright &copy; 2019 <span class="org">SeekHealing</span><br>
+          <div style="margin-top: 10px">
+            Copyright &copy; 2019 <span class="org">SeekHealing</span>
+          </div>
+          <br>
         </div>
 
-        <div class="col-xs-12 col-sm-6 footer-soc">
+        <div class="col-xs-12 col-sm-4 footer-soc">
           <div>
 
           <!-- Social Media Links
@@ -59,13 +62,13 @@
           {% endfor %}
 
           </div>
-
-          <i class="email {{ global.email-icon }}"></i> {{ global.email }}
+          <div style="margin-top: 10px">
+            <i class="email {{ global.email-icon }}"></i> {{ global.email }}
+          </div>
+          <br>
         </div>
 
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-sm-4">
           <div class="text-center">
             <span class="adr">
               <span class="street-address">50 S. French Broad Avenue #300</span><br>
@@ -74,6 +77,7 @@
             <span class="tel">828-547-0222</span>
           </div>
         </div>
+
       </div>
 
     </div>
