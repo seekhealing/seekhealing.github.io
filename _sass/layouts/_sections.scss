@@ -117,6 +117,20 @@
     font-weight: 300;
   }
 
+  .featured-header {
+    color: #777;
+    margin-bottom: 12px;
+  }
+
+  .featured-content {
+    font-size: 26px;
+    line-height: 1.135;
+    margin-bottom: 0px;
+
+    @media screen and (min-width: $screen-md-min) {
+      font-size: 36px;
+    }
+  }
 }
 
 section.bottom-border {

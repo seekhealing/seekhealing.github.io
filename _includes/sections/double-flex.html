@@ -26,7 +26,7 @@
 
         {% for col in cols %}
 
-          <div class="flex-item double{% if col.center %} text-center{% endif %}{% if col.margin =="no-margin" %} no-margin{% endif %}">
+          <div class="flex-item {% if forloop.index == 1 %}first-flex-item {% endif %}{% if col.center %} text-center{% endif %}{% if col.margin =="no-margin" %} no-margin{% endif %}">
 
           {% if col.sticky-note %}
             <div class="sticky-note">

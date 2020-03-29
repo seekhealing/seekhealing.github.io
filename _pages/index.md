@@ -19,7 +19,7 @@ sections:
     title: "community-banner"
   - type: "double-flex"
     title: "gabor-quote"
-  - type: "single"
+  - type: "double-flex"
     title: "featured-article"
   - type: "single"
     title: "home-asheville"
