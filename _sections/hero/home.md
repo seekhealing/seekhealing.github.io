@@ -3,7 +3,7 @@ type: hero
 title: home
 background: "/assets/images/home-bkgrnd.jpg"
 video: "/downloads/SH-WLOS.mp4"
-video-preview: "assets/images/wlos-video-preview.png"
+video-preview: "assets/images/wlos-video-preview-2.png"
 ---
 
 # It's time to <span class="emphasized-header">#RethinkRehab</span>
