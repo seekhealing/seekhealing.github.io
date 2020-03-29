@@ -16,8 +16,8 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: darken(#AF79F2,24%);
-    text-decoration: none;
+    color: #AF79F2;
+    text-decoration: underline;
   }
 }
 
