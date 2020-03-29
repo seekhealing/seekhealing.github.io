@@ -120,6 +120,10 @@
   .featured-header {
     color: #777;
     margin-bottom: 12px;
+
+    @media screen and (min-width: $screen-lg-min) {
+      margin-top: 12px;
+    }
   }
 
   .featured-content {
