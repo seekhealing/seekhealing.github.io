@@ -25,6 +25,7 @@ footer {
   border-bottom-color: rgba(255,255,255,0.25);
 
   &:hover {
+    text-decoration: none;
     color: rgba(255,255,255,0.35);
     border-bottom-color: rgba(255,255,255,0.35);
   }
@@ -42,6 +43,7 @@ footer {
   border-radius: 5px;
 
   &:hover {
+    text-decoration: none;
     color: #fff;
     background-color: darken(#57AF98,8%);
   }
