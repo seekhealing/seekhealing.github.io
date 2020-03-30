@@ -12,11 +12,11 @@ dl, dt, dd, ol, ul, li {
 }
 
 a {
-  color: #AF79F2;
+  color: #57AF98;
   text-decoration: none;
 
   &:hover {
-    color: #AF79F2;
+    color: darken(#57AF98,8%);
     text-decoration: underline;
   }
 }
