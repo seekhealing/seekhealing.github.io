@@ -22,6 +22,6 @@ This 16 hour course split between two days includes:
 - safety training in how to manage and respond to relapse 
 - safety training in how to manage and respond to suicidal ideation
 
-[Find the next training and RSVP](/upcoming-events/){:class="button button-purple" target="_new"}<br>
+[Find the next training and RSVP](/upcoming-events/){:class="button button-green" target="_new"}<br>
 
 ![Owl Friends](/assets/images/owlFriends.png){:max-width="560px" class="img-responsive"}

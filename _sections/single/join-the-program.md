@@ -9,7 +9,7 @@ padding: no-top-padding
 
 Start living a more connected life.
 
-[Join the Program](https://form.jotform.com/90764612050148){:class="button button-purple small-text" target="_blank"}
+[Join the Program](https://form.jotform.com/90764612050148){:class="button button-green small-text" target="_blank"}
 {:class="no-bot-margin"}
 
 Currently only available locally in Asheville, NC. Housing and transportation not provided. 

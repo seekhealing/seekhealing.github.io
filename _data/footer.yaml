@@ -2,11 +2,9 @@ nav:
   - title: Learn
     url: /learn/
   - title: Our Programs
-    url: /calendar/
+    url: /heal/
   - title: Get Involved
     url: /help/
-  - title: Blog
-    url: /blog/
 social-media:
   - icon: 'fab fa-facebook-square'
     alt-icon: 'fab fa-facebook-f'

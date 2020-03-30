@@ -12,12 +12,12 @@ dl, dt, dd, ol, ul, li {
 }
 
 a {
-  color: #7f3472;
+  color: #57AF98;
   text-decoration: none;
 
   &:hover {
-    color: #b5777d;
-    text-decoration: none;
+    color: darken(#57AF98,8%);
+    text-decoration: underline;
   }
 }
 
@@ -53,7 +53,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
 }
 
 blockquote {
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   margin: 0 auto;
   line-height: 1.45;
@@ -81,6 +81,22 @@ blockquote {
 
     &:before {
       content: "\2014 \2009";
+    }
+  }
+}
+
+blockquote.large-blockquote {
+  font-size: 24px;
+
+  cite {
+    font-size: 17px;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    font-size: 27px;
+
+    cite {
+      font-size: 18px;
     }
   }
 }

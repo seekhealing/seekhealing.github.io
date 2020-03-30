@@ -47,12 +47,12 @@
 
   .custom-header {
     margin-bottom: 50px;
-    
+
     h1 {
       font-size: 22px;
       color: #777;
       font-weight: 300;
-      margin: 0;    
+      margin: 0;
     }
 
     .subnav {
@@ -70,12 +70,13 @@
 
   .subnav-header {
     margin-bottom: 50px;
-    
+
     h1 {
       font-size: 22px;
       color: #777;
       font-weight: 300;
-      margin: 0;    
+      margin: 0;
+      margin-bottom: 30px;
     }
 
     .subnav {
@@ -88,7 +89,7 @@
         width: 40px;
         border-top: 2px solid #444;
       }
-    }    
+    }
   }
 
   &.font-lg-light {
@@ -96,10 +97,43 @@
     font-weight: 300;
   }
 
-  h2, .heading-two {
+  .heading-one {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .heading-two {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .heading-two.margin-bot-20 {
+    margin-bottom: 20px;
+  }
+
+  h2, .heading-three {
     font-size: 22px;
     color: #777;
     font-weight: 300;
+  }
+
+  .featured-header {
+    color: #777;
+    margin-bottom: 12px;
+
+    @media screen and (min-width: $screen-lg-min) {
+      margin-top: 12px;
+    }
+  }
+
+  .featured-content {
+    font-size: 26px;
+    line-height: 1.135;
+    margin-bottom: 0px;
+
+    @media screen and (min-width: $screen-md-min) {
+      font-size: 36px;
+    }
   }
 }
 
@@ -109,6 +143,14 @@ section.bottom-border {
 
 section.dark-grey {
   background-color: #333;
+}
+
+section.dark-red {
+  background-color: #92140C;
+
+  a {
+    color: #FCDE9C;
+  }
 }
 
 section.thin {

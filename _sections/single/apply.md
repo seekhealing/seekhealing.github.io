@@ -7,7 +7,7 @@ padding: no-top-padding
 <hr>
 
 {:class="no-bot-margin"}
-[Join the Program](https://form.jotform.com/90764612050148){:class="button button-purple" target="_new"}
+[Join the Program](https://form.jotform.com/90764612050148){:class="button button-green" target="_new"}
 
 Currently only available locally in Asheville, NC. Housing and transportation not provided.
 {:class="size-14"}

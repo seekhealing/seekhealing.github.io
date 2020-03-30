@@ -11,7 +11,7 @@
   font-size: 14px;
   height: 40px;
   line-height: 40px;
-  background-color: #5D4157;
+  background-color: #57AF98;
   color: #FFF;
   font-weight: 600;
   text-transform: uppercase;
@@ -30,10 +30,8 @@
   }
 
   &:hover, &:focus {
-    background-color: #5D4157;
-    opacity: 0.9;
+    background-color: darken(#57AF98,8%);
     color: #FFF;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
   }
 }
 
@@ -46,6 +44,39 @@
 	text-shadow: none;
 }
 
+.button.button-purple {
+	background-color: #AF79F2;
+
+  &:hover {
+    color: #fff;
+    background-color: darken(#AF79F2,8%);
+    border-color: transparent;
+  }
+}
+
+.button.button-large {
+  color: #fff;
+  font-size: 20px;
+  padding: 0.5em 1em;
+  position: relative;
+  height: auto;
+  text-decoration: none;
+
+  &:hover {
+    color: #fff;
+    border-color: transparent;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 22px;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    font-size: 24px;
+  }
+}
+
 body:not(.device-touch) .button {
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -54,10 +85,9 @@ body:not(.device-touch) .button {
 
 .button.cta {
   color: #fff;
-  background-color: #7f3472;
-  border: 1px solid #fff;
+  background-color: #57AF98;
   font-size: 20px;
-  padding: 10px;
+  padding: 0.5em 1em;
   position: relative;
   margin: 10px 0;
   height: auto;
@@ -65,8 +95,9 @@ body:not(.device-touch) .button {
 
   &:hover {
     color: #fff;
+    background-color: darken(#57AF98,8%);
     border-color: transparent;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   }
 
   &:before {
@@ -101,15 +132,22 @@ body:not(.device-touch) .button {
 
 .btn-attached {
   margin: 0px;
-  background-color: #7f3472;
+  background-color: #57AF98;
   display: inline-block;
   color: #fff;
-  border-color: #7f3472;
-  padding-left: 30px;
-  padding-right: 30px;
+  border-color: #57AF98;
+  padding-left: 20px;
+  padding-right: 20px;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 14px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
+  &:hover {
+    color: #fff;
+    background-color: darken(#57AF98,8%);
+    border-color: transparent;
+  }
 }
 
 #gotoTop {
@@ -133,7 +171,7 @@ body:not(.device-touch) .button {
   bottom: 30px;
 
   &:hover {
-    background-color: #7f3472;
+    background-color: #57AF98;
   }
 }
 
