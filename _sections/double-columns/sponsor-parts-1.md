@@ -6,7 +6,7 @@ center: true
 margin: no-margin
 ---
 
-The memory of Cameron McAnsh 
+The memory of Cameron McAnsh
 {:class="no-bot-margin size-20 white-txt"}
 
-[Joy and Pain Project](http://mojofoundation.org){:target="_blank" class="italic white-link"}
+[Joy and Pain Project](http://mojofoundation.org){:target="_blank" class="italic light-link dotted-underline"}
