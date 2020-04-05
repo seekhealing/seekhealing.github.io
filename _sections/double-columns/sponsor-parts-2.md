@@ -10,4 +10,4 @@ The memory of Shaun Kay
 {:class="no-bot-margin size-20 white-txt"}
 
 Forever 34
-{:class="italic"}
+{:class="italic light-txt"}
