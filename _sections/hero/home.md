@@ -12,4 +12,4 @@ video-preview: "assets/images/wlos-video-preview-2.png"
 
 Be a part of the solution to the overdose epidemic &rarr;
 
-[Donate today!](https://seekhealing.kindful.com/?campaign=1039580&mc_cid=18f09ae341&mc_eid=4a3d1251f9){:target="_blank" class="button cta"}
+[Donate today!](https://seekhealing.kindful.com/?campaign=1061353){:target="_blank" class="button cta"}
