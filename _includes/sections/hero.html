@@ -1,11 +1,11 @@
-{% comment %} 
+{% comment %}
 <!--
   Hero Section
 
   This partial is included on any page that has a "hero" layout with a full bg
   picture and text/video in a 2 column layout.  Currently on the Home page.
-  
---> 
+
+-->
 {% endcomment %}
 
 {% assign heros = site.sections|where:"type","hero"|where:"title",include.title %}
@@ -19,18 +19,20 @@
     <div class="hero-area" style="background: url({{ hero.background }}) center center / cover no-repeat;">
       <div class="container clearfix">
         <div class="row slider-caption">
-          
+
           <div class="col-md-6 col-xs-12">
             {{ hero.content | markdownify }}
           </div>
           <div class="col-md-6 col-xs-12">
 
-            <div class="embed-responsive embed-responsive-16by9 hero-vid">
+            <img src="/assets/images/home-watm-festival-promo.png" alt="We Are The Medicine" width="600" height="450">
+
+            <!-- <div class="embed-responsive embed-responsive-16by9 hero-vid">
               <video  class="embed-responsive-item" controls poster="{% if hero.video-preview %}{{ hero.video-preview }}{% endif %}">
                 <source src="{{ hero.video }}" type="video/mp4">
                 Your browser does not support HTML5 video.
               </video>
-            </div>
+            </div> -->
 
           </div>
 
