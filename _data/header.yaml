@@ -20,7 +20,7 @@ nav:
     url: /heal/
   - submenu:
       - title: Upcoming Events
-        url: /upcoming-events/
+        url: /calendar/
       - title: Contact Us
         url: /contact/
       - title: Program Sign-up
