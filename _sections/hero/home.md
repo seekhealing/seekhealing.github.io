@@ -6,10 +6,8 @@ video: "/downloads/SH-WLOS.mp4"
 video-preview: "assets/images/wlos-video-preview-2.png"
 ---
 
-# It's time to <span class="emphasized-header">#RethinkRehab</span>
+# <span class="emphasized-header">Physical distancing doesn't have to mean social distancing!</span>
 
-## Healing from addiction through human connection
+## Healing from addiction & trauma through human connection -- Join us on June 12th to turn up the volume for connection! 🔊🔊🔊
 
-Be a part of the solution to the overdose epidemic &rarr;
-
-[Donate today!](https://seekhealing.kindful.com/?campaign=1039580&mc_cid=18f09ae341&mc_eid=4a3d1251f9){:target="_blank" class="button cta"}
+[Register Today!](https://www.eventbrite.com/e/we-are-the-medicine-an-online-festival-for-human-connection-tickets-105246045756){:target="_blank" class="button cta"}
