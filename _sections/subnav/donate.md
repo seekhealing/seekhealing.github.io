@@ -9,4 +9,4 @@ order: 1
 
 ## Donate
 
-Set-up a recurring monthly donation
+Learn about different ways to donate and give to the SeekHealing project
