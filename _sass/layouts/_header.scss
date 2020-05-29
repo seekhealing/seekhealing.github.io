@@ -80,8 +80,8 @@
 -----------------------------------------------------------------*/
 
 
-#primary-menu { 
-  float: right; 
+#primary-menu {
+  float: right;
 
   > ul {
     float: left;
@@ -141,7 +141,7 @@
     -webkit-transition: opacity .2s .2s ease, top .4s ease;
     -o-transition: opacity .2s .2s ease, top .4s ease;
     transition: opacity .2s .2s ease, top .4s ease;
-  }  
+  }
 }
 
 .sticky-header #primary-menu-trigger {
@@ -153,9 +153,9 @@
 #primary-menu ul li.mega-menu { position: inherit; }
 
 #primary-menu ul > li {
-  position: relative; 
+  position: relative;
   float: left;
-  margin-left: 2px;
+  margin-left: 1px;
 
   @media screen and (max-width: $screen-md-min) {
     border-top: 1px solid #EEE;
@@ -167,12 +167,16 @@
 
 }
 
+#primary-menu ul li:last-child {
+  margin-left: 5px;
+}
+
 #primary-menu ul li:last-child a {
   padding-right: 0px;
 }
 
-#primary-menu > ul > li:first-child { 
-  margin-left: 0; 
+#primary-menu > ul > li:first-child {
+  margin-left: 0;
 
   @media screen and (max-width: $screen-md-min) {
     border-top: 0;
@@ -186,7 +190,7 @@
   line-height: 22px;
   padding: 39px 15px;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
@@ -201,9 +205,30 @@
   }
 }
 
-a.donate-header {
-  text-decoration: underline;
-  font-weight: bold;
+#primary-menu ul li > a.donate-header {
+  outline: none;
+  white-space: nowrap;
+  margin: 25px 0px;
+  padding: 14px 18px;
+  background-color: #57AF98;
+  color: #FFF;
+  border: none;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  text-decoration: none;
+  border-radius: 3px;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+    background-color: darken(#57AF98,8%);
+    color: #FFF;
+  }
+
+  &:not(.device-touch) {
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
 }
 
 #primary-menu ul ul,
@@ -348,4 +373,10 @@ a.donate-header {
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top: 19px;
   padding-bottom: 19px;
+}
+
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a.donate-header {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: 8px 0px;
 }
