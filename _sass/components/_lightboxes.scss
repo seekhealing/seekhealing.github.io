@@ -17,10 +17,6 @@
 	overflow: scroll;
 }
 
-.lightbox div {
-  margin: 100px 60px;
-}
-
 .lightbox img {
 	/** Pad the lightbox image */
 	max-width: 80%;
@@ -31,6 +27,62 @@
   }
 }
 
+.lightbox .section {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 50px 30px;
+	padding: 40px;
+
+	.lightbox-column,
+	.lightbox-column-thin,
+	.lightbox-column-wide {
+		width: 100%;
+	}
+
+	@media screen and (min-width: $screen-sm-min) {
+		margin: 50px 60px;
+		padding: 60px;
+
+		.lightbox-column-thin {
+			width: 65%;
+		}
+		.lightbox-column {
+			width: 80%;
+		}
+		.lightbox-column-wide {
+			width: 95%;
+		}
+	}
+
+	@media screen and (min-width: $screen-md-min) {
+		margin: 50px 90px;
+	}
+
+	@media screen and (min-width: $screen-lg-min) {
+		margin: 50px 120px;
+	}
+
+}
+
+.lightbox .section .event-details {
+
+	h1 {
+		margin-bottom: 20px;
+	}
+	h2 {
+		margin-bottom: 15px;
+	}
+	h3 {
+		margin-bottom: 10px;
+	}
+	p {
+		margin-bottom: 30px;
+		font-size: 16px;
+	}
+}
+
 .lightbox:target {
 	/** Remove default browser outline */
 	outline: none;
@@ -38,7 +90,6 @@
 	/** Unhide lightbox **/
 	display: block;
 }
-
 
 
 .close {

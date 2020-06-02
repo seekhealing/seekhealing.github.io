@@ -1,0 +1,35 @@
+{% comment %}
+<!--
+  Lightbox Section
+
+  This partial is used for lightboxes.
+-->
+{% endcomment %}
+
+{% assign lightboxes = site.sections | where:"type","lightbox" | where:"title",include.title %}
+
+{% for lightbox in lightboxes %}
+
+<div class="lightbox" id="{{ lightbox.title }}">
+  <div class="section white">
+    <div class="{% if lightbox.col-width == "thin" %}lightbox-column-thin{% elsif lightbox.col-width == "wide" %}lightbox-column-wide{% else %}lightbox-column{% endif %} {% if lightbox.header %}{{ lightbox.header }}{% else %}normal-header{% endif %}">
+
+      {{ lightbox.content | markdownify }}
+
+      {% if lightbox.extra-buttons %}
+      {% include {{ lightbox.extra-buttons }} %}
+      {% endif %}
+
+      {% if lightbox.close-button-href %}
+      <a href="{{ lightbox.close-button-href }}" class="button">
+        {% if lightbox.close-button-text %}{{ lightbox.close-button-text }}{% else %}Close Window{% endif %}
+      </a>
+      {% else %}
+      {% include lightboxes/back-button.html text="Cancel" %}
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+
+{% endfor %}
