@@ -1,0 +1,83 @@
+{% comment %}
+<!--
+  Schedule Section
+
+  This partial is in use on the WATM Festival page.
+-->
+{% endcomment %}
+
+{% assign schedules = site.sections | where:"type","festival-schedule" | where:"title",include.title %}
+
+{% for schedule in schedules %}
+
+<section{% if schedule.section-bottom-border %} class="bottom-border"{% endif %}>
+  <div class="section{% if schedule.white-bg %} white{% endif %}{% if schedule.padding %} {{ schedule.padding }}{% endif %}">
+    <div class="container clearfix">
+
+      <div class="row">
+        <div class="{% if schedule.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2{% elsif schedule.col-width == "wide" %}col-md-12{% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center {% if schedule.header %}{{ schedule.header }}{% else %}normal-header{% endif %}">
+          {{ schedule.content | markdownify }}
+        </div>
+      </div>
+
+      <div class="row display-flex">
+
+      {% for day in (1..schedule.number-of-days) %}
+
+        {% assign events = site.sections | where:"type","watm-event" | where:"day",day | sort: "start-time" %}
+
+        <div class="col-sm-4 col-xs-12">
+          <div class="day-of-events">
+
+            <p style="text-align: center; margin-bottom: 0px;">
+            {% assign index = day | minus: 1 %}
+            {{ schedule.days[index] }}
+            </p>
+
+          {% for event in events %}
+
+            <div class="{{ event_class }}"{% if include.title == "upcoming" %} data-limit="{{ event.date }}"{% endif %}>
+              <div class="event-box clearfix">
+
+                <!-- <div class="event-image">
+                  <img src="{{ site.baseurl }}{{ event.image }}" alt="Event" class="img-responsive{% if event.image-class %} {{ event.image-class }}{% endif %}">
+                  <div class="event-date">{{ event.date | date: "%d" }}<span>{{ event.date | date: "%b" }}</span></div>
+                </div> -->
+
+                <div class="subnav-header">
+                  <h1>{{ event.name }}</h1>
+                  <p class="event-meta">
+                    <i class="far fa-clock"></i>
+                    {{ event.start-time | date: "%l:%M%P" }}
+                    <span class="meta-separator">/</span>
+                    <i class="fas fa-link"></i>
+                    {{ event.link }}
+                  </p>
+                  <div class="event-content">
+                    <a href="#{{ event.title }}" class="button">Event Details</a>
+
+                    {% if event.ticket-btn and include.title == 'upcoming' %}
+                    <p><a href="{{ event.ticket-url }}" target="_blank" class="button button-green rsvp">{{ event.ticket-btn }}</a></p>
+                    {% endif %}
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            {% include lightboxes/event-detail.html %}
+
+          {% endfor %}
+
+          </div>
+        </div>
+
+      {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endfor %}

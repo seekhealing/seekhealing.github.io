@@ -1,0 +1,29 @@
+
+
+<div class="lightbox" id="{{ event.title }}">
+  <div class="section white">
+    <div class="event-details lightbox-column-wide">
+
+      <h3 class="event-name">{{ event.name }}</h3>
+
+      {% if event.facilitator %}
+      <h2>with <span class="emphasized-header">{{ event.facilitator }}</span></h2>
+      {% else %}
+      <h2>Interactive Session</h2>
+      {% endif %}
+
+      <p class="event-meta">
+        <i class="far fa-clock"></i>
+        {{ event.start-time | date: "%l:%M%P" }} —{{ event.end-time | date: "%l:%M%P" }}
+        <span class="meta-separator">/</span>
+        <i class="fas fa-link"></i>
+        {{ event.link }}
+      </p>
+
+      {{ event.content | markdownify }}
+
+      {% include lightboxes/back-button.html %}
+
+    </div>
+  </div>
+</div>
