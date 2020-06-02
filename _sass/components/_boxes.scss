@@ -108,3 +108,13 @@
 
 }
 
+
+.event-box {
+  @extend .location-box;
+  padding: 30px;
+  margin-top: 25px;
+}
+
+.event-box .subnav-header {
+  margin-bottom: 0px;
+}
