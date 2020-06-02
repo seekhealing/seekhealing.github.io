@@ -2,13 +2,13 @@
 type: watm-event
 title: connection-practice-meeting
 name: Connection Practice Meeting
-facilitator: Michelle Kelley
+facilitator: Michelle Kelly
 day: 1
 date: '2020-06-12'
 start-time: '17:00'
 end-time: '18:00'
 link: TBA
-calendar-url:
+calendar-link:
 ---
 
 A meeting to practice your skills in listening and connecting with others. No conversation topic is off limits. The only objective of the meeting is to feel a genuine sense of connection by the time it's over, and the only rule is that we promise to not give each other advice.
