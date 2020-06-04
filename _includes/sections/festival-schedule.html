@@ -22,17 +22,17 @@
 
       <div class="row display-flex">
 
-      {% for day in (1..schedule.number-of-days) %}
+      {% for day in (1..schedule.days) %}
 
         {% assign events = site.sections | where:"type","watm-event" | where:"day",day | sort: "start-time" %}
 
         <div class="col-sm-4 col-xs-12">
           <div class="day-of-events">
 
-            <p style="text-align: center; margin-bottom: 0px;">
+            <h4 style="text-align: center; margin-bottom: 0px;">
             {% assign index = day | minus: 1 %}
-            {{ schedule.days[index] }}
-            </p>
+            {{ schedule.dates[index] }}
+            </h4>
 
           {% for event in events %}
 
@@ -46,19 +46,20 @@
 
                 <div class="subnav-header">
                   <h1>{{ event.name }}</h1>
-                  <p class="event-meta">
+                  <h4><span class="emphasized-header">{{ event.facilitator }}</span></h4>
+                  <h3 class="event-meta">
                     <i class="far fa-clock"></i>
-                    {{ event.start-time | date: "%l:%M%P" }}
-                    <span class="meta-separator">/</span>
+                    {{ event.start-time | date: "%l:%M %P" }}
+                    <!-- <span class="meta-separator">/</span>
                     <i class="fas fa-link"></i>
-                    {{ event.link }}
-                  </p>
+                    {{ event.link }} -->
+                  </h3>
                   <div class="event-content">
                     <a href="#{{ event.title }}" class="button">Event Details</a>
 
-                    {% if event.ticket-btn and include.title == 'upcoming' %}
+                    <!-- {% if event.ticket-btn and include.title == 'upcoming' %}
                     <p><a href="{{ event.ticket-url }}" target="_blank" class="button button-green rsvp">{{ event.ticket-btn }}</a></p>
-                    {% endif %}
+                    {% endif %} -->
 
                   </div>
                 </div>
