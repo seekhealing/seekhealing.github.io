@@ -3,6 +3,7 @@ type: watm-event
 title: addiction-and-relationships
 name: Addiction and Relationships
 facilitator: Dr. Anita Gadhia-Smith and Dr. Ron Smith
+event-type: presentation
 day: 1
 date: '2020-06-12'
 start-time: '19:00'

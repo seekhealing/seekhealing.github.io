@@ -1,8 +1,9 @@
 ---
 type: watm-event
 title: deep-listening-with-focusing
-name: "Interactive Session: Deep Listening with Focusing"
+name: Deep Listening with Focusing
 facilitator: Abby Wen Wu
+event-type: interactive
 day: 3
 date: '2020-06-14'
 start-time: '14:00'

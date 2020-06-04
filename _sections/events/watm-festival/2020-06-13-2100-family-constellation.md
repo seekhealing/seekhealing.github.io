@@ -3,6 +3,7 @@ type: watm-event
 title: family-constellation
 name: Family Constellation
 facilitator: Sarah Peyton
+event-type: interactive
 day: 2
 date: '2020-06-13'
 start-time: '21:00'

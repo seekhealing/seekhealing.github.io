@@ -3,6 +3,7 @@ type: watm-event
 title: the-rainbow-sphere-co-creating-a-new-world
 name: "The Rainbow Sphere: Co-Creating a New World"
 facilitator: Sammy Vanek
+event-type: interactive
 day: 3
 date: '2020-06-14'
 start-time: '11:00'

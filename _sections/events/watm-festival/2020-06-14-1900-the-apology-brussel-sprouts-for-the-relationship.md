@@ -1,8 +1,9 @@
 ---
 type: watm-event
 title: the-apology-brussel-sprouts-for-the-relationship
-name: "Seminar Session: The Apology: Brussel Sprouts for the Relationship"
+name: "The Apology: Brussel Sprouts for the Relationship"
 facilitator: Lore Baur
+event-type: presentation
 day: 3
 date: '2020-06-14'
 start-time: '19:00'

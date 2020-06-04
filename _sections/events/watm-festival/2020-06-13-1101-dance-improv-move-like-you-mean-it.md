@@ -3,6 +3,7 @@ type: watm-event
 title: dance-improv-move-like-you-mean-it
 name: "Dance Improv: Move Like You Mean It"
 facilitator: Anastasia Seltzer
+event-type: interactive
 day: 2
 date: '2020-06-13'
 start-time: '11:00'

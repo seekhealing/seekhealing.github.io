@@ -1,8 +1,9 @@
 ---
 type: watm-event
 title: teaching-the-change-triangle-a-tool-to-build-emotional-health-and-connection-to-your-authentic-self
-name: "Interview: Teaching The Change Triangle: A Tool to Build Emotional Health and Connection to Your Authentic Self"
+name: "Teaching The Change Triangle: A Tool to Build Emotional Health and Connection to Your Authentic Self"
 facilitator: Hilary Jacobs Hendel and Jennifer Nicolaisen
+event-type: interview
 day: 3
 date: '2020-06-14'
 start-time: '18:00'

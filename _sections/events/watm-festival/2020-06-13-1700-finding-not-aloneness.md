@@ -1,8 +1,9 @@
 ---
 type: watm-event
-title: keynote-presentation
-name: Keynote Presentation
+title: finding-not-aloneness
+name: Finding Not-Aloneness
 facilitator: Sara Ness
+event-type: presentation
 day: 2
 date: '2020-06-13'
 start-time: '17:00'

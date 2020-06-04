@@ -3,6 +3,7 @@ type: watm-event
 title: yoga-for-everyone
 name: Yoga For Everyone
 facilitator: Sheri Kay
+event-type: interactive
 day: 2
 date: '2020-06-13'
 start-time: '11:00'

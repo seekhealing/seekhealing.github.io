@@ -3,6 +3,7 @@ type: watm-event
 title: circling-for-young-adults-hows-your-quarantine-going
 name: "Circling for Young Adults: How’s Your Quarantine Going?"
 facilitator: Melissa Bridges and Rachael Pitkin
+event-type: interactive
 day: 2
 date: '2020-06-13'
 start-time: '12:00'

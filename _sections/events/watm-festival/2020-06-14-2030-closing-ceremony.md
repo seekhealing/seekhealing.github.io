@@ -1,8 +1,9 @@
 ---
 type: watm-event
 title: closing-ceremony
-name: "Interactive Session: Closing Ceremony"
+name: Closing Ceremony
 facilitator: Jennifer Nicolaisen
+event-type: presentation
 day: 3
 date: '2020-06-14'
 start-time: '20:30'

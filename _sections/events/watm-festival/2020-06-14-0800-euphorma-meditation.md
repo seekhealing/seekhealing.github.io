@@ -3,6 +3,7 @@ type: watm-event
 title: euphorma-meditation
 name: Euphorma Meditation
 facilitator: Gus Saldana
+event-type: interactive
 day: 3
 date: '2020-06-14'
 start-time: '08:00'

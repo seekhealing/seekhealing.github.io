@@ -3,6 +3,7 @@ type: watm-event
 title: dance-like-nobodys-watching
 name: Dance Like Nobody's Watching
 facilitator: Cameron Payne
+event-type: interactive
 day: 1
 date: '2020-06-12'
 start-time: '21:30'

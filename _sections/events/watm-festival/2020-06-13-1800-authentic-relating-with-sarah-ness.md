@@ -1,8 +1,9 @@
 ---
 type: watm-event
-title: interactive-session
-name: Interactive Session
+title: authentic-relating-with-sarah-ness
+name: Authentic Relating with Sarah Ness
 facilitator: Sara Ness
+event-type: interactive
 day: 2
 date: '2020-06-13'
 start-time: '18:00'

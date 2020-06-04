@@ -3,6 +3,7 @@ type: watm-event
 title: sunday-brunch-boogie
 name: "Live Music Session: Sunday Brunch Boogie"
 facilitator: DJ Peri Meters
+event-type: music
 day: 3
 date: '2020-06-14'
 start-time: '12:30'

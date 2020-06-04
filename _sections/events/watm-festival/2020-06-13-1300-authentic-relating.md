@@ -1,8 +1,9 @@
 ---
 type: watm-event
-title: authentic-relating
-name: Authentic Relating
+title: authentic-relating-with-cathy-courtenay
+name: Authentic Relating with Cathy Courtenay
 facilitator: Cathy Courtenay
+event-type: interactive
 day: 2
 date: '2020-06-13'
 start-time: '13:00'

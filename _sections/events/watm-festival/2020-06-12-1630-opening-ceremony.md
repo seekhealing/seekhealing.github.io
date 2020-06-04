@@ -3,6 +3,7 @@ type: watm-event
 title: opening-ceremony
 name: Opening Ceremony
 facilitator: Jennifer Nicolaisen
+event-type: presentation
 day: 1
 date: '2020-06-12'
 start-time: '16:30'

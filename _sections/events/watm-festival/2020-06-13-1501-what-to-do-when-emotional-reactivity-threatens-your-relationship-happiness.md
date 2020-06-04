@@ -3,6 +3,7 @@ type: watm-event
 title: what-to-do-when-emotional-reactivity-threatens-your-relationship-happiness
 name: What to Do When Emotional Reactivity Threatens Your Relationship Happiness
 facilitator: Susan Campbell
+event-type: presentation
 day: 2
 date: '2020-06-13'
 start-time: '15:00'

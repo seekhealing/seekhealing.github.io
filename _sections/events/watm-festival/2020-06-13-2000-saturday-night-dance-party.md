@@ -3,6 +3,7 @@ type: watm-event
 title: saturday-night-dance-party
 name: Saturday Night Dance Party
 facilitator: Captain EZ - The Vibe Conductor
+event-type: music
 day: 2
 date: '2020-06-13'
 start-time: '20:00'

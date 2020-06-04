@@ -3,6 +3,7 @@ type: watm-event
 title: the-healing-balm-and-the-power-of-empathy
 name: "The Healing Balm & The Power of Empathy"
 facilitator: Nancy Swift and Paige Zarganis
+event-type: interactive
 day: 2
 date: '2020-06-13'
 start-time: '09:00'

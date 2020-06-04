@@ -3,6 +3,7 @@ type: watm-event
 title: hear-me-open-hearted-open-mic
 name: "Hear Me: Open-Hearted Open Mic"
 facilitator: Asher Leigh
+event-type: interactive
 day: 3
 date: '2020-06-14'
 start-time: '12:00'

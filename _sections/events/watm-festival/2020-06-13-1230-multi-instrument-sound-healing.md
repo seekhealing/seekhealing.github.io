@@ -3,6 +3,7 @@ type: watm-event
 title: multi-instrument-sound-healing
 name: Multi-instrument Sound Healing
 facilitator: Billy Zanski
+event-type: music
 day: 2
 date: '2020-06-13'
 start-time: '12:30'

@@ -1,8 +1,9 @@
 ---
 type: watm-event
 title: bringing-connection-to-prisons
-name: "Interview: Bringing Connection to Prisons"
+name: Bringing Connection to Prisons
 facilitator: Laurie Lazar and Dustin, Authentic Relating International
+event-type: interview
 day: 2
 date: '2020-06-13'
 start-time: '19:00'

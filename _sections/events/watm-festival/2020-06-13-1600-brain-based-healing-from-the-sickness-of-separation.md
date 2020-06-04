@@ -3,6 +3,7 @@ type: watm-event
 title: brain-based-healing-from-the-sickness-of-separation
 name: Brain-Based Healing from the Sickness of Separation
 facilitator: Dr. Rachel Wurzman
+event-type: presentation
 day: 2
 date: '2020-06-13'
 start-time: '16:00'

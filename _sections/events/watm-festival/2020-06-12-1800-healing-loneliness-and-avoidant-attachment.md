@@ -3,6 +3,7 @@ type: watm-event
 title: healing-loneliness-and-avoidant-attachment
 name: Healing Loneliness and Avoidant Attachment
 facilitator: Sarah Peyton
+event-type: presentation
 day: 1
 date: '2020-06-12'
 start-time: '18:00'

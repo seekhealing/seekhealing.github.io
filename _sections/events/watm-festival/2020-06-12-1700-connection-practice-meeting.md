@@ -3,6 +3,7 @@ type: watm-event
 title: connection-practice-meeting
 name: Connection Practice Meeting
 facilitator: Michelle Kelly
+event-type: interactive
 day: 1
 date: '2020-06-12'
 start-time: '17:00'

@@ -3,6 +3,7 @@ type: watm-event
 title: freedom-is-within-a-meditation
 name: "Freedom is Within: A Meditation"
 facilitator: Gus Saldana
+event-type: interactive
 day: 2
 date: '2020-06-13'
 start-time: '08:00'

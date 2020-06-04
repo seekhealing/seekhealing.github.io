@@ -3,6 +3,7 @@ type: watm-event
 title: listening-training-sample-class
 name: Listening Training Sample Class
 facilitator: Ionsul Ferrin
+event-type: interactive
 day: 3
 date: '2020-06-14'
 start-time: '09:00'

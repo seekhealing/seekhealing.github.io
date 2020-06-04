@@ -1,8 +1,9 @@
 ---
 type: watm-event
 title: collaboration-in-the-new-landscape-the-desire-invention-model
-name: "Keynote Session: Collaboration in the New Landscape: the Desire-Invention Model"
+name: "Collaboration in the New Landscape: the Desire-Invention Model"
 facilitator: Maureen McCarthy and Zelle Nelson
+event-type: presentation
 day: 3
 date: '2020-06-14'
 start-time: '16:00'

@@ -1,8 +1,9 @@
 ---
 type: watm-event
-title: authentic-relating-games
-name: "Interactive Session: Authentic Relating Games"
+title: authentic-relating-with-mark-boughton
+name: Authentic Relating with Mark Boughton
 facilitator: Mark Boughton
+event-type: interactive
 day: 3
 date: '2020-06-14'
 start-time: '17:00'
