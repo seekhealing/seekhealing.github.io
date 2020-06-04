@@ -83,6 +83,11 @@
 	}
 }
 
+.lightbox .lightbox-body .lightbox-buttons {
+	display: flex;
+  justify-content: center;
+}
+
 .lightbox:target {
 	/** Remove default browser outline */
 	outline: none;
