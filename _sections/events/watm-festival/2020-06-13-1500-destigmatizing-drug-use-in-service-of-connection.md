@@ -12,4 +12,4 @@ link: TBA
 calendar-link:
 ---
 
-SeekHealing and Harmonia co-founders discuss the importance of shifting away from abstinence-culture in how we approach helping people heal from trauma and navigate difficult life experiences.
+SeekHealing, Harmonia, and Western North Carolina AIDS Project leaders discuss the importance of shifting away from abstinence-culture in how we approach helping people heal from trauma and navigate difficult life experiences.
