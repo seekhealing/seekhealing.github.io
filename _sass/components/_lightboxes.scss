@@ -1,0 +1,118 @@
+// Contains lighbox styles
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+
+	overflow: scroll;
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 80%;
+
+	@media screen and (min-width: $screen-md-min) {
+    max-width: 40%;
+		float: right;
+  }
+}
+
+.lightbox .section {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 50px 30px;
+	padding: 40px;
+
+	.lightbox-column,
+	.lightbox-column-thin,
+	.lightbox-column-wide {
+		width: 100%;
+	}
+
+	@media screen and (min-width: $screen-sm-min) {
+		margin: 50px 60px;
+		padding: 60px;
+
+		.lightbox-column-thin {
+			width: 65%;
+		}
+		.lightbox-column {
+			width: 80%;
+		}
+		.lightbox-column-wide {
+			width: 95%;
+		}
+	}
+
+	@media screen and (min-width: $screen-md-min) {
+		margin: 50px 90px;
+	}
+
+	@media screen and (min-width: $screen-lg-min) {
+		margin: 50px 120px;
+	}
+
+}
+
+.lightbox .section .event-details {
+
+	h1 {
+		margin-bottom: 20px;
+	}
+	h2 {
+		margin-bottom: 15px;
+	}
+	h3 {
+		margin-bottom: 10px;
+	}
+	p {
+		margin-bottom: 30px;
+		font-size: 16px;
+	}
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  opacity: 0.6;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  content: ' ';
+  height: 60px;
+  width: 3px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}

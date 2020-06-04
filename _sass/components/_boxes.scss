@@ -108,3 +108,34 @@
 
 }
 
+
+.event-box {
+  @extend .location-box;
+  padding: 30px 15px;
+  margin-top: 25px;
+}
+
+.event-box .subnav-header {
+  margin-bottom: 0px;
+
+  h1, h3, h4 {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    // font-weight: bold;
+    color: #000;
+  }
+
+  h3.event-meta,
+  h4.event-meta {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: #444;
+  }
+
+  h4 .emphasized-header {
+    color: #999;
+  }
+}
