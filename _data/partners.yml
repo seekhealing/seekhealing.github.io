@@ -204,7 +204,7 @@ partners:
   - title: "WNCAP"
     image: "partner-wncap.png"
     link: "https://wncap.org/"
-    include-page: ["home-partners", "strategic-partners"]
+    include-page: ["home-partners", "strategic-partners", "watm-sponsors"]
   - title: "12 Baskets"
     image: "partner-12-baskets.png"
     link: "https://www.ashevillepovertyinitiative.org/"
@@ -219,7 +219,7 @@ partners:
   - title: "Harmonia"
     image: "partner-harmonia.png"
     link: "https://harmoniasanctuary.org/"
-    include-page: ["home-partners", "strategic-partners"]
+    include-page: ["home-partners", "strategic-partners", "watm-sponsors"]
   - title: "Making Whole"
     image: "partner-making-whole.png"
     link: "http://makingwhole.com/"
