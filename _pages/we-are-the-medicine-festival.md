@@ -8,6 +8,6 @@ sections:
     title: "watm-registration"
   - type: "festival-schedule"
     title: "watm-schedule"
-  # - type: "partners"
-  #   title: "watm-sponsors"
+  - type: "partners"
+    title: "watm-sponsors"
 ---

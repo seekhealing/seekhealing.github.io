@@ -22,6 +22,9 @@
           {% if partner_page.heading %}
             <h1>{{ partner_page.heading }}</h1>
           {% endif %}
+
+          {{ partner_page.content | markdownify }}
+          
           <ul class="partners">
             {% for partner in partners %}
             <li class="partner-item">
