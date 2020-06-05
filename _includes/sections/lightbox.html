@@ -10,32 +10,37 @@
 
 {% for lightbox in lightboxes %}
 
-<div class="lightbox" id="{{ lightbox.title }}">
-  <div class="lightbox-body section white">
-    <div class="{% if lightbox.col-width == "thin" %}lightbox-column-thin{% elsif lightbox.col-width == "wide" %}lightbox-column-wide{% else %}lightbox-column{% endif %} {% if lightbox.header %}{{ lightbox.header }}{% else %}normal-header{% endif %}">
+<div id="{{ lightbox.title }}" class="overlay">
 
-      <div class="lightbox-content">
-        {{ lightbox.content | markdownify }}
+  {% if lightbox.click-outside-close != false %}
+  <a class="cancel" href="#"></a>
+  {% endif %}
+
+  <div class="lightbox">
+    <div class="section white">
+      <div class="{% if lightbox.col-width == "thin" %}lightbox-column-thin{% elsif lightbox.col-width == "wide" %}lightbox-column-wide{% else %}lightbox-column{% endif %} {% if lightbox.header %}{{ lightbox.header }}{% else %}normal-header{% endif %}">
+
+        <div class="lightbox-content">
+          {{ lightbox.content | markdownify }}
+        </div>
+
+        <div class="lightbox-buttons">
+          {% if lightbox.extra-buttons %}
+          {% include {{ lightbox.extra-buttons }} %}
+          {% endif %}
+
+          {% if lightbox.close-button-href %}
+          <a href="{{ lightbox.close-button-href }}" class="button">
+          {% if lightbox.close-button-text %}{{ lightbox.close-button-text }}{% else %}Close Window{% endif %}
+          </a>
+          {% else %}
+          {% include lightboxes/back-button.html text="Cancel" %}
+          {% endif %}
+        </div>
+
       </div>
-
-      <div class="lightbox-buttons">
-        {% if lightbox.extra-buttons %}
-        {% include {{ lightbox.extra-buttons }} %}
-        {% endif %}
-
-        {% if lightbox.close-button-href %}
-        <a href="{{ lightbox.close-button-href }}" class="button">
-        {% if lightbox.close-button-text %}{{ lightbox.close-button-text }}{% else %}Close Window{% endif %}
-        </a>
-        {% else %}
-        {% include lightboxes/back-button.html text="Cancel" %}
-        {% endif %}
-      </div>
-
     </div>
   </div>
 </div>
-
-{% include lightboxes/click-outside.html %}
 
 {% endfor %}

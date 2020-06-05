@@ -1,25 +1,32 @@
 
 
-<div class="lightbox" id="{{ event.title }}">
-  <div class="section white">
-    <div class="event-details lightbox-column-wide">
+<div id="{{ event.title }}" class="overlay">
 
-      <h3 class="event-name">{{ event.name }}</h3>
+  <div onclick="goBack()" class="cancel"></div>
+  <script>function goBack() { window.history.back(); }</script>
+  
+  <div class="lightbox">
+    <div class="section white">
+      <div class="event-details lightbox-column-wide">
 
-      <h2>with <span class="emphasized-header">{{ event.facilitator }}</span></h2>
+        <div class="lightbox-content">
+          <h3 class="event-name">{{ event.name }}</h3>
+          <h2>with <span class="emphasized-header">{{ event.facilitator }}</span></h2>
+          <p class="event-meta">
+            <i class="far fa-clock"></i>
+            {{ event.start-time | date: "%l:%M%P" }} —{{ event.end-time | date: "%l:%M%P" }}
+            <span class="meta-separator">/</span>
+            <i class="fas fa-link"></i>
+            {{ event.link }}
+          </p>
 
-      <p class="event-meta">
-        <i class="far fa-clock"></i>
-        {{ event.start-time | date: "%l:%M%P" }} —{{ event.end-time | date: "%l:%M%P" }}
-        <span class="meta-separator">/</span>
-        <i class="fas fa-link"></i>
-        {{ event.link }}
-      </p>
+          {{ event.content | markdownify }}
+        </div>
 
-      {{ event.content | markdownify }}
-
-      {% include lightboxes/back-button.html %}
-
+        <div class="lightbox-buttons">
+          {% include lightboxes/back-button.html %}
+        </div>
+      </div>
     </div>
   </div>
 </div>

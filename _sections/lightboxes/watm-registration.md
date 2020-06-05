@@ -5,6 +5,7 @@ col-width: wide
 extra-buttons: "lightboxes/watm-eventbrite-widget.html"
 close-button-href: "#"
 close-button-text: "I Already Did"
+click-outside-close: false
 ---
 
 ### Welcome to We Are The Medicine - An Online Festival for Real Human Connection, hosted by SeekHealing
