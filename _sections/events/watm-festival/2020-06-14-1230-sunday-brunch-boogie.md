@@ -8,7 +8,7 @@ day: 3
 date: '2020-06-14'
 start-time: '12:30'
 end-time: '14:00'
-link: TBA
+link: www.twitch.tv/synthetiquetteradio # Twitch
 calendar-link:
 ---
 

@@ -8,7 +8,7 @@ day: 1
 date: '2020-06-12'
 start-time: '16:30'
 end-time: '16:50'
-link: TBA
+link: https://us02web.zoom.us/j/8285470222 # SH Team Room
 calendar-link:
 ---
 

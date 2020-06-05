@@ -8,7 +8,7 @@ day: 2
 date: '2020-06-13'
 start-time: '20:00'
 end-time: '21:30'
-link: TBA
+link: https://www.twitch.tv/captainezthevibeconductor # Twitch
 calendar-link:
 ---
 
