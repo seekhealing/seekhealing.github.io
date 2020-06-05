@@ -8,7 +8,7 @@ day: 3
 date: '2020-06-14'
 start-time: '11:00'
 end-time: '13:00'
-link: TBA
+link: https://us02web.zoom.us/j/4463977749 # Jennifer Room
 calendar-link:
 ---
 
