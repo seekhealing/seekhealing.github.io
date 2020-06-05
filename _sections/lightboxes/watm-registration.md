@@ -5,12 +5,10 @@ col-width: wide
 extra-buttons: "lightboxes/watm-eventbrite-widget.html"
 close-button-href: "#"
 close-button-text: "I Already Did"
+click-outside-close: false
 ---
 
 ### Physical distancing doesn't have to mean social distancing.
-
-<!-- <a href="#" class="close"> -->
-<!-- [](#){:class="close"} -->
 
 On June 12 to 14, we are hosting a free, online festival called “We Are The Medicine” to highlight the importance of connection during quarantine.
 
