@@ -24,10 +24,10 @@
           {% endif %}
 
           {{ partner_page.content | markdownify }}
-          
+
           <ul class="partners">
             {% for partner in partners %}
-            <li class="partner-item">
+            <li class="partner-item" {% if partner.style %}style="{{ partner.style }}"{% endif %}>
 
               {% if partner.link %}
               <a href="{{ partner.link }}" target="_blank">
