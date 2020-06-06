@@ -17,9 +17,9 @@
           <p class="event-meta subnav">
             <i class="far fa-clock"></i>
             {{ event.start-time | date: "%l:%M%P" }} —{{ event.end-time | date: "%l:%M%P" }}
-            <span class="meta-separator">/</span>
+            <!-- <span class="meta-separator">/</span> -->
             <i class="fas fa-link"></i>
-            {{ event.link }}
+            <a class="event-link" href="{{ event.link }}">{{ event.link }}</a>
           </p>
 
           <div class="event-content">

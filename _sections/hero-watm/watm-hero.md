@@ -11,4 +11,4 @@ video-preview: "/assets/images/wlos-video-preview-2.png"
 
 ## Never gonna make you cry, never gonna say goodbye, never gonna tell a lie and hurt you...
 
-[... So you should donate now!](https://www.seekhealing.org/2020){:target="_blank" class="button cta"}
+[... So just donate now!](https://www.seekhealing.org/2020){:target="_blank" class="button cta"}
