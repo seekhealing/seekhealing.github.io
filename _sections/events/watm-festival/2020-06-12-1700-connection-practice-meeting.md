@@ -18,4 +18,10 @@ One seeker always facilitates the meeting (to guide the conversation, manage tim
 
 There is no hierarchy in Connection Practice meetings, and everyone is encouraged to share equally and freely, including the person who facilitates.
 
-Michelle Kelly is passionate about connecting with others. Her whole life she has been a journey through relational adventures and misadventures. Over the past few years she has been able to hone her access to relational tools through personal relationships, as well as various relational training and certification programs. Michelle holds space for connection practices meetings for SeekHealing, and is most excited when everyone finds a way to meet in their heart and the present moment together. She views this experience as transcendent. She sees relating deeply with others as a way to get closer to truth and knowing the self.
+> ![Michelle Kelly](/assets/images/watm-Fri.5pm (Michelle_Kelly).jpg "Michelle Kelly")
+> {:class="facilitator-photo"}
+>
+> > Michelle Kelly is passionate about connecting with others. Her whole life she has been a journey through relational adventures and misadventures. Over the past few years she has been able to hone her access to relational tools through personal relationships, as well as various relational training and certification programs. Michelle holds space for connection practices meetings for SeekHealing, and is most excited when everyone finds a way to meet in their heart and the present moment together. She views this experience as transcendent. She sees relating deeply with others as a way to get closer to truth and knowing the self.
+> > {:class="facilitator-bio"}
+> {:class="facilitator-text"}
+{:class="facilitator-section"}
