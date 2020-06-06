@@ -9,12 +9,12 @@
     <div class="section white">
       <div class="event-details lightbox-column-wide">
 
-        <div class="lightbox-content">
+        <div class="lightbox-content subnav-header">
 
           <h3 class="event-name">{{ event.name }}</h3>
           <h2>with <span class="emphasized-header">{{ event.facilitator }}</span></h2>
 
-          <p class="event-meta">
+          <p class="event-meta subnav">
             <i class="far fa-clock"></i>
             {{ event.start-time | date: "%l:%M%P" }} —{{ event.end-time | date: "%l:%M%P" }}
             <span class="meta-separator">/</span>
