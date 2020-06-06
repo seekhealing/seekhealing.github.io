@@ -14,4 +14,10 @@ calendar-link:
 
 Join the SeekHealing Executive Director for a brief introduction and opening meditation to welcome yourself to “We Are The Medicine".
 
-Jennifer Nicolaisen is the co-founder and Executive Director of SeekHealing, an Asheville-based non-profit pioneering a novel protocol for treating addiction and addressing the opioid overdose crisis through human connection.
+> ![Jennifer Nicolaisen](/assets/images/watm-Fri.430pm Sat.6pm Sun.1pm Sun.6pm Sun.730pm (Jennifer Nicolaisen).jpeg "Jennifer Nicolaisen")
+> {:class="facilitator-photo"}
+>
+> > Jennifer Nicolaisen is the co-founder and Executive Director of SeekHealing, an Asheville-based non-profit pioneering a novel protocol for treating addiction and addressing the opioid overdose crisis through human connection.
+> > {:class="facilitator-bio"}
+> {:class="facilitator-text"}
+{:class="facilitator-section"}

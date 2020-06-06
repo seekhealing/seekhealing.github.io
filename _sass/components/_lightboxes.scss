@@ -137,16 +137,15 @@
 		margin: 0 0 1.5em;
 	}
 
-	img {
-		/** Pad the lightbox image */
-		max-width: 80%;
-
-		@media screen and (min-width: $screen-md-min) {
-	    max-width: 40%;
-			float: right;
-	  }
-	}
-
+	// img {
+	// 	/** Pad the lightbox image */
+	// 	max-width: 80%;
+	//
+	// 	@media screen and (min-width: $screen-md-min) {
+	//     // max-width: 40%;
+	// 		float: left;
+	//   }
+	// }
 
 	.lightbox-buttons {
 		display: flex;
