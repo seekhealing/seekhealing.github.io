@@ -12,4 +12,4 @@ video-preview: "assets/images/wlos-video-preview-2.png"
 
 Join us on June 12th to turn up the volume for connection!
 
-[Register Today!](https://www.eventbrite.com/e/we-are-the-medicine-an-online-festival-for-human-connection-tickets-105246045756){:target="_blank" class="button cta"}
+[Register Now!](/we-are-the-medicine-festival/#watm-registration){: class="button cta"}
