@@ -2,7 +2,7 @@
 type: hero-watm
 title: watm-hero
 background: "/assets/images/watm-logo-alt.jpg"
-video-src: https://www.youtube.com/embed/nTLaZbGWG-0?rel=0&showinfo=0&autoplay=1
+video-src: https://www.youtube.com/embed/nTLaZbGWG-0
 # video: "/downloads/SH-WLOS.mp4"
 # video-preview: "/assets/images/wlos-video-preview-2.png"
 ---
