@@ -12,14 +12,14 @@
 
   <div class="slider-parallax-inner">
 
-    <div class="hero-area watm-hero-area" style="background: url({{ hero.background }}) center center / cover no-repeat;">
+    <div id="watm-hero" class="hero-area" style="background: url({{ hero.background }}) center center / cover no-repeat;">
       <div class="container clearfix">
-        <div class="row slider-caption">
+        <div id="watm-hero-row" class="row slider-caption">
 
           <div class="col-md-6 col-xs-12">
             {{ hero.content | markdownify }}
           </div>
-          
+
           <div class="col-md-6 col-xs-12">
             <div class="large max-vid-width hero-vid">
               <div class="embed-responsive embed-responsive-16by9">
