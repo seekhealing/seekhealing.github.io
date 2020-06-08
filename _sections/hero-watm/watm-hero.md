@@ -10,8 +10,8 @@ video-src: https://www.youtube.com/embed/nTLaZbGWG-0
 # Welcome to <br />We Are The Medicine
 {: class="watm-hero-header watm-hero-text emphasized-header"}
 
-## Everyone is welcome! Invite loved ones, whether they're far away or cooped up in quarantine with you. We can't wait to connect with all of you.
+## Everyone is welcome! Invite loved ones, whether they're far away or you're cooped up in quarantine together. We can't wait to connect with all of you.
 {: class="watm-hero-text"}
 
-## Check out the event schedule below. Just be sure to register, if you haven't already: [Register Now!](https://www.eventbrite.com/e/we-are-the-medicine-an-online-festival-for-human-connection-tickets-105246045756){:target="_blank" class="button"}
+## Check out the event schedule below. Just be sure to register, if you haven't already: [Register Now!](/we-are-the-medicine-festival/#watm-registration){: class="button cta"}
 {: class="watm-hero-text"}
