@@ -12,7 +12,7 @@ link: https://us02web.zoom.us/j/7140019519 # Joey Room
 calendar-link:
 ---
 
-SeekHealing and Harmonia co-founders discuss the importance of shifting away from abstinence-culture in how we approach helping people heal from trauma and navigate difficult life experiences.
+SeekHealing, Harmonia, and Western North Carolina AIDS Project leaders discuss the importance of shifting away from abstinence-culture in how we approach helping people heal from trauma and navigate difficult life experiences.
 
 > ![Thomas Cospito](/assets/images/watm-Sat.3pm (Thomas Cospito).jpg "Thomas Cospito")
 > {:class="facilitator-photo"}
