@@ -8,7 +8,7 @@ day: 2
 date: '2020-06-13'
 start-time: '08:00'
 end-time: '09:00'
-link: https://us02web.zoom.us/j/4463977749 # Jennifer Room
+link: https://zoom.us/j/4463977749 # Jennifer Room
 calendar-link:
 ---
 

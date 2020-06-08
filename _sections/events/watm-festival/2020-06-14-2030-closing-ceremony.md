@@ -8,7 +8,7 @@ day: 3
 date: '2020-06-14'
 start-time: '20:30'
 end-time: '20:50'
-link: https://us02web.zoom.us/j/8285470222 # SH Team Room
+link: https://zoom.us/j/8285470222 # SH Team Room
 calendar-link:
 ---
 

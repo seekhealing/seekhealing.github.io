@@ -8,7 +8,7 @@ day: 2
 date: '2020-06-13'
 start-time: '19:00'
 end-time:
-link: https://us02web.zoom.us/j/7140019519 # Joey Room
+link: https://zoom.us/j/7140019519 # Joey Room
 calendar-link:
 ---
 
