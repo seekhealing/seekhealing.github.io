@@ -8,7 +8,7 @@ day: 2
 date: '2020-06-13'
 start-time: '11:00'
 end-time: '12:00'
-link: TBA
+link: https://zoom.us/j/8285470222 # SH Team Room
 calendar-link:
 ---
 
@@ -16,6 +16,13 @@ Appropriate for any level practitioner, Mindful Flow will encourage you through 
 
 This class will Integrate therapeutic principles, focus on intention & brief mindfulness meditation. You will be moved into a slow, deep flow using alignment-focused asana (posture) targeting the release of stress, tension, and congestion in the body and the mind.
 
-Sheri Kay is an entrepreneur, speaker, facilitator, coach, published author and yoga teacher. In addition to owning her own company, SKY Dental Practice Coaching, Sheri also  serves on a local board in Black Mountain, NC,  has traveled the world to help provide access to dental care where is little or none available, volunteers at a local women’s prison, and is a passionate supporter of dog rescue efforts. Sheri is also the mother of a son lost to a drug overdose in 2018 and is committed to changing the stigma and shame oftentimes associated with addiction.
-
-[www.skydentalpracticecoaching.com](https://www.skydentalpracticecoaching.com){:target="_blank"}
+> ![Sheri Kay](/assets/images/watm-Sat.11am (Sheri Kay).jpg "Sheri Kay")
+> {:class="facilitator-photo"}
+>
+> > Sheri Kay is an entrepreneur, speaker, facilitator, coach, published author and yoga teacher. In addition to owning her own company, SKY Dental Practice Coaching, Sheri also  serves on a local board in Black Mountain, NC,  has traveled the world to help provide access to dental care where is little or none available, volunteers at a local women’s prison, and is a passionate supporter of dog rescue efforts. Sheri is also the mother of a son lost to a drug overdose in 2018 and is committed to changing the stigma and shame oftentimes associated with addiction.
+> > {:class="facilitator-bio"}
+> >
+> > [www.skydentalpracticecoaching.com](https://www.skydentalpracticecoaching.com){:target="_blank"}
+> > {:class="facilitator-link"}
+> {:class="facilitator-text"}
+{:class="facilitator-section"}

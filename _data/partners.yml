@@ -205,6 +205,11 @@ partners:
     image: "partner-wncap.png"
     link: "https://wncap.org/"
     include-page: ["home-partners", "strategic-partners"]
+  - title: "WNCAP Harm Reduction (Sponsor)"
+    image: "partner-wncap-harm-reduction.png"
+    link: "https://wncap.org/"
+    style: "margin: 15px 8%; flex: 2 0 auto;"
+    include-page: ["watm-sponsors"]
   - title: "12 Baskets"
     image: "partner-12-baskets.png"
     link: "https://www.ashevillepovertyinitiative.org/"
@@ -220,6 +225,11 @@ partners:
     image: "partner-harmonia.png"
     link: "https://harmoniasanctuary.org/"
     include-page: ["home-partners", "strategic-partners"]
+  - title: "Harmonia (Sponsor)"
+    image: "partner-harmonia.png"
+    link: "https://harmoniasanctuary.org/"
+    style: "margin: 15px 8%; flex: 1 0 auto;"
+    include-page: ["watm-sponsors"]
   - title: "Making Whole"
     image: "partner-making-whole.png"
     link: "http://makingwhole.com/"
