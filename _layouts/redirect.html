@@ -13,8 +13,10 @@
      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
      ga('create', '{{ site.ga_property_id }}', 'auto');
-     ga('send', 'pageview');
-     location='{{ page.redirect_to }}';
+     ga('send', 'pageview', {hitCallback: function() {
+         console.log("Redirecting");
+         location='{{ page.redirect_to }}';
+     }});
     </script>
 </body>
 </html>
