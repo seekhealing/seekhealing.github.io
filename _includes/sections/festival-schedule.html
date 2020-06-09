@@ -45,6 +45,17 @@
                 </div> -->
 
                 <div class="subnav-header">
+
+                  {% if event.event-type == "presentation" %}
+                  <i class="fas fa-chalkboard-teacher color-presentation"></i>
+                  {% elsif event.event-type == "interactive" %}
+                  <i class="fas fa-users color-interactive"></i>
+                  {% elsif event.event-type == "interview" %}
+                  <i class="fas fa-microphone-alt color-interview"></i>
+                  {% elsif event.event-type == "music" %}
+                  <i class="fas fa-music color-music"></i>
+                  {% endif %}
+
                   <h1>{{ event.name }}</h1>
                   <h4><span class="emphasized-header">{{ event.facilitator }}</span></h4>
                   <h3 class="event-meta">
