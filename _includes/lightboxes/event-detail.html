@@ -16,17 +16,17 @@
 
           <p class="event-meta">
             <i class="far fa-clock"></i>
-            {{ event.start-time | date: "%l:%M%P" }} —{{ event.end-time | date: "%l:%M%P" }}
-            <span class="meta-separator">/</span>
-            {% include lightboxes/addtocalendar.html %}
+            {{ event.start-time | date: "%l:%M%P" }}{% if event.end-time%} —{{ event.end-time | date: "%l:%M%P" }}{% endif %}
+            <!-- <span class="meta-separator">/</span> -->
+            <br><br>{% include lightboxes/addtocalendar.html %}
           </p>
+
+
 
           <p class="event-meta subnav">
-            <i class="fas fa-link"></i>
-            <a class="event-link" href="{{ event.link }}">{{ event.link }}</a>
+            <!-- <i class="fas fa-link"></i> -->
+            <a class="event-link button" href="{{ event.link }}">Join this Event!</a>
           </p>
-
-
 
           <div class="event-content">
             {{ event.content | markdownify }}
