@@ -13,5 +13,5 @@ video-src: https://www.youtube.com/embed/nTLaZbGWG-0
 ## Everyone is welcome! Invite loved ones, whether they're far away or you're cooped up in quarantine together. We can't wait to connect with all of you.
 {: class="watm-hero-text"}
 
-## Check out the event schedule below. Just be sure to register, if you haven't already: [Register Now!](/we-are-the-medicine-festival/#watm-registration){: class="button cta"}
+## Check out the event schedule below. Just be sure to register, if you haven't already: [Register Now!](/we-are-the-medicine-festival/#watm-registration){: class="button"}
 {: class="watm-hero-text"}
