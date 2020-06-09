@@ -2,7 +2,7 @@
 type: watm-event
 title: deep-listening-with-focusing
 name: Deep Listening with Focusing
-facilitator: Abby Wen Wu
+facilitator: Abby Wen Wu and Zach Valenti
 event-type: interactive
 day: 3
 date: '2020-06-14'
@@ -21,5 +21,13 @@ Focusing is a relational embodied introspection, often taken place in dyads, whe
 > >
 > > [www.abbywenwu.com](https://www.abbywenwu.com){:target="_blank"}
 > > {:class="facilitator-link"}
+> {:class="facilitator-text"}
+{:class="facilitator-section"}
+
+> ![Zach Valenti](/assets/images/watm-Sun.2pm (Zach Valenti).jpg "Zach Valenti")
+> {:class="facilitator-photo"}
+>
+> > Zach Valenti is a storyteller, technologist, and mental health advocate passionate about mindfulness and Focusing. He is a Webby Award nominated podcaster and his documentary film work has been selected to screen at The United Nations. Zach's been published in The Wall Street Journal, New York Daily News, and Salon and he has been a featured speaker at The National University of Singapore, Mass General Hospital, and Harvard.
+> > {:class="facilitator-bio"}
 > {:class="facilitator-text"}
 {:class="facilitator-section"}

@@ -11,7 +11,15 @@ end-time:
 link: https://zoom.us/j/7140019519 # Joey Room
 ---
 
-Jennifer Nicolaisen interviews Laurie Lazar, Executive Director of Authentic Relating International, and Dustin Gust, a graduate of one of their prison-based authentic relating workshops.
+_Jennifer Nicolaisen interviews Laurie Lazar, Executive Director of Authentic Relating International, and Dustin Gust, a graduate of one of their prison-based authentic relating workshops._
+
+## Authentic Relating International (ARI)
+
+Polarization, racism, anxiety, addiction, isolation. What do all of these human conditions have in common? Lack of human connection.
+
+Compelled by the growing sense of disconnection in the world, Authentic Relating International (ARI) is dedicated to fostering profound and sustainable human connections in marginalized communities. Through experiential workshops and other programming, we are transforming prisons into places of human connection, empowering Inmates to return to their communities more equipped to be productive, healthy members of society. ARI’s mission: Re-humanizing the world, one human at a time.
+
+[www.authenticrelating.org](https://www.authenticrelating.org){:target="_blank"}
 
 > ![Laurie Lazar](/assets/images/watm-Sat.7pm (Laurie Lazar).jpg "Laurie Lazar")
 > {:class="facilitator-photo"}
