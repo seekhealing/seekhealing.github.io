@@ -13,7 +13,6 @@ sections:
     title: "watm-sponsors"
   - type: "festival-schedule"
     title: "watm-schedule"
-
   # - type: "single"
   #   title: "watm-auction"
   - type: "givelively-donation-widget"
