@@ -9,7 +9,6 @@ date: '2020-06-14'
 start-time: '13:00'
 end-time: '14:00'
 link: https://zoom.us/j/8285470222 # SH Team Room
-calendar-link:
 ---
 
 Cameron Payne, Beck Benelli, Travis Peterson, Maribeth Collins, Maria DiPaola, Shawn Stebbins, and Zach Young

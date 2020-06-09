@@ -9,7 +9,6 @@ date: '2020-06-14'
 start-time: '14:00'
 end-time: '16:00'
 link: https://zoom.us/j/4463977749 # Jennifer Room
-calendar-link:
 ---
 
 Focusing is a relational embodied introspection, often taken place in dyads, where a partner facilitates the experience for us to befriend ourselves in a positive and supportive way. Focusing allows the person to go deeper into one's own awareness and allow for the emergence of innate body wisdom. It is an entry to the doorway to the mysterious, to a deeper intelligence, and to a field beyond ideas of wrongdoing and right doing. You can learn more about it here: [https://focusing.org/sixsteps](https://focusing.org/sixsteps){:target="_blank"}.

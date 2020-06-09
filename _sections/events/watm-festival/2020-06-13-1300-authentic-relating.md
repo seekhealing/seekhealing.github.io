@@ -9,7 +9,6 @@ date: '2020-06-13'
 start-time: '13:00'
 end-time: '15:00'
 link: https://zoom.us/j/4463977749 # Jennifer Room
-calendar-link:
 ---
 
 Join us for connection, slowing down and paying attention to what's most alive in every moment in relation to ourselves and each other. This Authentic Relating/Circling event is open to all levels of experience. The afternoon will be filled with experiences to foster deeper connection, greater awareness and compassion. Cathy Courtenay is an experienced AR/Circling Facilitator and Conscious Relating Coach. She loves sharing this work with as many people as are ready to receive it.

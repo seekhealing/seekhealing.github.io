@@ -9,7 +9,6 @@ date: '2020-06-12'
 start-time: '18:00'
 end-time: '19:00'
 link: https://zoom.us/j/8285470222 # SH Team Room
-calendar-link:
 ---
 
 The hallmark of having been raised by left hemisphere parents and/or in a left hemisphere culture is a deep, lifelong loneliness, a tendency to push others away and a struggle to find life’s meaning. This is a natural after effect of the contracts children who are left to “cry it out” make sense of it all themselves. Join Sarah for the latest discoveries concerning avoidant attachment and what they reveal about possible paths we can take toward healing.

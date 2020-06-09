@@ -9,7 +9,6 @@ date: '2020-06-14'
 start-time: '12:00'
 end-time: '13:00'
 link: https://zoom.us/j/7140019519 # Joey Room
-calendar-link:
 ---
 
 Join us for this open-hearted open mic, where guests will be free to share songs, poems, and stories from a place of presence and vulnerability in a safe, non-judgmental space.  Our audience will be listening with compassionate ears, and have a chance to also reflect on what they heard from the shares.

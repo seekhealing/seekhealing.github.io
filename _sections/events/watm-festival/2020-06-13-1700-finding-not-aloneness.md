@@ -9,7 +9,6 @@ date: '2020-06-13'
 start-time: '17:00'
 end-time: '19:00'
 link: https://zoom.us/j/8285470222 # SH Team Room
-calendar-link:
 ---
 
 Have you ever been alone in a crowd? Or wondered why it’s hard for you to find connection, when there are so many people in the world?

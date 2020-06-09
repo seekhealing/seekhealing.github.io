@@ -9,7 +9,6 @@ date: '2020-06-14'
 start-time: '12:30'
 end-time: '14:00'
 link: www.twitch.tv/synthetiquetteradio # Twitch
-calendar-link:
 ---
 
 Join DJ Peri Meters on Twitch for some delicious disco, tantalizing techno, fresh funk, and sizzling soul.

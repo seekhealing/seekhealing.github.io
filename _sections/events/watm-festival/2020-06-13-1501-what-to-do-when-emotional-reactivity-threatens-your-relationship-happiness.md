@@ -9,7 +9,6 @@ date: '2020-06-13'
 start-time: '15:00'
 end-time: '16:00'
 link: https://zoom.us/j/8285470222 # SH Team Room
-calendar-link:
 ---
 
 We all get emotionally triggered at times in our close relationships. This presentation teaches you how to know the early warning signs of triggering so you can catch and halt reactivity before it takes over. You will also learn what to do next to restore calmness, safety, and connection with those you love.

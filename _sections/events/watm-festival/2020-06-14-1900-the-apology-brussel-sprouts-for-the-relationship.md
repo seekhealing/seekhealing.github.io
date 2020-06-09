@@ -9,7 +9,6 @@ date: '2020-06-14'
 start-time: '19:00'
 end-time: '20:00'
 link: https://zoom.us/j/7140019519 # Joey Room
-calendar-link:
 ---
 
 “Apologies are the brussels sprouts of relationships. They are good for us and they can mitigate the ill effects of a transgression.” ~ Sharon Belgley, author

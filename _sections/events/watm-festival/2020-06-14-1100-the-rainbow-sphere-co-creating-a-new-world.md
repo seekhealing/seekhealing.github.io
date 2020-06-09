@@ -9,7 +9,6 @@ date: '2020-06-14'
 start-time: '11:00'
 end-time: '13:00'
 link: https://zoom.us/j/4463977749 # Jennifer Room
-calendar-link:
 ---
 
 A space of fun, play, connection, and depth. After loosening with playful connective games and activities, we will drop in deeper together to create a uniquely essenced “energy beam” of healing to be directed to people and places that call our attention, and to ourselves.

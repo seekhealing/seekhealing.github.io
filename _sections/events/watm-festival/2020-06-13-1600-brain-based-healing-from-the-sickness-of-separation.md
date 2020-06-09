@@ -9,7 +9,6 @@ date: '2020-06-13'
 start-time: '16:00'
 end-time: '17:00'
 link: https://zoom.us/j/4463977749 # Jennifer Room
-calendar-link:
 ---
 
 The brain’s systems that malfunction in addiction originally evolved to motivate us to socialize and bond deeply with other humans. When we can’t access that connection — whether due to shame from trauma or COVID-19 — we experience pain. That pain motivates us to bond to whatever anesthetizes or distracts us. From chemical substances to stress-baking to excessive porn consumption, people are becoming acutely aware of their substitute bonds to rewarding substances and behaviors. In this talk, Dr. Wurzman explains why returns to use, overdoses, and suicides are skyrocketing — and what we can do to help each other heal.

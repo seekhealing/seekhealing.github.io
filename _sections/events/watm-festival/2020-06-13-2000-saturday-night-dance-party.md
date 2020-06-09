@@ -9,7 +9,6 @@ date: '2020-06-13'
 start-time: '20:00'
 end-time: '21:30'
 link: https://www.twitch.tv/captainezthevibeconductor # Twitch
-calendar-link:
 ---
 
 Join Captain EZ on Twitch for some groovy tunes to move your body. Whether it be classic funk and disco or modern boogie, Captain EZ will keep your soul bumping to the beat!
