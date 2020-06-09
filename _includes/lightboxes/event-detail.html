@@ -14,13 +14,19 @@
           <h3 class="event-name">{{ event.name }}</h3>
           <h2>with <span class="emphasized-header">{{ event.facilitator }}</span></h2>
 
-          <p class="event-meta subnav">
+          <p class="event-meta">
             <i class="far fa-clock"></i>
             {{ event.start-time | date: "%l:%M%P" }} —{{ event.end-time | date: "%l:%M%P" }}
             <span class="meta-separator">/</span>
+            {% include lightboxes/addtocalendar.html %}
+          </p>
+
+          <p class="event-meta subnav">
             <i class="fas fa-link"></i>
             <a class="event-link" href="{{ event.link }}">{{ event.link }}</a>
           </p>
+
+
 
           <div class="event-content">
             {{ event.content | markdownify }}
