@@ -13,4 +13,8 @@ sections:
     title: "watm-schedule"
   - type: "partners"
     title: "watm-sponsors"
+  # - type: "single"
+  #   title: "watm-auction"
+  - type: "single"
+    title: "watm-donate"
 ---
