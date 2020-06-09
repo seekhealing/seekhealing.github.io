@@ -137,3 +137,38 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
 .hero-vid {
   margin: 20px 0 40px;
 }
+
+
+#watm-hero {
+
+  #watm-hero-row {
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .watm-hero-text {
+      text-shadow: 2px 2px 4px #000;
+
+    }
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    .hero-vid {
+      margin: 75px 0 80px;
+    }
+  }
+}
+
+#watm-hero:after {
+    content: '\A';
+    position: absolute;
+		width: 100vw;
+		height: 100%;
+    top:0;
+		left:0;
+    background:rgba(0,0,0,0.3);
+    opacity: 1;
+    // transition: opacity 0.5s;
+    // -webkit-transition: opacity 0.5s;
+	  // -moz-transition: opacity 0.5s;
+}
