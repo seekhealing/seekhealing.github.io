@@ -9,6 +9,7 @@ date: '2020-06-14'
 start-time: '08:00'
 end-time: '09:00'
 link: https://zoom.us/j/7140019519 # Joey Room
+tagline: This meditation practice is for celebrating the jubilation within our human form as a vehicle and vessel of our transformation and transcendence.
 ---
 
 This meditation practice is for celebrating the jubilation within our human form as a vehicle and vessel of our transformation and transcendence. This event is about connecting us with the body, mind, and spirit to achieve optimal and ultimate well-being. This will help set and hold loving intention for the container We Are The Medicine.

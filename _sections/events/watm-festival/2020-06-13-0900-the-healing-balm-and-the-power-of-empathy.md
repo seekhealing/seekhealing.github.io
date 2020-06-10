@@ -9,6 +9,7 @@ date: '2020-06-13'
 start-time: '09:00'
 end-time: '11:00'
 link: https://zoom.us/j/7140019519 # Joey Room
+tagline: We will learn how self-empathy helps us connect with ourselves and how empathy helps us connect with others.
 ---
 
 We will learn how self-empathy helps us connect with ourselves and how empathy helps us connect with others. Empathy and understanding help us “really get” what’s going on. We can understand what is truly important and work on ways to fulfill what we and others value. This session will include learning and practices.

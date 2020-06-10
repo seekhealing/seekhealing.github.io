@@ -9,6 +9,7 @@ date: '2020-06-13'
 start-time: '19:00'
 end-time:
 link: https://zoom.us/j/7140019519 # Joey Room
+tagline: Polarization, racism, anxiety, addiction, isolation. What do all of these human conditions have in common? Lack of human connection.
 ---
 
 _Jennifer Nicolaisen interviews Laurie Lazar, Executive Director of Authentic Relating International, and Dustin Gust, a graduate of one of their prison-based authentic relating workshops._

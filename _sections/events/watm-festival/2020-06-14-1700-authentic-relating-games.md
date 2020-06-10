@@ -1,7 +1,7 @@
 ---
 type: watm-event
 title: authentic-relating-with-mark-boughton
-name: Authentic Relating with Mark Boughton
+name: Authentic Relating Games with Mark Boughton
 facilitator: Mark Boughton
 event-type: interactive
 day: 3
@@ -9,6 +9,7 @@ date: '2020-06-14'
 start-time: '17:00'
 end-time: '18:15'
 link: https://zoom.us/j/4463977749 # Jennifer Room
+tagline: Authentic Relating Games, put simply, are a place to practice being human. Games can help teach us to be more present and true to ourselves while staying connected to others.
 ---
 
 Authentic Relating Games, put simply, are a place to practice being human. Our mission is to use games as tools to upgrade our communication and help us find more satisfying connections, healthier ways of relating with more ease and ability to express how we are actually feeling. Games can help teach us to be more present and true to ourselves while staying connected to others. The COnnect online Authentic Relating and Circling platform is an online community where folks gather 7 days of the week, 365 days a year to engage in facilitated connection focused games and circles, and to explore a number of high quality resources and content about the relational arts.

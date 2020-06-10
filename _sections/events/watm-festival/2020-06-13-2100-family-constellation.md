@@ -9,6 +9,7 @@ date: '2020-06-13'
 start-time: '21:00'
 end-time: '22:00'
 link: https://zoom.us/j/8285470222 # SH Team Room
+tagline: Sarah integrates Interpersonal Neurobiology (IPNB) and empathy into the Family Constellations experience. When we step into the field created by the constellation, we are stepping into the seeker’s right hemisphere, with its connection to the body, emotions, and its orientation in our relational world.
 ---
 
 Sarah integrates Interpersonal Neurobiology (IPNB) and empathy into the Family Constellations experience. When we step into the field created by the constellation, we are stepping into the seeker’s right hemisphere, with its connection to the body, emotions, and its orientation in our relational world. This work opens the door to understanding how much information is coming in through our bodies. As this comprehension deepens, we realize that we can effectively partner with them for conscious movement in the world. We begin to move differently as facilitators and as clients. Constellations give us a way to harvest the body’s wisdom. Through constellation work we can unwind and unravel the frozen strands of trauma from our essential beings, so that we can flourish, live, and contribute our gifts with ease.

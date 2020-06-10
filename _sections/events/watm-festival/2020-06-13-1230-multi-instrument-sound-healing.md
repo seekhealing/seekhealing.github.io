@@ -9,6 +9,7 @@ date: '2020-06-13'
 start-time: '12:30'
 end-time: '13:30'
 link: https://zoom.us/j/8285470222 # SH Team Room
+tagline: Melt into a soundscape of gongs, crystal bowls, handpan, didgeridoo, monochord, and other powerful instruments.  These sounds help to relax, and open up to a greater perspective, inviting subtle shifts and healing to happen spontaneously.
 ---
 
 Melt into a soundscape of gongs, crystal bowls, handpan, didgeridoo, monochord, and other powerful instruments.  These sounds help to relax, and open up to a greater perspective, inviting subtle shifts and healing to happen spontaneously.  Billy Zanski of Skinny Beats Sound Shop will be hosting this 60 minute special sound meditation.

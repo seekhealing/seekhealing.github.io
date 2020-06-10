@@ -9,6 +9,7 @@ date: '2020-06-14'
 start-time: '16:00'
 end-time: '17:00'
 link: https://zoom.us/j/8285470222 # SH Team Room
+tagline: "Our world was built using Problem-Solution Thinking, which encourages the brain to focus on problems. Yet our current, more complex landscape requires us to reevaluate using it as our default mode. Collaboration requires a new model to collectively engage our creative energy: The Desire-Invention Model."
 ---
 
 Our world was built using Problem-Solution Thinking, which encourages the brain to focus on problems. Yet our current, more complex landscape requires us to reevaluate using it as our default mode. Collaboration requires a new model to collectively engage our creative energy: The Desire-Invention Model. It enables groups to rewire their brains to harness group stress, rather than avoid it, and use it to accelerate purpose and progress. Join us for an interactive session where we will share the Desire-Invention Model and engage in a hands-on experience showing you a process to shift from Problem-Solution Thinking into a Desire-Invention Mindset.

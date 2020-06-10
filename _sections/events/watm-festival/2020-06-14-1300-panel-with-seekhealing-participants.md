@@ -11,7 +11,7 @@ end-time: '14:00'
 link: https://zoom.us/j/8285470222 # SH Team Room
 ---
 
-Cameron Payne, Beck Benelli, Travis Peterson, Maribeth Collins, Maria DiPaola, Shawn Stebbins, and Zach Young
+Jennifer Nicolaisen interviews SeekHealing participants Cameron Payne, Beck Benelli, Travis Peterson, Maribeth Collins, Maria DiPaola, Shawn Stebbins, and Zach Young.
 
 > ![Jennifer Nicolaisen](/assets/images/watm-Fri.430pm Sat.6pm Sun.1pm Sun.6pm Sun.730pm (Jennifer Nicolaisen).jpg "Jennifer Nicolaisen")
 > {:class="facilitator-photo"}

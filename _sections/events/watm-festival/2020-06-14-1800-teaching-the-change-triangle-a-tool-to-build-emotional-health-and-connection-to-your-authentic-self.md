@@ -9,6 +9,7 @@ date: '2020-06-14'
 start-time: '18:00'
 end-time:
 link: https://zoom.us/j/8285470222 # SH Team Room
+tagline: Hilary Jacobs Hendel is passionate about sharing the Change Triangle, a practical and life-changing tool that anyone can understand. The Change Triangle introduces a new way, firmly grounded in science, to understand and work with emotions to ease anxiety and depression and connect more fully with our calm, clear, confident authentic self.
 ---
 
 Our society neglects to teach us about emotions especially how they work in the mind and body to cause symptoms like anxiety and depression. Until we get this information, crucial for wellbeing, starting in high school, we must take it upon ourselves to learn.  Hilary Jacobs Hendel is passionate about sharing the Change Triangle, a practical and life-changing tool that anyone can understand. The Change Triangle introduces a new way, firmly grounded in science, to understand and work with emotions to ease anxiety and depression and connect more fully with our calm, clear, confident authentic self. Hilary’s style is warm and the presentation will combine slides, video, and experiential learning.
