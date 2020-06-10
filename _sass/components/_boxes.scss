@@ -110,23 +110,60 @@
 
 
 
+
+
+p.color-presentation {
+  color: #8b508d; // purple
+}
+p.color-interactive {
+  color: #df877e; // orange
+}
+p.color-music {
+  color: #017ecb; // blue
+}
+p.color-interview {
+  color: #e3c75b; // yellow
+}
+
 .event-box {
   @extend .location-box;
   padding: 30px 15px;
   margin-top: 25px;
-}
 
-.color-presentation {
-  color: #8b508d; // purple
-}
-.color-interactive {
-  color: #df877e; // orange
-}
-.color-music {
-  color: #017ecb; // blue
-}
-.color-interview {
-  color: #e3c75b; // yellow
+  .event-type {
+    p {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+  }
+
+  blockquote.event-timing:before {
+    display: none;
+  }
+
+  blockquote.event-timing {
+    max-width: 200px;
+    h3.event-meta { margin-top: 0px; margin-bottom: 10px; }
+    padding: 10px;
+    background-color: #F9F9F9;
+    font-style: normal;
+
+    border: 1px solid #CCC;
+    border-radius: 5px;
+  }
+
+  .addtocalendar {
+
+    .atcb-link {
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+      border-radius: 3px;
+    }
+
+    .atcb-link:hover {
+      text-decoration: underline;
+      background: darken(#4281f4,8%);
+    }
+  }
 }
 
 .event-box .subnav-header {
@@ -135,6 +172,8 @@
   h1, h3, h4 {
     margin-bottom: 10px;
   }
+
+  h4 { margin-bottom: 20px; }
 
   h1 {
     // font-weight: bold;
@@ -150,7 +189,8 @@
   }
 
   h4 .emphasized-header {
-    color: #999;
+    font-size: 18px;
+    color: #777;
   }
 }
 
