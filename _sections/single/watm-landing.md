@@ -15,4 +15,4 @@ padding: no-bot-padding
 ## This festival is a fundraiser. Every little bit counts! Your donation goes to preventing drug overdoses and fighting the loneliness epidemic.
 [Donate](/2020){: class="button"}
 
-## Text <span class="emphasized-header">828-547-0222</span> for emotional support throughout the weekend.
+## Text <b>828-547-0222</b> for emotional support throughout the weekend.
