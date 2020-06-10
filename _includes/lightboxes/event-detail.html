@@ -11,22 +11,40 @@
 
         <div class="lightbox-content subnav-header">
 
+          <div class="event-type">
+            {% if event.event-type == "presentation" %}
+            <p class="color-presentation"><i class="fas fa-chalkboard-teacher"></i>  Presentation</p>
+            {% elsif event.event-type == "interactive" %}
+            <p class="color-interactive"><i class="fas fa-users color-interactive"></i>  Interactive</p>
+            {% elsif event.event-type == "interview" %}
+            <p class="color-interview"><i class="fas fa-microphone-alt color-interview"></i>  Interview</p>
+            {% elsif event.event-type == "music" %}
+            <p class="color-music"><i class="fas fa-music color-music"></i>  Music</p>
+            {% endif %}
+          </div>
+
           <h3 class="event-name">{{ event.name }}</h3>
-          <h2>with <span class="emphasized-header">{{ event.facilitator }}</span></h2>
+          <h4><span class="emphasized-header">{{ event.facilitator }}</span></h4>
 
-          <p class="event-meta">
-            <i class="far fa-clock"></i>
-            {{ event.start-time | date: "%l:%M%P" }}{% if event.end-time%} —{{ event.end-time | date: "%l:%M%P" }}{% endif %}
-            <!-- <span class="meta-separator">/</span> -->
-            <br><br>{% include lightboxes/addtocalendar.html %}
-          </p>
+          <blockquote class="event-timing">
+            <h3 class="event-meta">
+              <i class="far fa-calendar-alt"></i>
+              {{ schedule.dates[index] }}
+            </h3>
+            <h3 class="event-meta">
+              <i class="far fa-clock"></i>
+              {{ event.start-time | date: "%l:%M%P" }}{% if event.end-time %} — {{ event.end-time | date: "%l:%M%P" }}{% endif %}
+              <!-- <span class="meta-separator">/</span>
+              <i class="fas fa-link"></i>
+              {{ event.link }} -->
+            </h3>
+            {% include lightboxes/addtocalendar.html %}
+          </blockquote>
 
-
-
-          <p class="event-meta subnav">
+          <!-- <p class="event-meta subnav"> -->
             <!-- <i class="fas fa-link"></i> -->
-            <a class="event-link button" href="{{ event.link }}">Join this Event!</a>
-          </p>
+            <!-- <a class="event-link button" href="{{ event.link }}">Join this Event!</a> -->
+          <!-- </p> -->
 
           <div class="event-content">
             {{ event.content | markdownify }}
@@ -34,7 +52,7 @@
         </div>
 
         <div class="lightbox-buttons">
-          {% include lightboxes/back-button.html %}
+          {% include lightboxes/back-button.html text="Back" %}
         </div>
 
       </div>

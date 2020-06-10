@@ -129,11 +129,24 @@ p.color-interview {
   @extend .location-box;
   padding: 30px 15px;
   margin-top: 25px;
+}
+
+.event-box,
+.lightbox .event-details {
+  // @extend .location-box;
+  // padding: 30px 15px;
+  // margin-top: 25px;
 
   .event-type {
     p {
+      margin-top: 0px;
       margin-bottom: 10px;
       font-size: 18px;
+
+      font-weight: 300;
+      font-family: 'Raleway', sans-serif;
+      line-height: 1.5;
+      letter-spacing: 1px;
     }
   }
 
@@ -166,7 +179,8 @@ p.color-interview {
   }
 }
 
-.event-box .subnav-header {
+.event-box .subnav-header,
+.event-details .subnav-header {
   margin-bottom: 0px;
 
   h1, h3, h4 {
@@ -191,6 +205,12 @@ p.color-interview {
   h4 .emphasized-header {
     font-size: 18px;
     color: #777;
+  }
+}
+
+.event-details .subnav-header {
+  h4, blockquote.event-timing {
+    margin-bottom: 30px;
   }
 }
 
