@@ -205,11 +205,6 @@ partners:
     image: "partner-wncap.png"
     link: "https://wncap.org/"
     include-page: ["home-partners", "strategic-partners"]
-  - title: "WNCAP Harm Reduction (Sponsor)"
-    image: "partner-wncap-harm-reduction.png"
-    link: "https://wncap.org/"
-    style: "margin: 15px 8%; flex: 2 0 auto;"
-    include-page: ["watm-sponsors"]
   - title: "12 Baskets"
     image: "partner-12-baskets.png"
     link: "https://www.ashevillepovertyinitiative.org/"
@@ -225,11 +220,6 @@ partners:
     image: "partner-harmonia.png"
     link: "https://harmoniasanctuary.org/"
     include-page: ["home-partners", "strategic-partners"]
-  - title: "Harmonia (Sponsor)"
-    image: "partner-harmonia.png"
-    link: "https://harmoniasanctuary.org/"
-    style: "margin: 15px 8%; flex: 1 0 auto;"
-    include-page: ["watm-sponsors"]
   - title: "Making Whole"
     image: "partner-making-whole.png"
     link: "http://makingwhole.com/"
@@ -238,3 +228,28 @@ partners:
     image: "partner-firestorm.png"
     link: "https://www.firestorm.coop/"
     include-page: ["home-partners", "strategic-partners"]
+  - title: "ABC Office Systems (Sponsor)"
+    image: "partner-sponsor-abc.png"
+    link: "https://abcofficesystemswnc.com/"
+    style: "margin: 15px 1%; flex: 2 0 auto;"
+    include-page: ["watm-sponsors"]
+  - title: "DLV Roofing Systems, Inc. (Sponsor)"
+    image: "partner-sponsor-dlv-roofing.png"
+    link: "https://www.dlvroofing.com/"
+    style: "margin: 15px 3%; flex: 3 0 auto;"
+    include-page: ["watm-sponsors"]
+  - title: "Grassroots Aid Partnership (Sponsor)"
+    image: "partner-sponsor-gap.png"
+    link: "https://www.grassrootsaidpartnership.org/"
+    style: "margin: 15px 2%; flex: 2 0 auto;"
+    include-page: ["watm-sponsors"]
+  - title: "Harmonia (Sponsor)"
+    image: "partner-harmonia.png"
+    link: "https://harmoniasanctuary.org/"
+    style: "margin: 15px 2%; flex: 2 0 auto;"
+    include-page: ["watm-sponsors"]
+  - title: "WNCAP Harm Reduction (Sponsor)"
+    image: "partner-wncap-harm-reduction.png"
+    link: "https://wncap.org/"
+    style: "margin: 15px 2%; flex: 3 0 auto;"
+    include-page: ["watm-sponsors"]
