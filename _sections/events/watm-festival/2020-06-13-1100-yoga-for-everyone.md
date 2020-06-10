@@ -9,7 +9,7 @@ date: '2020-06-13'
 start-time: '11:00'
 end-time: '12:00'
 link: https://zoom.us/j/8285470222 # SH Team Room
-calendar-link:
+tagline: Appropriate for any level practitioner, Mindful Flow will encourage you through an introspective process of self-inquiry and response to safely discover, play with and approach your personal edge in your practice.
 ---
 
 Appropriate for any level practitioner, Mindful Flow will encourage you through an introspective process of self-inquiry and response to safely discover, play with and approach your personal edge in your practice.

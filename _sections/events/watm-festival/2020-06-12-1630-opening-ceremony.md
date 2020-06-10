@@ -9,7 +9,6 @@ date: '2020-06-12'
 start-time: '16:30'
 end-time: '16:50'
 link: https://zoom.us/j/8285470222 # SH Team Room
-calendar-link:
 ---
 
 Join the SeekHealing Executive Director for a brief introduction and opening meditation to welcome yourself to “We Are The Medicine".

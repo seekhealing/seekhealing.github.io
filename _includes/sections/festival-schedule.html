@@ -38,32 +38,45 @@
 
             <div class="{{ event_class }}"{% if include.title == "upcoming" %} data-limit="{{ event.date }}"{% endif %}>
               <div class="event-box clearfix">
-
-                <!-- <div class="event-image">
-                  <img src="{{ site.baseurl }}{{ event.image }}" alt="Event" class="img-responsive{% if event.image-class %} {{ event.image-class }}{% endif %}">
-                  <div class="event-date">{{ event.date | date: "%d" }}<span>{{ event.date | date: "%b" }}</span></div>
-                </div> -->
-
                 <div class="subnav-header">
-                  <h1>{{ event.name }}</h1>
-                  <h4><span class="emphasized-header">{{ event.facilitator }}</span></h4>
-                  <h3 class="event-meta">
-                    <i class="far fa-clock"></i>
-                    {{ event.start-time | date: "%l:%M%P" }}
-                    <!-- <span class="meta-separator">/</span>
-                    <i class="fas fa-link"></i>
-                    {{ event.link }} -->
-                  </h3>
-                  <div class="event-content">
-                    <a href="#{{ event.title }}" class="button">Event Details</a>
 
-                    <!-- {% if event.ticket-btn and include.title == 'upcoming' %}
-                    <p><a href="{{ event.ticket-url }}" target="_blank" class="button button-green rsvp">{{ event.ticket-btn }}</a></p>
-                    {% endif %} -->
-
+                  <div class="event-type">
+                    {% if event.event-type == "presentation" %}
+                    <p class="color-presentation"><i class="fas fa-chalkboard-teacher"></i>  Presentation</p>
+                    {% elsif event.event-type == "interactive" %}
+                    <p class="color-interactive"><i class="fas fa-users color-interactive"></i>  Interactive</p>
+                    {% elsif event.event-type == "interview" %}
+                    <p class="color-interview"><i class="fas fa-microphone-alt color-interview"></i>  Interview</p>
+                    {% elsif event.event-type == "music" %}
+                    <p class="color-music"><i class="fas fa-music color-music"></i>  Music</p>
+                    {% endif %}
                   </div>
-                </div>
 
+                  <h3>{{ event.name }}</h3>
+                  <h4><span class="emphasized-header">{{ event.facilitator }}</span></h4>
+
+                  <blockquote class="event-timing">
+                    <h3 class="event-meta">
+                      <i class="far fa-clock"></i>
+                      {{ event.start-time | date: "%l:%M%P" }} {{ schedule.dates[index] | split: "," | first }}
+                      <!-- <span class="meta-separator">/</span>
+                      <i class="fas fa-link"></i>
+                      {{ event.link }} -->
+                    </h3>
+                    {% include lightboxes/addtocalendar.html %}
+                  </blockquote>
+
+                  <div class="event-content">
+                    {% if event.tagline %}
+                    {{ event.tagline | markdownify }}
+                    {% else %}
+                    {{ event.content | split: ">" | first | markdownify }}
+                    {% endif %}
+
+                    <a href="#{{ event.title }}" class="button">More</a>
+                  </div>
+
+                </div>
               </div>
             </div>
 

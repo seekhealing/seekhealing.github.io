@@ -9,7 +9,6 @@ date: '2020-06-13'
 start-time: '11:00'
 end-time: '12:00'
 link: https://zoom.us/j/4463977749 # Jennifer Room
-calendar-link:
 ---
 
 This is a guided improvisation workshop that will be based around connecting to our bodies, the music, and with an element of play and lightheartedness. Some of it will be silly and playful, other parts spiritual and meditative.

@@ -9,7 +9,7 @@ date: '2020-06-13'
 start-time: '12:00'
 end-time: '14:00'
 link: https://zoom.us/j/7140019519 # Joey Room
-calendar-link:
+tagline: Using our experiences during Covid, group members will get a chance to speak their minds about what it has been like to be out of school in quarantine these last two months, and they will learn what it is like to truly listen to the perspective of others.
 ---
 
 This group is an opportunity for young adults to discuss what it means to engage in real human connection. It is helpful for all people to practice relating to each other in a way that feels genuine and safe, and teens are certainly no exception. Using our experiences during Covid, group members will get a chance to speak their minds about what it has been like to be out of school in quarantine these last two months, and they will learn what it is like to truly listen to the perspective of others.

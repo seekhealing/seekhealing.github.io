@@ -9,7 +9,6 @@ date: '2020-06-14'
 start-time: '09:00'
 end-time: '11:00'
 link: https://zoom.us/j/8285470222 # SH Team Room
-calendar-link:
 ---
 
 Listening Training is SeekHealing's "core curriculum" for volunteers that reframes everything you think you know about addiction & socio-emotional wellness.  Whether you’re in early recovery, long-term recovery, or just looking to upgrade your communication skills, Listening Training is designed to support you in having more authentic and fulfilling relationships.

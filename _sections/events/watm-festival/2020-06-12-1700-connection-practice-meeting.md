@@ -9,7 +9,7 @@ date: '2020-06-12'
 start-time: '17:00'
 end-time: '18:00'
 link: https://zoom.us/j/7140019519 # Joey Room
-calendar-link:
+tagline: A meeting to practice your skills in listening and connecting with others. No conversation topic is off limits. The only objective of the meeting is to feel a genuine sense of connection by the time it's over, and the only rule is that we promise to not give each other advice.
 ---
 
 A meeting to practice your skills in listening and connecting with others. No conversation topic is off limits. The only objective of the meeting is to feel a genuine sense of connection by the time it's over, and the only rule is that we promise to not give each other advice.
