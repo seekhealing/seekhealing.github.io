@@ -10,8 +10,8 @@ video-src: https://www.youtube.com/embed/nTLaZbGWG-0
 # Welcome to <br />We Are The Medicine
 {: class="watm-hero-header watm-hero-text emphasized-header"}
 
-## Everyone is welcome! Invite loved ones, whether they're far away or you're cooped up in quarantine together. We can't wait to connect with all of you.
+## Join SeekHealing for this online festival to explore human connection online and experience how we are each other's best medicine.
 {: class="watm-hero-text"}
 
-## Check out the event schedule below. Just be sure to register, if you haven't already: [Register Now!](/we-are-the-medicine-festival/#watm-registration){: class="button"}
+## Check out the event schedule below, and make sure to register if you haven't already: [Register Now!](/we-are-the-medicine-festival/#watm-registration){: class="button"}
 {: class="watm-hero-text"}
