@@ -205,11 +205,6 @@ partners:
     image: "partner-wncap.png"
     link: "https://wncap.org/"
     include-page: ["home-partners", "strategic-partners"]
-  - title: "WNCAP Harm Reduction (Sponsor)"
-    image: "partner-wncap-harm-reduction.png"
-    link: "https://wncap.org/"
-    style: "margin: 15px 8%; flex: 2 0 auto;"
-    include-page: ["watm-sponsors"]
   - title: "12 Baskets"
     image: "partner-12-baskets.png"
     link: "https://www.ashevillepovertyinitiative.org/"
@@ -225,11 +220,6 @@ partners:
     image: "partner-harmonia.png"
     link: "https://harmoniasanctuary.org/"
     include-page: ["home-partners", "strategic-partners"]
-  - title: "Harmonia (Sponsor)"
-    image: "partner-harmonia.png"
-    link: "https://harmoniasanctuary.org/"
-    style: "margin: 15px 8%; flex: 1 0 auto;"
-    include-page: ["watm-sponsors"]
   - title: "Making Whole"
     image: "partner-making-whole.png"
     link: "http://makingwhole.com/"
@@ -238,3 +228,103 @@ partners:
     image: "partner-firestorm.png"
     link: "https://www.firestorm.coop/"
     include-page: ["home-partners", "strategic-partners"]
+  - title: "ABC Office Systems (Sponsor)"
+    image: "partner-sponsor-abc.png"
+    link: "https://abcofficesystemswnc.com/"
+    style: "margin: 15px 1%; flex: 2 0 auto;"
+    include-page: ["watm-sponsors"]
+  - title: "DLV Roofing Systems, Inc. (Sponsor)"
+    image: "partner-sponsor-dlv-roofing.png"
+    link: "https://www.dlvroofing.com/"
+    style: "margin: 15px 3%; flex: 3 0 auto;"
+    include-page: ["watm-sponsors"]
+  - title: "Grassroots Aid Partnership (Sponsor)"
+    image: "partner-sponsor-gap.png"
+    link: "https://www.grassrootsaidpartnership.org/"
+    style: "margin: 15px 2%; flex: 2 0 auto;"
+    include-page: ["watm-sponsors"]
+  - title: "Harmonia (Sponsor)"
+    image: "partner-harmonia.png"
+    link: "https://harmoniasanctuary.org/"
+    style: "margin: 15px 2%; flex: 2 0 auto;"
+    include-page: ["watm-sponsors"]
+  - title: "WNCAP Harm Reduction (Sponsor)"
+    image: "partner-wncap-harm-reduction.png"
+    link: "https://wncap.org/"
+    style: "margin: 15px 2%; flex: 3 0 auto;"
+    include-page: ["watm-sponsors"]
+  - title: "Scraps of Lace"
+    image: "partner-watm-auction-(6) Scraps of Lace.jpg"
+    link: "https://www.scrapsoflacephotography.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Nice & Fresh Cleaners"
+    image: "partner-watm-auction-(8) Nice_Fresh_logo_transparent.png"
+    link: "https://nicefreshclean.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Be Love Movement"
+    image: "partner-watm-auction-(11) Be Love Movement.PNG"
+    link: "http://belovemovement.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Rusty Lotus Dojo"
+    image: "partner-watm-auction-(12) Rusty Lotus Dojo.png"
+    link: "https://www.instagram.com/rusty_lotus_muse_collective/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Bari Salon"
+    image: "partner-watm-auction-(14) Bari Salon.PNG"
+    link: "https://www.barisalon.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Pure Yoga"
+    image: "partner-watm-auction-(24) pure yoga.png"
+    link: "https://www.pureyogaavl.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "67Biltmore"
+    image: "partner-watm-auction-(25) 67biltmore_logo1.png"
+    link: "https://67biltmore.com"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Kathmandu Cafe"
+    image: "partner-watm-auction-(25) Kathmandu Cafe.png"
+    link: "https://kathmandukitchen.us/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Patton Ave Pet Co."
+    image: "partner-watm-auction-(25) Patton Ave Pet Co.png"
+    link: "https://www.pattonavenuepet.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Well Bred Bakery"
+    image: "partner-watm-auction-(25) Well Bred Bakery.png"
+    link: "https://www.wellbredbakery.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Radionics"
+    image: "partner-watm-auction-(26) radionics.png"
+    link: "https://www.radionicsforhealth.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Space Freedom Tattoos"
+    image: "partner-watm-auction-(28) SpaceFreedomTattoo.png"
+    link: "https://www.spacefreedomtattoos.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Nourish & Flourish"
+    image: "partner-watm-auction-(30) Nourish _ Flourish.png"
+    link: "https://nourishflourishnow.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Hickory Nut Gap Meats"
+    image: "partner-watm-auction-HNG logo.png"
+    link: "https://www.hickorynutgap.con/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Cornerstone Minerals"
+    image: "partner-watm-auction-Cornerstone Minerals.png"
+    link: "https://cornerstoneminerals.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Thrive Holistic Ayurveda"
+    image: "partner-watm-auction-(32) ThriveHolisticAyurveda.jpg"
+    link: "http://www.thriveholisticayurveda.com/"
+    style: "margin: 15px 4%; flex: 1 0 auto;"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Cameron Payne"
+    image: "partner-watm-auction-Cameron_Payne.jpg"
+    link: "https://www.instagram.com/CFairfaxPayne/"
+    style: "margin: 15px 4%; flex: 1 0 auto;"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Dr. Bronner's"
+    image: "partner-watm-auction-drbronners-logo-horiz.png"
+    link: "https://www.drbronner.com/"
+    style: "margin: 15px 4%; flex: 1 0 auto;"
+    include-page: ["watm-auction-sponsors"]

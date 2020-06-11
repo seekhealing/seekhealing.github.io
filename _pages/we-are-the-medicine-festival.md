@@ -16,8 +16,6 @@ sections:
   - type: "festival-schedule"
     title: "watm-schedule"
   # - type: "single"
-  #   title: "watm-auction"
-  # - type: "single"
   #   title: "watm-donate"
   # - type: "givelively-donation-widget"
   #   title: "watm-donate"
