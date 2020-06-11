@@ -3,7 +3,7 @@ type: single
 title: watm-auction
 col-width: "wide"
 header: "subnav-header"
-white-bg: true
+# white-bg: true
 padding: no-bot-padding
 ---
 

@@ -2,7 +2,7 @@
 type: partners
 title: "watm-auction-sponsors"
 # heading: "Auction Sponsors"
-# white-bg: true
+white-bg: true
 col-width: wide
 ---
 
