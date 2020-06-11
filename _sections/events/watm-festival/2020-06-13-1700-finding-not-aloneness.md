@@ -3,7 +3,7 @@ type: watm-event
 title: finding-not-aloneness
 name: Finding Not-Aloneness and Authentic Relating
 facilitator: Sara Ness
-event-type: presentation
+event-type: interactive
 day: 2
 date: '2020-06-13'
 start-time: '17:00'
