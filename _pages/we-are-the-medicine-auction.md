@@ -9,4 +9,6 @@ sections:
     title: "watm-auction-intro"
   - type: "auction"
     title: "watm-auction"
+  - type: "single"
+    title: "design-credit"
 ---
