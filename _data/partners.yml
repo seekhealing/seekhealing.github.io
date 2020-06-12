@@ -328,3 +328,19 @@ partners:
     link: "https://www.drbronner.com/"
     style: "margin: 15px 4%; flex: 1 0 auto;"
     include-page: ["watm-auction-sponsors"]
+  - title: "Sunny Point Cafe"
+    image: "partner-watm-auction-(25) Sunny-Point-Cafe-logo-white.png"
+    link: "https://sunnypointcafe.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Ty Fenelus"
+    image: "partner-watm-auction-(34) Ty Fenelus.png"
+    link: "http://tyfenelus.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Trillium Therapies"
+    image: "partner-watm-auction-(35) Trillium.png"
+    link: "https://www.trilliumtherapies.com/"
+    include-page: ["watm-auction-sponsors"]
+  - title: "Asheville Natural Health"
+    image: "partner-watm-auction-(37) Asheville Natural Health.png"
+    link: "https://www.ashevillenaturalhealth.com/"
+    include-page: ["watm-auction-sponsors"]
