@@ -11,7 +11,7 @@ end-time: '23:30'
 link: https://zoom.us/j/7140019519 # Joey Room
 ---
 
-Tap into your "inner child". Remember when you were a child, dancing and bouncing around on your parent's bed? This dance party will be broadcast from my bedroom and my bed. I will take musical requests via chat. Let’s dance like nobody's watching.
+Tap into your "inner child". Remember when you were a child, dancing and bouncing around on your parent's bed? This dance party will be broadcast from my bedroom and my bed. Let’s dance like nobody's watching.
 
 > ![Cameron Payne](/assets/images/watm-Fri.930pm (Cameron Payne).jpg "Cameron Payne")
 > {:class="facilitator-photo"}
