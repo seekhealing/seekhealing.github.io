@@ -73,7 +73,7 @@
                   <img src="{{ photo.thumb }}" {% if photo.name %}alt="{{ photo.name }}" title="{{ photo.name }}"{% endif %}>
                 </a>
                 <a href="#_" id="{{ photo.id }}" class="img-lightbox">
-                  <img src="{{ photo.large }}" {% if photo.name %}alt="{{ photo.name }}" title="{{ photo.name }}"{% endif %}>
+                  <img data-src="{{ photo.large }}" class="lazyload" {% if photo.name %}alt="{{ photo.name }}" title="{{ photo.name }}"{% endif %}>
                 </a>
                 {% endfor %}
               </blockquote>
