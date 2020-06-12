@@ -7,6 +7,6 @@ sections:
   #   title: "watm-hero"
   - type: "single"
     title: "watm-auction-intro"
-  - type: "partners"
-    title: "watm-auction-sponsors"
+  - type: "auction"
+    title: "watm-auction"
 ---
