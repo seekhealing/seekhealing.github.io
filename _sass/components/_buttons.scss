@@ -131,6 +131,20 @@ body:not(.device-touch) .button {
   }
 }
 
+.button.zoom-button {
+  margin: 10px 0px 0px;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: normal;
+  font-family: "Verdana";
+  vertical-align: middle;
+  background: #4281f4;
+
+  &:hover {
+    background: #1b67f2;
+  }
+}
+
 .btn-attached {
   margin: 0px;
   background-color: #57AF98;
