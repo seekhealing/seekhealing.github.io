@@ -1,0 +1,106 @@
+{% comment %}
+<!--
+  Auction Section
+
+  This partial is in use on the WATM Festival page.
+-->
+{% endcomment %}
+
+{% assign auctions = site.sections | where:"type","auction" | where:"title",include.title %}
+
+{% for auction in auctions %}
+
+<section{% if auction.section-bottom-border %} class="bottom-border"{% endif %}>
+  <div class="section{% if auction.white-bg %} white{% endif %}{% if auction.padding %} {{ auction.padding }}{% endif %}">
+    <div class="container clearfix">
+
+      <div class="row">
+        <div class="{% if auction.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2{% elsif auction.col-width == "wide" %}col-md-12{% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center {% if auction.header %}{{ auction.header }}{% else %}normal-header{% endif %}">
+          {{ auction.content | markdownify }}
+        </div>
+      </div>
+
+      <div id="{{ auction.title }}" class="row display-flex">
+
+        <div class="auction-items">
+
+        {% assign items = site.sections | where:"type","auction-item" | sort: "order" %}
+        {% for item in items %}
+
+          <div class="item-box clearfix" {% if item.flex-grow %}style="flex-grow: {{ item.flex-grow }};"{% endif %}>
+            <div class="subnav-header">
+
+              <div class="item-meta">
+                <h3>{{ item.name }}</h3>
+                <h4>
+                {% if item.donors %}
+                  {% for donor in item.donors %}
+                    {% if forloop.first == false %}
+                    <span class="emphasized-header"> and </span>
+                    {% endif %}
+                    {% if donor.website %}
+                    <span class="emphasized-header"><a href="{{ donor.website }}" target="_blank">{{ donor.name }}</a></span>
+                    {% else %}
+                    <span class="emphasized-header">{{ donor.name }}</span>
+                    {% endif %}
+                  {% endfor %}
+                {% else %}
+                  <span class="emphasized-header">Generous Donor</span>
+                {% endif %}
+                </h4>
+              </div>
+
+              <blockquote class="item-bids">
+                <h3 class="event-meta">
+                  <p>Retail valuation: ${{ item.retail-valuation }}</p>
+                  {% if item.high-bid %}
+                  <p><i class="fas fa-comments-dollar"></i>Highest bid: ${{ item.high-bid }}</p>
+                  {% else %}
+                  <p><i class="fas fa-comment-dollar"></i>Starting bid: ${{ item.opening-bid }}</p>
+                  {% endif %}
+                </h3>
+              </blockquote>
+
+              <div class="item-content">
+                {{ item.content | markdownify }}
+                <!-- <a href="#{{ item.title }}" class="button">More</a> -->
+              </div>
+
+              {% if item.photos %}
+              <blockquote class="item-photos">
+                {% for photo in item.photos %}
+                <a href="#{{ photo.id }}" class="item-photo">
+                  <img src="{{ photo.thumb }}" {% if photo.name %}alt="{{ photo.name }}" title="{{ photo.name }}"{% endif %}>
+                </a>
+                <a href="#_" id="{{ photo.id }}" class="img-lightbox">
+                  <img data-src="{{ photo.large }}" class="lazyload" {% if photo.name %}alt="{{ photo.name }}" title="{{ photo.name }}"{% endif %}>
+                </a>
+                {% endfor %}
+              </blockquote>
+              {% endif %}
+
+              {% if item.logos %}
+              <blockquote class="sponsor-logos">
+                {% for logo in item.logos %}
+                <a href="{% if logo.link %}{{ logo.link }}{% elsif item.donors[0].website %}{{ item.donors[0].website }}{% endif %}" target="_blank" class="sponsor-logo">
+                  <img src="{{ logo.path }}" alt="{% if logo.name %}{{ logo.name }}{% elsif item.donors[0].name %}{{ item.donors[0].name }}{% endif %}" title="{% if logo.name %}{{ logo.name }}{% elsif item.donors[0].name %}{{ item.donors[0].name }}{% endif %}">
+                </a>
+                {% endfor %}
+              </blockquote>
+              {% endif %}
+
+            </div>
+          </div>
+
+          <!-- include lightboxes/item-detail -->
+
+        {% endfor %}
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endfor %}

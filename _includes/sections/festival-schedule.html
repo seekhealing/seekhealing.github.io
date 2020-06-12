@@ -56,14 +56,21 @@
                   <h4><span class="emphasized-header">{{ event.facilitator }}</span></h4>
 
                   <blockquote class="event-timing">
+                  {% assign today_date = "today" | date: "%Y-%m-%d" %}
+                  {% assign event_date = event.date | date: "%Y-%m-%d" %}
+                  {% if today_date == event_date %}
+                    <h3 class="event-meta" style="margin-bottom: 0px;">
+                      <i class="far fa-clock"></i>
+                      {{ event.start-time | date: "%l:%M%P" }} {{ schedule.dates[index] | split: "," | first }}
+                      <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
+                    </h3>
+                  {% else %}
                     <h3 class="event-meta">
                       <i class="far fa-clock"></i>
                       {{ event.start-time | date: "%l:%M%P" }} {{ schedule.dates[index] | split: "," | first }}
-                      <!-- <span class="meta-separator">/</span>
-                      <i class="fas fa-link"></i>
-                      {{ event.link }} -->
                     </h3>
                     {% include lightboxes/addtocalendar.html %}
+                  {% endif %}
                   </blockquote>
 
                   <div class="event-content">

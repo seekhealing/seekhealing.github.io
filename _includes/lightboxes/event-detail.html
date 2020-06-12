@@ -2,8 +2,10 @@
 
 <div id="{{ event.title }}" class="overlay">
 
-  <div onclick="goBack()" class="cancel"></div>
-  <script>function goBack() { window.history.back(); }</script>
+  <a class="cancel" href="#_"></a>
+
+  <!-- <div onclick="goBack()" class="cancel"></div>
+  <script>function goBack() { window.history.back(); }</script> -->
 
   <div class="lightbox">
     <div class="section white">
@@ -31,14 +33,21 @@
               <i class="far fa-calendar-alt"></i>
               {{ schedule.dates[index] }}
             </h3>
+          {% assign today_date = "today" | date: "%Y-%m-%d" %}
+          {% assign event_date = event.date | date: "%Y-%m-%d" %}
+          {% if today_date == event_date %}
+            <h3 class="event-meta" style="margin-bottom: 0px;">
+              <i class="far fa-clock"></i>
+              {{ event.start-time | date: "%l:%M%P" }} {{ schedule.dates[index] | split: "," | first }}
+              <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
+            </h3>
+          {% else %}
             <h3 class="event-meta">
               <i class="far fa-clock"></i>
               {{ event.start-time | date: "%l:%M%P" }}{% if event.end-time %} — {{ event.end-time | date: "%l:%M%P" }}{% endif %}
-              <!-- <span class="meta-separator">/</span>
-              <i class="fas fa-link"></i>
-              {{ event.link }} -->
             </h3>
             {% include lightboxes/addtocalendar.html %}
+          {% endif %}
           </blockquote>
 
           <!-- <p class="event-meta subnav"> -->
@@ -52,7 +61,8 @@
         </div>
 
         <div class="lightbox-buttons">
-          {% include lightboxes/back-button.html text="Back" %}
+          <a class="button" href="#_">Close</a>
+          <!-- {% include lightboxes/back-button.html text="Back" %} -->
         </div>
 
       </div>

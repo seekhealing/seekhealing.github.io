@@ -13,7 +13,7 @@
 <div id="{{ lightbox.title }}" class="overlay">
 
   {% if lightbox.click-outside-close != false %}
-  <a class="cancel" href="#"></a>
+  <a class="cancel" href="#_"></a>
   {% endif %}
 
   <div class="lightbox">
@@ -34,14 +34,14 @@
           {% if lightbox.close-button-text %}{{ lightbox.close-button-text }}{% else %}Close Window{% endif %}
           </a>
           {% else %}
-          {% include lightboxes/back-button.html text="Cancel" %}
+          <a href="#_" class="button">Close</a>
           {% endif %}
         </div>
 
       </div>
     </div>
   </div>
-  
+
 </div>
 
 {% endfor %}
