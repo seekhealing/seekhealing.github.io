@@ -2,8 +2,10 @@
 
 <div id="{{ event.title }}" class="overlay">
 
-  <div onclick="goBack()" class="cancel"></div>
-  <script>function goBack() { window.history.back(); }</script>
+  <a class="cancel" href="#_"></a>
+
+  <!-- <div onclick="goBack()" class="cancel"></div>
+  <script>function goBack() { window.history.back(); }</script> -->
 
   <div class="lightbox">
     <div class="section white">
@@ -59,7 +61,8 @@
         </div>
 
         <div class="lightbox-buttons">
-          {% include lightboxes/back-button.html text="Back" %}
+          <a class="button" href="#_">Close</a>
+          <!-- {% include lightboxes/back-button.html text="Back" %} -->
         </div>
 
       </div>
