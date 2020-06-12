@@ -39,7 +39,7 @@
             <h3 class="event-meta" style="margin-bottom: 0px;">
               <i class="far fa-clock"></i>
               {{ event.start-time | date: "%l:%M%P" }} {{ schedule.dates[index] | split: "," | first }}
-              <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Live!</a>
+              <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
             </h3>
           {% else %}
             <h3 class="event-meta">
