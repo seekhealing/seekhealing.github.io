@@ -55,25 +55,23 @@
                   <h3>{{ event.name }}</h3>
                   <h4><span class="emphasized-header">{{ event.facilitator }}</span></h4>
 
+                  <blockquote class="event-timing">
                   {% assign today_date = "today" | date: "%Y-%m-%d" %}
                   {% assign event_date = event.date | date: "%Y-%m-%d" %}
                   {% if today_date == event_date %}
-                  <blockquote class="event-timing">
                     <h3 class="event-meta" style="margin-bottom: 0px;">
                       <i class="far fa-clock"></i>
                       {{ event.start-time | date: "%l:%M%P" }} {{ schedule.dates[index] | split: "," | first }}
                       <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Live!</a>
                     </h3>
-                  </blockquote>
                   {% else %}
-                  <blockquote class="event-timing">
                     <h3 class="event-meta">
                       <i class="far fa-clock"></i>
                       {{ event.start-time | date: "%l:%M%P" }} {{ schedule.dates[index] | split: "," | first }}
                     </h3>
                     {% include lightboxes/addtocalendar.html %}
-                  </blockquote>
                   {% endif %}
+                  </blockquote>
 
                   <div class="event-content">
                     {% if event.tagline %}
