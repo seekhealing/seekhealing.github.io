@@ -7,7 +7,7 @@ donors:
   - name: WNC Wholistic Center
     website: https://www.wncholisticcenter.com/
 logos:
-  - path: /assets/images/partner-watm-auction-wnc-holistic-center.webp
+  - path: /assets/images/partner-watm-auction-wnc-holistic-center.png
 opening-bid: "—"
 retail-valuation: 450
 ---

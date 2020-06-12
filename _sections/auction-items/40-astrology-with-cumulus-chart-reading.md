@@ -13,4 +13,5 @@ donors:
     website: mailto:astrologywithcumulus@gmail.com
 opening-bid: "—"
 retail-valuation: 120
+published: false
 ---

@@ -3,11 +3,11 @@ type: auction-item
 order: 7
 title: farm-basket
 name: Farm Basket
-# photos:
-#   - id: 7-farm-basket
-#     name: Farm Basket
-#     thumb:
-#     large:
+photos:
+  - id: 7-farm-basket
+    name: Farm Basket
+    thumb: /assets/images/watm-auction/small/7-farm-basket.jpg
+    large: /assets/images/watm-auction/large/7-farm-basket.jpg
 donors:
   - name: Hickory Nut Gap Farm
     website: https://www.hickorynutgap.con/
