@@ -25,7 +25,7 @@ logos:
   - path: "/assets/images/partner-watm-auction-(25) Sunny-Point-Cafe-logo-white.png"
     name: Sunny Point Cafe
     link: https://sunnypointcafe.com/
-opening-bid: 95
+opening-bid: 100
 retail-valuation: 185
 ---
 

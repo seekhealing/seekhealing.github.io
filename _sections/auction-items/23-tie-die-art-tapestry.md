@@ -15,6 +15,7 @@ logos:
   - path: "/assets/images/partner-watm-auction-Cameron_Payne.jpg"
 opening-bid: 50
 retail-valuation: 100
+high-bid: 55
 ---
 
 44"W x 58"L Utilizing permanent/colorfast Procion dyes, reinforced border stitching, and corner tie-offs......this is a professional grade tie-dye canvas.
