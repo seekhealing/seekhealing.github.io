@@ -10,6 +10,7 @@ logos:
   - path: "/assets/images/partner-watm-auction-(35) Trillium.png"
 opening-bid: 54
 retail-valuation: 108
+high-bid: 55
 ---
 
 (LOCAL) Enjoy a 60 min session of your choice of either Auyurvedic counseling or massage therapy w/ Leila Taylor.

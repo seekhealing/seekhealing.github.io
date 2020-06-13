@@ -10,6 +10,7 @@ logos:
   - path: "/assets/images/partner-watm-auction-(12) Rusty Lotus Dojo.png"
 opening-bid: 30
 retail-valuation: 60
+high-bid: 50
 ---
 
 You and a partner will join Leaflin Lore Winecoff for some guided partner Yoga and Thai massage exercises to explore body awareness, consent, and loving kindness. 45 minute session via Zoom

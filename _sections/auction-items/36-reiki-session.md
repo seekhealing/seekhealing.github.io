@@ -13,6 +13,7 @@ donors:
     website: http://www.ashevillereikicenter.com/
 opening-bid: 30
 retail-valuation: 55
+high-bid: 40
 ---
 
 (LOCAL) A 60 min full-body Reiki session with Jennifer Dale

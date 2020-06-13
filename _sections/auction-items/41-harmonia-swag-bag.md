@@ -8,6 +8,8 @@ donors:
     website: https://harmoniasanctuary.org/
 logos:
   - path: /assets/images/partner-harmonia.png
-opening-bid: "—"
-retail-valuation: 44
+opening-bid: 30
+retail-valuation: 80
 ---
+
+An assorted collection of Harmonia merch including a shirt, stickers, coozie, an original Bronson art piece, and a set of Visionary Magnets!

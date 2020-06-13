@@ -15,6 +15,7 @@ logos:
   - path: "/assets/images/partner-watm-auction-HNG logo.png"
 opening-bid: 45
 retail-valuation: 90
+high-bid: 50
 ---
 
 (LOCAL) Featuring an assorted variety of area farm and handmade goodies including 1x jar blueberry jam 1x jar blackberry jam, Salami Gift Box from Hickory Nut Gap Farm, 1 dozen farm fresh eggs from Sunswept Farm, $25 gift certificate to Bluff Mountain Nursery in Hot Springs, and 6 bars (assorted artisan scents) of Glenhill Soaps.
