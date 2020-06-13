@@ -13,6 +13,7 @@ donors:
     website: https://www.facebook.com/intuitouchwithandrea
 opening-bid: 65
 retail-valuation: 130
+high-bid: 75
 ---
 
 (LOCAL) Journey to scenic Mars Hill (just outside Asheville) for a 20 min sauna and 75 min massage session with Andrea Bowes.
