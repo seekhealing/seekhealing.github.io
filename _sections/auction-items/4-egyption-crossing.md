@@ -11,6 +11,7 @@ photos:
 donors:
 opening-bid: 20
 retail-valuation: 40
+high-bid: 21
 ---
 
 Prismacolor glycee print on foam board (for easy framing).

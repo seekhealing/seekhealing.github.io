@@ -19,6 +19,7 @@ logos:
   - path: "/assets/images/partner-watm-auction-(28) SpaceFreedomTattoo.png"
 opening-bid: 250
 retail-valuation: 500
+high-bid: 255
 flex-grow: 299
 ---
 
