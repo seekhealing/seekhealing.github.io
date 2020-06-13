@@ -4,10 +4,10 @@ order: 18
 title: henna-tattoo
 name: Henna Tattoo
 photos:
-  - id: 18-untitled-design
+  - id: 18-henna
     name: Henna Tattoo
-    thumb: /assets/images/watm-auction/large/18-untitled-design.jpg
-    large: /assets/images/watm-auction/large/18-untitled-design.jpg
+    thumb: /assets/images/watm-auction/small/18-henna.jpg
+    large: /assets/images/watm-auction/large/18-henna.jpg
 donors:
   - name: Anastasia Seltzer
     website:
