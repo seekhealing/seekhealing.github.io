@@ -13,6 +13,7 @@ donors:
     website: https://lightinmotion.org/
 opening-bid: 120
 retail-valuation: 260
+high-bid: 140
 ---
 
 Silence. Acrylic And Encaustic Mixed Media Painting on wood panel. 12" X 12"

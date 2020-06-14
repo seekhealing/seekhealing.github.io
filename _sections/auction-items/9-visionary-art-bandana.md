@@ -13,6 +13,7 @@ donors:
     website: https://www.instagram.com/LazyPrettyArt/
 opening-bid: 15
 retail-valuation: 30
+high-bid: 30
 ---
 
 Soft and stylish silk bandana (16"x16") featuring artwork from local Asheville artist LazyPretty.
