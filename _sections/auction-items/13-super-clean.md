@@ -15,6 +15,7 @@ logos:
   - path: "/assets/images/partner-watm-auction-drbronners-logo-horiz.png"
 opening-bid: 70
 retail-valuation: 140
+high-bid: 75
 ---
 
 2x (two) one gallon jugs of Dr. Bronner's almond scented soap. 4x (four) 2oz bottles of Dr. Bronner's lavender hand sanitzer. 4x (four) 2oz travel bottles of Dr. Bronners peppermint scented soap.

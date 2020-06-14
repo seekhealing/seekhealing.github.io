@@ -13,6 +13,7 @@ donors:
     website: https://www.instagram.com/johnebertjewelry/
 opening-bid: 80
 retail-valuation: 150
+high-bid: 90
 ---
 
 Sterling silver casted pendant, inlayed with a faceted garnet. Includes small sterling chain
