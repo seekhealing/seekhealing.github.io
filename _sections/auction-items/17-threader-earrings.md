@@ -13,6 +13,7 @@ donors:
     website: https://www.sunsweptgatherings.com/
 opening-bid: 25
 retail-valuation: 50
+high-bid: 35
 ---
 
 Sterling silver 'threader' style Calla Lily earrings with Swarovski Tanzanite gems.
