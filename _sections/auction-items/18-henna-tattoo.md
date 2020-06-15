@@ -13,7 +13,7 @@ donors:
     website:
 opening-bid: 20
 retail-valuation: 35
-high-bid: 30
+high-bid: 35
 ---
 
 (LOCAL) Henna Tattoo, pattern of your choice

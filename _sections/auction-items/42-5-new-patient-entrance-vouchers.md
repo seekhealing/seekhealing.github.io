@@ -8,7 +8,7 @@ donors:
     website: https://www.wncholisticcenter.com/
 logos:
   - path: /assets/images/partner-watm-auction-wnc-holistic-center.png
-opening-bid: "—"
+opening-bid: 150
 retail-valuation: 450
 ---
 
