@@ -2,14 +2,17 @@
 type: hero
 title: home
 background: "/assets/images/home-bkgrnd.jpg"
+# image: "/assets/images/watm-festival-promo.jpg"
+# image-alt: "We Are The Medicine Festival"
+# image-link: "/we-are-the-medicine-festival/#watm-registration"
 video: "/downloads/SH-WLOS.mp4"
-video-preview: "assets/images/wlos-video-preview-2.png"
+video-preview: "/assets/images/wlos-video-preview-2.png"
 ---
 
-# <span class="emphasized-header">Physical distancing doesn't have to mean social distancing.</span>
+# It's time to <span class="emphasized-header">#RethinkRehab</span>
 
-## Healing from addiction & trauma through human connection
+## Healing from addiction through human connection
 
-Join us on June 12th to turn up the volume for connection!
+Be a part of the solution to the overdose epidemic &rarr;
 
-[Register Now!](/we-are-the-medicine-festival/#watm-registration){: class="button cta"}
+[Donate today!](/2020){:target="_blank" class="button cta"}
