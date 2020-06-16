@@ -23,21 +23,26 @@
           <div class="col-md-6 col-xs-12">
             {{ hero.content | markdownify }}
           </div>
+
           <div class="col-md-6 col-xs-12">
-
+            {% if hero.image %}
             <div class="hero-vid">
-              <a href="/we-are-the-medicine-festival/#watm-registration">
-                <img src="/assets/images/watm-festival-promo.jpg" alt="We Are The Medicine" class="img-responsive">
+              {% if hero.image-link %}
+              <a href="{{ hero.image-link }}">
+                <img src="{{ hero.image }}" alt="{% if hero.image-alt %}{{ hero.image-alt }}{% endif %}" class="img-responsive">
               </a>
+              {% else %}
+              <img src="{{ hero.image }}" alt="{% if hero.image-alt %}{{ hero.image-alt }}{% endif %}" class="img-responsive">
+              {% endif %}
             </div>
-
-            <!-- <div class="embed-responsive embed-responsive-16by9 hero-vid">
+            {% elsif hero.video %}
+            <div class="embed-responsive embed-responsive-16by9 hero-vid">
               <video  class="embed-responsive-item" controls poster="{% if hero.video-preview %}{{ hero.video-preview }}{% endif %}">
                 <source src="{{ hero.video }}" type="video/mp4">
                 Your browser does not support HTML5 video.
               </video>
-            </div> -->
-
+            </div>
+            {% endif %}
           </div>
 
         </div>
