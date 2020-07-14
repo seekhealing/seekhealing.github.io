@@ -1,6 +1,6 @@
 ---
 type: single
-title: listening-training-authetic-connection
+title: listening-training-authentic-connection
 padding: no-padding
 ---
 
