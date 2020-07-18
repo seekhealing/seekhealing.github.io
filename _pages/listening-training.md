@@ -8,6 +8,8 @@ sections:
   #   title: "listening-training-authentic-connection"
   - type: "single"
     title: "listening-training-new"
+  - type: "form"
+    title: "lt-registration"
   - type: "banner"
     title: "bringing-listening-training-to-your-community-banner"
   - type: "single"
