@@ -75,6 +75,6 @@ defaults:
       layout: page
 
 # gems
-plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-last-modified-at', 'jekyll-redirect-from']
+plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-last-modified-at', 'jekyll-redirect-from', 'jekyll-tidy']
 paginate: 1
 paginate_path: "/blog/page/:num"
