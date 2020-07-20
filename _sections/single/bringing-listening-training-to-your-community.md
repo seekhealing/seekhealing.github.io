@@ -2,6 +2,7 @@
 type: single
 title: bringing-listening-training-to-your-community
 # padding: no-bot-padding
+white-bg: true
 ---
 
 Not in North Carolina? If you know a local community center or treatment facility who will sponsor Listening Training in your community, we can come to you!

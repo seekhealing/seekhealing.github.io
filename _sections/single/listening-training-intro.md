@@ -2,14 +2,17 @@
 type: single
 title: listening-training-intro
 header: "subnav-header"
-col-width: thin
+# col-width: wide
 padding: no-bot-padding
 ---
 
-# <span class="emphasized-header">Listening Training</span>
-{: class="no-bot-border"}
+![Listening Training](/assets/images/listening-training/image17.png){:style="max-height: 150px; margin-left: 100px;" class="img-responsive"}
 
 Interactive training to learn the foundations of connection: how to better listen to yourself, and others.
-{: class="subnav"}
+{:style="font-size: 16px; margin-bottom: 15px;"}
 
-![Authentic human connection and peer-based addiction support](/assets/images/training-support.png){:class="img-responsive"}
+{:style="font-size: 16px;" class="subnav"}
+- Interactive listening & relationship exercises
+- Harm-reduction for substance use, and beyond
+- How to build trust and experience real connection
+- 16 hours, CEU-certified for Peer Support Specialist (PSS) hours

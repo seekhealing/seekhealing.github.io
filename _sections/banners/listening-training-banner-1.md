@@ -4,4 +4,4 @@ title: listening-training-for-clinical-professionals-banner
 ---
 
 ### Listening Training for Clinical Professionals
-{:class="white-txt no-bot-margin"}
+{:style="text-align: center;" class="white-txt no-bot-margin"}
