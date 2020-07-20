@@ -4,4 +4,4 @@ title: bringing-listening-training-to-your-community-banner
 ---
 
 ### Bringing Listening Training to Your Community
-{:class="white-txt no-bot-margin"}
+{:style="text-align: center;" class="white-txt no-bot-margin"}

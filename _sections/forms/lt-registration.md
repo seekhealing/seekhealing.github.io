@@ -1,7 +1,5 @@
 ---
 type: form
-title: lt-registration
+title: listening-training-registration
 col-width: wide
 ---
-
-If you have any questions, please reach out to us at [watmf@seekhealing.org](mailto:watmf@seekhealing.org).
