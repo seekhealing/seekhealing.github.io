@@ -17,21 +17,47 @@
 
         <div class="form-content">
 
-          <form name="{{ form.title }}" method="POST" data-netlify="true">
+          <script type="text/javascript">
+            function CheckPronouns(val){
+             var element=document.getElementById('other-pronouns');
+             if(val=='(please select or specify other)'||val=='other')
+               element.style.display='block';
+             else
+               element.style.display='none';
+            }
+          </script>
+
+          <form id="listening-training-registration" name="listening-training-registration" method="POST" data-netlify="true">
             <p>
-              <label>Your Name: <input type="text" name="name" /></label>
+              <label>Name: <input type="text" name="name" /></label>
             </p>
             <p>
-              <label>Your Email: <input type="email" name="email" /></label>
+              <label>Pronouns: <select name="pronouns" onchange='CheckPronouns(this.value);'>
+                  <option>(please select or specify other)</option>
+                  <option value="he/his">he/his</option>
+                  <option value="she/hers">she/hers</option>
+                  <option value="they/theirs">they/theirs</option>
+                  <option value="they/we">they/we</option>
+                  <option value="other">other (please specify)</option>
+                </select>
+                <input type="text" name="pronouns" id="other-pronouns" style='display:none;'/>
+              </label>
             </p>
             <p>
-              <label>Your Role: <select name="role[]" multiple>
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
+              <label>Email: <input type="text" name="email" /></label>
+            </p>
+            <p>
+              <label>Phone: <input type="text" name="phone" /></label>
+            </p>
+            <p>
+              <label>How did you hear about the program? <textarea name="referrer"></textarea></label>
+            </p>
+            <p>
+              <label>Which course do you want to sign up for? <select name="course">
+                <option>(please select)</option>
+                <option value="online">Online Weekly Series (Thursday nights)</option>
+                <option value="retreat">2-day Weekend Retreat</option>
               </select></label>
-            </p>
-            <p>
-              <label>Message: <textarea name="message"></textarea></label>
             </p>
             <p>
               <button type="submit">Send</button>
