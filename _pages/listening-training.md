@@ -12,8 +12,6 @@ sections:
     title: "curriculum-basis"
   - type: "banner"
     title: "lt-signup-banner"
-  - type: "single"
-    title: "listening-training-2"
   - type: "listening-training-form"
     title: "listening-training-registration"
   - type: "banner"
