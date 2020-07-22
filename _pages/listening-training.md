@@ -14,7 +14,7 @@ sections:
     title: "lt-signup-banner"
   - type: "single"
     title: "listening-training-2"
-  - type: "form"
+  - type: "listening-training-form"
     title: "listening-training-registration"
   - type: "banner"
     title: "bringing-listening-training-to-your-community-banner"

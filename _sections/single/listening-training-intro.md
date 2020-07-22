@@ -14,5 +14,5 @@ Interactive training to learn the foundations of connection: how to better liste
 {:style="font-size: 16px;" class="subnav"}
 - Interactive listening & relationship exercises
 - Harm-reduction for substance use, and beyond
-- How to build trust and experience real connection
+- How to build trust, minimize shame, and experience real connection
 - 16 hours, CEU-certified for Peer Support Specialist (PSS) hours
