@@ -1,0 +1,173 @@
+{% comment %}
+<!--
+  Listening Training Registration Form Section
+
+  This partial is used for the listening training registration form
+
+-->
+{% endcomment %}
+
+{% assign form = site.sections | where:"type","listening-training-form" %}
+
+<section>
+  <div class="section">
+    <div class="container clearfix">
+      <div class="row normal-header">
+        <div class="col-md-10 col-md-offset-1 col-xs-12">
+        {% for content in form %}
+
+          <h1 class="text-center">{{ content.header }}</h1>
+
+          <div class="alert alert-success text-center">
+            <h4>
+              <i class="fa fa-check fa-big" aria-hidden="true"></i> Thank you for your interest!</h4>
+              <hr class="message-inner-separator">
+            <p>Your registration form has been successfully submitted.  Someone from SeekHealing will be in touch with you shortly.</p>
+          </div>
+
+          <div class="connection-agent-form text-left">
+            {{ content.content | markdownify }}
+          </div>
+
+        {% endfor %}
+        </div>
+
+        <div class="col-md-10 col-md-offset-1 col-xs-12 form-container">
+
+          <form name="ltForm" id="ltForm" method="POST" netlify>
+            <div class="row form-subheader" style="padding: 20px 0;">
+              <div class="col-xs-12">
+                <div class="form-subheader-container" role="heading">
+                  <div>Contact Information</div>
+                </div>
+                <div class="form-subheader-triangle">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 14 10" preserveAspectRatio="none">
+                    <polygon class="freebirdSolidFill" points="0,0 13,0 0,13"></polygon>
+                  </svg>
+                </div>
+                <div class="form-legend" style="text-align: right; padding: 10px;">
+                  <span class="req">*&nbsp;Required</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <div class="field">
+                  <div>
+                    <label for="lt.firstname">First Name <span class="req">*</span></label>
+                  </div>
+                  <div>
+                    <input type="text" class="form-control" placeholder="Your first name" id="lt.firstname" name="lt.firstname" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <div>
+                    <label for="lt.lastname">Last Name <span class="req">*</span></label>
+                  </div>
+                  <div>
+                    <input type="text" class="form-control" placeholder="Your last name" id="lt.lastname" name="lt.lastname" required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="field">
+                  <div>
+                    <label for="lt.pronouns">Pronouns</label>
+                  </div>
+                  <div class="btn-group btn-group-vertical" data-toggle="buttons">
+                    <label class="form-control radio-inline">
+                      <input type="radio" name="lt.pronouns" value="he/him">he/him
+                    </label>
+                    <label class="form-control radio-inline">
+                      <input type="radio" name="lt.pronouns" value="she/her">she/her
+                    </label>
+                    <label class="form-control radio-inline">
+                      <input type="radio" name="lt.pronouns" value="they/them">they/them
+                    </label>
+                    <label class="form-control radio-inline">
+                      <input type="radio" name="lt.pronouns" id="lt.pronouns.other-option" value="__other_option__">other <input type="text" class="form-control other" id="lt.pronouns.other_option_response" name="lt.pronouns.other_option_response">
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 field">
+                <div>
+                  <label for="lt.email">Email <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your email address" id="lt.email" name="lt.email" required>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 field">
+                <div>
+                  <label for="lt.phone">Phone <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your phone number" id="lt.phone" name="lt.phone" required>
+                </div>
+              </div>
+            </div>
+            <div class="row form-subheader">
+              <div class="col-xs-12">
+                <div class="form-subheader-container" role="heading">
+                  <div>Additional Information</div>
+                </div>
+                <div class="form-subheader-triangle">
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 14 10" preserveAspectRatio="none">
+                    <polygon class="freebirdSolidFill" points="0,0 13,0 0,13"></polygon>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="lt.referrer">How did you hear about the program? <span class="req">*</span></label>
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Your answer" id="lt.referrer" name="lt.referrer" required>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="lt.course">Which course do you want to sign up for? <span class="req">*</span></label>
+                </div>
+                <div class="btn-group btn-group-vertical" data-toggle="buttons">
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="lt.course" value="weekly-online" required>Online Weekly Series (Thursday nights)
+                  </label>
+                  <label class="form-control radio-inline">
+                    <input type="radio" name="lt.course" value="weekend-retreat">2-day Weekend Retreat
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 field">
+                <div>
+                  <label for="lt.misc">Is there anything else you’d like us to know? </label>
+                </div>
+                <div>
+                  <textarea id="lt.misc" name="lt.misc" rows="4"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="form-group" style="margin: 15px 0;">
+                  <button type="submit" class="button button-green submitbtn">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
