@@ -69,7 +69,7 @@
                       <i class="far fa-clock"></i>
                       {{ event.start-time | date: "%l:%M%P" }} {{ schedule.dates[index] | split: "," | first }}
                     </h3>
-                    {% if today_date < event_date %}{% include widgets/addtocalendar.html %}{% endif %}
+                    {% if today_date < event_date %}{% include widgets/watm-addtocalendar.html %}{% endif %}
                   {% endif %}
                   </blockquote>
 
@@ -131,7 +131,7 @@
                           <i class="far fa-clock"></i>
                           {{ event.start-time | date: "%l:%M%P" }}{% if event.end-time %} — {{ event.end-time | date: "%l:%M%P" }}{% endif %}
                         </h3>
-                        {% if today_date < event_date %}{% include widgets/addtocalendar.html %}{% endif %}
+                        {% if today_date < event_date %}{% include widgets/watm-addtocalendar.html %}{% endif %}
                       {% endif %}
                       </blockquote>
 
