@@ -2,7 +2,7 @@
 type: lightbox
 title: watm-registration
 col-width: wide
-extra-buttons: "lightboxes/watm-eventbrite-widget.html"
+extra-buttons: "widgets/watm-eventbrite-widget.html"
 close-button-href: "#"
 close-button-text: "I Did!"
 click-outside-close: false
