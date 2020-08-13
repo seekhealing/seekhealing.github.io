@@ -4,7 +4,14 @@ col-names: "curriculum-basis-parts"
 order: 2
 ---
 
-[![Trauma-Informed Psychology](/assets/images/listening-training/image18.png){:style="height: 75px; margin: 15px auto; margin-left: 0;" class="img-responsive"}](https://www.circlinginstitute.com/)
-![Trauma-Informed Psychology](/assets/images/listening-training/image19.png){:style="height: 75px; margin: 15px auto; margin-left: 0;" class="img-responsive"}
-![Trauma-Informed Psychology](/assets/images/listening-training/image20.png){:style="height: 75px; margin: 15px auto; margin-left: 0;" class="img-responsive"}
-![Trauma-Informed Psychology](/assets/images/listening-training/image21.png){:style="height: 75px; margin: 15px auto; margin-left: 0;" class="img-responsive"}
+![](/assets/images/listening-training/the-circling-institute-icon.png){:style="height: 48px; margin: 20px;" class="img-responsive"}[The Circling Institute](https://www.circlinginstitute.com/)
+{:style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 10px; font-size: 28px; color: #111;"}
+
+![](/assets/images/listening-training/listening-exercises-icon.png){:style="height: 48px; margin: 20px;" class="img-responsive"}Listening Exercises
+{:style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 10px; font-size: 28px; color: #111;"}
+
+![](/assets/images/listening-training/attachment-theory-icon.png){:style="height: 48px; margin: 20px;" class="img-responsive"}Attachment Theory
+{:style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 10px; font-size: 28px; color: #111;"}
+
+![](/assets/images/listening-training/harm-reduction-icon.png){:style="height: 48px; margin: 20px;" class="img-responsive"}Harm Reduction
+{:style="display: flex; justify-content: flex-start; align-items: center; margin-bottom: 10px; font-size: 28px; color: #111;"}

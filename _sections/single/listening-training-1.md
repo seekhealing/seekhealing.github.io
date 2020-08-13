@@ -13,11 +13,11 @@ Ideal both for those struggling with addiction and their family members, or for 
 Modules
 {:class="bold underline"}
 
-- “Rethinking Addiction”
-- “Breaking Down Shame”
-- “Personal Harm Reduction”
-- “Setting Compassionate Boundaries”
-- “Holding Space for Difficult Emotional Experiences”
+- Rethinking Addiction
+- Breaking Down Shame
+- Personal Harm Reduction
+- Setting Compassionate Boundaries
+- Holding Space for Difficult Emotional Experiences
 
 Note: This course is required for anyone seeking to volunteer or practice facilitation within the SeekHealing community.
 {:style="font-style: italic;"}
