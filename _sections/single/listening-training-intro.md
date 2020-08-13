@@ -6,7 +6,8 @@ header: "subnav-header"
 padding: no-bot-padding
 ---
 
-![Listening Training](/assets/images/listening-training/image17.png){:style="max-height: 150px; margin-left: 100px;" class="img-responsive"}
+![](/assets/images/listening-training/listening-training-icon.png){:style="max-height: 72px; margin: 10px;" class="img-responsive"}Listening&nbsp;Training
+{:style="display: flex; justify-content: center; align-items: center; font-size: 40px; color: #111;"}
 
 Interactive training to learn the foundations of connection: how to better listen to yourself, and others.
 {:style="font-size: 16px; margin-bottom: 15px;"}
