@@ -1,7 +1,6 @@
 ---
 type: single
 title: listening-training-for-clinical-professionals
-# padding: no-bot-padding
 white-bg: true
 section-bottom-border: true
 ---

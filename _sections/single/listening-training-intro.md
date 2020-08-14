@@ -2,7 +2,6 @@
 type: single
 title: listening-training-intro
 header: "subnav-header"
-# col-width: wide
 padding: no-bot-padding
 ---
 

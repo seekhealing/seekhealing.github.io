@@ -1,7 +1,6 @@
 ---
 type: single
 title: bringing-listening-training-to-your-community
-# padding: no-bot-padding
 white-bg: true
 ---
 
