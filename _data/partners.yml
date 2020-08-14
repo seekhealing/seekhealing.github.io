@@ -6,7 +6,7 @@ partners:
   - title: "Asheville Sound Healing"
     image: "partner-ash-logo.jpg"
     link: "https://www.facebook.com/ASHdirectory/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "Asheville Sport & Social Club"
     image: "partner-ashevillessc-logo.png"
     link: "https://www.ashevillessc.com/"
@@ -14,7 +14,7 @@ partners:
   - title: "Asheville 12 Step Club"
     image: "partner-avl.jpg"
     link: "http://www.asheville12stepclub.org/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "Aurora Art Studio"
     image: "partner-aurora-art-studio.jpg"
     link: "http://www.aurorastudio-gallery.com/"
@@ -22,7 +22,7 @@ partners:
   - title: "Authentic Asheville"
     image: "partner-authentic-asheville-logo.png"
     link: "https://www.facebook.com/events/2086679578213196/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "Blue Ridge Chaga Connection"
     image: "partner-chaga.jpg"
     link: "https://blueridgechagaconnection.com/"
@@ -54,15 +54,15 @@ partners:
   - title: "Faces and Voices of Recovery"
     image: "partner-fandv-recovery.png"
     link: "https://facesandvoicesofrecovery.org/"
-    include-page: ["home-partners", "strategic-partners"]
+    include-page: ["partners"]
   - title: "Gearu Yoga & Outdoor Sports"
     image: "partner-gearu-logo.png"
     link: "https://gearuwnc.com/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "Golds Gym"
     image: "partner-golds-gym-logo.jpg"
     link: "https://www.goldsgym.com/patton/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "Healing Roots"
     image: "partner-healing-roots.png"
     link: "http://www.healingrootsshiatsu.com/"
@@ -86,7 +86,7 @@ partners:
   - title: "ManKind Project"
     image: "partner-mkp-logo.png"
     link: "https://www.meetup.com/The-Greater-Asheville-ManKind-Project-Community/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "Nature's Vitamins & Herbs"
     image: "partner-natures-vitamins-herbs-logo.png"
     link: "http://www.naturesvitaminsandherbs.com/"
@@ -94,7 +94,7 @@ partners:
   - title: "Nector Healing Arts"
     image: "partner-nector-logo.jpg"
     link: "http://www.nectarme.com/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "No Taste Like Home"
     image: "partner-no-taste-home.png"
     link: "https://notastelikehome.org/"
@@ -106,11 +106,11 @@ partners:
   - title: "Original Recovery"
     image: "partner-original-recovery.png"
     link: "https://originalrecovery.org/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "Orison Books"
     image: "partner-orison-books-logo.jpg"
     link: "https://orisonbooks.com/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "The People's Acupuncture of Asheville"
     image: "partner-people-acupuncture-logo.jpg"
     link: "http://peoplesacupunctureavl.com/"
@@ -125,7 +125,7 @@ partners:
     include-page: ["partners", "conn-agent-partners"]
   - title: "Purium"
     image: "partner-purium.svg"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "The Purpose Collective"
     image: "partner-purpose-collective-logo.jpg"
     link: "https://www.thepurposecollective.org/"
@@ -141,11 +141,11 @@ partners:
   - title: "Refuge Recovery"
     image: "partner-refuge-recovery-asheville-logo.png"
     link: "http://refugerecoveryavl.org/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "Secrets of Natural Walking"
     image: "partner-sonwa-logo.png"
     link: "http://sonwasheville.com/"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "Shaolin Kung Fu of Asheville t"
     image: "partner-shaolin-kung-fu.png"
     link: "http://www.ashevilleshaolin.com/"
@@ -172,7 +172,7 @@ partners:
     include-page: ["partners", "conn-agent-partners"]
   - title: "WRAP group"
     image: "partner-wrap.png"
-    include-page: ["partners", "conn-agent-partners"]
+    include-page: ["partners"]
   - title: "YMCA"
     image: "partner-ymca-logo.svg"
     link: "https://www.ymcawnc.org/centers/asheville-ymca"
