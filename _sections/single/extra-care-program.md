@@ -3,16 +3,14 @@ type: single
 title: extra-care-program
 ---
 
-# <span class="emphasized-header">SeekHealing</span> Extra Care Program
+# <span class="emphasized-header"></span>
+{:class="bold"}
 
-Free services to support healing from trauma and addiction for those at risk for overdose.
+If you’ve ever been bonded to opioids or amphetamines and you’ve either:
 
-If you’ve ever been bonded to opioids or amphetamines and you’ve either: 
-{:class="text-left"}
-
-- used in the last six months,
+- used in the last six months or are currently using,
 - experienced major life transition, or
-- had a medical crisis 
+- had a medical crisis
 
 ... you may qualify for free program services. The program provides ongoing aftercare and support whether you have never gone through treatment, are currently in treatment, or recently completed an addiction treatment program.
 
@@ -20,14 +18,12 @@ If you’ve ever been bonded to opioids or amphetamines and you’ve either:
 ![Seeker Hand](/assets/images/events-2018-hands.png){:class="img-responsive"}
 
 Whether your intention is:
-{:class="text-left"}
 
 - to stay 100% abstinent from all alcohol, drugs & chemicals
 - to stay abstinent from one/some particular drug(s) and moderate with others
-- to use medication assisted treatment (MAT) or other medicine to maintain a safer habit
-- to use medication assisted treatment (MAT) or other medicine to step down to abstinence
+- to use medication assisted treatment (MAT) or other medicine to maintain a safer habit or step down to abstinence
 
-you’re welcome in this program.
+... you are welcome in this program.
 
 The only requirement is that you’re a **_Seeker_**.
 
