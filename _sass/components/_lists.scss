@@ -96,18 +96,18 @@ ul.partners {
 
   li {
     padding: 0;
-    margin: 15px 1%;
+    margin: 20px 2%;
     display: inline-block;
     list-style: none;
-    width: 24%;
+    width: 22%;
     vertical-align: bottom;
 
     @media screen and (min-width: $screen-sm-min) {
-      width: 20%;
+      width: 18%;
     }
 
     @media screen and (min-width: $screen-md-min) {
-      width: 16%;
+      width: 14%;
     }
 
     table {
@@ -127,9 +127,9 @@ ul.partners {
   }
 
   a > img:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2);
+    -ms-transform: scale(1.15); /* IE 9 */
+    -webkit-transform: scale(1.15); /* Safari 3-8 */
+    transform: scale(1.15);
   }
 
   p {
