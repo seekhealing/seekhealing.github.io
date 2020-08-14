@@ -1,16 +1,11 @@
 box-content:
   - header: "MEMORIAL DONATION"
     content: "Make a donation in the name of a loved one you lost to overdose or drug poisoning.<br/><br/>"
-    link: "https://seekhealing.kindful.com/?campaign=263108"
+    link: https://secure.givelively.org/donate/seekhealing/in-honor-of-loved-ones-lost-to-overdose
     link-text: "Donate Now"
     icon-class: "fas fa-dollar-sign"
   - header: "GENERAL DONATION"
     content: "Connect with people who are at risk for overdose and help provide free support services to anyone at any stage in the addiction healing process."
-    link: https://seekhealing.kindful.com/?campaign=339304
-    link-text: "Donate Now"
-    icon-class: "fas fa-dollar-sign"
-  - header: "MONTHLY FOUNDER’S CLUB"
-    content: "Help us make the SeekHealing project sustainable by making a monthly contribution.<br/><br/>"
-    link: https://seekhealing.kindful.com/?campaign=264477
+    link: https://secure.givelively.org/donate/seekhealing
     link-text: "Donate Now"
     icon-class: "fas fa-dollar-sign"
