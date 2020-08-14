@@ -2,7 +2,7 @@
 type: block
 title: asheville-connection-agent-partners
 block-title: asheville-program-blocks
-link: /asheville-connection-agent-partners/
+link: /partners/
 order: 1
 ---
 
