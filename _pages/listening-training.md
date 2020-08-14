@@ -4,8 +4,6 @@ title: Listening Training
 sections:
   - type: "single"
     title: "listening-training-intro"
-  # - type: "single"
-  #   title: "listening-training-authentic-connection"
   - type: "single"
     title: "listening-training-1"
   - type: "double"

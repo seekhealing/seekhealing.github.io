@@ -1,7 +1,6 @@
 ---
 type: single
 title: listening-training-for-clinical-professionals
-# padding: no-bot-padding
 white-bg: true
 section-bottom-border: true
 ---
@@ -10,5 +9,5 @@ A special version of Listening Training is also available with a clinical focus 
 
 It provides cutting edge education on effectively and compassionately navigating risk behaviors and refocusing clinical services through a harm reduction lens. The course is designed mindfully as a self-care resource for clinicians, and is certified by the [NCSAPPB](https://www.ncsappb.org/) for 15 CEU hours.
 
-Email [conversations@seekhealing.org](mailto:conversations@seekhealing.org) for more information about bringing SeekHealing on-site to deliver Clinical Listening Training to your staff.
+Email [listeningtraining@seekhealing.org](mailto:listeningtraining@seekhealing.org) for more information about bringing SeekHealing on-site to deliver Clinical Listening Training to your staff.
 {:style="margin-bottom: 0;"}

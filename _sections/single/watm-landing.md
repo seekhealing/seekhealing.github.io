@@ -3,7 +3,6 @@ type: single
 title: watm-landing
 col-width: "wide"
 header: "subnav-header"
-# white-bg: true
 padding: no-bot-padding
 ---
 
