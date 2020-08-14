@@ -15,4 +15,4 @@ video-preview: "/assets/images/wlos-video-preview-2.png"
 
 Be a part of the solution to the overdose epidemic &rarr;
 
-[Donate today!](/2020){:target="_blank" class="button cta"}
+[Donate today!](https://secure.givelively.org/donate/seekhealing){:target="_blank" class="button cta"}
