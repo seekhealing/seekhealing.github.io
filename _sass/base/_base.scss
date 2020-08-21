@@ -85,6 +85,21 @@ blockquote {
   }
 }
 
+blockquote.byline {
+
+  &:before {
+    content: none;
+  }
+
+  cite {
+    font-size: 16px;
+
+    &:before {
+      content: none;
+    }
+  }
+}
+
 blockquote.large-blockquote {
   font-size: 24px;
 
