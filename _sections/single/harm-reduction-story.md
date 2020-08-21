@@ -2,7 +2,6 @@
 type: single
 title: harm-reduction-story
 align: left
-# padding: no-bot-padding
 ---
 
 Harm reduction is something we all practice whenever we take risks, which happens on a moment to moment basis in life. We are almost constantly going through the process of assessing risk, deciding what level or risk we're willing to take, and doing things to minimize the risks we don't want to take.

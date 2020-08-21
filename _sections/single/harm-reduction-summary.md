@@ -2,7 +2,6 @@
 type: single
 title: harm-reduction-summary
 white-bg: true
-# padding: no-top-padding
 ---
 
 If you...

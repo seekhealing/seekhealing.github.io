@@ -10,4 +10,8 @@ sections:
     title: "harm-reduction-story"
   - type: "single"
     title: "harm-reduction-summary"
+  - type: "banner"
+    title: "harm-reduction-oa101-banner"
+  - type: "single"
+    title: "harm-reduction-oa101-promo"
 ---
