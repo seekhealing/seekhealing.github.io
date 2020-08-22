@@ -1,9 +1,6 @@
 ---
-layout: page
-title: Donate
-sections:
-  - type: "single"
-    title: "donate-now"
-  - type: "boxes"
-    title: "donate"
+layout: redirect
+sitemap: false
+permalink: /donate/
+redirect_to: https://secure.givelively.org/donate/seekhealing/donate
 ---
