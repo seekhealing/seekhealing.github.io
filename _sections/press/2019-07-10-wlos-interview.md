@@ -1,7 +1,7 @@
 ---
 type: press
 title: wlos-interview
-image: press-addicted-nc.png
+image: press-wlos-interview.png
 ---
 
 ## Addicted NC: SeekHealing
