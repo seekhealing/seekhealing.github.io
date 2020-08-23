@@ -26,23 +26,28 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444;
-  font-weight: 600;
+  // color: #444;
+  // font-weight: 600;
+  font-weight: bold;
   line-height: 1.5;
   margin: 0 0 30px 0;
   font-family: 'Lato', sans-serif;
 }
 
-@media (max-width: 767px) {
+h1 { font-size: 30px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
 
-  h1 { font-size: 28px; }
-
-  h2 { font-size: 24px; }
-
-  h3 { font-size: 20px; }
-
-  h4 { font-size: 16px; }
-}
+// @media (max-width: 767px) {
+//
+//   h1 { font-size: 28px; }
+//
+//   h2 { font-size: 24px; }
+//
+//   h3 { font-size: 20px; }
+//
+//   h4 { font-size: 16px; }
+// }
 
 section {
   position: relative;

@@ -3,7 +3,7 @@
 .section {
   position: relative;
   padding: 60px 0;
-  overflow: hidden;
+  // overflow: hidden;
   background-color: #F9F9F9;
   font-size: 18px;
 
@@ -31,8 +31,14 @@
     padding: 0;
   }
 
+  .row [class*="col-"] {
+    :last-child {
+      margin-bottom: 0px;
+    }
+  }
+
   .normal-header h1 {
-    font-size: 22px;
+    // font-size: 22px;
     color: #777;
     font-weight: 300;
 
@@ -49,14 +55,14 @@
     margin-bottom: 50px;
 
     h1 {
-      font-size: 22px;
+      // font-size: 22px;
       color: #777;
       font-weight: 300;
       margin: 0;
     }
 
     .subnav {
-      font-size: 16px;
+      font-size: 18px;
     }
 
     &:after {
@@ -72,7 +78,7 @@
     margin-bottom: 50px;
 
     h1 {
-      font-size: 22px;
+      // font-size: 22px;
       color: #777;
       font-weight: 300;
       margin: 0;
@@ -80,7 +86,7 @@
     }
 
     .subnav {
-      font-size: 16px;
+      font-size: 18px;
 
       &:after {
         content: '';
@@ -90,6 +96,7 @@
         border-top: 2px solid #444;
       }
     }
+
   }
 
   &.font-lg-light {
@@ -111,7 +118,7 @@
     margin-bottom: 20px;
   }
 
-  h2, .heading-three {
+  .heading-three {
     font-size: 22px;
     color: #777;
     font-weight: 300;

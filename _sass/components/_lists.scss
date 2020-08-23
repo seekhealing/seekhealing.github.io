@@ -1,19 +1,27 @@
 // Contains Lists styles
 
 // default style used in most content layouts
-p.pre-list {
+p.list-header {
+  margin-bottom: 10px;
+}
+
+li {
   margin-bottom: 10px;
 }
 
 ul {
   display: inline-block;
   text-align: left;
-  width: 65%;
+  width: 70%;
   line-height: 25px;
 
   &.full {
     width: 100%;
     padding: 0 0px 0 40px;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
   }
 }
 
