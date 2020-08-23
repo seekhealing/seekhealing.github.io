@@ -2,6 +2,7 @@
 type: press
 title: ashevillefm
 image: press-ashevillefm.jpg
+published: false
 ---
 
 ## Asheville FM News Team Speaks With Seek Healing

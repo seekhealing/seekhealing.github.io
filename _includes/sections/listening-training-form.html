@@ -10,27 +10,9 @@
 {% assign form = site.sections | where:"type","listening-training-form" %}
 
 <section>
-  <div class="section">
+  <div class="section no-top-padding">
     <div class="container clearfix">
       <div class="row normal-header">
-        <div class="{% if form.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2{% elsif form.col-width == "wide" %}col-md-12{% elsif form.col-width == "sticky" %}col-sm-6 col-sm-offset-3{% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 {% if form.align == "left" %}text-left{% else %}text-center{% endif %} {% if form.header %}{{ form.header }}{% else %}normal-header{% endif %} {{ form.class }}">
-        {% for content in form %}
-
-          <h1 class="text-center">{{ content.header }}</h1>
-
-          <div class="alert alert-success text-center">
-            <h4>
-              <i class="fa fa-check fa-big" aria-hidden="true"></i> Thank you for your interest!</h4>
-              <hr class="message-inner-separator">
-            <p>Your registration form has been successfully submitted.  Someone from SeekHealing will be in touch with you shortly.</p>
-          </div>
-
-          <div class="listening-training-form-intro text-center">
-            {{ content.content | markdownify }}
-          </div>
-
-        {% endfor %}
-        </div>
 
         <div class="col-md-10 col-md-offset-1 col-xs-12 form-container">
 

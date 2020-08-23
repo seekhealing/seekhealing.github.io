@@ -1,11 +1,7 @@
 ---
 type: single
 title: harm-reduction-story
-section-bottom-border: true
 align: left
-col-width: wide
-padding: no-bot-padding
-section-bottom-border: false
 ---
 
 Harm reduction is something we all practice whenever we take risks, which happens on a moment to moment basis in life. We are almost constantly going through the process of assessing risk, deciding what level or risk we're willing to take, and doing things to minimize the risks we don't want to take.
@@ -39,3 +35,7 @@ Once all this is out on the table, awkwardness and shame and all, then we sudden
 This means that medical treatment and detox may be part of a person's recovery process, and it may not. This means some people may need total abstinence from all mind-altering chemicals forever or for a while, and some may not. It means some people might choose to substitute one chemical bond for a less dangerous one, like switching from heroin to methadone, or from meth to Adderall, or from liquor to beer. It also gives that same person the space to eventually renegotiate their relationship with the safer substance.
 
 The process of healing from addiction is inherently non-linear and multi-layered. Harm reduction and recovery are often considered opposites: either you're supporting drug users, or you're telling them that their behavior is categorically wrong and they have to change. But at the end of the day, this distinction is meaningless. Ultimately, we’re all humans, and we all need to be supported with compassion, connection, and non-judgment. We are all on a healing or recovery journey of some kind.
+
+> — Jennifer Nicolaisen
+> <cite>SeekHealing co-founder, July 2019</cite>
+{: class="byline"}

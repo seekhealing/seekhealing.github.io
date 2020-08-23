@@ -1,7 +1,6 @@
 ---
 type: single
 title: why-data
-white-bg: true
 ---
 
 These data are compiled [from the CDC’s WONDER database](https://wonder.cdc.gov/){:taget="_blank"}
