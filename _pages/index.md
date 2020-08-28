@@ -7,10 +7,10 @@ transparent-header: true
 sections:
   - type: "hero"
     title: "home"
+  - type: "banner"
+    title: "covid19-alert"
   - type: "single"
     title: "elevator-pitch"
-  - type: "alert"
-    title: "covid19-alert"
   - type: "double"
     title: "rumi-quote"
   - type: "single"

@@ -4,7 +4,7 @@ title: Extra Care Program
 sections:
   - type: "single"
     title: "extra-care-intro"
-  - type: "alert"
+  - type: "banner"
     title: "extra-care-waitlist"
   - type: "extra-care-waitlist-form"
     title: "extra-care-waitlist-form"
