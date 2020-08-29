@@ -1,12 +1,12 @@
 ---
 type: single
 title: harm-reduction-intro
-header: "subnav-header"
+header: subnav-header
 padding: no-bot-padding
+section-bottom-border: true
 ---
 
-# <span class="emphasized-header">Harm Reduction is for Everyone</span>
-{:class="no-bot-border"}
+## **Harm Reduction is for Everyone**
 
 How to apply harm reduction principles to addiction treatment and recovery
-{:class="subnav" style="font-size: 18px; margin-bottom: 0;"}
+{:class="subnav"}

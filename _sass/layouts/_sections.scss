@@ -40,7 +40,7 @@
   .normal-header h1 {
     // font-size: 22px;
     color: #444;
-    font-weight: 300;
+    // font-weight: 300;
 
     &:after {
       content: '';
@@ -52,17 +52,17 @@
   }
 
   .custom-header {
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
 
     h1 {
       // font-size: 22px;
       color: #444;
-      font-weight: 300;
+      // font-weight: 300;
       margin: 0;
     }
 
     .subnav {
-      font-size: 18px;
+      // font-size: 18px;
     }
 
     &:after {
@@ -75,18 +75,18 @@
   }
 
   .subnav-header {
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
 
     h1 {
       // font-size: 22px;
       color: #444;
-      font-weight: 300;
+      // font-weight: 300;
       margin: 0;
       margin-bottom: 30px;
     }
 
     .subnav {
-      font-size: 18px;
+      // font-size: 18px;
 
       &:after {
         content: '';

@@ -2,6 +2,7 @@
 type: single
 title: harm-reduction-quote
 white-bg: true
+section-bottom-border: true
 ---
 
 > **Harm Reduction:** a set of practical strategies and ideas aimed at reducing negative consequences associated with risk-taking.

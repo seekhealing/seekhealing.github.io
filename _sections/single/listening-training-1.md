@@ -1,7 +1,7 @@
 ---
 type: single
 title: listening-training-1
-padding: no-padding
+padding: no-bot-padding
 ---
 
 ![Authentic human connection and peer-based addiction support](/assets/images/training-support.png){:class="img-responsive"}
@@ -10,8 +10,8 @@ Ideal both for those struggling with addiction and their family members, or for 
 
 <br>
 
-Modules
-{:class="bold underline"}
+**Modules**
+{:class="list-header underline"}
 
 - Rethinking Addiction
 - Breaking Down Shame
@@ -19,8 +19,7 @@ Modules
 - Setting Compassionate Boundaries
 - Holding Space for Difficult Emotional Experiences
 
-Note: This course is required for anyone seeking to volunteer or practice facilitation within the SeekHealing community.
-{:style="font-style: italic;"}
+_Note: This course is required for anyone seeking to volunteer or practice facilitation within the SeekHealing community._
 
 By completing this training, you’ll become part of a radically different addiction treatment program in Buncombe County, NC. The disease of addiction shows up in individuals because it is first a disease of the community: a problem with how individuals within a group relate with one another.
 
@@ -28,5 +27,5 @@ Through this training, we are “treating” addiction disease at the community 
 
 <br>
 
-Curriculum Basis
-{:class="bold underline"}
+**Curriculum Basis**
+{:class="underline" style="margin-bottom: 15px;"}
