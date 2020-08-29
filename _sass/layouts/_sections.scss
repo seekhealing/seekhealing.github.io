@@ -119,9 +119,8 @@
   }
 
   .heading-three {
-    font-size: 22px;
-    color: #555;
-    font-weight: 300;
+    font-size: 24px;
+    font-weight: lighter;
   }
 
   .featured-header {
@@ -134,8 +133,9 @@
   }
 
   .featured-content {
-    font-size: 26px;
+    font-size: 30px;
     line-height: 1.135;
+    font-weight: lighter;
     margin-bottom: 0px;
 
     @media screen and (min-width: $screen-md-min) {
