@@ -7,7 +7,7 @@ margin: no-margin
 ---
 
 The memory of Shaun Kay
-{:class="no-bot-margin size-20 white-txt"}
+{:style="margin-bottom: 0px; font-size: 21px;" class="white-txt"}
 
-Forever 34
-{:class="italic light-txt"}
+_Forever 34_
+{:style="margin-bottom: 35px;" class="light-txt"}
