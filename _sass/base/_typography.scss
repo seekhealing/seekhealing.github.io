@@ -123,24 +123,24 @@ span.green {
 }
 
 .light-txt {
-	color: rgba(255,255,255,0.35);
+	color: #888;
 }
 
 .light-link {
-  color: rgba(255,255,255,0.35);
+	color: #888;
 
 	&:hover {
 		text-decoration: none;
-		color: rgba(255,255,255,0.5);
+		color: #BBB;
 	}
 }
 
 .light-link.dotted-underline {
-	border-bottom: 1px dotted #444;
-	border-bottom-color: rgba(255,255,255,0.35);
+	border-bottom: 1px dotted #888;
+	border-bottom-color: #888;
 
 	&:hover {
-		border-bottom: 1px solid #444;
-		border-bottom-color: rgba(255,255,255,0.5);
+		border-bottom: 1px solid #BBB;
+		border-bottom-color: #BBB;
 	}
 }

@@ -4,7 +4,7 @@ footer {
   position: relative;
   border-top: 5px solid rgba(0,0,0,0.2);
   background-color: #333;
-  color: #CCC;
+  color: #BBB;
   display: block;
 
   .footer-inner {
@@ -12,23 +12,23 @@ footer {
     font-size: 14px;
     line-height: 1.8;
     background-color: rgba(0,0,0,0.2);
-    color: rgba(255,255,255,0.25);
+    color: #888;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
   }
 }
 
 .copyright-links a {
-  color: rgba(255,255,255,0.25);
+  color: #888;
   display: inline-block;
   margin: 0 3px;
-  border-bottom: 1px dotted #444;
-  border-bottom-color: rgba(255,255,255,0.25);
+  border-bottom: 1px dotted #888;
+  border-bottom-color: #888;
 
   &:hover {
     text-decoration: none;
-    color: rgba(255,255,255,0.5);
-    border-bottom: 1px solid #444;
-    border-bottom-color: rgba(255,255,255,0.5);
+    color: #BBB;
+    border-bottom: 1px solid #BBB;
+    border-bottom-color: #BBB;
   }
 
   &:first-child {
