@@ -4,18 +4,18 @@ title: community-service
 header: subnav-header
 ---
 
-## **Community Service Opportunities**
+# **Community Service Opportunities**
 {:class="subnav"}
 
 <br>
 
-### Herbal First Aid
+## Herbal First Aid
 
 Help assemble & create herbal first aid kits to give to individuals to ease the pain and physical symptoms of substance withdrawal and/or the anxiety and stress often associated with living in active use of certain substances. We also create kits that provide immune support for these individuals who may be more vulnerable to the Coronavirus.
 
 <br>
 
-### Connection Missions
+## Connection Missions
 
 Space Owls are those who have completed SeekHealing’s Listening Training I course and who volunteer to intentionally hold space for others.
 
@@ -30,7 +30,7 @@ We need listeners for:
 
 <br>
 
-### Mini Missions
+## Mini Missions
 
 We need volunteers to support seekers who are facing heightened physical or emotional challenges.
 {:class="list-header"}
@@ -42,20 +42,20 @@ We need volunteers to support seekers who are facing heightened physical or emot
 
 <br>
 
-### Social Media
+## Social Media
 We need volunteers for Blogging, interviewing, sharing personal stories and testimonials, photographing and videoing events.
 
 <br>
 
-### Fundraising
+## Fundraising
 We need volunteers to do a variety of tasks when we are implementing fundraising
 
 <br>
 
-### Administrative Work
+## Administrative Work
 We need administrative help stuffing mailers, data entry, thank you letters/calls videos, networking, and restocking fliers
 
 <br>
 
-### Drivers
+## Drivers
 We need drivers with vehicles who can shop for and deliver items, carpool, and  restock fliers.

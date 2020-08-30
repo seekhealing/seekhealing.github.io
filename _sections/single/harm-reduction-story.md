@@ -13,7 +13,7 @@ There are also a number of harm reduction strategies that can be implemented for
 
 By implementing these measures, we humanize the person or people we know who uses these substances. The most recent stats say that 44% of Americans know someone who is or has been addicted to opioids. If 44% of us are using these drugs, and the rest of us are using other chemicals and destructive behaviors to deal with the disconnectedness of modern life, we need to start talking about good safety measures for addiction in the same way we would talk about using life jackets or eating healthy food.
 
-### But how can harm reduction apply to addiction treatment and recovery?
+### **But how can harm reduction apply to addiction treatment and recovery?**
 
 The goal of harm reduction is not to get people into an addiction treatment center, or to get them to commit to a certain type of capital-R Recovery journey by going to meetings and doing what has worked for other people. The goal is to inform people about the risks they're taking with their substance use, and help them identify the best way to manage that risk while still achieving their goals.
 
@@ -25,7 +25,7 @@ The difference between healing and recovery is having frank conversations with e
 
 A great question to ask when you're not sure of how to counsel someone, or yourself, as you navigate your relationship with a certain chemical or behavior is:
 
-### Is this serving you?
+### **Is this serving you?**
 
 Another way to think about this is, what parts of this habit do I like? What parts do I not like?
 

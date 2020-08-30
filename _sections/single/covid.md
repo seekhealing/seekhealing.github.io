@@ -4,20 +4,16 @@ title: covid
 header: subnav-header
 ---
 
-## **COVID-Connection**
+# **COVID-Connection**
 {:class="subnav"}
 
 <br>
 
 With SeekHealing's Listening Training and Connection Practice meetings moving online, so many emotions are coming up around our shared experience of physical isolation and quarantine. So we’re developing infrastructure to make SeekHealing's online program events as rich in connection and healing as the ones held in the physical world. We have to do more to create the possibilities of connection and healing for our community. Physical distancing doesn't have to mean social distancing.
 
-<br>
-
 Project COVID-Connect includes:
 
 <br>
-
-### **Online Connection Practice meetings**
 
 ![Connection Practice Meetings](/assets/images/covid-connection-practice-meetings.png){:class="img-responsive"}
 
@@ -25,7 +21,7 @@ Same container for authentic connection, same practice of listening and not-fixi
 
 <br>
 
-### **Connection-Rooms**
+## **Connection-Rooms**
 
 Transforming chat-rooms into connection-rooms and creating digital spaces for people to meet, get into digital seeker pairs, or make their own plans to connect over voice or video.
 
@@ -35,14 +31,12 @@ Write a message to the #find-a-pair channel if you’d like help finding someone
 
 <br>
 
-### **Herbal First Aid Kits**
+## **Herbal First Aid Kits**
 
 Volunteers are assembling baskets filled with herbal comforts and remedies to support people in the community who are in involuntary opioid withdrawal due to the quarantine, or who are without housing or under-housed and suffering in fear and anxiety.
 Donate here
 
 <br>
-
-### **Listening Line**
 
 ![Listening Line](/assets/images/covid-connect-listening-line.jpg){:class="img-responsive"}
 
