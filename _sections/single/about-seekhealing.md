@@ -2,7 +2,6 @@
 type: single
 title: about-seekhealing
 col-width: wide
-padding: no-bot-padding
 header: subnav-header
 ---
 

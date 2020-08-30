@@ -32,7 +32,9 @@
   }
 
   .row [class*="col-"] {
-    :last-child {
+    p:last-child,
+    h4:last-child,
+    ul:last-child {
       margin-bottom: 0px;
     }
   }

@@ -1,7 +1,7 @@
 ---
 type: single
 title: calendar-lt-form-intro
-padding: no-padding
+padding: no-bot-padding
 ---
 
 ## ![](/assets/images/listening-training/listening-training-icon.png){:style="max-height: 60px; margin: 10px;" class="img-responsive"}Listening&nbsp;Training
