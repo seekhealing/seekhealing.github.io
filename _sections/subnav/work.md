@@ -1,12 +1,12 @@
 ---
 type: subnav
-title: work
+title: volunteer
 nav: Help
-image: /assets/images/subnav-work.png
-link: "/volunteer/"
+image: /assets/images/subnav-volunteer.png
+link: "/community-service/"
 order: 4
 ---
 
-## Work
+## Volunteer
 
 Volunteer behind the scenes
