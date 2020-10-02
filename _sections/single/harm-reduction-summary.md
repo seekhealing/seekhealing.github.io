@@ -12,4 +12,5 @@ white-bg: true
 - would like to learn more about how harm reduction techniques can keep you or your loved ones safe while actively using drugs
 - need access to Naloxone (Narcan)
 
-Please contact SeekHealing Harm Reduction Coordinator, Kay Williams, by phone or text at (828) 571-0070 or email at [kw@seekhealing.org](mailto:kw@seekhealing.org).
+Please reach out to anyone on the SeekHealing team at (828) 222-5029  
+or email at [conversations@seekhealing.org](mailto:conversations@seekhealing.org)

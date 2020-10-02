@@ -2,7 +2,6 @@
 type: single
 title: harm-reduction-intro
 header: subnav-header
-section-bottom-border: true
 ---
 
 # **Harm Reduction is for Everyone**
