@@ -6,7 +6,7 @@ title: extra-care-program
 # <span class="emphasized-header"></span>
 {:class="bold"}
 
-If you’ve ever been bonded to opioids or amphetamines and you’ve either:
+If you’ve ever been bonded to opioids, amphetamines, and/or crack, AND you’ve either:
 
 - used in the last six months or are currently using,
 - experienced major life transition, or
