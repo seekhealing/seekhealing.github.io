@@ -5,6 +5,8 @@ sections:
   - type: "single"
     title: "calendar"
   - type: "single"
+    title: "calendar-embed"
+  - type: "single"
     title: "calendar-lt-form-intro"
   - type: "listening-training-form"
     title: "calendar-lt-registration"
