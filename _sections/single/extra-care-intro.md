@@ -6,5 +6,5 @@ header: subnav-header
 
 # <span class="emphasized-header">SeekHealing</span> Extra Care Program
 
-Free services to support healing from trauma and addiction for those at risk for overdose.
+Free holistic therapies and support services for those at risk for overdose.
 {:class="subnav"}
