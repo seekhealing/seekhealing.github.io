@@ -17,72 +17,75 @@
   <div class="footer-inner vcard">
 
     <div class="container clearfix">
-      <div class="row">
+      <div class="row footer-row">
 
-        <div class="col-xs-12 col-sm-4 footer-cp">
+        <!-- Section 1
+        ============================================= -->
+        <div id="footer-section-1" class="col-xs-12 col-sm-4">
+
+          <!-- Footer Copyright
+          ============================================= -->
           <div class="copyright-links">
-
-          <!-- Footer Navigation Links
-          ============================================= -->
-          {% for nav in footer.nav %}
-
-            {% if nav.url contains '://' %}
-              {% assign nav_url = nav.url %}
-            {% else %}
-              {% capture nav_url %}{{ site.baseurl }}{{ nav.url }}{% endcapture%}
-            {% endif %}
-
-            <a href="{{ nav_url }}"{% if nav.target %} target="{{ nav.target }}"{% endif %}>
-              {{ nav.title }}
-            </a>
-
-          {% endfor %}
-
+            &copy; 2020 <span class="org">SeekHealing</span>
           </div>
 
-          <!-- Footer Copyright Text
+          <!-- Address
           ============================================= -->
-          <div style="margin-top: 10px">
-            Copyright &copy; 2020 <span class="org">SeekHealing</span>
-          </div>
-          <br>
+          <span class="adr">
+            <span class="street-address">50 S. French Broad Avenue #300</span><br>
+            <span class="locality">Asheville</span>, <span class="region">NC</span> <span class="postal-code">28801</span>
+          </span>
+
         </div>
 
-        <div class="col-xs-12 col-sm-4 footer-soc">
-          <div>
+        <!-- Section 2
+        ============================================= -->
+        <div id="footer-section-2" class="col-xs-12 col-sm-4">
+
+          <!-- GuideStar Seal
+          ============================================= -->
+          <a href="https://www.guidestar.org/profile/81-4832857" target="_blank">
+            <img src="https://widgets.guidestar.org/gximage2?o=9609521&l=v4" style="max-height: 100px;"/>
+          </a>
+
+        </div>
+
+        <!-- Section 3
+        ============================================= -->
+        <div id="footer-section-3" class="col-xs-12 col-sm-4">
 
           <!-- Social Media Links
           ============================================= -->
+          <div>
           {% for social in footer.social-media %}
-
             <a href="{{ social.url }}" target="_blank" class="footer-social-icon">
               <i class="{{ social.icon }}"></i>
             </a>
-
           {% endfor %}
-
           </div>
-          <div class="copyright-links" style="margin-top: 10px;">
-            <i class="email {{ global.email-icon }}"></i>
-            <a href="mailto:{{ global.email }}" style="border-bottom: none;">{{ global.email }}</a>
-          </div>
-          <br>
-        </div>
 
-        <div class="col-xs-12 col-sm-4">
-          <div class="text-center">
-            <span class="adr">
-              <span class="street-address">50 S. French Broad Avenue #300</span><br>
-              <span class="locality">Asheville</span>, <span class="region">NC</span> <span class="postal-code">28801</span>
+          <span class="contact-info">
+
+            <!-- Email Address
+            ============================================= -->
+            <span class="email">
+              <!-- <i class="email {{ global.email-icon }}"></i> -->
+              <a href="mailto:{{ global.email }}" style="border-bottom: none;">{{ global.email }}</a>
             </span><br>
-            <span class="tel">828-547-0222</span>
-          </div>
+
+            <!-- Phone Number
+            ============================================= -->
+            <span class="tel">
+              <!-- <i class="phone {{ global.phone-icon }}"></i> -->
+              {{ global.phone }}
+            </span>
+
+          </span>
+
         </div>
 
       </div>
-
     </div>
 
   </div><!-- #copyrights end -->
-
 </footer><!-- #footer end -->
