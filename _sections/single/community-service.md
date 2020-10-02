@@ -7,6 +7,8 @@ header: subnav-header
 # **Community Service Opportunities**
 {:class="subnav"}
 
+[Volunteer Sign-up Form](https://form.jotform.com/200375804511043){:class="button button-green" target="_blank"}
+
 <br>
 
 ## Herbal First Aid
@@ -15,30 +17,35 @@ Help assemble & create herbal first aid kits to give to individuals to ease the 
 
 <br>
 
-## Connection Missions
+## Space Owls
 
-Space Owls are those who have completed SeekHealing’s Listening Training I course and who volunteer to intentionally hold space for others.
+![](/assets/images/space-owl.png){:class="img-responsive" style="max-height: 33vh;"}
 
-We need listeners for:
+Space Owls are those who have completed SeekHealing’s [Listening Training I course](/listening-training) and who volunteer to intentionally hold space for others.
+
+We need Space Owls for:
 {:class="list-header"}
 
-- Listening Booth: help create judgement free listening spaces at events as well as local emergency housing shelters, food pantries, and syringe access programs.
-- Listening Line: take phone-calls to create judgement free connection with people who call or text when experiencing loneliness.
-- Welcome party: call or meet up with new seekers to welcome them to the community or go to a meeting together
-- Reach out to check-in with seekers who are new to the community, or to those who are isolating, or facing acute challenges
-- Space Owls: support the person practicing facilitation at SeekHealing meetings, and hold space with anyone in the group who needs 1:1 connection.
+- **Listening Booth**: Help create judgement free listening spaces at events as well as local emergency housing shelters, food pantries, and syringe access programs.
+- **Listening Line**: Take phone-calls to create judgement free connection with people who call or text when experiencing loneliness.
+- **Welcome Party**: Call or meet up with new seekers to welcome them to the community or go to a meeting together.
+- **Connection Practice Meetings**: support the person practicing facilitation at SeekHealing meetings, and hold space with anyone in the group who needs 1:1 connection.
 
 <br>
 
-## Mini Missions
+## Connection Missions
+
+![](/assets/images/pair-of-owls.png){:class="img-responsive" style="max-height: 33vh;"}
+
 
 We need volunteers to support seekers who are facing heightened physical or emotional challenges.
 {:class="list-header"}
 
-- Seek Delivery missions will Cook and deliver meals for Seekers who are identified as being in need
-- Mini Mission Texts will provide acts of kindness suggestions that will be directed to Seeker in need.
-- Skill Shares are one on one opportunities to increase connection through sharing a skill or passion with each other, including volunteering together.
-- SeekHealing Tour guide and welcome party is established to give new seekers a welcome tour or direct personal connection to SeekHealing answering questions and extending invitations to their first events
+- **Seek Delivery Missions** will cook and deliver meals for Seekers who are identified as being in need.
+- **Mini Mission Texts** will provide acts of kindness suggestions that will be directed to Seeker in need.
+- **Skill Shares** are one on one opportunities to increase connection through sharing a skill or passion with each other, including volunteering together.
+- **SeekHealing Tour Guide and Welcome Party** gives new Seekers a welcome tour or direct personal connection to SeekHealing, answering questions and extending invitations to their first events.
+- **Reach Out to Check-In** with Seekers who are new to the community, or those who are isolating or facing acute challenges.
 
 <br>
 
@@ -59,3 +66,7 @@ We need administrative help stuffing mailers, data entry, thank you letters/call
 
 ## Drivers
 We need drivers with vehicles who can shop for and deliver items, carpool, and  restock fliers.
+
+<br>
+
+[Volunteer Sign-up Form](https://form.jotform.com/200375804511043){:class="button button-green" target="_blank"}
