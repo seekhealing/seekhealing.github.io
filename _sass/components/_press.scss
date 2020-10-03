@@ -10,6 +10,14 @@
     background-color: #FFFFFF;
   }
 
+  .press-flexbox {
+    @media screen and (min-width: $screen-sm-min) {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+  }
+
   .press-image {
     float: none;
     width: 100%;

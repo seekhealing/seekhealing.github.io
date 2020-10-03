@@ -7,48 +7,52 @@
 -->
 {% endcomment %}
 
-{% assign resources = site.sections|where:"type","press" | reverse %}
+{% assign resources = site.sections | where:"type","press" | reverse %}
 
 <section class="bottom-border ">
   <div class="section no-bot-padding">
+
     <div class="container clearfix">
       <div class="row">
         <div class="col-md-12 col-xs-12 text-center normal-header">
-
           <h1>{{ include.title }}</h1>
         </div>
       </div>
     </div>
 
-        {% for resource in resources %}
+    {% for resource in resources %}
 
-          <article class="press{% cycle ' white', '' %}">
-            <div class="container clearfix">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="clearfix">
-                    {% if resource.image %}
-                      <div class="press-image {% if resource.image-class %}{{ resource.image-class }}{% endif %}">
-                        <img src="{{ site.baseurl }}/assets/images/{{ resource.image }}" alt="Event">
-                      </div>
-                    {% elsif resource.video %}
-                      <div class="embed-responsive embed-responsive-16by9 press-video">
-                        <iframe width="560" height="315" src="{{ resource.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      </div>
-                    {% endif %}
-                    <div class="press-content text-left">
-                      {{ resource.content | markdownify }}
-                    </div>
-                  </div>
+    <article class="press{% cycle ' white', '' %}">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="clearfix press-flexbox">
+
+              <div class="press-lead">
+                {% if resource.image %}
+                <div class="press-image {% if resource.image-class %}{{ resource.image-class }}{% endif %}">
+                  <img src="{{ site.baseurl }}/assets/images/{{ resource.image }}" alt="Event">
+                </div>
+                {% elsif resource.video %}
+                <div class="press-video embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="{{ resource.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                {% endif %}
+              </div>
+
+              <div class="press-main">
+                <div class="press-content text-left">
+                  {{ resource.content | markdownify }}
                 </div>
               </div>
+
             </div>
-          </article>
-
-        {% endfor %}
-
+          </div>
         </div>
       </div>
-    </div>
+    </article>
+
+    {% endfor %}
+
   </div>
 </section>
