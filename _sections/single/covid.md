@@ -5,13 +5,18 @@ header: subnav-header
 ---
 
 # **COVID-Connection**
+Physical distancing doesn't have to mean social distancing
 {:class="subnav"}
 
 <br>
 
+![Sign-in Stairwell](/assets/images/office-signin-stairwell.jpg){:class="img-responsive"}
+
 With SeekHealing's Listening Training and Connection Practice meetings moving online, so many emotions are coming up around our shared experience of physical isolation and quarantine. So we’re developing infrastructure to make SeekHealing's online program events as rich in connection and healing as the ones held in the physical world. We have to do more to create the possibilities of connection and healing for our community. Physical distancing doesn't have to mean social distancing.
 
-Project COVID-Connect includes:
+<br>
+
+**Project COVID-Connect includes:**
 
 <br>
 
