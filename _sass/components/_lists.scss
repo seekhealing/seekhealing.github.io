@@ -166,7 +166,9 @@ ul.blocks {
     margin: 15px 1%;
     display: inline-block;
     width: 75%;
-    background-color: #A88CC6;
+    background-color: #57AF98;
+    color: #FFF;
+    text-decoration: none;
     border-radius: 25px;
 
     @media screen and (min-width: $screen-sm-min) {
@@ -180,13 +182,21 @@ ul.blocks {
     h2 {
       font-size: 20px;
       font-weight: bold;
-      color: #000;
+      color: #fff;
     }
 
     p {
       font-size: 16px;
       color: #fff;
       margin: 0;
+    }
+
+    &:hover, &:focus {
+      background-color: darken(#57AF98,8%);
+
+      h2 {
+        text-decoration: underline;
+      }
     }
   }
 }
