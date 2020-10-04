@@ -2,7 +2,6 @@
 type: single
 title: asheville-become-a-seeker
 header: subnav-header
-# col-width: "wide"
 padding: no-bot-padding
 ---
 
