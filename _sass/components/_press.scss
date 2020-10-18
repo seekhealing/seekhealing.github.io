@@ -55,7 +55,7 @@
     position: relative;
     padding: 0 0 30px 0;
     min-height: 335px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 
     @media screen and (min-width: $screen-sm-min) {
       float: left;
@@ -69,6 +69,31 @@
     @media screen and (min-width: $screen-md-min) {
       width: 400px;
       min-height: 225px;
+    }
+  }
+
+  .press-local-video {
+    float: none;
+    width: 100%;
+    // display: block;
+    // position: relative;
+    // padding: 0 0 30px 0;
+    // min-height: 335px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: $screen-sm-min) {
+      float: left;
+      width: 280px;
+      margin-right: 30px;
+      margin-bottom: 0px;
+      // padding: 0;
+      // min-height: 210px;
+      // height: 100%
+    }
+
+    @media screen and (min-width: $screen-md-min) {
+      width: 400px;
+      // min-height: 225px;
     }
   }
 

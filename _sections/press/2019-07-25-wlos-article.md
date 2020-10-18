@@ -1,7 +1,8 @@
 ---
 type: press
 title: wlos-article
-image: press-addicted-nc.png
+local-video: /downloads/wlos-article-video.mp4
+local-video-preview: /assets/images/press-addicted-nc.png
 ---
 
 ## Mountain non-profit takes holistic approach to fighting opioid crisis
