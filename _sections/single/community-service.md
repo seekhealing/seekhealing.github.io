@@ -13,6 +13,8 @@ header: subnav-header
 
 ## Herbal First Aid
 
+![](/assets/images/herbal-first-aid.png){:class="img-responsive" style="max-height: 33vh;"}
+
 Help assemble & create herbal first aid kits to give to individuals to ease the pain and physical symptoms of substance withdrawal and/or the anxiety and stress often associated with living in active use of certain substances. We also create kits that provide immune support for these individuals who may be more vulnerable to the Coronavirus.
 
 <br>
