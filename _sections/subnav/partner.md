@@ -3,7 +3,7 @@ type: subnav
 title: partner
 nav: Help
 image: /assets/images/subnav-partner.png
-link: "/connection-agents/"
+# link: "/connection-agents/"
 order: 3
 ---
 
