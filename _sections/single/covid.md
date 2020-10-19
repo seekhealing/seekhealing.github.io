@@ -4,45 +4,35 @@ title: covid
 header: subnav-header
 ---
 
-# **COVID-Connection**
-Physical distancing doesn't have to mean social distancing
-{:class="subnav"}
+# **COVID-19 Updates**
+
+Connection Practice meetings and Listening Training classes are both now available online. Please check out the calendar [here](/calendar/), or sign up for Listening Training online [here](/listening-training/).
+
+Connection Practice meetings are also happening in-person locally in Asheville, NC at SeekHealing’s offices in the United Way Building. Please note that face-coverings are required at all in-person meetings.
+
+Remember, physical distancing doesn’t have to mean social distancing. Connection during this time is more important than ever.
 
 <br>
 
-![Sign-in Stairwell](/assets/images/office-signin-stairwell.jpg){:class="img-responsive"}
-
-With SeekHealing's Listening Training and Connection Practice meetings moving online, so many emotions are coming up around our shared experience of physical isolation and quarantine. So we’re developing infrastructure to make SeekHealing's online program events as rich in connection and healing as the ones held in the physical world. We have to do more to create the possibilities of connection and healing for our community. Physical distancing doesn't have to mean social distancing.
+Check out these community service projects you can get involved in to support others and yourself as we all navigate disconnection & isolation under the pandemic:
 
 <br>
-
-**Project COVID-Connect includes:**
-
-<br>
-
-![Connection Practice Meetings](/assets/images/covid-connection-practice-meetings.png){:class="img-responsive"}
-
-Same container for authentic connection, same practice of listening and not-fixing: just online instead of real life.
-
-<br>
-
-## **Connection-Rooms**
-
-Transforming chat-rooms into connection-rooms and creating digital spaces for people to meet, get into digital seeker pairs, or make their own plans to connect over voice or video.
-
-If you want to find some more 1-on-1 connection, we’ve set up a SeekHealing connection room for chatting and connecting with each other online. Use this seeker-only invite link to download Discord and get connected to other seekers: https://discord.gg/Q8RfPDT It feels kind of like a throwback to AIM days! You can pick out a username, chat with other seekers in group channels marked with #’s, or privately in DMs. There’s also a voice channel where you can just turn on your mic and anyone can join for a real-time conversation.
-
-Write a message to the #find-a-pair channel if you’d like help finding someone to make plans with. Please remember that the purpose of this space is real connection: the idea is to use it to meet people and then make plans, like hopping on your own video call or going to an online meeting together!
 
 <br>
 
 ## **Herbal First Aid Kits**
 
-Volunteers are assembling baskets filled with herbal comforts and remedies to support people in the community who are in involuntary opioid withdrawal due to the quarantine, or who are without housing or under-housed and suffering in fear and anxiety.
-Donate here
+![Herbal First Aid Kits](/assets/images/herbal-first-aid-5.jpg){:class="img-responsive"}
+
+Volunteers are assembling baskets filled with herbal comforts and remedies to support people in the community who are in involuntary opioid withdrawal due to the quarantine, or who are without housing or under-housed and suffering in fear and anxiety. \\
+Donate [here](https://secure.givelively.org/donate/seekhealing/herbal-first-aid-kits){:target="_blank"} or fill out [this form](https://form.jotform.com/200375804511043){:target="_blank"} to sign-up as a volunteer!
 
 <br>
 
-![Listening Line](/assets/images/covid-connect-listening-line.jpg){:class="img-responsive"}
+<br>
 
- Volunteers who’ve completed Listening Training are getting on the phones to rally the community, to proactively reach out to those who self-isolate, and to hold space with those who have phone access but no internet access.
+![Listening Line](/assets/images/covid-listening-line.png){:class="img-responsive"}
+
+Volunteers who’ve completed Listening Training are getting on the phones to rally the community, to proactively reach out to those who self-isolate, and to hold space with those who have phone access but no internet access -- or with any human being who’s in need of a friendly voice at the other end of the line.
+
+[Sign up for Listening Training today](/listening-training/) to volunteer, or call or text 828-547-0222 any time to connect with another human.
