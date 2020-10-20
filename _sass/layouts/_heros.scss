@@ -70,19 +70,22 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
 
   @media screen and (min-width: $screen-md-min) {
     font-size: 52px;
+    padding-top: 0px;
+    margin: 0px;
   }
 }
 
 #slider h2 {
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 20px;
 
   @media screen and (min-width: $screen-sm-min) {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   @media screen and (min-width: $screen-md-min) {
     font-size: 24px;
+    margin: 20px 0 0 0;
   }
 }
 
@@ -91,6 +94,15 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
   font-weight: 300;
   margin-top: 20px;
   margin-bottom: 0px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    font-size: 22px;
+    // margin: 20px 0 0 0;
+  }
 }
 
 .hero-area {
@@ -136,6 +148,19 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
 
 .hero-vid {
   margin: 20px 0 40px;
+}
+
+.hero-img {
+  margin: 20px 0 40px;
+
+  @media screen and (min-width: $screen-md-min) {
+    margin: 0;
+  }
+}
+
+.hero-columns {
+  display: flex;
+  align-items: center;
 }
 
 

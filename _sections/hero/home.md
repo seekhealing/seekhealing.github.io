@@ -2,17 +2,17 @@
 type: hero
 title: home
 background: "/assets/images/home-bkgrnd.jpg"
-# image: "/assets/images/watm-festival-promo.jpg"
-# image-alt: "We Are The Medicine Festival"
-# image-link: "/we-are-the-medicine-festival/#watm-registration"
-video: "/downloads/SH-WLOS.mp4"
-video-preview: "/assets/images/wlos-video-preview-2.png"
+image: "/assets/images/OBT-promo.jpg"
+image-alt: "One Big Table Festival Promo Image"
+image-link: "/obt/"
+# video: "/downloads/SH-WLOS.mp4"
+# video-preview: "/assets/images/wlos-video-preview-2.png"
 ---
 
 # It's time to <span class="emphasized-header">#RethinkRehab</span>
 
 ## Healing from addiction through human connection
 
-Be a part of the solution to the overdose epidemic &rarr;
+_Join us for <span class="emphasized-header">One Big Table</span> on December 4th_
 
-[Donate today!](https://secure.givelively.org/donate/seekhealing){:target="_blank" class="button cta"}
+[Register Now!](/obt/){:class="button cta"}
