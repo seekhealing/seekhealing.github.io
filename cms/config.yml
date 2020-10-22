@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: shredtechular/seekhealing.github.io
-  branch: refactor
-  site_domain: seekhealing-refactor.netlify.com
+  repo: shinedesigns/seekhealing.github.io
+  branch: cms
+  site_domain: cms.netlify.com # cms.seekhealing.shinedesigns.dev
 publish_mode: editorial_workflow
 media_folder: "/assets/images"
 collections:
@@ -11,7 +11,7 @@ collections:
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" #i.e. YYYY-MM-DD-title.md
-    fields: 
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -35,35 +35,35 @@ collections:
             options: ["article", "citation", "connect", "connection-agent-form", "directors", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "press", "resource", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
       - {label: "Transparent Header?", name: "transparent-header", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-  - name: "otherContent" 
-    label: "Miscellaneous Content" 
+  - name: "otherContent"
+    label: "Miscellaneous Content"
     delete: false # Prevent users from deleting documents in this collection
-    editor: 
-      preview: false 
-    files: 
-      - name: "global" 
-        label: "Global Site Content" 
-        file: "_data/global.yaml" 
-        description: "Global content" 
-        fields: 
+    editor:
+      preview: false
+    files:
+      - name: "global"
+        label: "Global Site Content"
+        file: "_data/global.yaml"
+        description: "Global content"
+        fields:
           - {label: "Email Address", name: "email", widget: "string"}
           - {label: "Email Icon", name: "email-icon", widget: "string"}
           - {label: "Subscribe Form Submission URL", name: "subscribe-url", widget: "string"}
           - {label: "Subscribe Form Text", name: "subscribe-text", widget: "string"}
           - {label: "Subscribe Form Button Text", name: "subscribe-btn-text", widget: "string"}
-      - name: "header" 
-        label: "Header Content" 
-        file: "_data/header.yaml" 
-        description: "Header content" 
-        fields: 
+      - name: "header"
+        label: "Header Content"
+        file: "_data/header.yaml"
+        description: "Header content"
+        fields:
           - label: "Logo Image"
             name: "logo"
             widget: "image"
           - {label: "Logo Alt Text", name: "logo-alt", widget: "string"}
-          - label: "Header Navigation Items" 
-            name: nav 
-            widget: "list" 
-            fields: 
+          - label: "Header Navigation Items"
+            name: nav
+            widget: "list"
+            fields:
               - {label: "Title", name: title, widget: string}
               - {label: "URL", name: url, widget: string}
               - label: "Target"
@@ -80,36 +80,36 @@ collections:
                     name: target
                     widget: select
                     options: ["", "_blank"]
-      - name: "footer" 
-        label: "Footer Content" 
-        file: "_data/footer.yaml" 
-        description: "Footer content" 
-        fields: 
+      - name: "footer"
+        label: "Footer Content"
+        file: "_data/footer.yaml"
+        description: "Footer content"
+        fields:
           - {label: "Copyright Text", name: "copyright-text", widget: "string"}
-          - label: "Footer Navigation Items" 
-            name: nav 
-            widget: "list" 
-            fields: 
+          - label: "Footer Navigation Items"
+            name: nav
+            widget: "list"
+            fields:
               - {label: "Title", name: title, widget: string}
               - {label: "URL", name: url, widget: string}
               - label: "Target"
                 name: target
                 widget: select
                 options: ["", "_blank"]
-          - label: "Footer Social Media Links" 
+          - label: "Footer Social Media Links"
             name: "social-media"
             widget: "list"
-            fields: 
+            fields:
               - {label: "Icon class", name: icon, widget: string}
               - {label: "URL", name: url, widget: string}
-      - name: "contact" 
-        label: "Contact Page Content" 
-        file: "_data/contact.yaml" 
-        description: "Contact Page content" 
-        fields: 
+      - name: "contact"
+        label: "Contact Page Content"
+        file: "_data/contact.yaml"
+        description: "Contact Page content"
+        fields:
           - {label: "Contact Header", name: "location-header", widget: "string"}
-          - label: "Location Contacts" 
-            name: location-contacts 
+          - label: "Location Contacts"
+            name: location-contacts
             widget: "list"
             fields:
               - {label: "City", name: city, widget: string}
@@ -117,11 +117,11 @@ collections:
               - {label: "Contact Email Address", name: email, widget: string}
           - {label: "Connect Header", name: "connect-header", widget: "string"}
       - name: "memorial-wall"
-        label: "Memorial Wall Memorium" 
-        file: "_data/memorial-wall.yaml" 
-        description: "People listed on the Memorial Wall" 
-        fields: 
-          - label: "In Memorium" 
+        label: "Memorial Wall Memorium"
+        file: "_data/memorial-wall.yaml"
+        description: "People listed on the Memorial Wall"
+        fields:
+          - label: "In Memorium"
             name: memorium
             widget: "list"
             fields:
@@ -129,11 +129,11 @@ collections:
               - {label: "Remembered By", name: remembered-by, widget: string}
               - {label: "Quote", name: quote, widget: string}
       - name: "resources"
-        label: "Resources" 
-        file: "_data/resources.yaml" 
-        description: "List of resources used in site" 
-        fields: 
-          - label: "Resources" 
+        label: "Resources"
+        file: "_data/resources.yaml"
+        description: "List of resources used in site"
+        fields:
+          - label: "Resources"
             name: resources
             widget: "list"
             fields:
@@ -146,10 +146,10 @@ collections:
                 widget: select
                 options: ["", "_blank"]
       - name: "asheville-pilot-program"
-        label: "Asheville Pilot Content" 
-        file: "_data/asheville-pilot-program.yaml" 
-        description: "Content for Asheville Pilot Program Page" 
-        fields: 
+        label: "Asheville Pilot Content"
+        file: "_data/asheville-pilot-program.yaml"
+        description: "Content for Asheville Pilot Program Page"
+        fields:
           - {label: "header", name: header, widget: string}
           - {label: "Subheader", name: subheader, widget: string}
           - {label: "Seeker Image", name: seeker-img, widget: string}
@@ -185,7 +185,7 @@ collections:
           - {label: "Data Header", name: data-header, widget: string}
           - {label: "Data Description", name: data-desc, widget: string}
           - {label: "Apply Header", name: apply-header, widget: string}
-          - label: "Apply Links" 
+          - label: "Apply Links"
             name: apply-links
             widget: "list"
             fields:
@@ -242,7 +242,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Job Title", name: "title", widget: "string"}
       - {label: "Director's Picture", name: "image", widget: "image"}
-      - {label: "Order", name: "order", widget: "number", valueType: "int", min: "1"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-double"
     label: "Section_Double"
@@ -278,7 +278,7 @@ collections:
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "double-col"}
       - {label: "Column Grouping Name", name: "col-names", widget: "string"}
-      - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: "1"}
+      - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Center Column Content?", name: "center", widget: "boolean", default: false, required: false}
       - {label: "Is content a sticky note format?", name: "sticky-note", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -294,14 +294,14 @@ collections:
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
       - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
-      - label: "Font Size" 
+      - label: "Font Size"
         name: "apply-links"
         widget: "select"
         options: ["large", "regular"]
         default: "regular"
         required: false
       - {label: "Background Image", name: "img", widget: "image"}
-      - label: "Background Image Position" 
+      - label: "Background Image Position"
         name: "img-pos"
         widget: "select"
         options: ["left", "right"]
@@ -316,7 +316,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "events"}
-      - label: "Is the event past or upcoming?" 
+      - label: "Is the event past or upcoming?"
         name: "timing"
         widget: "select"
         options: ["past", "upcoming"]
@@ -367,7 +367,7 @@ collections:
         name: "title"
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - label: "Font Size" 
+      - label: "Font Size"
         name: "apply-links"
         widget: "select"
         options: ["large", "regular"]
@@ -415,7 +415,7 @@ collections:
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
       - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
-      - label: "Font Size" 
+      - label: "Font Size"
         name: "apply-links"
         widget: "select"
         options: ["large", "regular"]
@@ -485,7 +485,7 @@ collections:
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
       - {label: "Subnav Link", name: "link", widget: "string"}
       - {label: "Link Image", name: "image", widget: "image"}
-      - {label: "Order", name: "order", widget: "number", valueType: "int", min: "1"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-team"
     label: "Section_Team"
@@ -498,7 +498,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Job Title", name: "title", widget: "string"}
       - {label: "Director's Picture", name: "image", widget: "image"}
-      - {label: "Order", name: "order", widget: "number", valueType: "int", min: "1"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-triple"
     label: "Section_Triple"
@@ -533,5 +533,5 @@ collections:
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "triple-col"}
       - {label: "Column Grouping Name", name: "col-names", widget: "string"}
-      - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: "1"}
+      - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Body", name: "body", widget: "markdown"}
