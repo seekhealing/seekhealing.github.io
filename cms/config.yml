@@ -19,6 +19,7 @@ collections:
     label: "Page"
     folder: "_pages"
     create: true
+    filter: {field: "layout", value: "page"}
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
