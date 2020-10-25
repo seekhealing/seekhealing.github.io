@@ -6,15 +6,16 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "/assets/images"
 collections:
-  - name: "post"
-    label: "Post"
-    folder: "_posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" #i.e. YYYY-MM-DD-title.md
-    fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "posts"
+  #   label: "Posts"
+  #   label_singular: "Post"
+  #   folder: "_posts"
+  #   create: true
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" #i.e. YYYY-MM-DD-title.md
+  #   fields:
+  #     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown"}
   - name: "page"
     label: "Page"
     folder: "_pages"
@@ -100,37 +101,37 @@ collections:
         file: "_data/footer.yaml"
         description: "Footer content"
         fields:
-          - {label: "Copyright Text", name: "copyright-text", widget: "string"}
-          - label: "Footer Navigation Items"
-            name: nav
-            widget: "list"
-            fields:
-              - {label: "Title", name: title, widget: string}
-              - {label: "URL", name: url, widget: string}
-              - label: "Target"
-                name: target
-                widget: select
-                options: ["", "_blank"]
+          # - {label: "Copyright Text", name: "copyright-text", widget: "string"}
+          # - label: "Footer Navigation Items"
+          #   name: nav
+          #   widget: "list"
+          #   fields:
+          #     - {label: "Title", name: title, widget: string}
+          #     - {label: "URL", name: url, widget: string}
+          #     - label: "Target"
+          #       name: target
+          #       widget: select
+          #       options: ["", "_blank"]
           - label: "Footer Social Media Links"
             name: "social-media"
             widget: "list"
             fields:
               - {label: "Icon class", name: icon, widget: string}
               - {label: "URL", name: url, widget: string}
-      - name: "contact"
-        label: "Contact Page Content"
-        file: "_data/contact.yaml"
-        description: "Contact Page content"
-        fields:
-          - {label: "Contact Header", name: "location-header", widget: "string"}
-          - label: "Location Contacts"
-            name: location-contacts
-            widget: "list"
-            fields:
-              - {label: "City", name: city, widget: string}
-              - {label: "State", name: state, widget: string}
-              - {label: "Contact Email Address", name: email, widget: string}
-          - {label: "Connect Header", name: "connect-header", widget: "string"}
+      # - name: "contact"
+      #   label: "Contact Page Content"
+      #   file: "_data/contact.yaml"
+      #   description: "Contact Page content"
+      #   fields:
+      #     - {label: "Contact Header", name: "location-header", widget: "string"}
+      #     - label: "Location Contacts"
+      #       name: location-contacts
+      #       widget: "list"
+      #       fields:
+      #         - {label: "City", name: city, widget: string}
+      #         - {label: "State", name: state, widget: string}
+      #         - {label: "Contact Email Address", name: email, widget: string}
+      #     - {label: "Connect Header", name: "connect-header", widget: "string"}
       - name: "memorial-wall"
         label: "Memorial Wall Memorium"
         file: "_data/memorial-wall.yaml"
@@ -160,92 +161,92 @@ collections:
                 name: target
                 widget: select
                 options: ["", "_blank"]
-      - name: "asheville-pilot-program"
-        label: "Asheville Pilot Content"
-        file: "_data/asheville-pilot-program.yaml"
-        description: "Content for Asheville Pilot Program Page"
-        fields:
-          - {label: "header", name: header, widget: string}
-          - {label: "Subheader", name: subheader, widget: string}
-          - {label: "Seeker Image", name: seeker-img, widget: string}
-          - {label: "Seeker Image Alt Text", name: seeker-img-alt, widget: string}
-          - {label: "Seeker Header", name: seeker-header, widget: string}
-          - {label: "Seeker Description", name: seeker-desc, widget: string}
-          - {label: "Seeker Image 2", name: seeker-img-2, widget: string}
-          - {label: "Seeker Image 2 Alt Text", name: seeker-img-2-alt, widget: string}
-          - {label: "Seeker Side Text 1", name: seeker-side-1, widget: string}
-          - {label: "Seeker Side Text 2", name: seeker-side-2, widget: string}
-          - {label: "Connection Agent Activities Image", name: conn-agent-acts, widget: string}
-          - {label: "Connection Agent Activities Image Alt Text", name: conn-agent-acts-alt, widget: string}
-          - {label: "Connection Basketball Image", name: conn-bball, widget: string}
-          - {label: "Connection Basketball Image Alt Text", name: conn-bball-alt, widget: string}
-          - {label: "Connection Agent Header", name: conn-agent-header, widget: string}
-          - {label: "Connection Agent Description", name: conn-agent-desc, widget: string}
-          - {label: "Connection Gathering Image", name: conn-gathering, widget: string}
-          - {label: "Connection Gathering Image Alt Text", name: conn-gathering-alt, widget: string}
-          - {label: "Connection Gathering Header", name: conn-gathering-header, widget: string}
-          - {label: "Connection Gathering Description", name: conn-gathering-desc, widget: string}
-          - {label: "Big Stick Figure Image", name: big-stick, widget: string}
-          - {label: "Big Stick Figure Image Alt Text", name: big-stick-alt, widget: string}
-          - {label: "Match text", name: match, widget: string}
-          - {label: "Match Image", name: match-img, widget: string}
-          - {label: "Match Image Alt Text", name: match-img-alt, widget: string}
-          - {label: "Match Description", name: match-desc, widget: string}
-          - {label: "Match Description 2", name: match-desc-2, widget: string}
-          - {label: "Yoga Image", name: yoga, widget: string}
-          - {label: "Yoga Image Alt Text", name: yoga-alt, widget: string}
-          - {label: "Match Description 3", name: match-desc-3, widget: string}
-          - {label: "Data Image", name: data, widget: string}
-          - {label: "Data Image Alt Text", name: data-alt, widget: string}
-          - {label: "Data Header", name: data-header, widget: string}
-          - {label: "Data Description", name: data-desc, widget: string}
-          - {label: "Apply Header", name: apply-header, widget: string}
-          - label: "Apply Links"
-            name: apply-links
-            widget: "list"
-            fields:
-              - {label: "Description", name: title, widget: string}
-              - {label: "URL", name: url, widget: string}
-              - {label: "Button Text", name: btn-txt, widget: string}
-          - {label: "Sub-Text", name: subtext, widget: string}
-  - name: "section-article"
-    label: "Section_Article"
-    folder: "_sections/article"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "article"}
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - {label: "Article Header", name: "header", widget: "string"}
-      - {label: "Article Header Image", name: "header-img", widget: "image", required: false}
-      - {label: "Author Name", name: "author", widget: "string"}
-      - {label: "Author's Job Title", name: "author-title", widget: "string"}
-      - {label: "Author's Picture", name: "author-img", widget: "image"}
-      - {label: "Author Sub-header", name: "author-subheader", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-citation"
-    label: "Section_Citation"
-    folder: "_sections/citation"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "citation"}
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-  - name: "section-connection-agent-form"
-    label: "Section_Connection-Agent-form"
-    folder: "_sections/connection-agent-form"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "connection-agent-form"}
-      - {label: "Form", name: "form", widget: "hidden", default: "connection-agent-form"}
-      - {label: "Form Header", name: "header", widget: "string"}
+      # - name: "asheville-pilot-program"
+      #   label: "Asheville Pilot Content"
+      #   file: "_data/asheville-pilot-program.yaml"
+      #   description: "Content for Asheville Pilot Program Page"
+      #   fields:
+      #     - {label: "header", name: header, widget: string}
+      #     - {label: "Subheader", name: subheader, widget: string}
+      #     - {label: "Seeker Image", name: seeker-img, widget: string}
+      #     - {label: "Seeker Image Alt Text", name: seeker-img-alt, widget: string}
+      #     - {label: "Seeker Header", name: seeker-header, widget: string}
+      #     - {label: "Seeker Description", name: seeker-desc, widget: string}
+      #     - {label: "Seeker Image 2", name: seeker-img-2, widget: string}
+      #     - {label: "Seeker Image 2 Alt Text", name: seeker-img-2-alt, widget: string}
+      #     - {label: "Seeker Side Text 1", name: seeker-side-1, widget: string}
+      #     - {label: "Seeker Side Text 2", name: seeker-side-2, widget: string}
+      #     - {label: "Connection Agent Activities Image", name: conn-agent-acts, widget: string}
+      #     - {label: "Connection Agent Activities Image Alt Text", name: conn-agent-acts-alt, widget: string}
+      #     - {label: "Connection Basketball Image", name: conn-bball, widget: string}
+      #     - {label: "Connection Basketball Image Alt Text", name: conn-bball-alt, widget: string}
+      #     - {label: "Connection Agent Header", name: conn-agent-header, widget: string}
+      #     - {label: "Connection Agent Description", name: conn-agent-desc, widget: string}
+      #     - {label: "Connection Gathering Image", name: conn-gathering, widget: string}
+      #     - {label: "Connection Gathering Image Alt Text", name: conn-gathering-alt, widget: string}
+      #     - {label: "Connection Gathering Header", name: conn-gathering-header, widget: string}
+      #     - {label: "Connection Gathering Description", name: conn-gathering-desc, widget: string}
+      #     - {label: "Big Stick Figure Image", name: big-stick, widget: string}
+      #     - {label: "Big Stick Figure Image Alt Text", name: big-stick-alt, widget: string}
+      #     - {label: "Match text", name: match, widget: string}
+      #     - {label: "Match Image", name: match-img, widget: string}
+      #     - {label: "Match Image Alt Text", name: match-img-alt, widget: string}
+      #     - {label: "Match Description", name: match-desc, widget: string}
+      #     - {label: "Match Description 2", name: match-desc-2, widget: string}
+      #     - {label: "Yoga Image", name: yoga, widget: string}
+      #     - {label: "Yoga Image Alt Text", name: yoga-alt, widget: string}
+      #     - {label: "Match Description 3", name: match-desc-3, widget: string}
+      #     - {label: "Data Image", name: data, widget: string}
+      #     - {label: "Data Image Alt Text", name: data-alt, widget: string}
+      #     - {label: "Data Header", name: data-header, widget: string}
+      #     - {label: "Data Description", name: data-desc, widget: string}
+      #     - {label: "Apply Header", name: apply-header, widget: string}
+      #     - label: "Apply Links"
+      #       name: apply-links
+      #       widget: "list"
+      #       fields:
+      #         - {label: "Description", name: title, widget: string}
+      #         - {label: "URL", name: url, widget: string}
+      #         - {label: "Button Text", name: btn-txt, widget: string}
+      #     - {label: "Sub-Text", name: subtext, widget: string}
+  # - name: "section-article"
+  #   label: "Section_Article"
+  #   folder: "_sections/article"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "article"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #     - {label: "Article Header", name: "header", widget: "string"}
+  #     - {label: "Article Header Image", name: "header-img", widget: "image", required: false}
+  #     - {label: "Author Name", name: "author", widget: "string"}
+  #     - {label: "Author's Job Title", name: "author-title", widget: "string"}
+  #     - {label: "Author's Picture", name: "author-img", widget: "image"}
+  #     - {label: "Author Sub-header", name: "author-subheader", widget: "string", required: false}
+  #     - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "section-citation"
+  #   label: "Section_Citation"
+  #   folder: "_sections/citation"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "citation"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  # - name: "section-connection-agent-form"
+  #   label: "Section_Connection-Agent-form"
+  #   folder: "_sections/connection-agent-form"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "connection-agent-form"}
+  #     - {label: "Form", name: "form", widget: "hidden", default: "connection-agent-form"}
+  #     - {label: "Form Header", name: "header", widget: "string"}
   - name: "section-directors"
     label: "Section_Directors"
     folder: "_sections/directors"
@@ -358,19 +359,19 @@ collections:
       - {label: "Background Image", name: "background", widget: "image", default: "/assets/images/home-bkgrnd.jpg"}
       - {label: "Video URL", name: "video", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-message-box"
-    label: "Section_Message_Box"
-    folder: "_sections/message-box"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "message-box"}
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - {label: "Box Header", name: "header", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "section-message-box"
+  #   label: "Section_Message_Box"
+  #   folder: "_sections/message-box"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "message-box"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #     - {label: "Box Header", name: "header", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-parallax"
     label: "Section_Parallax"
     folder: "_sections/parallax"
@@ -405,19 +406,19 @@ collections:
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
       - {label: "Link Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-resources"
-    label: "Section_Resources"
-    folder: "_sections/resources"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "resources"}
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "section-resources"
+  #   label: "Section_Resources"
+  #   folder: "_sections/resources"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "resources"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #     - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
+  #     - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-single"
     label: "Section_Single"
     folder: "_sections/single"
@@ -471,18 +472,18 @@ collections:
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-stripe"
-    label: "Section_Stripe"
-    folder: "_sections/stripe"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "stripe"}
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "section-stripe"
+  #   label: "Section_Stripe"
+  #   folder: "_sections/stripe"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "stripe"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #     - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-subnav"
     label: "Section_Subnav"
     folder: "_sections/subnav"
@@ -515,38 +516,38 @@ collections:
       - {label: "Director's Picture", name: "image", widget: "image"}
       - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-triple"
-    label: "Section_Triple"
-    folder: "_sections/triple"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "triple"}
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - label: "Header Type"
-        name: "header"
-        widget: "select"
-        options: ["regular", "subnav-header"]
-        default: "regular"
-        required: false
-      - label: "Column Width"
-        name: "col-width"
-        widget: "select"
-        options: ["regular", "sticky", "thin", "wide"]
-        default: "regular"
-        required: false
-      - {label: "Column Grouping Name", name: "col-names", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-triple-cols"
-    label: "Section_Triple_Columns"
-    folder: "_sections/triple-columns"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "triple-col"}
-      - {label: "Column Grouping Name", name: "col-names", widget: "string"}
-      - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: 1}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "section-triple"
+  #   label: "Section_Triple"
+  #   folder: "_sections/triple"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "triple"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #     - label: "Header Type"
+  #       name: "header"
+  #       widget: "select"
+  #       options: ["regular", "subnav-header"]
+  #       default: "regular"
+  #       required: false
+  #     - label: "Column Width"
+  #       name: "col-width"
+  #       widget: "select"
+  #       options: ["regular", "sticky", "thin", "wide"]
+  #       default: "regular"
+  #       required: false
+  #     - {label: "Column Grouping Name", name: "col-names", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "section-triple-cols"
+  #   label: "Section_Triple_Columns"
+  #   folder: "_sections/triple-columns"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "triple-col"}
+  #     - {label: "Column Grouping Name", name: "col-names", widget: "string"}
+  #     - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: 1}
+  #     - {label: "Body", name: "body", widget: "markdown"}
