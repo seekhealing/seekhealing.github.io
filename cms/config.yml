@@ -36,6 +36,20 @@ collections:
             options: ["article", "citation", "connect", "connection-agent-form", "directors", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "press", "resource", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
       - {label: "Transparent Header?", name: "transparent-header", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "redirects"
+    label: "Redirects"
+    label_singular: "Redirect"
+    folder: "_pages"
+    create: true
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    filter: {field: "layout", value: "redirect"}
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "redirect"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: ""}
+      - {label: "Title", name: "title", widget: "string"}
   - name: "otherContent"
     label: "Miscellaneous Content"
     delete: false # Prevent users from deleting documents in this collection
