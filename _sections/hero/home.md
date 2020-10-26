@@ -2,7 +2,7 @@
 type: hero
 title: home
 background: "/assets/images/home-bkgrnd.jpg"
-image: "/assets/images/OBT-promo.jpg"
+image: "/assets/images/OBT-promo.png"
 image-alt: "One Big Table Festival Promo Image"
 image-link: "/obt/"
 # video: "/downloads/SH-WLOS.mp4"
