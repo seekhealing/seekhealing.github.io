@@ -5,6 +5,8 @@ backend:
   site_domain: cms.netlify.com # cms.seekhealing.shinedesigns.dev
 publish_mode: editorial_workflow
 media_folder: "/assets/images"
+editor:
+  preview: false
 collections:
   # - name: "posts"
   #   label: "Posts"
@@ -21,8 +23,6 @@ collections:
     label_singular: "Page"
     folder: "_pages"
     create: true
-    editor:
-      preview: false
     filter: {field: "layout", value: "page"}
     slug: "{{slug}}"
     fields:
@@ -255,8 +255,6 @@ collections:
     label: "Leadership"
     folder: "_sections/directors"
     create: true
-    editor:
-      preview: false
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "team"}
@@ -516,8 +514,6 @@ collections:
     label_singular: "Team Member"
     folder: "_sections/team"
     create: true
-    editor:
-      preview: false
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "team"}
