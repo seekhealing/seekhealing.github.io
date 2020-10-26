@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Leadership Team
+title: Leadership
 sections:
   - type: "gauges"
     title: "Directors"

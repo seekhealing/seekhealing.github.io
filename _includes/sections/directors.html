@@ -1,11 +1,11 @@
-{% comment %} 
+{% comment %}
 <!--
   Directors Section
 
   This partial is used for directors types of layouts.  Currently used on the
   Board of Directors page.
-  
---> 
+
+-->
 {% endcomment %}
 
 {% assign portfolio = site.sections |where:"type","team" |where:"category",include.title |sort: "order" %}
@@ -14,15 +14,15 @@
   <div class="section no-top-padding">
     <div class="container clearfix">
       <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-xs-12 text-center normal-header">
-          <h1 class="no-bot-border">{{ include.title }}</h1>
+        <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
+          <h2 class="bottommargin">{{ include.title }}</h2>
         </div>
-      </div>      
-    
+      </div>
+
       <div class="row display-flex">
 
         {% for profile in portfolio %}
-        
+
           <div class="col-md-6 bottommargin">
             <div class="director clearfix">
               <div class="director-image">
