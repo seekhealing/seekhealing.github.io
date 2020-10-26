@@ -48,4 +48,4 @@ We train local businesses, bars and restaurants in reframing traditional views o
 
 ## [Healing Hubs](/healing-hubs)
 
-Healing Hubs are a new kind of residential facility that will provide residents with an immersive experience of connection, community and non-hierarchy. Development is still underway. Email [conversations@seekhealing.org](mailto:conversations@seekhealing.org) for more info!
+Healing Hubs are a new kind of residential facility that will provide residents with an immersive experience of connection, community and non-hierarchy. Development is still underway. Email <conversations@seekhealing.org> for more info!

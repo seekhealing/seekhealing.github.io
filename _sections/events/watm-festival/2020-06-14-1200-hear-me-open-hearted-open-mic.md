@@ -13,7 +13,7 @@ link: https://zoom.us/j/7140019519 # Joey Room
 
 Join us for this open-hearted open mic, where guests will be free to share songs, poems, and stories from a place of presence and vulnerability in a safe, non-judgmental space.  Our audience will be listening with compassionate ears, and have a chance to also reflect on what they heard from the shares.
 
-If you already know what you'd like to share at the open mic, email Asher at [radiantsong.asherleigh@gmail.com](mailto:radiantsong.asherleigh@gmail.com).
+If you already know what you'd like to share at the open mic, email Asher at <radiantsong.asherleigh@gmail.com>.
 
 > ![Asher Leigh](/assets/images/watm-Fri.8pm Sun.12pm (Asher Leigh).jpg "Asher Leigh")
 > {:class="facilitator-photo"}
