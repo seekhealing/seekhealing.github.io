@@ -6,6 +6,6 @@ image: /assets/images/team-headshot-alan-muskat.jpg
 order: 2
 ---
 
-Background: Entrepreneur & Innovator
+Entrepreneur & Innovator
 
 <alan@seekhealing.org>

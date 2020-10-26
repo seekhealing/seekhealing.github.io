@@ -6,6 +6,6 @@ image: /assets/images/team-headshot-jag.jpg
 order: 3
 ---
 
-Background: Technologist and Entrepreneur
+Technologist and Entrepreneur
 
 <joshua@seekhealing.org>
