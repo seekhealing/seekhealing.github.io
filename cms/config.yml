@@ -27,7 +27,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Permalink", name: "permalink", widget: "hidden", default: ""}
+      # - {label: "Permalink", name: "permalink", widget: "hidden", default: ""}
       - {label: "Title", name: "title", widget: "string"}
       - label: "Sections"
         name: "sections"
