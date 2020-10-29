@@ -331,26 +331,35 @@ collections:
       - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
       - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-events"
-    label: "Section_Events"
+  - name: "events"
+    label: "Events"
+    label_singular: "Event"
     folder: "_sections/events"
     create: true
     slug: "{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ['commit_date', 'date', 'title']
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "events"}
-      - label: "Is the event past or upcoming?"
+      - label: "What type of event is this?"
+        name: "subtype"
+        widget: "select"
+        options: ["Regular event", "Overdose and Addiction 101", "Listening Training"]
+        default: "Regular event"
+      - label: "Is this event upcoming or already past?"
         name: "timing"
         widget: "select"
-        options: ["past", "upcoming"]
-        default: "upoming"
-      - {label: "Name of Event", name: "name", widget: "string"}
-      - {label: "Event Date", name: "date", widget: "date", default: ""}
-      - {label: "Event Time", name: "time", widget: "string"}
-      - {label: "Event Location", name: "location", widget: "string"}
-      - {label: "Event Image", name: "image", widget: "image"}
+        options: ["upcoming", "past"]
+        default: "upcoming"
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title Markup", name: "name", widget: "string"}
+      - {label: "Date", name: "date", widget: "date", default: ""}
+      - {label: "Time", name: "time", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
       - {label: "Ticket Button Text", name: "ticket-btn", widget: "string", default: "Buy Tickets"}
-      - {label: "Button URL", name: "ticket-url", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Ticket Button URL", name: "ticket-url", widget: "string"}
+      - {label: "Description", name: "body", widget: "markdown"}
   - name: "section-hero"
     label: "Section_Hero"
     folder: "_sections/hero"
