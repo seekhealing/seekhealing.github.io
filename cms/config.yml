@@ -25,6 +25,7 @@ collections:
     create: true
     filter: {field: "layout", value: "page"}
     slug: "{{slug}}"
+    summary: "/{{filename}}/"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       # - {label: "Permalink", name: "permalink", widget: "hidden", default: ""}
@@ -50,10 +51,15 @@ collections:
       preview: false
     filter: {field: "layout", value: "redirect"}
     slug: "{{slug}}"
+    identifier_field: permalink
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "redirect"}
-      - {label: "Permalink", name: "permalink", widget: "hidden", default: ""}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sitemap", name: "sitemap", widget: "hidden", default: false}
+      - label: "Slug"
+        name: "permalink"
+        widget: "string"
+        pattern: ['^\/.*\/$', "Slug must begin and end with forward slashes, e.g. /2020/"]
+      - {label: "Redirect to", name: "redirect_to", widget: "string"}
   - name: "otherContent"
     label: "Miscellaneous Content"
     delete: false # Prevent users from deleting documents in this collection
