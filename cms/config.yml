@@ -273,7 +273,8 @@ collections:
       - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-double"
-    label: "Section_Double"
+    label: "Section / Double"
+    label_singular: "Double Section"
     folder: "_sections/double"
     create: true
     slug: "{{slug}}"
@@ -298,8 +299,9 @@ collections:
       - {label: "Column Grouping Name", name: "col-names", widget: "string"}
       - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "section-double-cols"
-    label: "Section_Double_Columns"
+  - name: "section-double-columns"
+    label: "Section / Double Columns"
+    label_singular: "Double Column"
     folder: "_sections/double-columns"
     create: true
     slug: "{{slug}}"
@@ -311,7 +313,8 @@ collections:
       - {label: "Is content a sticky note format?", name: "sticky-note", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-double-full"
-    label: "Section_Double_Full"
+    label: "Section / Double Full"
+    label_singular: "Double Full"
     folder: "_sections/double-full"
     create: true
     slug: "{{slug}}"
@@ -367,7 +370,8 @@ collections:
       - {label: "Ticket Button URL", name: "ticket-url", widget: "string"}
       - {label: "Description", name: "body", widget: "markdown"}
   - name: "section-hero"
-    label: "Section_Hero"
+    label: "Section / Hero"
+    label_singular: "Hero Section"
     folder: "_sections/hero"
     create: true
     slug: "{{slug}}"
@@ -394,7 +398,8 @@ collections:
   #     - {label: "Box Header", name: "header", widget: "string"}
   #     - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-parallax"
-    label: "Section_Parallax"
+    label: "Section / Parallax"
+    label_singular: "Parallax Section"
     folder: "_sections/parallax"
     create: true
     slug: "{{slug}}"
@@ -415,7 +420,8 @@ collections:
       - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-press"
-    label: "Section_Press"
+    label: "Press"
+    label_singular: "Press entry"
     folder: "_sections/press"
     create: true
     slug: "{{slug}}"
@@ -441,7 +447,8 @@ collections:
   #     - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
   #     - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-single"
-    label: "Section_Single"
+    label: "Section / Single"
+    label_singular: "Single Section"
     folder: "_sections/single"
     create: true
     slug: "{{slug}}"
@@ -482,7 +489,8 @@ collections:
         required: false
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-story"
-    label: "Section_Story"
+    label: "Section / Story"
+    label_singular: "Story Section"
     folder: "_sections/story"
     create: true
     slug: "{{slug}}"
@@ -506,10 +514,12 @@ collections:
   #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
   #     - {label: "Body", name: "body", widget: "markdown"}
   - name: "section-subnav"
-    label: "Section_Subnav"
+    label: "Section / Subnav"
+    label_singular: "Subnav Section"
     folder: "_sections/subnav"
     create: true
     slug: "{{slug}}"
+    summary: "{{nav}} — {{title}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "subnav"}
       - label: "Section Title"
