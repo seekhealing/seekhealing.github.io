@@ -4,14 +4,18 @@ title: community-service
 header: subnav-header
 ---
 
-# **Community Service Opportunities**
-{:class="subnav"}
+# **Community Service**
 
-[Volunteer Sign-up Form](https://form.jotform.com/200375804511043){:class="button button-green" target="_blank"}
+It takes all of us stepping up to support and connect with each other on the days when we’re strong, so that someone else can do it for us on the days when we’re not. It’s a balance of giving and receiving.
+
+[Today I want to help someone else](https://form.jotform.com/200375804511043){:class="button button-green" target="_blank"}
+[Today I need someone to help me](https://form.jotform.com/201945583479064){:class="button button-green" target="_blank"}
 
 <br>
 
 ## Herbal First Aid
+
+![](/assets/images/herbal-first-aid.png){:class="img-responsive" style="max-height: 33vh;"}
 
 Help assemble & create herbal first aid kits to give to individuals to ease the pain and physical symptoms of substance withdrawal and/or the anxiety and stress often associated with living in active use of certain substances. We also create kits that provide immune support for these individuals who may be more vulnerable to the Coronavirus.
 
@@ -46,6 +50,8 @@ We need volunteers to support seekers who are facing heightened physical or emot
 - **Skill Shares** are one on one opportunities to increase connection through sharing a skill or passion with each other, including volunteering together.
 - **SeekHealing Tour Guide and Welcome Party** gives new Seekers a welcome tour or direct personal connection to SeekHealing, answering questions and extending invitations to their first events.
 - **Reach Out to Check-In** with Seekers who are new to the community, or those who are isolating or facing acute challenges.
+
+[I need support like this today](https://form.jotform.com/201945583479064){:class="button button-green" target="_blank"}
 
 <br>
 

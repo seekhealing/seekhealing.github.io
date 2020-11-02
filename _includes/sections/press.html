@@ -37,6 +37,13 @@
                 <div class="press-video embed-responsive embed-responsive-16by9">
                   <iframe width="560" height="315" src="{{ resource.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
+                {% elsif resource.local-video %}
+                <div class="press-local-video embed-responsive embed-responsive-16by9">
+                  <video class="embed-responsive-item" controls poster="{% if resource.local-video-preview %}{{ resource.local-video-preview }}{% endif %}">
+                    <source src="{{ resource.local-video }}" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                  </video>
+                </div>
                 {% endif %}
               </div>
 

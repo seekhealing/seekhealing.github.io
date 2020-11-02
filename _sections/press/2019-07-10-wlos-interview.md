@@ -1,7 +1,8 @@
 ---
 type: press
 title: wlos-interview
-image: press-wlos-interview.png
+local-video: /downloads/wlos-interview-video.mp4
+local-video-preview: /assets/images/press-wlos-interview.png
 ---
 
 ## Addicted NC: SeekHealing

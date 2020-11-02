@@ -18,6 +18,8 @@ nav:
         url: /healing-hubs/
       # - title: Testimonials
       #   url: /testimonials/
+      - title: Meetings Calendar
+        url: /calendar/
     title: Heal
     url: /heal/
   - submenu:
