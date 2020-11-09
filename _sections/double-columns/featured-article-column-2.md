@@ -1,7 +1,7 @@
 ---
-type: double-col
-col-names: "featured-parts"
-order: 2
+type: double-column
+double: featured-article
+column: 2
 ---
 
 ### <span class="emphasized-header">SeekHealing In The News</span>

@@ -1,7 +1,7 @@
 ---
-type: double-col
-col-names: "listening-training-benefits-parts"
-order: 2
+type: double-column
+double: listening-training-benefits
+column: 2
 margin: no-margin
 ---
 

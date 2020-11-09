@@ -1,7 +1,7 @@
 ---
-type: double-col
-col-names: "curriculum-basis-parts"
-order: 1
+type: double-column
+double: curriculum-basis
+column: 1
 margin: no-margin
 ---
 

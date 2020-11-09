@@ -8,7 +8,7 @@
 -->
 {% endcomment %}
 
-{% assign doubles = site.sections |where:"type","double" |where:"title",include.title %}
+{% assign doubles = site.sections | where:"type","double" | where:"title",include.title %}
 
 {% for double in doubles %}
 
@@ -22,19 +22,19 @@
       </div>
       <div class="row display-flex ">
 
-        {% assign cols = site.sections |where:"type","double-col" |where:"col-names",double.col-names |sort: "order" %}
+        {% assign columns = site.sections | where:"type","double-column" | where:"double",double.title | sort: "column" %}
 
-        {% for col in cols %}
+        {% for column in columns %}
 
-          <div class="col-sm-6 col-xs-12 double{% if col.center %} text-center{% endif %}{% if col.margin == "no-margin" %} no-margin{% endif %}{% if col.align-center %} align-center{% endif %}{% if forloop.index == 1 %} first-flex-item{% endif %}">
+          <div class="col-sm-6 col-xs-12 double{% if column.center %} text-center{% endif %}{% if column.margin == "no-margin" %} no-margin{% endif %}{% if column.align-center %} align-center{% endif %}{% if forloop.index == 1 %} first-flex-item{% endif %}">
 
-          {% if col.sticky-note %}
+          {% if column.sticky-note %}
             <div class="sticky-note">
           {% endif %}
 
-              {{ col.content | markdownify }}
+              {{ column.content | markdownify }}
 
-          {% if col.sticky-note %}
+          {% if column.sticky-note %}
             </div>
           {% endif %}
 

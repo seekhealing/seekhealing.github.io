@@ -1,7 +1,6 @@
 ---
 type: double-flex
 title: gabor-quote
-col-width: "wide"
-col-names: "gabor-parts"
+col-width: wide
 section-bottom-border: true
 ---

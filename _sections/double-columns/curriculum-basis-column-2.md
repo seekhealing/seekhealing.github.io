@@ -1,7 +1,7 @@
 ---
-type: double-col
-col-names: "curriculum-basis-parts"
-order: 2
+type: double-column
+double: curriculum-basis
+column: 2
 ---
 
 ![](/assets/images/listening-training/mindfulness-practices-icon.png){:style="height: 48px; margin: 20px;" class="img-responsive"}Mindfulness Practices

@@ -1,7 +1,7 @@
 ---
-type: double-col
-col-names: "sponsor-parts"
-order: 2
+type: double-column
+double: possible-sponsors
+column: 2
 center: true
 margin: no-margin
 ---

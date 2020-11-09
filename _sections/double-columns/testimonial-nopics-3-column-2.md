@@ -1,7 +1,7 @@
 ---
-type: double-col
-col-names: "nopics3-test-parts"
-order: 2
+type: double-column
+double: testimonial-nopics-3
+column: 2
 ---
 
 {:class="size-16"}

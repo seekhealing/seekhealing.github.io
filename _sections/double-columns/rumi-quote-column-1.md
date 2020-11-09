@@ -1,9 +1,9 @@
 ---
-type: double-col
-col-names: "rumi-parts"
+type: double-column
+double: rumi-quote
 margin: no-margin
 align-center: true
-order: 2
+column: 2
 ---
 
 ![Owl Friends](/assets/images/owl-family.png){:class="img-responsive"}
