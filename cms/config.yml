@@ -33,12 +33,13 @@ collections:
       - label: "Sections"
         name: "sections"
         widget: "list"
+        summary: '{{fields.type}}: {{fields.title}}'
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - label: "Type"
             name: "type"
             widget: "select"
-            options: ["article", "citation", "connect", "connection-agent-form", "directors", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "press", "resource", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
+            options: ["article", "citation", "connect", "connection-agent-form", "directors", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "press", "resources", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
       # - {label: "Transparent Header?", name: "transparent-header", widget: "boolean", default: false}
       # - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "redirects"
