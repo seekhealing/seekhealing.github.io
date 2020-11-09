@@ -278,38 +278,37 @@ collections:
     label_singular: "Double Section"
     folder: "_sections/double"
     create: true
-    slug: "{{slug}}"
+    slug: "{{title}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "double"}
       - label: "Title"
         name: "title"
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - label: "Header Type"
-        name: "header"
-        widget: "select"
-        options: ["regular", "subnav-header"]
-        default: "regular"
-        required: false
-      - label: "Column Width"
+      - label: "Width"
         name: "col-width"
         widget: "select"
         options: ["regular", "sticky", "thin", "wide"]
         default: "regular"
         required: false
-      - {label: "Column Grouping Name", name: "col-names", widget: "string"}
-      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Padding"
+        name: "padding"
+        widget: "select"
+        options: ["no-padding", "no-top-padding", "no-bot-padding"]
+        required: false
+      - {label: "White Background?", name: "white-bg", widget: "boolean", default: false, required: false}
+      - {label: "Bottom Border?", name: "section-bottom-border", widget: "boolean", default: false, required: false}
   - name: "section-double-columns"
     label: "Section / Double Columns"
     label_singular: "Double Column"
     folder: "_sections/double-columns"
     create: true
-    slug: "{{slug}}"
+    slug: "{{double}}-column-{{column}}"
+    summary: "{{double}} {{column}}"
     fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "double-col"}
-      - {label: "Column Grouping Name", name: "col-names", widget: "string"}
-      - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: 1}
+      - {label: "Type", name: "type", widget: "hidden", default: "double-column"}
+      - {label: "Double", name: "double", widget: "string"}
+      - {label: "Column", name: "column", widget: "number", valueType: "int", min: 1}
       - {label: "Center Column Content?", name: "center", widget: "boolean", default: false, required: false}
       - {label: "Is content a sticky note format?", name: "sticky-note", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
