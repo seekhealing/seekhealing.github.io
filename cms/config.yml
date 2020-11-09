@@ -17,7 +17,7 @@ collections:
   #   fields:
   #     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
   #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "pages"
     label: "Pages"
     label_singular: "Page"
@@ -41,7 +41,7 @@ collections:
             widget: "select"
             options: ["article", "citation", "connect", "connection-agent-form", "directors", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "press", "resources", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
       # - {label: "Transparent Header?", name: "transparent-header", widget: "boolean", default: false}
-      # - {label: "Body", name: "body", widget: "markdown", required: false}
+      # - {label: "Body", name: "body", widget: "markdown", modes: ["raw"], required: false}
   - name: "redirects"
     label: "Redirects"
     label_singular: "Redirect"
@@ -237,7 +237,7 @@ collections:
   #     - {label: "Author's Job Title", name: "author-title", widget: "string"}
   #     - {label: "Author's Picture", name: "author-img", widget: "image"}
   #     - {label: "Author Sub-header", name: "author-subheader", widget: "string", required: false}
-  #     - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-citation"
   #   label: "Section_Citation"
   #   folder: "_sections/citation"
@@ -272,7 +272,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Picture", name: "image", widget: "image"}
       - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-double"
     label: "Section / Double"
     label_singular: "Double Section"
@@ -311,7 +311,7 @@ collections:
       - {label: "Column", name: "column", widget: "number", valueType: "int", min: 1}
       - {label: "Center Column Content?", name: "center", widget: "boolean", default: false, required: false}
       - {label: "Is content a sticky note format?", name: "sticky-note", widget: "boolean", default: false, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-double-full"
     label: "Section / Double Full"
     label_singular: "Double Full"
@@ -339,7 +339,7 @@ collections:
         default: "left"
       - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
       - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "events"
     label: "Events"
     label_singular: "Event"
@@ -368,7 +368,7 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Ticket Button Text", name: "ticket-btn", widget: "string", default: "Buy Tickets"}
       - {label: "Ticket Button URL", name: "ticket-url", widget: "string"}
-      - {label: "Description", name: "body", widget: "markdown"}
+      - {label: "Description", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-hero"
     label: "Section / Hero"
     label_singular: "Hero Section"
@@ -383,7 +383,7 @@ collections:
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
       - {label: "Background Image", name: "background", widget: "image", default: "/assets/images/home-bkgrnd.jpg"}
       - {label: "Video URL", name: "video", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-message-box"
   #   label: "Section_Message_Box"
   #   folder: "_sections/message-box"
@@ -396,7 +396,7 @@ collections:
   #       widget: "string"
   #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
   #     - {label: "Box Header", name: "header", widget: "string"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-parallax"
     label: "Section / Parallax"
     label_singular: "Parallax Section"
@@ -418,7 +418,7 @@ collections:
       - {label: "Background Image", name: "bg-img", widget: "image"}
       - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
       - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-press"
     label: "Press"
     label_singular: "Press entry"
@@ -432,7 +432,7 @@ collections:
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
       - {label: "Link Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-resources"
   #   label: "Section_Resources"
   #   folder: "_sections/resources"
@@ -445,7 +445,7 @@ collections:
   #       widget: "string"
   #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
   #     - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
-  #     - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-single"
     label: "Section / Single"
     label_singular: "Single Section"
@@ -487,7 +487,7 @@ collections:
         widget: "boolean"
         default: "false"
         required: false
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-story"
     label: "Section / Story"
     label_singular: "Story Section"
@@ -500,7 +500,7 @@ collections:
         name: "title"
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-stripe"
   #   label: "Section_Stripe"
   #   folder: "_sections/stripe"
@@ -512,7 +512,7 @@ collections:
   #       name: "title"
   #       widget: "string"
   #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-  #     - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-subnav"
     label: "Section / Subnav"
     label_singular: "Subnav Section"
@@ -533,7 +533,7 @@ collections:
       - {label: "Subnav Link", name: "link", widget: "string"}
       - {label: "Link Image", name: "image", widget: "image"}
       - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "team"
     label: "Team"
     label_singular: "Team Member"
@@ -547,7 +547,7 @@ collections:
       - {label: "Job Title", name: "title", widget: "string"}
       - {label: "Picture", name: "image", widget: "image"}
       - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-triple"
   #   label: "Section_Triple"
   #   folder: "_sections/triple"
@@ -572,7 +572,7 @@ collections:
   #       default: "regular"
   #       required: false
   #     - {label: "Column Grouping Name", name: "col-names", widget: "string"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-triple-cols"
   #   label: "Section_Triple_Columns"
   #   folder: "_sections/triple-columns"
@@ -582,4 +582,4 @@ collections:
   #     - {label: "Type", name: "type", widget: "hidden", default: "triple-col"}
   #     - {label: "Column Grouping Name", name: "col-names", widget: "string"}
   #     - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: 1}
-  #     - {label: "Body", name: "body", widget: "markdown"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
