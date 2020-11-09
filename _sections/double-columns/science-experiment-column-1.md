@@ -1,7 +1,7 @@
 ---
-type: double-col
-col-names: "science-experiment-parts"
-order: 1
+type: double-column
+double: science-experiment
+column: 1
 ---
 
 There's a classic experiment repeated time and time again where the scientist will put a rat in a cage with two options for drinking water: one clean and pure, one laced with heroin or other opiates. Time and time again, without fail, the rat will choose the drugged water and drink it until it dies.
