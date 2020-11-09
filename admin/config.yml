@@ -1,8 +1,8 @@
 backend:
   name: github
   repo: shinedesigns/seekhealing.github.io
-  branch: cms
-  site_domain: cms.netlify.com # cms.seekhealing.shinedesigns.dev
+  branch: cms-beta
+  site_domain: cms-beta.seekhealing.shinedesigns.dev
 publish_mode: editorial_workflow
 media_folder: "/assets/images"
 editor:
@@ -31,6 +31,7 @@ collections:
       # - {label: "Permalink", name: "permalink", widget: "hidden", default: ""}
       - {label: "Title", name: "title", widget: "string"}
       - label: "Sections"
+        label_singular: "Section"
         name: "sections"
         widget: "list"
         summary: '{{fields.type}}: {{fields.title}}'
