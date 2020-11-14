@@ -2,7 +2,7 @@ header: 'Contact us'
 box-content:
   - city: Asheville
     state: NC
-    email: megan@seekhealing.org
+    email: conversations@seekhealing.org
     icon-class: "fas fa-map-marker-alt"
   - city: US Virgin Islands
     email: rachel@seekhealing.org
