@@ -5,6 +5,6 @@ box-content:
     icon-class: "fas fa-map-marker-alt"
   - heading: Listening Line
     secondary-heading: '<a href="tel:828-547-0222">(828) 547-0222</a>'
-    content: "Call or text any time to connect with another seeker. No therapy, no advice — just connection."
+    content: "Call or text any time to connect with another seeker.<br>No therapy, no advice — just connection."
     icon-class: "fas fa-phone"
 connect-header: '<span class="emphasized-header">Connect</span> With <span class="emphasized-header">Us</span>'
