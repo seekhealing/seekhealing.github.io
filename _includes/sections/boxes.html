@@ -52,8 +52,12 @@
 
               <h2>&#8203;</h2>
 
-              {% if box.content %}<p>{{ box.content }}</p>{% endif %}
-              
+              {% if box.address %}
+                <address>{{ box.address }}</address>
+              {% elsif box.content %}
+                <p>{{ box.content }}</p>
+              {% endif %}
+
             {% else %}
               <h2>{{ box.header }}</h2>
               <p class="small"> {{ box.content }}</p>

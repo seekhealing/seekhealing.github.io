@@ -1,10 +1,10 @@
 header: 'Contact us'
 box-content:
   - heading: Address
-    content: "50 S. French Broad Ave, #300<br>Asheville, NC, 28801"
+    address: '50 S. French Broad Ave, #300<br>Asheville, NC, 28801'
     icon-class: "fas fa-map-marker-alt"
   - heading: Listening Line
-    secondary-heading: (828) 547-0222
+    secondary-heading: '<a href="tel:828-547-0222">(828) 547-0222</a>'
     content: "Call or text any time to connect with another seeker. No therapy, no advice — just connection."
     icon-class: "fas fa-phone"
 connect-header: '<span class="emphasized-header">Connect</span> With <span class="emphasized-header">Us</span>'
