@@ -1,9 +1,6 @@
 ---
-layout: page
-title: Volunteer
-sections:
-  - type: "single"
-    title: "general-volunteer"
-  - type: "general-volunteering-form"
-    title: "General Volunteer"
+layout: redirect
+sitemap: false
+permalink: /volunteer/
+redirect_to: https://form.jotform.com/200375804511043
 ---
