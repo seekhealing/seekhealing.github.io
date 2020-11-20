@@ -1,11 +1,11 @@
-{% comment %} 
+{% comment %}
 <!--
   Boxes Section
 
   This partial is included on any page that has a 3 column feature box layout.
   Currently used on the Donate & contact page.
-  
---> 
+
+-->
 {% endcomment %}
 
 {% assign data_cat = include.title %}
@@ -21,16 +21,20 @@
         <h1>{{ boxes.header }}</h1>
       {% endif %}
       {% if data_cat == 'contact' %}
-        <div class="row">
+        <div class="row" style="margin: 0px;">
           <div class="col-xs-12 col-md-4 col-md-offset-4">
             <div class="location-box">
-            <h2>General Questions</h2>
-            <p><a href="mailto:info@seekhealing.org">info@seekhealing.org</a></p>
+              <div class="icon">
+                <a href="#"><i class="fas fa-question"></i></a>
+              </div>
+              <h2>General Questions</h2>
+              <h2>&#8203;</h2>
+              <p><a href="mailto:conversations@seekhealing.org">conversations@seekhealing.org</a></p>
             </div>
           </div>
         </div>
       {% endif %}
-        <div class="row">
+        <div class="row" style="margin: 0px;">
         {% for box in boxes.box-content %}
 
         <div class="col-sm-6 bottommargin">
@@ -39,8 +43,21 @@
               <a href="#"><i class="{{ box.icon-class }}"></i></a>
             </div>
             {% if include.title == 'contact' %}
-              <h2>{{ box.city }}{% if box.state %}, {{ box.state }}{% endif %}</h2>
-              <p><a href="mailto:{{ box.email }}">{{ box.email }}</a></p>
+
+              {% if box.secondary-heading %}
+                <h2>{{ box.heading }} — {{ box.secondary-heading }}</h2>
+              {% elsif box.heading %}
+                <h2>{{ box.heading }}</h2>
+              {% endif %}
+
+              <h2>&#8203;</h2>
+
+              {% if box.address %}
+                <address>{{ box.address }}</address>
+              {% elsif box.content %}
+                <p>{{ box.content }}</p>
+              {% endif %}
+
             {% else %}
               <h2>{{ box.header }}</h2>
               <p class="small"> {{ box.content }}</p>
