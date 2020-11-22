@@ -2,6 +2,7 @@
 type: press
 title: mental-health-news-radio
 image: press-mental-health-news-radio.jpg
+date: 2020-01-06
 ---
 
 ## The Opposite of Addiction is Connection -- from Mental Health News Radio

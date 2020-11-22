@@ -2,6 +2,7 @@
 type: press
 title: wlos-interview
 image: press-wwnc-570-radio.jpg
+date: 2019-08-25
 ---
 
 ## Overdose Awareness Day 2019 on News Radio 570 WWNC

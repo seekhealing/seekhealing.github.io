@@ -2,6 +2,7 @@
 type: press
 title: quartz-article
 image: press-radical-approach-addiction.jpg
+date: 2029-09-19
 # actual_date: 2019-09-19
 ---
 
