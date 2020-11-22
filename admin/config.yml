@@ -425,14 +425,21 @@ collections:
     label_singular: "Press entry"
     folder: "_sections/press"
     create: true
-    slug: "{{slug}}"
+    slug: "{{date}}-{{title}}"
+    summary: "{{date}} — {{title}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "message-box"}
       - label: "Title"
         name: "title"
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - {label: "Link Image", name: "image", widget: "image"}
+      - label: 'Date'
+        name: 'date'
+        widget: 'date'
+        # default: ''
+        format: 'YYYY-MM-DD'
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Featured Video (embed URL)", name: "video", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-resources"
   #   label: "Section_Resources"
