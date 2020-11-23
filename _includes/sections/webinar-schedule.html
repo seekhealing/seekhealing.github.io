@@ -52,8 +52,28 @@
                     {% endif %}
                   </div>
 
+                  {% if event.facilitator %}
+                    {% assign facilitators = event.facilitator %}
+                  {% else %}
+                    {% if event.facilitators.size == 1 %}
+                      {% assign facilitators = event.facilitators[0].name %}
+                    {% elsif event.facilitators.size == 2 %}
+                      {% assign facilitators = event.facilitators[0].name | append: " and " | append: event.facilitators[1].name %}
+                    {% else %}
+                      {% for facilitator in event.facilitators %}
+                        {% if forloop.first %}
+                          {% assign facilitators = facilitator.name %}
+                        {% elsif forloop.last %}
+                          {% assign facilitators = facilitators | append: ", and " | append: facilitator.name %}
+                        {% else %}
+                          {% assign facilitators = facilitators | append: ", " | append: facilitator.name %}
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                  {% endif %}
+
                   <h3>{{ event.name }}</h3>
-                  <h4><span class="emphasized-header">{{ event.facilitator }}</span></h4>
+                  <h4><span class="emphasized-header">{{ facilitators }}</span></h4>
 
                   <blockquote class="event-timing">
                   {% assign today_date = "today" | date: "%Y-%m-%d" %}
@@ -111,7 +131,7 @@
                       </div>
 
                       <h3 class="event-name">{{ event.name }}</h3>
-                      <h4><span class="emphasized-header">{{ event.facilitator }}</span></h4>
+                      <h4><span class="emphasized-header">{{ facilitators }}</span></h4>
 
                       <blockquote class="event-timing">
                         <h3 class="event-meta">

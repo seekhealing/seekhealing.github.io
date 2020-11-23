@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: connection-practice-meeting
 name: Connection Practice Meeting
-facilitator: Michelle Kelly
 facilitators:
   - name: Michelle Kelly
     photo: /assets/images/watm-Fri.5pm (Michelle_Kelly).jpg

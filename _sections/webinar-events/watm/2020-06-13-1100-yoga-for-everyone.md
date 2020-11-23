@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: yoga-for-everyone
 name: Yoga For Everyone
-facilitator: Sheri Kay
 facilitators:
   - name: Sheri Kay
     photo: /assets/images/watm-Sat.11am (Sheri Kay).jpg

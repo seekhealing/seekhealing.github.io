@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: authentic-relating-with-cathy-courtenay
 name: Authentic Relating with Cathy Courtenay
-facilitator: Cathy Courtenay
 facilitators:
   - name: Cathy Courtenay
     photo: /assets/images/watm-Sat.1pm (Cathy Courtenay).jpg

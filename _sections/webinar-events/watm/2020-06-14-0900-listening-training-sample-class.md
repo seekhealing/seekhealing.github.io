@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: listening-training-sample-class
 name: Listening Training Sample Class
-facilitator: Ionsul Ferrin
 facilitators:
   - name: Ionsul Ferrin
     photo: /assets/images/watm-Sun.9am (Ionsul Ferrin).jpg

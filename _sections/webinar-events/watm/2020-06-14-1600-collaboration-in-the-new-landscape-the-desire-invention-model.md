@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: collaboration-in-the-new-landscape-the-desire-invention-model
 name: "Collaboration in the New Landscape: the Desire-Invention Model"
-facilitator: Maureen McCarthy and Zelle Nelson
 facilitators:
   - name: Maureen McCarthy and Zelle Nelson
     photo: /assets/images/watm-Sun.4pm (Maureen_zelle).jpg

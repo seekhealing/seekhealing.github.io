@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: freedom-is-within-a-meditation
 name: "Freedom is Within: A Meditation"
-facilitator: Gus Saldana
 facilitators:
   - name: Gus Saldana
     photo: /assets/images/watm-Sat.9am Sun.9am (Gus Saldana).jpg

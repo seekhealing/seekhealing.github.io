@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: addiction-and-relationships
 name: Addiction and Relationships
-facilitator: Dr. Anita Gadhia-Smith and Dr. Ron Smith
 facilitators:
   - name: Dr. Anita Gadhia-Smith
     photo: /assets/images/watm-Fri.7pm (Dr Anita Gadhia-Smith).jpg

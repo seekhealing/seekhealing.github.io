@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: teaching-the-change-triangle-a-tool-to-build-emotional-health-and-connection-to-your-authentic-self
 name: "Teaching The Change Triangle: A Tool to Build Emotional Health and Connection to Your Authentic Self"
-facilitator: Hilary Jacobs Hendel and Jennifer Nicolaisen
 facilitators:
   - name: Hilary Jacobs Hendel
     photo: /assets/images/watm-Sun.6pm (Hilary Jacobs).jpg

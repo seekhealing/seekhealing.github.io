@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: healing-loneliness-and-avoidant-attachment
 name: Healing Loneliness and Avoidant Attachment
-facilitator: Sarah Peyton
 facilitators:
   - name: Sarah Peyton
     photo: /assets/images/watm-Fri.6pm Sat.9pm (Sarah Peyton).jpg

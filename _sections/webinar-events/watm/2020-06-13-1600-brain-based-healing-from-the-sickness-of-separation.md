@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: brain-based-healing-from-the-sickness-of-separation
 name: Brain-Based Healing from the Sickness of Separation
-facilitator: Dr. Rachel Wurzman
 facilitators:
   - name: Dr. Rachel Wurzman
     photo: /assets/images/team-headshot-rachel.jpg

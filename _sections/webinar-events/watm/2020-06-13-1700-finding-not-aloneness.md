@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: finding-not-aloneness
 name: Finding Not-Aloneness and Authentic Relating
-facilitator: Sara Ness
 facilitators:
   - name: Sara Ness
     photo: /assets/images/watm-Sat.5pm Sat.6pm (Sara Ness).jpg

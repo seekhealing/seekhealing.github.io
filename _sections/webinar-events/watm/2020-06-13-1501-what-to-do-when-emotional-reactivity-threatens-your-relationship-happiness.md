@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: what-to-do-when-emotional-reactivity-threatens-your-relationship-happiness
 name: What to Do When Emotional Reactivity Threatens Your Relationship Happiness
-facilitator: Susan Campbell
 facilitators:
   - name: Susan Campbell
     bio: |

@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: destigmatizing-drug-use-in-service-of-connection
 name: Destigmatizing Drug Use in Service of Connection
-facilitator: "Maegen Coral, Alexia Locklear, Joshua Ginsberg, and Thomas Cospito"
 facilitators:
   - name: Jennifer Nicolaisen
     photo: /assets/images/watm-Sat.3pm (Jennifer Nicolaisen).jpg
@@ -17,7 +16,7 @@ facilitators:
     photo: /assets/images/watm-Sat.3pm (Thomas Cospito).jpg
     bio: |
       Thomas Cospito serves as the Harm Reduction Services Coordinator for WNCAP. Born and raised in New Jersey, he moved to western North Carolina looking for a change. After spending almost a decade in operations and production management Thomas decided to step away from the corporate world and focus on attempting to do some good. Under Thomas' stewardship, WNCAP's Harm Reduction program has grown exponentially to serve move than 1,000 people, stigma-free, person-centered services every month. As an advocate for community-based Harm Reduction, Thomas is working to expand syringe services across WNC through community outreach and collaboration. Thomas now makes his home in the beautiful town of Waynesville.
-  - name: Maegen Coral & Alexia Locklear
+  - name: Maegen Coral & Alexia Locklear of Harmonia
     photo: /assets/images/watm-Sat.3pm (Harmonia).jpg
     bio: |
       Maegen Coral and Alexia Locklear are co-founders of Harmonia. Harmonia developed to address a major issue within the festival community that has gone unresolved for far too long: the need for a safe decompression space for individuals undergoing difficult emotional experiences. Harmonia provides harm reduction services via our Decompression Lounge to East Coast and Midwest events and music festivals.

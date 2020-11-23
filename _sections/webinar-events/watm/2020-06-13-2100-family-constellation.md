@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: family-constellation
 name: Family Constellation
-facilitator: Sarah Peyton
 facilitators:
   - name: Sarah Peyton
     photo: /assets/images/watm-Fri.6pm Sat.9pm (Sarah Peyton).jpg

@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: saturday-night-dance-party
 name: Saturday Night Dance Party
-facilitator: Captain EZ - The Vibe Conductor
 facilitators:
   - name: Captain EZ - The Vibe Conductor
     bio: |

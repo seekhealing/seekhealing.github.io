@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: authentic-relating-with-mark-boughton
 name: Authentic Relating Games with Mark Boughton
-facilitator: Mark Boughton
 facilitators:
   - name: Mark Boughton
     photo: /assets/images/watm-Sun.5pm (Mark Boughton).jpg

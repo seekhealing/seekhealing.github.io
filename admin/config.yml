@@ -593,7 +593,7 @@ collections:
   #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "watm-events"
     label: "WATM Events"
-    label_singular: "WATM Events"
+    label_singular: "WATM Event"
     folder: "_sections/webinar-events/watm"
     create: true
     slug: "{{date}}-{{start-time}}-{{title}}"
@@ -604,7 +604,7 @@ collections:
       - {label: "Webinar", name: "webinar", widget: "hidden", default: "watmf"}
       - {label: "Title", name: "title", widget: "hidden", default: {{slug}} }
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
+      # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
       - label: "Facilitators"
         label_singular: "Facilitator"
         name: "facilitators"
@@ -638,5 +638,5 @@ collections:
         format: "LT"
         picker_utc: false
       - {label: "Zoom Link", name: "link", widget: "string"}
-      - {label: "Event Summary", name: "tagline", widget: "string", required: false}
-      - {label: "Event Description & Facilitator Bio", name: "body", widget: "markdown", modes: ["raw"]}
+      - {label: "Event Summary", name: "tagline", widget: "text", required: false}
+      - {label: "Event Description", name: "body", widget: "markdown", modes: ["raw"]}

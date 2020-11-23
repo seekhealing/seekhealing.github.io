@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: multi-instrument-sound-healing
 name: Multi-instrument Sound Healing
-facilitator: Billy Zanski
 facilitators:
   - name: Billy Zanski
     bio: |

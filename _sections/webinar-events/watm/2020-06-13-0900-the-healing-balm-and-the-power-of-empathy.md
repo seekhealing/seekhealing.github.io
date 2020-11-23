@@ -3,7 +3,6 @@ type: webinar-event
 webinar: watm
 title: the-healing-balm-and-the-power-of-empathy
 name: "The Healing Balm & The Power of Empathy"
-facilitator: Nancy Swift and Paige Zarganis
 facilitators:
   - name: Nancy Swift
     bio: |
