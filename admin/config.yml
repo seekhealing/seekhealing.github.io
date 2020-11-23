@@ -263,6 +263,8 @@ collections:
     label: "Leadership"
     folder: "_sections/directors"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "team"}
@@ -304,6 +306,8 @@ collections:
     label_singular: "Double Column"
     folder: "_sections/double-columns"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{double}}-column-{{column}}"
     summary: "{{double}} {{column}}"
     fields:
@@ -318,6 +322,8 @@ collections:
     label_singular: "Double Full"
     folder: "_sections/double-full"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "double-full"}
@@ -346,6 +352,8 @@ collections:
     label_singular: "Event"
     folder: "_sections/events"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{slug}}"
     summary: "{{date}} — {{title}}"
     sortable_fields: ['commit_date', 'date', 'title']
@@ -375,6 +383,8 @@ collections:
     label_singular: "Hero Section"
     folder: "_sections/hero"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "hero"}
@@ -403,6 +413,8 @@ collections:
     label_singular: "Parallax Section"
     folder: "_sections/parallax"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "parallax"}
@@ -425,6 +437,8 @@ collections:
     label_singular: "Press entry"
     folder: "_sections/press"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{date}}-{{title}}"
     summary: "{{date}} — {{title}}"
     fields:
@@ -459,6 +473,8 @@ collections:
     label_singular: "Single Section"
     folder: "_sections/single"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "single"}
@@ -501,6 +517,8 @@ collections:
     label_singular: "Story Section"
     folder: "_sections/story"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "story"}
@@ -526,6 +544,8 @@ collections:
     label_singular: "Subnav Section"
     folder: "_sections/subnav"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{slug}}"
     summary: "{{nav}} — {{title}}"
     fields:
@@ -547,6 +567,8 @@ collections:
     label_singular: "Team Member"
     folder: "_sections/team"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "team"}
@@ -596,6 +618,8 @@ collections:
     label_singular: "WATM Event"
     folder: "_sections/webinar-events/watm"
     create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n"]
     slug: "{{date}}-{{start-time}}-{{title}}"
     summary: "{{date}}-{{start-time}}-{{title}}"
     sortable_fields: ['commit_date', 'date', 'title']
