@@ -1,5 +1,5 @@
 ---
-type: festival-schedule
+type: webinar-schedule
 title: watm-schedule
 days: 3
 dates:

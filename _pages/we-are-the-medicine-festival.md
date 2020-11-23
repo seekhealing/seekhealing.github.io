@@ -11,7 +11,7 @@ sections:
     title: "watm-landing"
   - type: "partners"
     title: "watm-sponsors"
-  - type: "festival-schedule"
+  - type: "webinar-schedule"
     title: "watm-schedule"
   - type: "single"
     title: "design-credit"

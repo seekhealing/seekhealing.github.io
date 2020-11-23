@@ -1,12 +1,12 @@
 {% comment %}
 <!--
-  Schedule Section
+  Webinar Schedule Section
 
-  This partial is in use on the WATM Festival page.
+  This partial is in use on the WATMF and OBT pages.
 -->
 {% endcomment %}
 
-{% assign schedules = site.sections | where:"type","festival-schedule" | where:"title",include.title %}
+{% assign schedules = site.sections | where:"type","webinar-schedule" | where:"title",include.title %}
 
 {% for schedule in schedules %}
 
