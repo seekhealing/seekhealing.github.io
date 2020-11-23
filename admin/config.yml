@@ -570,6 +570,8 @@ collections:
     format: yaml-frontmatter
     frontmatter_delimiter: ["---", "---\n"]
     slug: "{{slug}}"
+    summary: "{{order}}. {{name}}"
+    sortable_fields: ['commit_date', 'date', 'name', 'order']
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "team"}
       - {label: "Category", name: "category", widget: "hidden", default: "Team"}
