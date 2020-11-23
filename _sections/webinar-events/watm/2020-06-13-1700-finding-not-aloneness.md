@@ -4,6 +4,13 @@ webinar: watm
 title: finding-not-aloneness
 name: Finding Not-Aloneness and Authentic Relating
 facilitator: Sara Ness
+facilitators:
+  - name: Sara Ness
+    photo: /assets/images/watm-Sat.5pm Sat.6pm (Sara Ness).jpg
+    bio: |
+      Sara Ness is an instigator of authenticity, ninja of connection, and awkward turtle of social situations. She has worked with thousands of leaders and groups across the world, from educators to executives, to explore our creative potential through better relating. Sara is the Founder and Chief Catalyst at Authentic Revolution, a consulting and training company for connection and leadership skills. In her time off (and on), she is involved in Austin's acroyoga, dance, and staying-indoors-to-read scenes.
+    link: https://www.authrev.org
+    link-text: www.authrev.org
 event-type: interactive
 day: 2
 date: '2020-06-13'
@@ -24,14 +31,3 @@ I’ll talk about different types of connection, different games to play, findin
 Even for those who thrive socially, this time may be interesting in helping you understand why you thrive, and how you can create spaces for others’ comfort as well.
 
 I don’t have connection solved. But, I look forward to sharing my explorations so far, and exploring together into yours.
-
-> ![Sara Ness](/assets/images/watm-Sat.5pm Sat.6pm (Sara Ness).jpg "Sara Ness")
-> {:class="facilitator-photo"}
->
-> > Sara Ness is an instigator of authenticity, ninja of connection, and awkward turtle of social situations. She has worked with thousands of leaders and groups across the world, from educators to executives, to explore our creative potential through better relating. Sara is the Founder and Chief Catalyst at Authentic Revolution, a consulting and training company for connection and leadership skills. In her time off (and on), she is involved in Austin's acroyoga, dance, and staying-indoors-to-read scenes.
-> > {:class="facilitator-bio"}
-> >
-> > [www.authrev.org](https://www.authrev.org){:target="_blank"}
-> > {:class="facilitator-link"}
-> {:class="facilitator-text"}
-{:class="facilitator-section"}
