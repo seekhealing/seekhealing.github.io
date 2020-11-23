@@ -591,3 +591,45 @@ collections:
   #     - {label: "Column Grouping Name", name: "col-names", widget: "string"}
   #     - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: 1}
   #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "watm-events"
+    label: "WATM Events"
+    label_singular: "WATM Events"
+    folder: "_sections/webinar-events/watm"
+    create: true
+    slug: "{{date}}-{{start-time}}-{{title}}"
+    summary: "{{date}}-{{start-time}}-{{title}}"
+    sortable_fields: ['commit_date', 'date', 'title']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
+      - {label: "Webinar", name: "webinar", widget: "hidden", default: "watmf"}
+      - {label: "Title", name: "title", widget: "hidden", default: {{slug}} }
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
+      - label: "Event Subtype"
+        name: "event-type"
+        widget: "select"
+        options: ["presentation", "interactive", "music", "interview"]
+      - {label: "Day", name: "day", widget: "number", valueType: "int", min: 1, max: 3}
+      - label: 'Date'
+        name: 'date'
+        widget: 'date'
+        format: 'YYYY-MM-DD'
+      - label: "Start Time"
+        name: "start-time"
+        widget: "datetime"
+        default: ""
+        date_format: "" # none
+        time_format: "HH:mm" # e.g. 21:07
+        format: "LT"
+        picker_utc: false
+      - label: "End Time"
+        name: "end-time"
+        widget: "datetime"
+        default: ""
+        date_format: "" # none
+        time_format: "HH:mm" # e.g. 21:07
+        format: "LT"
+        picker_utc: false
+      - {label: "Zoom Link", name: "link", widget: "string"}
+      - {label: "Event Summary", name: "tagline", widget: "string", required: false}
+      - {label: "Event Description & Facilitator Bio", name: "body", widget: "markdown", modes: ["raw"]}
