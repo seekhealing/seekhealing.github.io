@@ -1,0 +1,20 @@
+<div id="obt-eventbrite-widget">
+  <noscript><a href="https://www.eventbrite.com/e/one-big-table-tickets-123373442287" rel="noopener noreferrer" target="_blank"></noscript>
+  <button id="eventbrite-widget-modal-trigger-123373442287" type="button" class="button">Register</button>
+  <noscript></a>Buy Tickets on Eventbrite</noscript>
+
+  <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+  <script type="text/javascript">
+    var exampleCallback = function() {
+      console.log('Order complete!');
+      location.href = "#";
+    };
+    window.EBWidgets.createWidget({
+      widgetType: 'checkout',
+      eventId: '123373442287',
+      modal: true,
+      modalTriggerElementId: 'eventbrite-widget-modal-trigger-123373442287',
+      onOrderComplete: exampleCallback
+    });
+  </script>
+</div>
