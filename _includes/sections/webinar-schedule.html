@@ -24,7 +24,7 @@
 
       {% for day in (1..schedule.days) %}
 
-        {% assign events = site.sections | where:"type","watm-event" | where:"day",day | sort: "start-time" %}
+        {% assign events = site.sections | where:"type","webinar-event" | where:"webinar",schedule.webinar | where:"day",day | sort: "start-time" %}
 
         <div class="col-sm-4 col-xs-12">
           <div class="day-of-events">

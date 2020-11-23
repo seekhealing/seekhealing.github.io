@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: hear-me-open-hearted-open-mic
 name: "Hear Me: Open-Hearted Open Mic"
 facilitator: Asher Leigh

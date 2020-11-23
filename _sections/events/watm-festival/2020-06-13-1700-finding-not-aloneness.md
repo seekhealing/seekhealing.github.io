@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: finding-not-aloneness
 name: Finding Not-Aloneness and Authentic Relating
 facilitator: Sara Ness

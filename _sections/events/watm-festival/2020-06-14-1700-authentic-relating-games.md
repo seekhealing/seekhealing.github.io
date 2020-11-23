@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: authentic-relating-with-mark-boughton
 name: Authentic Relating Games with Mark Boughton
 facilitator: Mark Boughton

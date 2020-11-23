@@ -1,5 +1,6 @@
 ---
 type: webinar-schedule
+webinar: watmf
 title: watm-schedule
 days: 3
 dates:

@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: euphorma-meditation
 name: Euphorma Meditation
 facilitator: Gus Saldana

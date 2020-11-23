@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: deep-listening-with-focusing
 name: Deep Listening with Focusing
 facilitator: Abby Wen Wu and Zach Valenti

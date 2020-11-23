@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: bringing-connection-to-prisons
 name: Bringing Connection to Prisons
 facilitator: Laurie Lazar and Dustin Gust, Authentic Relating International

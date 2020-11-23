@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: authentic-relating-with-cathy-courtenay
 name: Authentic Relating with Cathy Courtenay
 facilitator: Cathy Courtenay

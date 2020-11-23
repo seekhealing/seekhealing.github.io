@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: panel-with-seekhealing-participants
 name: "Q and A Session: Panel w/ SeekHealing participants"
 facilitator: Jennifer Nicolaisen

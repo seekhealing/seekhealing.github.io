@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: sunday-brunch-boogie
 name: "Live Music Session: Sunday Brunch Boogie"
 facilitator: DJ Peri Meters

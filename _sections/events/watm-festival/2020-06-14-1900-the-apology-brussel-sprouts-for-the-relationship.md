@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: the-apology-brussel-sprouts-for-the-relationship
 name: "The Apology: Brussel Sprouts for the Relationship"
 facilitator: Lore Baur

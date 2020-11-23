@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: dance-improv-move-like-you-mean-it
 name: "Dance Improv: Move Like You Mean It"
 facilitator: Anastasia Seltzer

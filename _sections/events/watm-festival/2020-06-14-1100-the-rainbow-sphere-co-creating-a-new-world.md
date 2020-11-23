@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: the-rainbow-sphere-co-creating-a-new-world
 name: "The Rainbow Sphere: Co-Creating a New World"
 facilitator: Sammy Vanek

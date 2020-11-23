@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: destigmatizing-drug-use-in-service-of-connection
 name: Destigmatizing Drug Use in Service of Connection
 facilitator: "Maegen Coral, Alexia Locklear, Joshua Ginsberg, and Thomas Cospito"

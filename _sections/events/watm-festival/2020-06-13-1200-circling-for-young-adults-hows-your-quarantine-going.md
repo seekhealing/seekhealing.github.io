@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: circling-for-young-adults-hows-your-quarantine-going
 name: "Circling for Young Adults: How’s Your Quarantine Going?"
 facilitator: Melissa Bridges and Rachael Pitkin

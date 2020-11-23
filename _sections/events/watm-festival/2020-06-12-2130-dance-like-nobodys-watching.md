@@ -1,5 +1,6 @@
 ---
-type: watm-event
+type: webinar-event
+webinar: watmf
 title: dance-like-nobodys-watching
 name: Dance Like Nobody's Watching
 facilitator: Cameron Payne
