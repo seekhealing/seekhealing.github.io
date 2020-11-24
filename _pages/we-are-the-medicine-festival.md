@@ -4,7 +4,7 @@ title: We Are The Medicine Festival
 webinar: true
 transparent-header: true
 sections:
-  - type: "hero-watm"
+  - type: "hero"
     title: "watm-hero"
   - type: "lightbox"
     title: "watm-registration"

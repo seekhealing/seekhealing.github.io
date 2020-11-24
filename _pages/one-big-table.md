@@ -4,8 +4,8 @@ title: One Big Table
 webinar: true
 transparent-header: true
 sections:
-  - type: "hero-watm"
-    title: "watm-hero"
+  - type: "hero"
+    title: "obt-hero"
   - type: "lightbox"
     title: "obt-registration"
   - type: "single"
