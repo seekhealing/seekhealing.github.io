@@ -28,9 +28,7 @@ date: '2020-12-04'
 start-time: '09:00'
 end-time: '10:00'
 link: https://zoom.us/j/7140019519 # Joey Room
-tagline: SeekHealing, Harmonia, and Western North Carolina AIDS Project leaders discuss the importance of shifting away from abstinence-culture in how we approach helping people heal from trauma and navigate difficult life experiences.
+tagline: This is where the (optional) Event Summary text shows up. If you do not specify an Event Summary, this will default to the first paragraph of the Event Description.
 ---
-
-EXTENDED EVENT DESCRIPTION GOES HERE:
 
 SeekHealing, Harmonia, and Western North Carolina AIDS Project leaders discuss the importance of shifting away from abstinence-culture in how we approach helping people heal from trauma and navigate difficult life experiences.
