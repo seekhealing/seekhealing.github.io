@@ -1,6 +1,7 @@
 ---
 layout: page
 title: One Big Table
+webinar: true
 transparent-header: true
 sections:
   - type: "hero-watm"
