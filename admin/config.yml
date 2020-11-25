@@ -264,7 +264,7 @@ collections:
     folder: "_sections/directors"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "team"}
@@ -307,7 +307,7 @@ collections:
     folder: "_sections/double-columns"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{double}}-column-{{column}}"
     summary: "{{double}} {{column}}"
     fields:
@@ -323,7 +323,7 @@ collections:
     folder: "_sections/double-full"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "double-full"}
@@ -353,7 +353,7 @@ collections:
     folder: "_sections/events"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
     summary: "{{date}} — {{title}}"
     sortable_fields: ['commit_date', 'date', 'title']
@@ -384,7 +384,7 @@ collections:
     folder: "_sections/hero"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "hero"}
@@ -414,7 +414,7 @@ collections:
     folder: "_sections/parallax"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "parallax"}
@@ -438,7 +438,7 @@ collections:
     folder: "_sections/press"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{date}}-{{title}}"
     summary: "{{date}} — {{title}}"
     fields:
@@ -474,7 +474,7 @@ collections:
     folder: "_sections/single"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "single"}
@@ -518,7 +518,7 @@ collections:
     folder: "_sections/story"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "story"}
@@ -545,7 +545,7 @@ collections:
     folder: "_sections/subnav"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
     summary: "{{nav}} — {{title}}"
     fields:
@@ -568,7 +568,7 @@ collections:
     folder: "_sections/team"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
     summary: "{{order}}. {{name}}"
     sortable_fields: ['commit_date', 'date', 'name', 'order']
@@ -621,7 +621,7 @@ collections:
     folder: "_sections/webinar-events/watm"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     identifier_field: name
     slug: "{{date}}-{{start-time}}-{{slug}}"
     summary: "{{date}}-{{start-time}}-{{slug}}"
@@ -673,7 +673,7 @@ collections:
     folder: "_sections/webinar-events/obt"
     create: true
     format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n"]
+    frontmatter_delimiter: ["---", "---\n\n"]
     identifier_field: name
     slug: "{{date}}-{{start-time}}-{{slug}}"
     summary: "{{date}}-{{start-time}}-{{slug}}"
