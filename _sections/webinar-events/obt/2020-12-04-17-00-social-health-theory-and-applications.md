@@ -2,6 +2,7 @@
 type: webinar-event
 webinar: obt
 name: Social Health Theory + Applications
+title: social-health-theory-and-applications
 facilitators:
   - name: Jennifer Nicolaisen
     photo: /assets/images/untitled-design-6-.png
@@ -24,4 +25,5 @@ start-time: 17:00
 end-time: 18:00
 link: https://us02web.zoom.us/j/8285470222
 ---
-Join SeekHealing Executive Director as she dives into the core concepts of social health. Topics will focus on human connection and its impact on individual and communal well-being, healthy communication techniques and exercises, and the effects of social isolation on mental health including depression and substance abuse.
+
+Join SeekHealing's Executive Director as she dives into the core concepts of social health. Topics will focus on human connection and its impact on individual and communal well-being, healthy communication techniques and exercises, and the effects of social isolation on mental health including depression and substance abuse.

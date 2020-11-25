@@ -624,13 +624,20 @@ collections:
     frontmatter_delimiter: ["---", "---\n\n"]
     identifier_field: name
     slug: "{{date}}-{{start-time}}-{{slug}}"
-    summary: "{{date}}-{{start-time}}-{{slug}}"
+    summary: "{{date}} {{start-time}} {{slug}}"
     sortable_fields: ['commit_date', 'date', 'title']
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
       - {label: "Webinar", name: "webinar", widget: "hidden", default: "watm"}
-      # - {label: "Title", name: "title", widget: "hidden", default: {{slug}} } # this doesn't work in Netlify CMS
-      - {label: "Name", name: "name", widget: "string"}
+      - label: Title
+        name: name
+        widget: string
+        hint: e.g. A Performance Comparison between Jekyll and WordPress
+      - label: Title Slug
+        name: title
+        widget: string
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters and dashes only"]
+        hint: Should be short (for SEO) and must be a valid URL slug, e.g. jekyll-vs-wordpress-performance
       # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
       - label: "Facilitators"
         label_singular: "Facilitator"
@@ -640,13 +647,27 @@ collections:
           - {label: "Name", name: name, widget: string}
           - {label: "Photo", name: photo, widget: image, allow_multiple: false, required: false}
           - {label: "Bio", name: bio, widget: text}
-          - {label: "Link", name: link, widget: string, required: false}
-          - {label: "Link Text", name: link-text, widget: string, required: false}
+          - label: Link
+            name: link
+            widget: string
+            required: false
+            hint: Must be a valid URL with http prefix, e.g. https://example.com
+          - label: Link Text
+            name: link-text
+            widget: string
+            required: false
+            hint: Text to display in place of the above URL, e.g. example.com
       - label: "Event Subtype"
         name: "event-type"
         widget: "select"
         options: ["presentation", "interactive", "music", "interview"]
-      - {label: "Day", name: "day", widget: "number", valueType: "int", min: 1, max: 3}
+      - label: Day
+        name: day
+        widget: number
+        valueType: int
+        min: 1
+        max: 3
+        hint: For a Friday-Sunday webinar, 1 means Friday, 2 means Saturday, and 3 means Sunday.
       - {label: "Date", name: "date", widget: "date", format: 'YYYY-MM-DD'}
       - label: "Start Time"
         name: "start-time"
@@ -665,7 +686,11 @@ collections:
         format: "HH:mm"
         picker_utc: false
       - {label: "Zoom Link", name: "link", widget: "string"}
-      - {label: "Event Summary", name: "tagline", widget: "text", required: false}
+      - label: Event Summary
+        name: tagline
+        widget: text
+        required: false
+        hint: If the full event description (below) is long, please include a shortened version here for the webinar schedule section event block.
       - {label: "Event Description", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "obt-events"
     label: "OBT Events"
@@ -674,15 +699,21 @@ collections:
     create: true
     format: yaml-frontmatter
     frontmatter_delimiter: ["---", "---\n\n"]
-    identifier_field: name
-    slug: "{{date}}-{{start-time}}-{{slug}}"
-    summary: "{{date}}-{{start-time}}-{{slug}}"
+    slug: "{{date}}-{{start-time}}-{{title}}"
+    summary: "{{date}} {{start-time}} {{title}}"
     sortable_fields: ['commit_date', 'date', 'title']
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
       - {label: "Webinar", name: "webinar", widget: "hidden", default: "obt"}
-      # - {label: "Title", name: "title", widget: "hidden", default: {{slug}} } # this doesn't work in Netlify CMS
-      - {label: "Name", name: "name", widget: "string"}
+      - label: Title
+        name: name
+        widget: string
+        hint: e.g. A Performance Comparison between Jekyll and WordPress
+      - label: Title Slug
+        name: title
+        widget: string
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters and dashes only"]
+        hint: Should be short (for SEO) and must be a valid URL slug, e.g. jekyll-vs-wordpress-performance
       # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
       - label: "Facilitators"
         label_singular: "Facilitator"
@@ -692,13 +723,27 @@ collections:
           - {label: "Name", name: name, widget: string}
           - {label: "Photo", name: photo, widget: image, allow_multiple: false, required: false}
           - {label: "Bio", name: bio, widget: text}
-          - {label: "Link", name: link, widget: string, required: false}
-          - {label: "Link Text", name: link-text, widget: string, required: false}
+          - label: Link
+            name: link
+            widget: string
+            required: false
+            hint: Must be a valid URL with http prefix, e.g. https://example.com
+          - label: Link Text
+            name: link-text
+            widget: string
+            required: false
+            hint: Text to display in place of the above URL, e.g. example.com
       - label: "Event Subtype"
         name: "event-type"
         widget: "select"
         options: ["presentation", "interactive", "music", "interview"]
-      - {label: "Day", name: "day", widget: "number", valueType: "int", min: 1, max: 3}
+      - label: Day
+        name: day
+        widget: number
+        valueType: int
+        min: 1
+        max: 3
+        hint: For a Friday-Sunday webinar, 1 means Friday, 2 means Saturday, and 3 means Sunday.
       - {label: "Date", name: "date", widget: "date", format: 'YYYY-MM-DD'}
       - label: "Start Time"
         name: "start-time"
@@ -717,5 +762,9 @@ collections:
         format: "HH:mm"
         picker_utc: false
       - {label: "Zoom Link", name: "link", widget: "string"}
-      - {label: "Event Summary", name: "tagline", widget: "text", required: false}
+      - label: Event Summary
+        name: tagline
+        widget: text
+        required: false
+        hint: If the full event description (below) is long, please include a shortened version here for the webinar schedule section event block.
       - {label: "Event Description", name: "body", widget: "markdown", modes: ["raw"]}

@@ -2,6 +2,7 @@
 type: webinar-event
 webinar: obt
 name: The Language of Relationships
+title: the-language-of-relationships
 facilitators:
   - name: Sara Ness
     photo: /assets/images/sara-ness-3-.png
@@ -22,4 +23,5 @@ start-time: 19:30
 end-time: 21:30
 link: https://us02web.zoom.us/j/8285470222
 ---
+
 Join Sara Ness of Authentic Revolution for her keynote presentation on communication and the relational creation of interacting with other people. This session will be both seminar and interactive to give participants a chance to practice and apply the techniques offered.
