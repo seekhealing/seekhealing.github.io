@@ -622,13 +622,14 @@ collections:
     create: true
     format: yaml-frontmatter
     frontmatter_delimiter: ["---", "---\n"]
-    slug: "{{date}}-{{start-time}}-{{title}}"
-    summary: "{{date}}-{{start-time}}-{{title}}"
+    identifier_field: name
+    slug: "{{date}}-{{start-time}}-{{slug}}"
+    summary: "{{date}}-{{start-time}}-{{slug}}"
     sortable_fields: ['commit_date', 'date', 'title']
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
-      - {label: "Webinar", name: "webinar", widget: "hidden", default: "watmf"}
-      - {label: "Title", name: "title", widget: "hidden", default: {{slug}} }
+      - {label: "Webinar", name: "webinar", widget: "hidden", default: "watm"}
+      # - {label: "Title", name: "title", widget: "hidden", default: {{slug}} } # this doesn't work in Netlify CMS
       - {label: "Name", name: "name", widget: "string"}
       # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
       - label: "Facilitators"
@@ -653,7 +654,7 @@ collections:
         default: ""
         date_format: "" # none
         time_format: "HH:mm" # e.g. 21:07
-        format: "LT"
+        format: "HH:mm"
         picker_utc: false
       - label: "End Time"
         name: "end-time"
@@ -661,7 +662,7 @@ collections:
         default: ""
         date_format: "" # none
         time_format: "HH:mm" # e.g. 21:07
-        format: "LT"
+        format: "HH:mm"
         picker_utc: false
       - {label: "Zoom Link", name: "link", widget: "string"}
       - {label: "Event Summary", name: "tagline", widget: "text", required: false}
@@ -673,13 +674,14 @@ collections:
     create: true
     format: yaml-frontmatter
     frontmatter_delimiter: ["---", "---\n"]
-    slug: "{{date}}-{{start-time}}-{{title}}"
-    summary: "{{date}}-{{start-time}}-{{title}}"
+    identifier_field: name
+    slug: "{{date}}-{{start-time}}-{{slug}}"
+    summary: "{{date}}-{{start-time}}-{{slug}}"
     sortable_fields: ['commit_date', 'date', 'title']
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
-      - {label: "Webinar", name: "webinar", widget: "hidden", default: "watmf"}
-      - {label: "Title", name: "title", widget: "hidden", default: {{slug}} }
+      - {label: "Webinar", name: "webinar", widget: "hidden", default: "obt"}
+      # - {label: "Title", name: "title", widget: "hidden", default: {{slug}} } # this doesn't work in Netlify CMS
       - {label: "Name", name: "name", widget: "string"}
       # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
       - label: "Facilitators"
@@ -704,7 +706,7 @@ collections:
         default: ""
         date_format: "" # none
         time_format: "HH:mm" # e.g. 21:07
-        format: "LT"
+        format: "HH:mm"
         picker_utc: false
       - label: "End Time"
         name: "end-time"
@@ -712,7 +714,7 @@ collections:
         default: ""
         date_format: "" # none
         time_format: "HH:mm" # e.g. 21:07
-        format: "LT"
+        format: "HH:mm"
         picker_utc: false
       - {label: "Zoom Link", name: "link", widget: "string"}
       - {label: "Event Summary", name: "tagline", widget: "text", required: false}
