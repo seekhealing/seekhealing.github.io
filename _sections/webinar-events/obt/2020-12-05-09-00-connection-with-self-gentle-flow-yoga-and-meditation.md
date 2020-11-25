@@ -10,10 +10,10 @@ facilitators:
       children.
     link: www.laurajuarez.com
 event-type: interactive
-day: 1
+day: 2
 date: 2020-12-05
-start-time: 9:00 AM
-end-time: 10:00 AM
+start-time: 09:00
+end-time: 10:00
 link: https://us02web.zoom.us/j/5097184720
 ---
-Join Beth Morris (E-RYT 500) of Pure Potential for morning Yoga practice and guided meditation. The session will have an asana practice accessible to all levels of Yogis along with a loving kindness guided meditation to start your day off with heart full and body limber. 
+Join Beth Morris (E-RYT 500) of Pure Potential for morning Yoga practice and guided meditation. The session will have an asana practice accessible to all levels of Yogis along with a loving kindness guided meditation to start your day off with heart full and body limber.

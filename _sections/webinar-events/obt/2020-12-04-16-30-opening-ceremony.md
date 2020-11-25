@@ -20,8 +20,8 @@ facilitators:
 event-type: presentation
 day: 1
 date: 2020-12-04
-start-time: 4:30 PM
-end-time: 4:45 PM
+start-time: 16:30
+end-time: 16:45
 link: https://us02web.zoom.us/j/8285470222
 ---
-Join us for the Opening Ceremony for One Big Table. This session will include an introduction, brief meditation, and intention setting for the weekends programming hosted by SeekHealing.  
+Join us for the Opening Ceremony for One Big Table. This session will include an introduction, brief meditation, and intention setting for the weekends programming hosted by SeekHealing.

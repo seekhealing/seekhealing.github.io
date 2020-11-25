@@ -20,8 +20,8 @@ facilitators:
 event-type: presentation
 day: 1
 date: 2020-12-04
-start-time: 5:00 PM
-end-time: 6:00 PM
+start-time: 17:00
+end-time: 18:00
 link: https://us02web.zoom.us/j/8285470222
 ---
-Join SeekHealing Executive Director as she dives into the core concepts of social health. Topics will focus on human connection and its impact on individual and communal well-being, healthy communication techniques and exercises, and the effects of social isolation on mental health including depression and substance abuse. 
+Join SeekHealing Executive Director as she dives into the core concepts of social health. Topics will focus on human connection and its impact on individual and communal well-being, healthy communication techniques and exercises, and the effects of social isolation on mental health including depression and substance abuse.

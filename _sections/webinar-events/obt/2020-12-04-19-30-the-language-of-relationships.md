@@ -18,8 +18,8 @@ facilitators:
 event-type: interactive
 day: 1
 date: 2020-12-04
-start-time: 7:30 PM
-end-time: 9:30 PM
+start-time: 19:30
+end-time: 21:30
 link: https://us02web.zoom.us/j/8285470222
 ---
-Join Sara Ness of Authentic Revolution for her keynote presentation on communication and the relational creation of interacting with other people. This session will be both seminar and interactive to give participants a chance to practice and apply the techniques offered. 
+Join Sara Ness of Authentic Revolution for her keynote presentation on communication and the relational creation of interacting with other people. This session will be both seminar and interactive to give participants a chance to practice and apply the techniques offered.

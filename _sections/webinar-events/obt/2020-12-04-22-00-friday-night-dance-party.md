@@ -17,8 +17,8 @@ facilitators:
 event-type: music
 day: 1
 date: 2020-12-04
-start-time: 10:00 PM
-end-time: 11:30 PM
+start-time: 22:00
+end-time: 23:30
 link: https://us02web.zoom.us/j/5097184720
 ---
 Join Captain EZ - The Vibe Conductor for some groovy tunes to move your body. Whether it be classic funk and disco or modern boogie, Captain EZ will keep your soul bumping to the beat!
