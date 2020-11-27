@@ -26,4 +26,4 @@ end-time: 18:00
 link: https://us02web.zoom.us/j/8285470222
 ---
 
-Join SeekHealing's Executive Director as she dives into the core concepts of social health. Topics will focus on human connection and its impact on individual and communal well-being, healthy communication techniques and exercises, and the effects of social isolation on mental health including depression and substance abuse.
+Join SeekHealing's Executive Director as she dives into the core concepts of social health: an emerging and critically important subset of the greater mental health field.  Topics will focus on human connection and its impact on individual and communal well-being, healthy communication techniques and exercises, and the effects of social isolation on mental health including depression and substance abuse.
