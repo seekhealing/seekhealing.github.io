@@ -1,7 +1,7 @@
 <span class="addtocalendar atc-style-blue">
   <var class="atc_event">
-    <var class="atc_date_start">{{ event.date | date: "%Y-%m-%d " | append: event.start-time }}</var>
-    <var class="atc_date_end">{{ event.date | date: "%Y-%m-%d " | append: event.end-time }}</var>
+    <var class="atc_date_start">{{ event.date | date: "%Y-%m-%d " | append: start_time }}</var>
+    <var class="atc_date_end">{{ event.date | date: "%Y-%m-%d " | append: end_time }}</var>
     <var class="atc_timezone">America/New_York</var>
     <var class="atc_title">{{ event.name }}</var>
     <var class="atc_description">{{ event.content | split: ">" | first | markdownify }}<br><br>{{ "https://seekhealing.org/" | append: include.slug | append: "/#" | append: event.title }}</var>
