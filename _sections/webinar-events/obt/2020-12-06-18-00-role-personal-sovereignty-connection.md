@@ -6,7 +6,7 @@ title: role-personal-sovereignty-connection
 facilitators:
   - name: "Shaunna Williams "
     bio: >
-      Shaunna Williams, The Mystical Minister is a spiritual leader of our
+      Shaunna Williams, The Mystical Minister, is a spiritual leader of our
       generation to support us in breaking through the ways of the old paradigms
       or the old world. Shaunna is an expert in clearing shame and unworthiness,
       sexual trauma and healing, healing ancestral wounds and re-patterning
@@ -31,4 +31,4 @@ end-time: 19:00
 link: https://us02web.zoom.us/j/5097184720
 ---
 
-Shaunna Williams (a.k.a The Mystical Minister) touches on the importance of staying aligned to yourself when engaging in social experiences through healthy communication techniques. This includes setting boundaries in relationships, speaking your truth during emotionally charged moments without reverting to negative projections, and fostering inclusion during social engagements. Through these understandings we can remain true to self while staying present with others. 
+In this offering you’ll learn the different forms of sovereignty and how they can support in creating the highest and most supportive connections and the distinction of co-dependency and self-sacrificial relating. You’ll be able to answer questions that will allow you to explore where you’ve been leaning in your ways of relating. You’ll be guided through a Breathwork journey to support in integrating new pathways for relating and transmuting patterns that no longer serve you and humanity. 
