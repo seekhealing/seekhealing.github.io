@@ -46,11 +46,32 @@
 }
 
 .button.button-purple {
-	background-color: #832feb;
+	background-color: #9825e4;
 
   &:hover {
     color: #fff;
-    background-color: darken(#832feb,8%);
+    background-color: darken(#9825e4,8%);
+    border-color: transparent;
+  }
+}
+
+.button.button-slate {
+	background-color: #7279AC; // #7D84B2
+
+  &:hover {
+    color: #fff;
+    background-color: darken(#7279AC,8%);
+    border-color: transparent;
+  }
+}
+
+.button.button-magenta,
+.button.cta.button-magenta {
+	background-color: #b8336a; // #CA3F79
+
+  &:hover {
+    color: #fff;
+    background-color: darken(#b8336a,8%);
     border-color: transparent;
   }
 }
