@@ -2,7 +2,7 @@
 type: hero
 title: home
 background: "/assets/images/home-bkgrnd.jpg"
-image: "/assets/images/OBT-promo.png"
+image: "/assets/images/obt-promo-2.png"
 image-alt: "One Big Table Festival Promo Image"
 image-link: "/obt/"
 # video: "/downloads/SH-WLOS.mp4"
@@ -13,6 +13,14 @@ image-link: "/obt/"
 
 ## Healing from addiction through human connection
 
-_Join us for <span class="emphasized-header">One Big Table</span> on December 4th_
+_Join us for <span class="emphasized-header">One Big Table</span> on December 4th-6th_
 
-[Register Now!](/obt/){:class="button cta"}
+<p>
+  <div class="button-container" style="display: flex; flex-flow: row wrap; align-items: stretch;">
+    <a href="/obt/" class="button cta" style="margin: 5px 10px 5px 0; align-self: stretch; display: flex; align-items: center; justify-content: center;">Register Now!</a>
+    <div class="button-stack" style="display: flex; flex-direction: column; align-items: stretch;">
+      <a href="https://www.auctria.com/auction/OBT" target="_blank" class="button button-purple" style="margin: 5px; margin-left: 0;">Local Love Silent Auction</a>
+      <a href="/giving" target="_blank" class="button" style="margin: 5px; margin-left: 0;">Giving Tuesday Donation</a>
+    </div>
+  </div>
+</p>
