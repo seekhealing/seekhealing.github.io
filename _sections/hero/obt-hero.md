@@ -1,7 +1,7 @@
 ---
 type: hero
 title: obt-hero
-background: "/assets/images/obt-background.png"
+background: /assets/images/obt-background.png
 darkened: true
 video-embed: https://www.youtube.com/embed/ZGW1j6Txu9k
 ---
