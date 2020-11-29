@@ -292,6 +292,8 @@ p.color-interview {
 
       padding: 0px;
 
+      @include word-wrap;
+
       .facilitator-bio {
         margin-bottom: 20px;
         text-align: justify;
