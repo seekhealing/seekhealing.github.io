@@ -18,6 +18,7 @@ facilitators:
 
       All of her work teaches self sovereignty, authenticity and intimacy. She believes that these practices create space for greater compassion and love – and ultimately support us in uplifting humanity and living truly fulfilling lives.
     link: https://www.cathycourtenay.com/
+    link-text: cathycourtenay.com
 event-type: interactive
 day: 2
 date: 2020-12-05

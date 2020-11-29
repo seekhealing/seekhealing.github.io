@@ -11,10 +11,11 @@ facilitators:
       Initially guiding people through major career moves as a professional
       recruiter, she now guides others in profound internal mind and heart
       shifts as a course facilitator. Laurie has the experience and heart
-      intelligence to lead people wherever they’re wanting and willing to go. 
+      intelligence to lead people wherever they’re wanting and willing to go.
 
       Struck by the power of Authentic Relating (AR) to enliven people and reconnect them with their true authentic expression, Laurie co-founded a nonprofit bringing two-day intensive AR workshops to prisons across Colorado. Why prisons? Because she’s committed to shining the light of dignity on the shadows shame, fear and degradation. Laurie’s vision is to bring about a world of healthy, connected humans - freed-up from the bondage of the past and turned on to the wonder of life, closing the gap between our human condition and our human potential.
     link: https://www.realnessproject.org/
+    link-text: realnessproject.org
 event-type: interactive
 day: 3
 date: 2020-12-06

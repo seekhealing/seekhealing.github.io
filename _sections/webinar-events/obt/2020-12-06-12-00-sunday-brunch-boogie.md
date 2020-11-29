@@ -8,8 +8,9 @@ facilitators:
     photo: /assets/images/sun.12-30pm-dj-peri-meters-.jpg
     bio: >
       Veterinarian specialist by day, sonic creator by night (or day!). Resident
-      DJ - Synth Etiquette Radio 
+      DJ - Synth Etiquette Radio
     link: https://www.soundcloud.com/perimeters
+    link-text: soundcloud.com/perimeters
 event-type: music
 day: 3
 date: 2020-12-06

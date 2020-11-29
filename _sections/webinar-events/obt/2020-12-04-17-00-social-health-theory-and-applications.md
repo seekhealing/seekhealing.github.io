@@ -18,6 +18,7 @@ facilitators:
       connecting with her partners and friends, practicing yoga, and exploring
       the trails in Pisgah national forest.
     link: https://medium.com/@jen.the.human
+    link-text: medium.com/@jen.the.human
 event-type: presentation
 day: 1
 date: 2020-12-04

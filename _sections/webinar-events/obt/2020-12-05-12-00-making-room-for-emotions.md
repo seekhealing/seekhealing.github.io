@@ -15,6 +15,7 @@ facilitators:
       AEDP psychotherapist and supervisor. She has published articles in The New
       York Times, Time and Oprah, and her blog is read worldwide."
     link: https://www.hilaryjacobshendel.com/
+    link-text: hilaryjacobshendel.com
 event-type: presentation
 day: 2
 date: 2020-12-05

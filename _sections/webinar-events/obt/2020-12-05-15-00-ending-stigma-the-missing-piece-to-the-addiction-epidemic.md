@@ -7,16 +7,17 @@ title: ending-stigma-the-missing-piece-to-the-addiction-epidemic
 facilitators:
   - name: Matthew Stefanko
     photo: /assets/images/obt-sat.-3pm-matthew-stefanko.png
-    link: https://www.shatterproof.org/
     bio: >
       Matthew Stefanko is the Director, National Stigma Initiative for
-      Shatterproof. 
+      Shatterproof.
 
-      Before joining Shatterproof, Matthew was the Associate Director for Strategy and Programs at Planned Parenthood Federation of America. There, he worked across functions to develop strategic initiatives aimed at increasing patient access and reducing the impact of health epidemics. Prior to PPFA, Matthew worked in management consulting at McKinsey and Company where he primarily was involved with their public and social sector practices. 
+      Before joining Shatterproof, Matthew was the Associate Director for Strategy and Programs at Planned Parenthood Federation of America. There, he worked across functions to develop strategic initiatives aimed at increasing patient access and reducing the impact of health epidemics. Prior to PPFA, Matthew worked in management consulting at McKinsey and Company where he primarily was involved with their public and social sector practices.
 
       He also served as the City Director in Jacksonville and Dallas for McKinsey's workforce development nonprofit Generation. Matthew also previously worked in local government at the Baltimore City Health Department where he supported Dr. Leana Wen as her Special Advisor on Opioid Policy.
 
       Matthew has a dual degree in Economics & Government from Cornell University. He serves on the board of Anabel's Grocery, a nonprofit store addressing food insecurity, which he co-founded. He is based in Washington D.C.
+    link: https://www.shatterproof.org/
+    link-text: shatterproof.org
 event-type: presentation
 day: 2
 date: 2020-12-05

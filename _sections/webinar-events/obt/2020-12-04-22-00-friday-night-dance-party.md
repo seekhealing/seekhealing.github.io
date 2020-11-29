@@ -15,6 +15,7 @@ facilitators:
       invite you to share links with me to listen too and hopefully integrate
       into the next experience. Thank you for connecting.
     link: https://soundcloud.com/captain-ez
+    link-text: soundcloud.com/captain-ez
 event-type: music
 day: 1
 date: 2020-12-04

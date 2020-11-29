@@ -17,6 +17,7 @@ facilitators:
       for which he was arrested and convicted by the Drug Enforcement Agency. He
       recently founded the Psychedelic (Dis)Integration Group in New York City.'
     link: https://www.dimitrimugianis.com/
+    link-text: dimitrimugianis.com
 event-type: interview
 day: 3
 date: 2020-12-06

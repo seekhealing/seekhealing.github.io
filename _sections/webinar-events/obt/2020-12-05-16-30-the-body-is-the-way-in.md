@@ -14,6 +14,7 @@ facilitators:
       explore the mind-body connection and somatic embodiment. In addition, she
       helps build conscious businesses that promote growth and well-being. "
     link: https://www.abbywenwu.com/
+    link-text: abbywenwu.com
 event-type: interactive
 day: 2
 date: 2020-12-05
