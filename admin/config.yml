@@ -391,9 +391,27 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and dashes only."]
       - {label: "Background Image", name: "background", widget: "image", default: "/assets/images/home-bkgrnd.jpg"}
-      - {label: "Video URL", name: "video", widget: "string", required: false}
+      - {label: "Darken Background?", name: "darkened", widget: "boolean", default: false}
+      - {label: "Video Embed URL", name: "video-embed", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "section-lightbox"
+    label: "Section / Lightbox"
+    label_singular: "Lightbox Section"
+    folder: "_sections/lightboxes"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "lightbox"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and dashes only."]
+      - {label: "Column Width", name: "col-width", widget: "hidden", default: "wide"}
+      - {label: "Close Button Text", name: "close-button-text", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-message-box"
   #   label: "Section_Message_Box"
