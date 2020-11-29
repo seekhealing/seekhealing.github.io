@@ -2,7 +2,7 @@
 type: webinar-event
 webinar: obt
 name: Connection Cafe
-title: connection-cafe
+title: connection-cafe-2
 event-type: interactive
 day: 2
 date: 2020-12-05
