@@ -13,7 +13,7 @@ image-link: "/obt/"
 
 ## Healing from addiction through human connection
 
-_Join us for <span class="emphasized-header">One Big Table</span> on December 4th-6th_
+_Join us for <span class="emphasized-header">One Big Table</span> December 4th-6th_
 
 <p>
   <div class="button-container" style="display: flex; flex-flow: row wrap; align-items: stretch;">
