@@ -198,7 +198,7 @@ partners:
     link: "https://missionhealth.org/"
     include-page: ["home-partners", "strategic-partners"]
   - title: "Buncombe County Health & Human Services"
-    image: "partner-buncombe-county-health-human-services.png"
+    image: "partner-buncombe-county-hhs.png"
     link: "https://www.buncombecounty.org/Governing/Depts/HHS/Default.aspx"
     include-page: ["home-partners", "strategic-partners"]
   - title: "WNCAP"
@@ -225,7 +225,7 @@ partners:
     link: "http://makingwhole.com/"
     include-page: ["home-partners", "strategic-partners"]
   - title: "Firestorm Books"
-    image: "partner-firestorm.png"
+    image: "partner-firestorm-2.png"
     link: "https://www.firestorm.coop/"
     include-page: ["home-partners", "strategic-partners"]
   - title: "ABC Office Systems (Sponsor)"
@@ -253,3 +253,37 @@ partners:
     link: "https://wncap.org/"
     style: "margin: 15px 2%; flex: 3 0 auto;"
     include-page: ["watm-sponsors"]
+  - title: "Harmonia (Sponsor)"
+    image: "partner-harmonia.png"
+    link: "https://harmoniasanctuary.org/"
+    style: "margin: 20px 5%; flex: 2 0 auto;"
+    include-page: ["obt-partners-row1"]
+  - title: "Haywood Street"
+    image: "partner-haywood-street.png"
+    link: "https://haywoodstreet.org/"
+    style: "margin: 20px 5%; flex: 2 0 auto;"
+    include-page: ["obt-partners-row1"]
+  - title: "Making Whole Craft Apprenticeships"
+    image: "partner-making-whole.png"
+    link: "http://makingwhole.com/"
+    style: "margin: 20px 5%; flex: 2 0 auto;"
+    include-page: ["obt-partners-row1"]
+  - title: "Dogwood Health Trust"
+    image: "partner-dogwood-health-trust.png"
+    link: "https://dogwoodhealthtrust.org/"
+    style: "margin: 15px 2%; flex: 1 0 auto;"
+    include-page: ["obt-partners-row2"]
+  - title: "Mojo Coworking"
+    image: "partner-mojo-coworking.png"
+    link: "https://www.mojocoworking.com"
+    style: "margin: 15px 2%; flex: 1 0 auto;"
+    include-page: ["obt-partners-row2"]
+  - title: "Sunrise Community"
+    image: "partner-sunrise.png"
+    style: "margin: 15px 2%; flex: 1 0 auto;"
+    include-page: ["obt-partners-row2"]
+  - title: "WNCAP"
+    image: "partner-wncap.png"
+    link: "https://wncap.org/"
+    style: "margin: 15px 2%; flex: 1 0 auto;"
+    include-page: ["obt-partners-row2"]

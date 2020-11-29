@@ -14,7 +14,7 @@
 {% for partner_page in partner_pages %}
 
 <section{% if partner_page.section-bottom-border %} class="bottom-border"{% endif %}>
-  <div class="section{% if partner_page.white-bg %} white{% endif %}{% if partner_page.font == "large"%} font-lg-light{% endif %}">
+  <div class="section{% if partner_page.white-bg %} white{% endif %}{% if partner_page.font == "large"%} font-lg-light{% endif %}{% if partner_page.padding %} {{ partner_page.padding }}{% endif %}">
     <div class="container clearfix">
       <div class="row">
         <div class="{% if partner_page.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2{% elsif partner_page.col-width == "wide" %}col-md-12{% elsif partner_page.col-width == "sticky" %}col-sm-6 col-sm-offset-3{% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center {% if partner_page.header %}{{ partner_page.header }}{% else %}normal-header{% endif %}">

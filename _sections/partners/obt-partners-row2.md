@@ -1,9 +1,8 @@
 ---
 type: partners
-title: obt-sponsors
+title: obt-partners-row2
 # heading: "Sponsors"
 white-bg: true
 col-width: wide
+padding: no-padding
 ---
-
-## <span class="emphasized-header">Sponsors</span>

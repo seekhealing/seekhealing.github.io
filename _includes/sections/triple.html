@@ -1,14 +1,14 @@
-{% comment %} 
+{% comment %}
 <!--
   Triple Bordered Section
 
   This partial is used for 3 column layouts and each column has a border.
   Currently used on the Our Programs page.
-  
---> 
+
+-->
 {% endcomment %}
 
-{% assign triples = site.sections |where:"type","triple" |where:"title",include.title %}
+{% assign triples = site.sections | where:"type","triple" | where:"title",include.title %}
 
 {% for triple in triples %}
 
@@ -22,13 +22,13 @@
       </div>
       <div class="row display-flex ">
 
-        {% assign cols = site.sections |where:"type","triple-col" |where:"col-names",triple.col-names |sort: "order" %}
+        {% assign columns = site.sections | where:"type","triple-column" | where:"triple",triple.title | sort: "column" %}
 
-        {% for col in cols %}
+        {% for column in columns %}
 
-          <div class="{% if triple.col-grid %}{{ triple.col-grid }}{% else %}col-sm-4{% endif %} col-xs-12">
-            <div class="{{ col.class }}">
-              {{ col.content | markdownify }}
+          <div class="{% if triple.col-grid %}{{ triple.col-grid }}{% else %}col-sm-4{% endif %} col-xs-12 text-center">
+            <div class="{{ column.class }}">
+              {{ column.content | markdownify }}
             </div>
           </div>
 
