@@ -234,6 +234,7 @@ p.color-interview {
 
   .event-content {
     margin: auto;
+    margin-bottom: 30px;
 
     @media screen and (min-width: $screen-lg-min) {
       max-width: 90%;
@@ -256,6 +257,10 @@ p.color-interview {
     padding: 20px;
     margin-bottom: 30px;
     background-color: #F9F9F9;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
 
     p:last-child {
       margin-bottom: 0px;
