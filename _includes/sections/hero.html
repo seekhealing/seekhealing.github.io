@@ -29,10 +29,10 @@
             <div class="hero-img">
               {% if hero.image-link %}
               <a href="{{ hero.image-link }}">
-                <img src="{{ hero.image }}" alt="{% if hero.image-alt %}{{ hero.image-alt }}{% endif %}" class="img-responsive">
+                {% include responsive-image.html image=hero.image alt=hero.image-alt %}
               </a>
               {% else %}
-              <img src="{{ hero.image }}" alt="{% if hero.image-alt %}{{ hero.image-alt }}{% endif %}" class="img-responsive">
+              {% include responsive-image.html image=hero.image alt=hero.image-alt %}
               {% endif %}
             </div>
             {% elsif hero.video %}

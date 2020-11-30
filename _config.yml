@@ -87,6 +87,9 @@ paginate: 1
 paginate_path: "/blog/page/:num"
 
 responsive_image:
+  
+  cache: true
+
   # [Required]
   # Path to the image template.
   template: _includes/responsive-img.html
