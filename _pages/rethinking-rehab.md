@@ -2,6 +2,8 @@
 layout: page
 title: Rethinking Rehab
 sections:
+  - type: "single"
+    title: "rehab-narrative-header"
   - type: "double"
     title: "rehab-narrative"
   - type: "single"
@@ -19,7 +21,7 @@ sections:
   - type: "double-full"
     title: "rehab-challenge"
   - type: "double-full"
-    title: "rehab-transition"    
+    title: "rehab-transition"
   - type: "single"
     title: "rehab-healing"
   - type: "parallax"

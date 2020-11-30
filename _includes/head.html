@@ -44,14 +44,14 @@
   <link href="//fonts.googleapis.com/css?family=Permanent+Marker|Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic|Cousine" rel="stylesheet" type="text/css">
   <link href="{{ site.baseurl }}/css/base.css?{{site.time | date: '%s'}}" rel="stylesheet" />
 
-  {% if page.title == "We Are The Medicine Festival" %}
+  {% if page.webinar %}
   <link href="//addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css">
   {% endif %}
 
   <!-- JS Libs
   <script src="{{ site.baseurl }}/js/libs/modernizr-2.6.2.min.js"></script> -->
 
-  {% if page.title == "We Are The Medicine Auction" %}
+  {% if page.webinar or page.title == "We Are The Medicine Auction" %}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha256-+2SfyuYhd9/mPmcIHdzrgwtc4fBaQYTpu7fYesS49OU=" crossorigin="anonymous"></script>
   {% endif %}
 

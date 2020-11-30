@@ -2,6 +2,7 @@
 type: press
 title: wlos-interview
 image: press-international-overdose-awareness-day.jpeg
+date: 2018-08-31
 # actual_date: 2019-08-31
 ---
 

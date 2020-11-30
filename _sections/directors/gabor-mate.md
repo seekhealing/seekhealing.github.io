@@ -7,4 +7,4 @@ image: /assets/images/team-headshot-gabor.jpg
 order: 1
 ---
 
-Background: Physician, renowned expert on addiction and compassionate care, bestselling author, international speaker
+Physician, renowned expert on addiction and compassionate care, bestselling author, international speaker

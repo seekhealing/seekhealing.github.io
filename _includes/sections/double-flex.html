@@ -8,7 +8,7 @@
 -->
 {% endcomment %}
 
-{% assign doubles = site.sections |where:"type","double-flex" |where:"title",include.title %}
+{% assign doubles = site.sections | where:"type","double-flex" | where:"title",include.title %}
 
 {% for double in doubles %}
 
@@ -22,9 +22,9 @@
       </div>
       <div class="row flex-row">
 
-        {% assign cols = site.sections |where:"type","double-col" |where:"col-names",double.col-names |sort: "order" %}
+        {% assign columns = site.sections | where:"type","double-column" | where:"double",double.title | sort: "column" %}
 
-        {% for col in cols %}
+        {% for col in columns %}
 
           <div class="flex-item {% if forloop.index == 1 %}first-flex-item {% endif %}{% if col.center %} text-center{% endif %}{% if col.margin =="no-margin" %} no-margin{% endif %}">
 

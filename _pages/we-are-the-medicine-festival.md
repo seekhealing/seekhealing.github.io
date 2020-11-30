@@ -1,9 +1,10 @@
 ---
 layout: page
 title: We Are The Medicine Festival
+webinar: true
 transparent-header: true
 sections:
-  - type: "hero-watm"
+  - type: "hero"
     title: "watm-hero"
   - type: "lightbox"
     title: "watm-registration"
@@ -11,7 +12,7 @@ sections:
     title: "watm-landing"
   - type: "partners"
     title: "watm-sponsors"
-  - type: "festival-schedule"
+  - type: "webinar-schedule"
     title: "watm-schedule"
   - type: "single"
     title: "design-credit"

@@ -2,6 +2,7 @@
 type: press
 title: ashevillefm
 image: press-ashevillefm.jpg
+date: 2018-09-04
 published: false
 ---
 

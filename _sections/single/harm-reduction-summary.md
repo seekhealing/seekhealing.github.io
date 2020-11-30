@@ -12,5 +12,5 @@ white-bg: true
 - would like to learn more about how harm reduction techniques can keep you or your loved ones safe while actively using drugs
 - need access to Naloxone (Narcan)
 
-Please reach out to anyone on the SeekHealing team at (828) 222-5029  
-or email at [conversations@seekhealing.org](mailto:conversations@seekhealing.org)
+Please reach out to anyone on the SeekHealing team at (828) 222-5029
+or email at <conversations@seekhealing.org>

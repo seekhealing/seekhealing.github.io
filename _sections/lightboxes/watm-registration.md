@@ -2,8 +2,8 @@
 type: lightbox
 title: watm-registration
 col-width: wide
-extra-buttons: "widgets/watm-eventbrite.html"
-close-button-href: "#"
+extra-buttons: "widgets/eventbrite-watm.html"
+close-button-href: "#_"
 close-button-text: "I Did!"
 click-outside-close: false
 ---
@@ -16,4 +16,4 @@ We invite you to watch the brief 'Intro & Orientation' video on the landing page
 
 Our goal with this fundraising event is to raise at least $35,000 to fund our Extra Care program, which you can learn more about by clicking DONATE or visiting www.SeekHealing.org/2020
 
-If you have any questions, please reach out to us at [watmf@seekhealing.org](mailto:watmf@seekhealing.org).
+If you have any questions, please reach out to us at <watmf@seekhealing.org>.

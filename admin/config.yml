@@ -1,0 +1,788 @@
+backend:
+  name: github
+  repo: shinedesigns/seekhealing.github.io
+  branch: content
+  site_domain: seekhealing.shinedesigns.dev
+publish_mode: editorial_workflow
+media_folder: "/assets/images"
+editor:
+  preview: false
+collections:
+  # - name: "posts"
+  #   label: "Posts"
+  #   label_singular: "Post"
+  #   folder: "_posts"
+  #   create: true
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" #i.e. YYYY-MM-DD-title.md
+  #   fields:
+  #     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "pages"
+    label: "Pages"
+    label_singular: "Page"
+    folder: "_pages"
+    create: true
+    filter: {field: "layout", value: "page"}
+    slug: "{{slug}}"
+    summary: "/{{filename}}/"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      # - {label: "Permalink", name: "permalink", widget: "hidden", default: ""}
+      - {label: "Title", name: "title", widget: "string"}
+      - label: "Sections"
+        label_singular: "Section"
+        name: "sections"
+        widget: "list"
+        summary: '{{fields.type}}: {{fields.title}}'
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            options: ["article", "citation", "connect", "connection-agent-form", "directors", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "press", "resources", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
+      # - {label: "Transparent Header?", name: "transparent-header", widget: "boolean", default: false}
+      # - {label: "Body", name: "body", widget: "markdown", modes: ["raw"], required: false}
+  - name: "redirects"
+    label: "Redirects"
+    label_singular: "Redirect"
+    folder: "_pages"
+    create: true
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    filter: {field: "layout", value: "redirect"}
+    slug: "{{slug}}"
+    identifier_field: permalink
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "redirect"}
+      - {label: "Sitemap", name: "sitemap", widget: "hidden", default: false}
+      - label: "Slug"
+        name: "permalink"
+        widget: "string"
+        pattern: ['^\/.*\/$', "Slug must begin and end with forward slashes, e.g. /2020/"]
+      - {label: "Redirect to", name: "redirect_to", widget: "string"}
+  - name: "otherContent"
+    label: "Miscellaneous Content"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: "global"
+        label: "Global Site Content"
+        file: "_data/global.yaml"
+        description: "Global content"
+        fields:
+          - {label: "Email Address", name: "email", widget: "string"}
+          - {label: "Email Icon", name: "email-icon", widget: "string"}
+          - {label: "Subscribe Form Submission URL", name: "subscribe-url", widget: "string"}
+          - {label: "Subscribe Form Text", name: "subscribe-text", widget: "string"}
+          - {label: "Subscribe Form Button Text", name: "subscribe-btn-text", widget: "string"}
+      - name: "header"
+        label: "Header Content"
+        file: "_data/header.yaml"
+        description: "Header content"
+        fields:
+          - label: "Logo Image"
+            name: "logo"
+            widget: "image"
+          - {label: "Logo Alt Text", name: "logo-alt", widget: "string"}
+          - label: "Header Navigation Items"
+            name: nav
+            widget: "list"
+            fields:
+              - {label: "Title", name: title, widget: string}
+              - {label: "URL", name: url, widget: string}
+              - label: "Target"
+                name: target
+                widget: select
+                options: ["", "_blank"]
+              - label: "SubMenu"
+                name: submenu
+                widget: list
+                fields:
+                  - {label: "Title", name: title, widget: string}
+                  - {label: "URL", name: url, widget: string}
+                  - label: "Target"
+                    name: target
+                    widget: select
+                    options: ["", "_blank"]
+      - name: "footer"
+        label: "Footer Links"
+        file: "_data/footer.yaml"
+        description: "Footer Links"
+        fields:
+          # - {label: "Copyright Text", name: "copyright-text", widget: "string"}
+          # - label: "Footer Navigation Items"
+          #   name: nav
+          #   widget: "list"
+          #   fields:
+          #     - {label: "Title", name: title, widget: string}
+          #     - {label: "URL", name: url, widget: string}
+          #     - label: "Target"
+          #       name: target
+          #       widget: select
+          #       options: ["", "_blank"]
+          - label: "Footer Social Media Links"
+            label_singular: "Footer Social Media Link"
+            name: "social-media"
+            widget: "list"
+            fields:
+              - {label: "Icon class", name: icon, widget: string}
+              - {label: "URL", name: url, widget: string}
+      # - name: "contact"
+      #   label: "Contact Page Content"
+      #   file: "_data/contact.yaml"
+      #   description: "Contact Page content"
+      #   fields:
+      #     - {label: "Contact Header", name: "location-header", widget: "string"}
+      #     - label: "Location Contacts"
+      #       name: location-contacts
+      #       widget: "list"
+      #       fields:
+      #         - {label: "City", name: city, widget: string}
+      #         - {label: "State", name: state, widget: string}
+      #         - {label: "Contact Email Address", name: email, widget: string}
+      #     - {label: "Connect Header", name: "connect-header", widget: "string"}
+      - name: "memorial-wall"
+        label: "Memorial Wall"
+        file: "_data/memorial-wall.yaml"
+        description: "People listed on the Memorial Wall"
+        fields:
+          - label: "In Memorium"
+            name: memorium
+            widget: "list"
+            fields:
+              - {label: "Name", name: name, widget: string}
+              - {label: "Remembered By", name: remembered-by, widget: string}
+              - {label: "Quote", name: quote, widget: string}
+      - name: "resources"
+        label: "Resources"
+        file: "_data/resources.yaml"
+        description: "List of resources used in site"
+        fields:
+          - label: "Resources"
+            name: resources
+            widget: "list"
+            fields:
+              - {label: "Title", name: title, widget: string}
+              - {label: "Sub-title", name: subtext, widget: string}
+              - {label: "Link", name: url, widget: string}
+              - {label: "Icon", name: icon, widget: string}
+              - label: "Target"
+                name: target
+                widget: select
+                options: ["", "_blank"]
+      # - name: "asheville-pilot-program"
+      #   label: "Asheville Pilot Content"
+      #   file: "_data/asheville-pilot-program.yaml"
+      #   description: "Content for Asheville Pilot Program Page"
+      #   fields:
+      #     - {label: "header", name: header, widget: string}
+      #     - {label: "Subheader", name: subheader, widget: string}
+      #     - {label: "Seeker Image", name: seeker-img, widget: string}
+      #     - {label: "Seeker Image Alt Text", name: seeker-img-alt, widget: string}
+      #     - {label: "Seeker Header", name: seeker-header, widget: string}
+      #     - {label: "Seeker Description", name: seeker-desc, widget: string}
+      #     - {label: "Seeker Image 2", name: seeker-img-2, widget: string}
+      #     - {label: "Seeker Image 2 Alt Text", name: seeker-img-2-alt, widget: string}
+      #     - {label: "Seeker Side Text 1", name: seeker-side-1, widget: string}
+      #     - {label: "Seeker Side Text 2", name: seeker-side-2, widget: string}
+      #     - {label: "Connection Agent Activities Image", name: conn-agent-acts, widget: string}
+      #     - {label: "Connection Agent Activities Image Alt Text", name: conn-agent-acts-alt, widget: string}
+      #     - {label: "Connection Basketball Image", name: conn-bball, widget: string}
+      #     - {label: "Connection Basketball Image Alt Text", name: conn-bball-alt, widget: string}
+      #     - {label: "Connection Agent Header", name: conn-agent-header, widget: string}
+      #     - {label: "Connection Agent Description", name: conn-agent-desc, widget: string}
+      #     - {label: "Connection Gathering Image", name: conn-gathering, widget: string}
+      #     - {label: "Connection Gathering Image Alt Text", name: conn-gathering-alt, widget: string}
+      #     - {label: "Connection Gathering Header", name: conn-gathering-header, widget: string}
+      #     - {label: "Connection Gathering Description", name: conn-gathering-desc, widget: string}
+      #     - {label: "Big Stick Figure Image", name: big-stick, widget: string}
+      #     - {label: "Big Stick Figure Image Alt Text", name: big-stick-alt, widget: string}
+      #     - {label: "Match text", name: match, widget: string}
+      #     - {label: "Match Image", name: match-img, widget: string}
+      #     - {label: "Match Image Alt Text", name: match-img-alt, widget: string}
+      #     - {label: "Match Description", name: match-desc, widget: string}
+      #     - {label: "Match Description 2", name: match-desc-2, widget: string}
+      #     - {label: "Yoga Image", name: yoga, widget: string}
+      #     - {label: "Yoga Image Alt Text", name: yoga-alt, widget: string}
+      #     - {label: "Match Description 3", name: match-desc-3, widget: string}
+      #     - {label: "Data Image", name: data, widget: string}
+      #     - {label: "Data Image Alt Text", name: data-alt, widget: string}
+      #     - {label: "Data Header", name: data-header, widget: string}
+      #     - {label: "Data Description", name: data-desc, widget: string}
+      #     - {label: "Apply Header", name: apply-header, widget: string}
+      #     - label: "Apply Links"
+      #       name: apply-links
+      #       widget: "list"
+      #       fields:
+      #         - {label: "Description", name: title, widget: string}
+      #         - {label: "URL", name: url, widget: string}
+      #         - {label: "Button Text", name: btn-txt, widget: string}
+      #     - {label: "Sub-Text", name: subtext, widget: string}
+  # - name: "section-article"
+  #   label: "Section_Article"
+  #   folder: "_sections/article"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "article"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #     - {label: "Article Header", name: "header", widget: "string"}
+  #     - {label: "Article Header Image", name: "header-img", widget: "image", required: false}
+  #     - {label: "Author Name", name: "author", widget: "string"}
+  #     - {label: "Author's Job Title", name: "author-title", widget: "string"}
+  #     - {label: "Author's Picture", name: "author-img", widget: "image"}
+  #     - {label: "Author Sub-header", name: "author-subheader", widget: "string", required: false}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  # - name: "section-citation"
+  #   label: "Section_Citation"
+  #   folder: "_sections/citation"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "citation"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  # - name: "section-connection-agent-form"
+  #   label: "Section_Connection-Agent-form"
+  #   folder: "_sections/connection-agent-form"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "connection-agent-form"}
+  #     - {label: "Form", name: "form", widget: "hidden", default: "connection-agent-form"}
+  #     - {label: "Form Header", name: "header", widget: "string"}
+  - name: "leadership"
+    label: "Leadership"
+    folder: "_sections/directors"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "team"}
+      - label: "Category"
+        name: category
+        widget: select
+        options: ["Board of Directors", "Advisory Council"]
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Picture", name: "image", widget: "image"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "section-double"
+    label: "Section / Double"
+    label_singular: "Double Section"
+    folder: "_sections/double"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "double"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - label: "Width"
+        name: "col-width"
+        widget: "select"
+        options: ["regular", "sticky", "thin", "wide"]
+        default: "regular"
+        required: false
+      - label: "Padding"
+        name: "padding"
+        widget: "select"
+        options: ["no-padding", "no-top-padding", "no-bot-padding"]
+        required: false
+      - {label: "White Background?", name: "white-bg", widget: "boolean", default: false, required: false}
+      - {label: "Bottom Border?", name: "section-bottom-border", widget: "boolean", default: false, required: false}
+  - name: "section-double-columns"
+    label: "Section / Double Columns"
+    label_singular: "Double Column"
+    folder: "_sections/double-columns"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{double}}-column-{{column}}"
+    summary: "{{double}} {{column}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "double-column"}
+      - {label: "Double", name: "double", widget: "string"}
+      - {label: "Column", name: "column", widget: "number", valueType: "int", min: 1}
+      - {label: "Center Column Content?", name: "center", widget: "boolean", default: false, required: false}
+      - {label: "Is content a sticky note format?", name: "sticky-note", widget: "boolean", default: false, required: false}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "section-double-full"
+    label: "Section / Double Full"
+    label_singular: "Double Full"
+    folder: "_sections/double-full"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "double-full"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
+      - label: "Font Size"
+        name: "apply-links"
+        widget: "select"
+        options: ["large", "regular"]
+        default: "regular"
+        required: false
+      - {label: "Background Image", name: "img", widget: "image"}
+      - label: "Background Image Position"
+        name: "img-pos"
+        widget: "select"
+        options: ["left", "right"]
+        default: "left"
+      - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
+      - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "events"
+    label: "Events"
+    label_singular: "Event"
+    folder: "_sections/events"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ['commit_date', 'date', 'title']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "events"}
+      - label: "What type of event is this?"
+        name: "subtype"
+        widget: "select"
+        options: ["Regular event", "Overdose and Addiction 101", "Listening Training"]
+        default: "Regular event"
+      - label: "Is this event upcoming or already past?"
+        name: "timing"
+        widget: "select"
+        options: ["upcoming", "past"]
+        default: "upcoming"
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title Markup", name: "name", widget: "string"}
+      - {label: "Date", name: "date", widget: "date", default: ""}
+      - {label: "Time", name: "time", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Ticket Button Text", name: "ticket-btn", widget: "string", default: "Buy Tickets"}
+      - {label: "Ticket Button URL", name: "ticket-url", widget: "string"}
+      - {label: "Description", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "section-hero"
+    label: "Section / Hero"
+    label_singular: "Hero Section"
+    folder: "_sections/hero"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "hero"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and dashes only."]
+      - {label: "Background Image", name: "background", widget: "image", default: "/assets/images/home-bkgrnd.jpg"}
+      - {label: "Darken Background?", name: "darkened", widget: "boolean", default: false}
+      - {label: "Video Embed URL", name: "video-embed", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "section-lightbox"
+    label: "Section / Lightbox"
+    label_singular: "Lightbox Section"
+    folder: "_sections/lightboxes"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "lightbox"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and dashes only."]
+      - {label: "Column Width", name: "col-width", widget: "hidden", default: "wide"}
+      - {label: "Close Button Text", name: "close-button-text", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  # - name: "section-message-box"
+  #   label: "Section_Message_Box"
+  #   folder: "_sections/message-box"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "message-box"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #     - {label: "Box Header", name: "header", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "section-parallax"
+    label: "Section / Parallax"
+    label_singular: "Parallax Section"
+    folder: "_sections/parallax"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "parallax"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - label: "Font Size"
+        name: "apply-links"
+        widget: "select"
+        options: ["large", "regular"]
+        default: "large"
+        required: false
+      - {label: "Background Image", name: "bg-img", widget: "image"}
+      - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
+      - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "section-press"
+    label: "Press"
+    label_singular: "Press entry"
+    folder: "_sections/press"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{date}}-{{title}}"
+    summary: "{{date}} — {{title}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "message-box"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - label: 'Date'
+        name: 'date'
+        widget: 'date'
+        # default: ''
+        format: 'YYYY-MM-DD'
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Featured Video (embed URL)", name: "video", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  # - name: "section-resources"
+  #   label: "Section_Resources"
+  #   folder: "_sections/resources"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "resources"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #     - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "section-single"
+    label: "Section / Single"
+    label_singular: "Single Section"
+    folder: "_sections/single"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "single"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
+      - label: "Font Size"
+        name: "apply-links"
+        widget: "select"
+        options: ["large", "regular"]
+        default: "regular"
+        required: false
+      - label: "Header Type"
+        name: "header"
+        widget: "select"
+        options: ["regular", "subnav-header"]
+        default: "regular"
+        required: false
+      - label: "Column Width"
+        name: "col-width"
+        widget: "select"
+        options: ["regular", "sticky", "thin", "wide"]
+        default: "regular"
+        required: false
+      - label: "Sticky Note Content"
+        name: "sticky-header"
+        widget: "string"
+        default: ""
+        required: false
+      - label: "Bottom Border on Section?"
+        name: "section-bottom-border"
+        widget: "boolean"
+        default: "false"
+        required: false
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "section-story"
+    label: "Section / Story"
+    label_singular: "Story Section"
+    folder: "_sections/story"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "story"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  # - name: "section-stripe"
+  #   label: "Section_Stripe"
+  #   folder: "_sections/stripe"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "stripe"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "section-subnav"
+    label: "Section / Subnav"
+    label_singular: "Subnav Section"
+    folder: "_sections/subnav"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    summary: "{{nav}} — {{title}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "subnav"}
+      - label: "Section Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - label: "Navigation Grouping Title"
+        name: "nav"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+      - {label: "Subnav Link", name: "link", widget: "string"}
+      - {label: "Link Image", name: "image", widget: "image"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "team"
+    label: "Team"
+    label_singular: "Team Member"
+    folder: "_sections/team"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    summary: "{{order}}. {{name}}"
+    sortable_fields: ['commit_date', 'date', 'name', 'order']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "team"}
+      - {label: "Category", name: "category", widget: "hidden", default: "Team"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Job Title", name: "title", widget: "string"}
+      - {label: "Picture", name: "image", widget: "image"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  # - name: "section-triple"
+  #   label: "Section_Triple"
+  #   folder: "_sections/triple"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "triple"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #     - label: "Header Type"
+  #       name: "header"
+  #       widget: "select"
+  #       options: ["regular", "subnav-header"]
+  #       default: "regular"
+  #       required: false
+  #     - label: "Column Width"
+  #       name: "col-width"
+  #       widget: "select"
+  #       options: ["regular", "sticky", "thin", "wide"]
+  #       default: "regular"
+  #       required: false
+  #     - {label: "Column Grouping Name", name: "col-names", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  # - name: "section-triple-cols"
+  #   label: "Section_Triple_Columns"
+  #   folder: "_sections/triple-columns"
+  #   create: true
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "triple-col"}
+  #     - {label: "Column Grouping Name", name: "col-names", widget: "string"}
+  #     - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: 1}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "watm-events"
+    label: "WATM Events"
+    label_singular: "WATM Event"
+    folder: "_sections/webinar-events/watm"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    identifier_field: name
+    slug: "{{date}}-{{start-time}}-{{slug}}"
+    summary: "{{date}} {{start-time}} {{slug}}"
+    sortable_fields: ['commit_date', 'date', 'title']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
+      - {label: "Webinar", name: "webinar", widget: "hidden", default: "watm"}
+      - label: Title
+        name: name
+        widget: string
+        hint: e.g. A Performance Comparison between Jekyll and WordPress
+      - label: Title Slug
+        name: title
+        widget: string
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters and dashes only"]
+        hint: Should be short (for SEO) and must be a valid URL slug, e.g. jekyll-vs-wordpress-performance
+      # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
+      - label: "Facilitators"
+        label_singular: "Facilitator"
+        name: "facilitators"
+        widget: "list"
+        fields:
+          - {label: "Name", name: name, widget: string}
+          - {label: "Photo", name: photo, widget: image, allow_multiple: false, required: false}
+          - {label: "Bio", name: bio, widget: text}
+          - label: Link
+            name: link
+            widget: string
+            required: false
+            hint: Must be a valid URL with http prefix, e.g. https://example.com
+          - label: Link Text
+            name: link-text
+            widget: string
+            required: false
+            hint: Text to display in place of the above URL, e.g. example.com
+      - label: "Event Subtype"
+        name: "event-type"
+        widget: "select"
+        options: ["presentation", "interactive", "music", "interview"]
+      - label: Day
+        name: day
+        widget: number
+        valueType: int
+        min: 1
+        max: 3
+        hint: For a Friday-Sunday webinar, 1 means Friday, 2 means Saturday, and 3 means Sunday.
+      - {label: "Date", name: "date", widget: "date", format: 'YYYY-MM-DD'}
+      - label: "Start Time"
+        name: "start-time"
+        widget: "datetime"
+        default: ""
+        date_format: "" # none
+        time_format: "HH:mm" # e.g. 21:07
+        format: "HH:mm"
+        picker_utc: false
+      - label: "End Time"
+        name: "end-time"
+        widget: "datetime"
+        default: ""
+        date_format: "" # none
+        time_format: "HH:mm" # e.g. 21:07
+        format: "HH:mm"
+        picker_utc: false
+      - {label: "Zoom Link", name: "link", widget: "string"}
+      - label: Event Summary
+        name: tagline
+        widget: text
+        required: false
+        hint: If the full event description (below) is long, please include a shortened version here for the webinar schedule section event block.
+      - {label: "Event Description", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "obt-events"
+    label: "OBT Events"
+    label_singular: "OBT Event"
+    folder: "_sections/webinar-events/obt"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{date}}-{{start-time}}-{{title}}"
+    summary: "{{date}} {{start-time}} {{title}}"
+    sortable_fields: ['commit_date', 'date', 'title']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
+      - {label: "Webinar", name: "webinar", widget: "hidden", default: "obt"}
+      - label: Title
+        name: name
+        widget: string
+        hint: e.g. A Performance Comparison between Jekyll and WordPress
+      - label: Title Slug
+        name: title
+        widget: string
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters and dashes only"]
+        hint: Should be short (for SEO) and must be a valid URL slug, e.g. jekyll-vs-wordpress-performance
+      # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
+      - label: "Facilitators"
+        label_singular: "Facilitator"
+        name: "facilitators"
+        widget: "list"
+        fields:
+          - {label: "Name", name: name, widget: string}
+          - {label: "Photo", name: photo, widget: image, allow_multiple: false, required: false}
+          - {label: "Bio", name: bio, widget: text}
+          - label: Link
+            name: link
+            widget: string
+            required: false
+            hint: Must be a valid URL with http prefix, e.g. https://example.com
+          - label: Link Text
+            name: link-text
+            widget: string
+            required: false
+            hint: Text to display in place of the above URL, e.g. example.com
+      - label: "Event Subtype"
+        name: "event-type"
+        widget: "select"
+        options: ["presentation", "interactive", "music", "interview"]
+      - label: Day
+        name: day
+        widget: number
+        valueType: int
+        min: 1
+        max: 3
+        hint: For a Friday-Sunday webinar, 1 means Friday, 2 means Saturday, and 3 means Sunday.
+      - {label: "Date", name: "date", widget: "date", format: 'YYYY-MM-DD'}
+      - label: "Start Time"
+        name: "start-time"
+        widget: "datetime"
+        default: ""
+        date_format: "" # none
+        time_format: "HH:mm" # e.g. 21:07
+        format: "HH:mm"
+        picker_utc: false
+      - label: "End Time"
+        name: "end-time"
+        widget: "datetime"
+        default: ""
+        date_format: "" # none
+        time_format: "HH:mm" # e.g. 21:07
+        format: "HH:mm"
+        picker_utc: false
+      - {label: "Zoom Link", name: "link", widget: "string"}
+      - label: Event Summary
+        name: tagline
+        widget: text
+        required: false
+        hint: If the full event description (below) is long, please include a shortened version here for the webinar schedule section event block.
+      - {label: "Event Description", name: "body", widget: "markdown", modes: ["raw"]}

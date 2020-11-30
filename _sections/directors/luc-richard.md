@@ -6,6 +6,6 @@ image: /assets/images/team-headshot-luc.jpg
 order: 5
 ---
 
-Background: Entrepreneur and Alumni of [The Circling Institute](https://www.circlinginstitute.com/){:target="_blank"}
+Entrepreneur and Alumni of [The Circling Institute](https://www.circlinginstitute.com/){:target="_blank"}
 
 <luc@seekhealing.org>

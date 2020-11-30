@@ -1,16 +1,16 @@
-{% comment %} 
+{% comment %}
 <!--
   Subnav Section
 
   This partial is used for the 3 column "sub-navigational" layout that is
   currently utilized on the Learn and About pages.
-  
---> 
+
+-->
 {% endcomment %}
 
 {% assign subnavs = site.sections|where:"type","subnav"|where:"nav",include.title | sort: "order" %}
 
-{% comment %} 
+{% comment %}
 <!-- Determine column layout for page based on collection size -->
 {% endcomment %}
 {% assign subnavs_count = subnavs | size %}
@@ -33,8 +33,8 @@
           {% assign layout_size = "col-sm-5 col-sm-offset-1 subnav-wrapped-item" %}
         {% elsif forloop.index == 5 %}
           {% assign layout_size = "col-sm-5 subnav-wrapped-item" %}
-        {% endif %}  
-      
+        {% endif %}
+        
         <div class="{{ layout_size }} col-xs-12">
           <div class="feature-box">
             <div class="icon">
@@ -42,7 +42,7 @@
             </div>
             {{ nav.content | markdownify }}
           </div>
-        </div>      
+        </div>
 
       {% endfor %}
 

@@ -34,7 +34,7 @@ nav:
     url: /contact/
   - submenu:
       - title: Leadership
-        url: /board-of-directors/
+        url: /leadership/
       - title: Financials
         url: /financials/
       - title: Press
