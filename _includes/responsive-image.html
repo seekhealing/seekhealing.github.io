@@ -1,0 +1,12 @@
+{% comment %}
+<!-- This just strips leading slashes from our image path strings -->
+{% endcomment %}
+{% assign image_path = include.image | slice: 1,include.image.size %}
+
+{% responsive_image_block %}
+  path: {{ image_path }}
+  class: {{ include.class }}
+  style: {{ include.style }}
+  alt: {{ include.alt }}
+  title: {{ include.title }}
+{% endresponsive_image_block %}
