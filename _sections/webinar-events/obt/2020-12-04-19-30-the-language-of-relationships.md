@@ -24,4 +24,8 @@ end-time: 21:30
 link: https://us02web.zoom.us/j/8285470222
 ---
 
-Join Sara Ness of Authentic Revolution for her keynote presentation on communication and the relational creation of interacting with other people. This session will be both seminar and interactive to give participants a chance to practice and apply the techniques offered.
+For many years as a communication teacher, I thought that there was a “right” way to interact, and most people just didn’t know it. 
+
+After 8 years of training thousands of students in Authentic Relating, I realized that if I still can't talk to my parents, I'm doing something wrong.
+
+In this talk, I'll present an entirely new communication system called "Relating Languages". I believe this typology can help us connect with anyone, no matter how different they are. One Big Table is the first time I'm presenting the system publicly! Come discover your language, and learn how to speak with those who don't share your native dialect.
