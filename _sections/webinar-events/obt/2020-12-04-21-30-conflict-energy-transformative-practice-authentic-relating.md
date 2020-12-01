@@ -6,15 +6,15 @@ title: conflict-energy-transformative-practice-authentic-relating
 facilitators:
   - name: Jason Digges
     photo: /assets/images/jasondigges.jpg
-    bio: "Jason is a modern renaissance man: Equal parts artist, philosopher,
-      teacher, and video producer. From 2003-2012 he worked for Ken Wilber and
-      other clients to create thousands of hours of educational media on the
-      topics of transpersonal psychology, spirituality, productivity, and
-      personal growth. For the past 4 years he has been a trainer and
-      facilitator for groups within the authentic relating and circling realm
-      and is obsessed with how humans can live and relate optimally. He is a
-      co-founder and senior course leader at Authentic Relating Training
-      International."
+    bio: "Author of new release Conflict = Energy, The Transformative practice of
+      Authentic Relating, Jason is a modern renaissance man. Equal parts artist,
+      philosopher, teacher, and media producer, from 2003-2012 he worked for
+      Integral Institute to create thousands of hours of educational media on
+      the topics of transpersonal psychology, spirituality, productivity, and
+      personal growth. Obsessed with how humans can live and relate optimally,
+      he’s facilitated groups and taught authentic relating and circling since
+      2012. In 2017, Jason co-founded Authentic Relating Training International
+      and has since led courses in 20 cities around the world. "
     link: https://authenticrelating.co/
 event-type: presentation
 day: 1
@@ -24,4 +24,8 @@ end-time: 22:30
 link: https://us02web.zoom.us/j/8285470222
 ---
 
-Join Jason Digges as he digs into the tenants of Authentic Relating and its impact on ourselves and those we engage with. Bringing honesty and transparency, intertwined with fundamentals of transpersonal psychology, into each moment of our lives allows us to be real with the experience we have whether alone or with others…..a modern day truth serum for how we connect with the world around us.
+Our communication intimately shapes our lives. Yet most of us grew up without any formal teachings on communication, relationships, and our emotions. 
+
+How can we best handle conflict and tension in our relationships? How can we create the richest and juiciest romantic connections? How can we synergize with others and have the highest level of productivity and innovation in our careers?
+
+Authentic relating is a set of practical teachings that directly answer these questions. Join me for this dense and interactive session to unlock your own relational and social awareness.
