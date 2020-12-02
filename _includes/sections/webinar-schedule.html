@@ -192,7 +192,8 @@
 
                           {% if facilitator.photo %}
                           <p class="facilitator-photo">
-                            <img src="{{ facilitator.photo }}" alt="{{ facilitator.name }}" title="{{ facilitator.name }}">
+                            <!-- <img src="{{ facilitator.photo }}" alt="{{ facilitator.name }}" title="{{ facilitator.name }}"> -->
+                            {% include responsive-image.html image=facilitator.photo alt=facilitator.name title=facilitator.name %}
                           </p>
                           {% endif %}
 
