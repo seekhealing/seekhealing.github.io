@@ -5,7 +5,7 @@ name: "The Passion of Now: Euphorma Meditation"
 title: the-passion-of-now-euphorma-meditation
 facilitators:
   - name: Gus Saldana
-    photo: /assets/images/sat.9am-sun.9am-gus-saldana-.jpg
+    photo: /assets/images/obt-gus-saldana.jpg
     bio: >
       Gus Saldana is a Healer, Acupuncturist, and Tai-chi master. He is the
       founder of Euforma Temple in West Virginia and dedicates his life to

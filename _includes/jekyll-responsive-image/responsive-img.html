@@ -1,0 +1,23 @@
+{% comment %}
+<!-- Generates a tag for lazysizes, w/ initial LQIP src (blur-up technique) -->
+{% endcomment %}
+
+{% assign smallest = resized | sort: 'width' | first %}
+{% capture srcset %}
+{% for i in resized %}
+  /{{ i.path }} {{ i.width }}w,
+{% endfor %}
+{% endcapture %}
+
+<img
+  src="/{{ path }}"
+  srcset="/{{ smallest.path }}"
+  data-srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
+  data-sizes="auto"
+  width="{{ original.width }}"
+  height="{{ original.height }}"
+  class="{% if class %}{{ class }} {% endif %}img-responsive lazyload"
+  {% if style %}style="{{ style }}"{% endif %}
+  {% if alt %}alt="{{ alt }}"{% endif %}
+  {% if title %}title="{{ title }}"{% endif %}
+/>

@@ -5,7 +5,7 @@ name: "Connection for Rehabilitation: Transforming Incarcerated Hearts & Minds"
 title: connection-for-rehabilitation-transforming-incarcerated-hearts-minds
 facilitators:
   - name: Laurie Lazar
-    photo: /assets/images/laurie-lazar-photo.jpeg
+    photo: /assets/images/obt-laurie-lazar.jpg
     bio: >
       Laurie has over 30 years helping people make real changes in their lives.
       Initially guiding people through major career moves as a professional

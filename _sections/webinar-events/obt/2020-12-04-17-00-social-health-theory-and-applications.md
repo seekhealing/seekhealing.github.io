@@ -5,7 +5,7 @@ name: Social Health Theory + Applications
 title: social-health-theory-and-applications
 facilitators:
   - name: Jennifer Nicolaisen
-    photo: /assets/images/untitled-design-6-.png
+    photo: /assets/images/obt-jennifer-nicolaisen.jpg
     bio: Jennifer Nicolaisen is the executive director and co-founder of
       SeekHealing, an Asheville-based nonprofit using a novel protocol for
       treating addiction and fighting the opioid overdose crisis. SeekHealing

@@ -5,7 +5,7 @@ name: The Hologram of Connection in Recovery
 title: hologram-connection-recovery
 facilitators:
   - name: Dr. Brack Jeffreys
-    photo: /assets/images/obt-sunday-430pm-dr-brack-jeffreys.jpg
+    photo: /assets/images/obt-dr-brack-jeffreys.jpg
     bio: "Dr. Brack Jeffreys, Ph.D., LCMHC, LCAS, RN, has been working with
       individuals, groups and families since 1983. He is a Licensed Clinical
       Mental Health Counselor, Certified Clinical Supervisor, Licensed Clinical

@@ -10,7 +10,7 @@ margin: no-margin
 <ul class="partners">
   <li class="partner-item" style="margin: 20px 5%; flex: 2 0 auto;">
     <a href="https://www.buncombecounty.org/Governing/Depts/HHS/Default.aspx" target="_blank">
-      <img src="/assets/images/partner-buncombe-county-hhs.png" class="" title="Buncombe County Health &amp; Human Services">
+      <img src="/assets/resized_images/640w/partner-buncombe-county-hhs.png" title="Buncombe County Health &amp; Human Services">
     </a>
   </li>
 </ul>

@@ -5,7 +5,7 @@ name: "Belonging and Longing: Gentle Flow Yoga and Meditation"
 title: belonging-and-longing-gentle-flow-yoga-and-meditation
 facilitators:
   - name: Beth Morris
-    photo: /assets/images/pure-potential.png
+    photo: /assets/images/obt-pure-potential.png
     bio: Beth completed her MSW in 1993 and has worked professionally with children
       and adolescents in group homes, treatment foster care, shelters, and
       residential settings. Beth began teaching yoga in 2013. She is a E-RYT 500

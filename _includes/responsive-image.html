@@ -1,0 +1,23 @@
+{% assign image_path = include.image %}
+{% assign relative_path = image_path | remove: "/assets/images/" %}
+
+{%- capture srcset -%}
+  {% include responsive-srcset.html image=image_path %}
+{%- endcapture -%}
+
+{% assign classes = include.class | append: " img-responsive lazyload" %}
+{% assign style = include.style %}
+{% assign alt = include.alt %}
+{% assign title = include.title %}
+
+<img
+  src="{{ image_path }}"
+  srcset="/assets/resized_images/240w/{{ relative_path }}"
+  data-srcset="{{ srcset | strip }}"
+  data-sizes="auto"
+  {% imagesize image_path:props %}
+  class="{{ classes }}"
+  {% if style %}style="{{ style }}"{% endif %}
+  {% if alt %}alt="{{ alt }}"{% endif %}
+  {% if title %}title="{{ title }}"{% endif %}
+/>

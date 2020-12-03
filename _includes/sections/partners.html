@@ -20,7 +20,7 @@
         <div class="{% if partner_page.col-width == "thin" %}col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2{% elsif partner_page.col-width == "wide" %}col-md-12{% elsif partner_page.col-width == "sticky" %}col-sm-6 col-sm-offset-3{% else %}col-md-8 col-md-offset-2{% endif %} col-xs-12 text-center {% if partner_page.header %}{{ partner_page.header }}{% else %}normal-header{% endif %}">
 
           {% if partner_page.heading %}
-            <h1>{{ partner_page.heading }}</h1>
+          <h1>{{ partner_page.heading }}</h1>
           {% endif %}
 
           {{ partner_page.content | markdownify }}
@@ -34,7 +34,8 @@
               {% endif %}
 
                 {% if partner.image %}
-                <image src="{{ partner.image | prepend: "/assets/images/" | prepend: site.baseurl }}" class="" title="{{ partner.title }}">
+                {% assign partner_image_path = partner.image | prepend: "/assets/images/" %}
+                {% include responsive-image.html image=partner_image_path alt=partner.title title=partner.title %}
                 {% else %}
                 {{ partner.title }}
                 {% endif %}

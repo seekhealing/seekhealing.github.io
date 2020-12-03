@@ -1,9 +1,9 @@
 ---
 type: hero
 title: obt-hero
-background: /assets/images/obt-background.png
+background: /assets/resized_images/1600w/obt-background.jpg
 darkened: true
-video-embed: https://www.youtube.com/embed/ZGW1j6Txu9k
+video-embed: https://www.youtube.com/embed/7CqZSYfh7kk
 ---
 
 # Welcome to <br />One Big Table

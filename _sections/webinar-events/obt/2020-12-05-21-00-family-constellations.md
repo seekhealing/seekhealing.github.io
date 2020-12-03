@@ -5,7 +5,7 @@ name: Family Constellations
 title: family-constellations
 facilitators:
   - name: Sarah Peyton
-    photo: /assets/images/18_chaffee-peyton-final.jpg
+    photo: /assets/images/obt-sarah-peyton.jpg
     bio: >
       Sarah Peyton, Certified Trainer of Nonviolent Communication, constellation
       facilitator and neuroscience educator, integrates brain science and the
@@ -28,4 +28,4 @@ tagline: Sarah integrates Interpersonal Neurobiology (IPNB) and empathy into the
 
 Sarah integrates Interpersonal Neurobiology (IPNB) and empathy into the Family Constellations experience. When we step into the field created by the constellation, we are stepping into the seeker’s right hemisphere, with its connection to the body, emotions, and its orientation in our relational world. This work opens the door to understanding how much information is coming in through our bodies. As this comprehension deepens, we realize that we can effectively partner with them for conscious movement in the world. We begin to move differently as facilitators and as clients. Constellations give us a way to harvest the body’s wisdom. Through constellation work we can unwind and unravel the frozen strands of trauma from our essential beings, so that we can flourish, live, and contribute our gifts with ease.
 
-![Your Resonant Self by Sarah Peyton](/assets/images/obt-your-resonant-self-by-sarah-peyton-book-cover.jpg)
+[![Your Resonant Self by Sarah Peyton](/assets/images/obt-book-your-resonant-self.jpg)](https://www.firestorm.coop/onebigtable){:target="_blank"}

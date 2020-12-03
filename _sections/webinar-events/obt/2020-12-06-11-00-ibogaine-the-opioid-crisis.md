@@ -5,7 +5,7 @@ name: Ibogaine & The Opioid Crisis
 title: ibogaine-the-opioid-crisis
 facilitators:
   - name: Dimitri Mugianis
-    photo: /assets/images/obt-sun-11am-dimitri-mugianis.png
+    photo: /assets/images/obt-dimitri-mugianis.jpg
     bio: 'Dimitri Mugianis is an activist, anarchist, community organizer,
       artist, and Bwiti N’ganga (spiritual healer). Raised in Detroit during
       the ‘60s and ‘70s, Dimitri was greatly influenced by that artistic and

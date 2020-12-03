@@ -6,7 +6,7 @@ name: "Ending Stigma: The Missing Piece to Our Nation’s Response to the
 title: ending-stigma-the-missing-piece-to-the-addiction-epidemic
 facilitators:
   - name: Matthew Stefanko
-    photo: /assets/images/obt-sat.-3pm-matthew-stefanko.png
+    photo: /assets/images/obt-matthew-stefanko.jpg
     bio: >
       Matthew Stefanko is the Director, National Stigma Initiative for
       Shatterproof.

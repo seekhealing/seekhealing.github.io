@@ -5,7 +5,7 @@ name: Four Key Elements to Improving Your Relationships
 title: four-key-elements-to-improving-your-relationships
 facilitators:
   - name: Cathy Courtnay
-    photo: /assets/images/obt-sat.-1030am-cathy-courtenay.png
+    photo: /assets/images/obt-cathy-courtenay.jpg
     bio: >
       Cathy Courtenay has been on a path of personal and spiritual growth for
       most of her life. She brings her heart and deep listening skills to

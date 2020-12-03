@@ -1,0 +1,17 @@
+{% assign image_path = include.image %}
+{% assign relative_path = image_path | remove: "/assets/images/" %}
+
+{%- capture width_str -%}{%- imagesize image_path:width -%}{%- endcapture -%}
+{%- assign width = width_str | plus: 0 -%}
+
+{%- assign srcset = "" -%}
+{%- assign widths = "240, 320, 480, 640, 768, 1024, 1366, 1600, 1920" | split: ", " -%}
+{%- for w_str in widths -%}
+  {%- assign w = w_str | plus: 0 -%}
+  {%- if width <= w -%}
+    {%- break -%}
+  {%- else -%}
+    {{- srcset | append: "/assets/resized_images/" | append: w | append: "w/" | append: relative_path | append: " " | append: w | append: "w" | append: ", " -}}
+  {%- endif -%}
+{%- endfor -%}
+{{- srcset | append: image_path | append: " " | append: width | append: "w" -}}

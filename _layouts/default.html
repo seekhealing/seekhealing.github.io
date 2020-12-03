@@ -5,7 +5,7 @@ layout: compress
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 
-{% include head.html %} 
+{% include head.html %}
 
   <body class="stretched">
 
@@ -14,7 +14,7 @@ layout: compress
     {% include header.html %}
 
       {{ content }}
-  
+
     {% include footer.html %}
 
     </div><!-- #wrapper end -->
@@ -45,6 +45,15 @@ layout: compress
     <script type="text/javascript" src="{{ site.baseurl}}/assets/js/functions.js?{{site.time | date: '%s'}}"></script>
     <script type="text/javascript" src="{{ site.baseurl}}/assets/js/custom-functions.js?{{site.time | date: '%s'}}"></script>
 
+    <script>
+    function init() {
+      var vidDefer = document.getElementsByTagName('iframe');
+      for (var i=0; i<vidDefer.length; i++) {
+        if(vidDefer[i].getAttribute('data-src')) {
+          vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+    } } }
+    window.onload = init;
+    </script>
 
   </body>
 

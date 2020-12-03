@@ -5,7 +5,7 @@ name: Sunday Brunch Boogie!
 title: sunday-brunch-boogie
 facilitators:
   - name: DJ Peri Meters (Mary Peters)
-    photo: /assets/images/sun.12-30pm-dj-peri-meters-.jpg
+    photo: /assets/images/obt-dj-peri-meters.jpg
     bio: >
       Veterinarian specialist by day, sonic creator by night (or day!). Resident
       DJ - Synth Etiquette Radio

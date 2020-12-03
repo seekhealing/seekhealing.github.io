@@ -29,10 +29,10 @@
             <div class="hero-img">
               {% if hero.image-link %}
               <a href="{{ hero.image-link }}">
-                <img src="{{ hero.image }}" alt="{% if hero.image-alt %}{{ hero.image-alt }}{% endif %}" class="img-responsive">
+                {% include responsive-image.html image=hero.image alt=hero.image-alt %}
               </a>
               {% else %}
-              <img src="{{ hero.image }}" alt="{% if hero.image-alt %}{{ hero.image-alt }}{% endif %}" class="img-responsive">
+              {% include responsive-image.html image=hero.image alt=hero.image-alt %}
               {% endif %}
             </div>
             {% elsif hero.video %}
@@ -45,7 +45,7 @@
             {% elsif hero.video-embed %}
             <div class="large max-vid-width hero-vid">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="{{ hero.video-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="" data-src="{{ hero.video-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             {% endif %}

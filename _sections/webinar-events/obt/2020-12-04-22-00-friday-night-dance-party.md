@@ -5,7 +5,7 @@ name: Friday Night Dance Party!
 title: friday-night-dance-party
 facilitators:
   - name: Captain EZ - The Vibe Conductor (Phil Rossi)
-    photo: /assets/images/sat.8pm-captain-ez-.png
+    photo: /assets/images/obt-captain-ez.jpg
     bio: Captain EZ - The Vibe Conductor is an environmental curator with a sonic
       arsenal that spans decades, styles and genres. I am a crate digger focused
       on showcasing tracks produced by local, regional and national phriends, as
