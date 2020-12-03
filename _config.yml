@@ -89,12 +89,12 @@ paginate: 1
 paginate_path: "/blog/page/:num"
 
 mini_magick:
-  100x80: # Preset name
-    source: assets/images # source directory - change this to whatever you want
-    destination: assets/resized_images/100x80 # generated destination directory
-    resize: "100x80^" # standard imagemagick options - you can chain multiple commands
-    gravity: "center"
-    extent: "100x80"
+  # 100x80: # Preset name
+  #   source: assets/images # source directory - change this to whatever you want
+  #   destination: assets/resized_images/100x80 # generated destination directory
+  #   resize: "100x80^" # standard imagemagick options - you can chain multiple commands
+  #   gravity: "center"
+  #   extent: "100x80"
   240w:
     source: assets/images
     destination: assets/resized_images/240w
@@ -103,6 +103,10 @@ mini_magick:
     source: assets/images
     destination: assets/resized_images/320w
     resize: "320>"
+  480w:
+    source: assets/images
+    destination: assets/resized_images/480w
+    resize: "480>"
   640w:
     source: assets/images
     destination: assets/resized_images/640w

@@ -5,7 +5,7 @@
 {%- assign width = width_str | plus: 0 -%}
 
 {%- assign srcset = "" -%}
-{%- assign widths = "240, 320, 640, 768, 1024, 1366, 1600, 1920" | split: ", " -%}
+{%- assign widths = "240, 320, 480, 640, 768, 1024, 1366, 1600, 1920" | split: ", " -%}
 {%- for w_str in widths -%}
   {%- assign w = w_str | plus: 0 -%}
   {%- if width <= w -%}
