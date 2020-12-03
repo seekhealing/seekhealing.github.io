@@ -10,7 +10,7 @@ margin: no-margin
 <ul class="partners" style="align-self: center;">
   <li class="partner-item" style="margin: 20px 10%; flex: 2 0 auto; align-items: center; justify-content: center;">
     <a href="https://firestorm.coop/r/onebigtable.html" target="_blank">
-      <img src="/assets/images/partner-firestorm-2.png" class="" title="Firestorm Books &amp; Coffee">
+      <img src="/assets/resized_images/640w/partner-firestorm-2.png" title="Firestorm Books &amp; Coffee">
     </a>
   </li>
 </ul>

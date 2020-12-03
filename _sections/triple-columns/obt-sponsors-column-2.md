@@ -10,7 +10,7 @@ margin: no-margin
 <ul class="partners">
   <li class="partner-item" style="margin: 20px 5%; flex: 2 0 auto;">
     <a href="https://www.ashevillefm.org/" target="_blank">
-      <img src="/assets/images/partner-ashevillefm.jpg" class="" title="Asheville FM">
+      <img src="/assets/resized_images/640w/partner-ashevillefm.jpg" title="Asheville FM">
     </a>
   </li>
 </ul>
