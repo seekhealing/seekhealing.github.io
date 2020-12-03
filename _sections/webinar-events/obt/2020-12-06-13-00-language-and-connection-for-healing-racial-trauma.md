@@ -22,6 +22,9 @@ date: 2020-12-06
 start-time: 13:00
 end-time: 14:00
 link: https://us02web.zoom.us/j/8285470222
+tagline: Meet Kenya K. Stevens, author of UPLVL Communication, as she is interviewed by Jennifer Nicolaisen to discuss why race relationships are at a standstill due to lack of communication and framework surrounding the issue. They will touch on why no one is discussing the most intimate details of their feelings around race, how there are no victims and no villains at the forefront of racial healing, and new ways to heal from the trauma of our racial history which affects everyone equally.
 ---
 
 Meet Kenya K. Stevens, author of UPLVL Communication, as she is interviewed by Jennifer Nicolaisen to discuss why race relationships are at a standstill due to lack of communication and framework surrounding the issue. They will touch on why no one is discussing the most intimate details of their feelings around race, how there are no victims and no villains at the forefront of racial healing, and new ways to heal from the trauma of our racial history which affects everyone equally.
+
+[![UPLVL Communication by Kenya K. Stevens](/assets/images/obt-book-UPLVL-communication.jpg)](https://www.firestorm.coop/onebigtable){:target="_blank"}

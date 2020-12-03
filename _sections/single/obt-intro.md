@@ -12,3 +12,4 @@ padding: no-bot-padding
 ### Everyone is welcome! Invite your loved ones, whether they're far away or you're cooped up in quarantine together. We can't wait to connect with all of you.
 
 ### This festival is a fundraiser. Every little bit counts! Your donations, bids in our Local Love Auction, and purchases from our online book vendor go to preventing drug overdoses and fighting the loneliness epidemic.
+{:style="margin-bottom: 0;"}
