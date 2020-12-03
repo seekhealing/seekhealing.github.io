@@ -5,7 +5,7 @@ name: Opening Ceremony
 title: opening-ceremony
 facilitators:
   - name: Jennifer Nicolaisen
-    photo: /assets/images/untitled-design-6-.png
+    photo: /assets/images/obt-jennifer-nicolaisen.jpg
     bio: >
       Jennifer Nicolaisen is the executive director and co-founder of
       SeekHealing, an Asheville-based nonprofit using a novel protocol for

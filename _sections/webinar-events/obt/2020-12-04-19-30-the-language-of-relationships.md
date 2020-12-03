@@ -5,7 +5,7 @@ name: The Language of Relationships
 title: the-language-of-relationships
 facilitators:
   - name: Sara Ness
-    photo: /assets/images/sara-ness-3-.png
+    photo: /assets/images/obt-sara-ness.jpg
     bio: Sara Ness is an instigator of authenticity, ninja of connection, and
       awkward turtle of social situations. She has worked with thousands of
       leaders and groups across the world, from educators to executives, to
@@ -24,7 +24,7 @@ end-time: 21:30
 link: https://us02web.zoom.us/j/8285470222
 ---
 
-For many years as a communication teacher, I thought that there was a “right” way to interact, and most people just didn’t know it. 
+For many years as a communication teacher, I thought that there was a “right” way to interact, and most people just didn’t know it.
 
 After 8 years of training thousands of students in Authentic Relating, I realized that if I still can't talk to my parents, I'm doing something wrong.
 

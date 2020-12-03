@@ -5,7 +5,7 @@ name: "Conflict = Energy : The Transformative Practice of Authentic Relating"
 title: conflict-energy-transformative-practice-authentic-relating
 facilitators:
   - name: Jason Digges
-    photo: /assets/images/jasondigges.jpg
+    photo: /assets/images/obt-jason-digges.jpg
     bio: "Author of new release Conflict = Energy, The Transformative practice of
       Authentic Relating, Jason is a modern renaissance man. Equal parts artist,
       philosopher, teacher, and media producer, from 2003-2012 he worked for
@@ -24,7 +24,7 @@ end-time: 22:30
 link: https://us02web.zoom.us/j/8285470222
 ---
 
-Our communication intimately shapes our lives. Yet most of us grew up without any formal teachings on communication, relationships, and our emotions. 
+Our communication intimately shapes our lives. Yet most of us grew up without any formal teachings on communication, relationships, and our emotions.
 
 How can we best handle conflict and tension in our relationships? How can we create the richest and juiciest romantic connections? How can we synergize with others and have the highest level of productivity and innovation in our careers?
 

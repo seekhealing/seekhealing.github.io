@@ -6,7 +6,7 @@ name: "Making Room for Emotions: Understanding the relationship between emotions
 title: making-room-for-emotions
 facilitators:
   - name: Hilary Jacobs Hendel
-    photo: /assets/images/hjh-headshot.jpg
+    photo: /assets/images/obt-hilary-jacobs-hendel.jpg
     bio: "Hilary Jacobs Hendel is author of the award-winning book It’s Not Always
       Depression: Working the Change Triangle to Listen to the Body, Discover
       Core Emotions, and Connect to Your Authentic Self (Random House & Penguin

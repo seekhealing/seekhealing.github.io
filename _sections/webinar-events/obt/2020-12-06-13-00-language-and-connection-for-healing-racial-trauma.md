@@ -5,7 +5,7 @@ name: Language and Connection for Healing Racial Trauma
 title: language-and-connection-for-healing-racial-trauma
 facilitators:
   - name: Kenya K. Stevens
-    photo: /assets/images/kenya-k.-stevens.png
+    photo: /assets/images/obt-kenya-k-stevens.jpg
     bio: Kenya K. Stevens, founder and CEO of JujuMama LLC, considers herself a Love
       Shaman.  She is a relationships expert, love coach, best-selling author,
       wife, and mother of three. Kenya attended Howard University in Washington

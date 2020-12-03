@@ -5,7 +5,7 @@ name: Illness and Health in an Insane Culture
 title: illness-and-health-in-an-insane-culture
 facilitators:
   - name: Dr. Gabor Maté
-    photo: /assets/images/dr_gabor_mate_02_high_res.jpg
+    photo: /assets/images/obt-dr-gabor-mate.jpg
 
     bio: "Gabor Maté (pronounced GAH-bor MAH-tay) is a retired physician who, after
       20 years  of family practice and palliative care experience, worked for
@@ -26,7 +26,7 @@ facilitators:
     link: https://www.drgabormate.com
     link-text: drgabormate.com
   - name: Dr. Rachel Wurzman
-    photo: /assets/images/team-headshot-rachel-1.jpg
+    photo: /assets/images/obt-dr-rachel-wurzman.jpg
     bio: Rachel Wurzman is a neuroscientist and neuroethicist by training. She is
       also the Director of Science at SeekHealing, a nonprofit which implements
       creative ways to connect people in order to build communities resilient to

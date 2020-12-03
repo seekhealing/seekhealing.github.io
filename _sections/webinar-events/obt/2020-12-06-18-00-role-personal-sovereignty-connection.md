@@ -5,7 +5,7 @@ name: The Role of Personal Sovereignty in Connection
 title: role-personal-sovereignty-connection
 facilitators:
   - name: "Shaunna Williams "
-    photo: /assets/images/shaunna-williams.jpg
+    photo: /assets/images/obt-shaunna-williams.jpg
     bio: >
       Shaunna Williams, The Mystical Minister, is a spiritual leader of our
       generation to support us in breaking through the ways of the old paradigms

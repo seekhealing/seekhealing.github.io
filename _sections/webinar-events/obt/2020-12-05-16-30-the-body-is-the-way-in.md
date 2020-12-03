@@ -5,7 +5,7 @@ name: The Body is the Way Home
 title: the-body-is-the-way-home
 facilitators:
   - name: Abby Wen Wu
-    photo: /assets/images/abby-wen-wu.png
+    photo: /assets/images/obt-abby-wen-wu.jpg
     bio: "After a complete deconstruction of her world, Abby Wen Wu began a journey
       to unravel her humanness. She has discovered how the body is a portal to a
       deeper knowing, a storage palace of memories and emotions, and a microcosm
