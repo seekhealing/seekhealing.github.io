@@ -114,12 +114,12 @@
                       <i class="far fa-clock"></i>
                       {{ start_time | date: "%l:%M%P" }} EST
 
-                      {% if today_date <= event_date %}
+                      {% if today_date < event_date %}
                       {% include widgets/addtocalendar.html slug=page.slug %}
                       {% endif %}
 
                       {% if today_date == event_date%}
-                      <a href="{{ event.link }}" class="button zoom-button" style="display: none;" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
+                      <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
                       {% endif %}
                     </h3>
                   </blockquote>
@@ -175,12 +175,12 @@
                             <i class="far fa-clock"></i>
                             {{ start_time | date: "%l:%M%P" }}{% if end_time %} — {{ end_time | date: "%l:%M%P" }}{% endif %} EST
 
-                            {% if today_date <= event_date %}
+                            {% if today_date < event_date %}
                             {% include widgets/addtocalendar.html slug=page.slug %}
                             {% endif %}
 
                             {% if today_date == event_date%}
-                            <a href="{{ event.link }}" class="button zoom-button" style="display: none;" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
+                            <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
                             {% endif %}
                           </h3>
                         </blockquote>
