@@ -207,11 +207,12 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
         }
 
         blockquote.event-timing {
-          
+
           .event-meta {
             margin-bottom: 0;
 
             .Blink {
+              color: #b8336a;
               animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
             }
             @keyframes blinker {
