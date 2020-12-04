@@ -176,6 +176,53 @@ body:not(.side-header) .slider-parallax .slider-parallax-inner {
     h1, h2, h3, h4, h5, h6, p {
       text-shadow: 2px 2px 4px #000;
     }
+
+    .event-promos {
+      max-width: 95%;
+
+      .event-box {
+        display: none;
+
+        margin-top: 20px;
+        // margin-bottom: 20px;
+        padding: 10px;
+
+        .promo-row {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          align-items: center;
+        }
+
+        .promo-column {
+          max-width: 45%;
+
+          & * {
+            text-shadow: none;
+          }
+
+          & > * {
+            margin: 0;
+          }
+        }
+
+        blockquote.event-timing {
+          
+          .event-meta {
+            margin-bottom: 0;
+
+            .Blink {
+              animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+            }
+            @keyframes blinker {
+              from { opacity: 1; }
+              to { opacity: 0; }
+            }
+          }
+        }
+      }
+    }
+
   }
 }
 
