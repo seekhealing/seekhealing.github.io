@@ -170,7 +170,6 @@
                       {% assign event_date = event.date | date: "%Y-%m-%d" %}
                       {% if today_date == event_date %}
                         <h3 class="event-meta" style="margin-bottom: 0px;">
-                          {{ schedule.dates[index] | split: "," | first }}
                           <i class="far fa-clock"></i>
                           {{ start_time | date: "%l:%M%P" }} EST
                           <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
