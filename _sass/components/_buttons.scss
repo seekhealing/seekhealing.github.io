@@ -159,10 +159,14 @@ body:not(.device-touch) .button {
   font-weight: normal;
   font-family: "Verdana";
   vertical-align: middle;
-  background: #4281f4;
+  // background: #4281f4;
+  background-color: #b8336a;
 
   &:hover {
-    background: #1b67f2;
+    // background: #1b67f2;
+    color: #fff;
+    background-color: darken(#b8336a,8%);
+    border-color: transparent;
   }
 }
 
