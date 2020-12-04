@@ -269,7 +269,7 @@ p.color-interview {
 
     p.facilitator-photo {
       min-width: 30%;
-      max-width: 66%;
+      max-width: 80%;
       @media screen and (min-width: $screen-sm-min) {
         max-width: 40%;
       }
@@ -280,7 +280,10 @@ p.color-interview {
         max-width: 30%;
       }
 
+      display: flex;
+
       img {
+        align-self: center;
         float: none;
         max-width: 100%;
       }
