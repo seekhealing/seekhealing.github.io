@@ -1,8 +1,8 @@
 ---
 type: webinar-event
 webinar: obt
-name: The Language of Relationships
-title: the-language-of-relationships
+name: Relating Languages
+title: relating-languages
 facilitators:
   - name: Sara Ness
     photo: /assets/images/obt-sara-ness.jpg
