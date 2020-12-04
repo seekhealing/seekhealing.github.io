@@ -262,8 +262,8 @@
                 var ShowTime = (Now.getTime() > startTime.getTime() && Now.getTime() < endTime.getTime());
 
                 if (upcomingEvent) {
-                  $( this ).find(".addtocalendar").show();
-                  $( this ).find(".zoom-button").hide();
+                  $( this ).find(".addtocalendar").hide();
+                  $( this ).find(".zoom-button").show();
                 } else if (ShowTime) {
                   $( this ).find(".addtocalendar").hide();
                   $( this ).find(".zoom-button").show();
