@@ -11,4 +11,4 @@ end-time: 19:00
 link: https://us02web.zoom.us/j/5097184720
 ---
 
-Join us for dinner (and bring the whole family!) as we share the experience of a communal dinner. Coming together to break bread and celebrate the nourishment of food and drink engages humans on a deeply spiritual level that can connect us beyond the ideas of right and wrong. Everybody's gotta eat!
+Join us for dinner (and bring the whole family!) as we share the experience of a communal meal. Coming together to break bread and celebrate the nourishment of food and drink engages humans on a deeply spiritual level that can connect us beyond the ideas of right and wrong. Everybody's gotta eat!

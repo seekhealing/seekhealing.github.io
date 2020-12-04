@@ -1,8 +1,8 @@
 ---
 type: webinar-event
 webinar: obt
-name: The Hologram of Connection in Recovery
-title: hologram-connection-recovery
+name: Addiction as a Spiritual Emergency
+title: addiction-as-a-spiritual-emergency
 facilitators:
   - name: Dr. Brack Jeffreys
     photo: /assets/images/obt-dr-brack-jeffreys.jpg
