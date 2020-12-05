@@ -1,8 +1,19 @@
 <script>
   window.setInterval(function() {
 
-    var Now = new Date(),
-    dateNow = Now.toISOString().slice(0, 10);
+    var localNow = new Date(),
+    localizedNow = localNow.toLocaleString('en-US', { timeZone: 'America/New_York', hour12: false }),
+    localizedDateNow = localizedNow.substring(0, localizedNow.indexOf(','));
+    localizedTimeNow = localizedNow.substring(localizedNow.indexOf(',')).slice(2);
+
+    var localizedDateNow2 = localNow.toLocaleDateString('en-US', { timeZone: 'America/New_York' });
+
+    console.log(localNow);
+    console.log(localizedNow);
+    console.log(localizedDateNow);
+    console.log(localizedTimeNow);
+
+    console.log(localizedDateNow2);
 
     $(".event-promo-box").each(function() {
       var date = $( this ).data( "date" ),
@@ -12,12 +23,28 @@
       endMinute = $( this ).data( "endminute" ),
       utcOffset = $( this ).data( "utcoffset" );
 
-      if (dateNow === date) {
+      console.log(date + " " + startHour + ":" + startMinute + " " + endHour + ":" + endMinute + " " + utcOffset);
 
-        var startTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), startHour, startMinute),
-        endTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), endHour, endMinute);
+      if (localizedDateNow === date) {
 
-        var ShowTime = (Now.getTime() > startTime.getTime() && Now.getTime() < endTime.getTime());
+        var localizedDateArray = localizedDateNow.split("/"),
+        year = localizedDateArray[2],
+        month = localizedDateArray[0]-1,
+        day = localizedDateArray[1];
+
+        console.log(year + " " + (month+1) + " " + day);
+
+        var startTime = new Date(year, month, day, startHour, startMinute),
+        endTime = new Date(year, month, day, endHour, endMinute);
+
+        console.log(startTime.getTime());
+        console.log(startTime.toLocaleString('en-US', { timeZone: 'America/New_York', hour12: false }));
+        console.log(endTime.getTime());
+        console.log(endTime.toLocaleString('en-US', { timeZone: 'America/New_York', hour12: false }));
+
+        console.log(localNow.getTime());
+
+        var ShowTime = (localNow.getTime() > startTime.getTime() && localNow.getTime() < endTime.getTime());
 
         if (ShowTime) {
           $( this ).show();
@@ -27,8 +54,9 @@
       } else {
         $( this ).hide();
       }
-
     });
 
   }, 1000 * 10) // this will run every 10 seconds
+
+  // dateNow = Now.toISOString().slice(0, 10);
 </script>
