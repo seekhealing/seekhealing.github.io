@@ -241,42 +241,7 @@
 
         {% endfor %}
 
-        <script>
-          window.setInterval(function() {
-            var Now = new Date(),
-            dateNow = Now.toISOString().slice(0, 10);
 
-            $(".event-block").each(function() {
-              var date = $( this ).data( "date" );
-
-              if (dateNow === date) {
-                var startHour = $( this ).data( "starthour" ),
-                startMinute = $( this ).data( "startminute" ),
-                endHour = $( this ).data( "endhour" ),
-                endMinute = $( this ).data( "endminute" );
-
-                var startTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), startHour, startMinute),
-                endTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), endHour, endMinute);
-
-                var upcomingEvent = (Now.getTime() < startTime.getTime());
-                var ShowTime = (Now.getTime() > startTime.getTime() && Now.getTime() < endTime.getTime());
-
-                if (upcomingEvent) {
-                  $( this ).find(".addtocalendar").hide();
-                  $( this ).find(".zoom-button").show();
-                } else if (ShowTime) {
-                  $( this ).find(".addtocalendar").hide();
-                  $( this ).find(".zoom-button").show();
-                } else {
-                  $( this ).find(".addtocalendar").hide();
-                  $( this ).find(".zoom-button").hide();
-                }
-              }
-
-            });
-
-          }, 1000 * 10) // this will run every 10 seconds
-        </script>
 
       </div>
 
