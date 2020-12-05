@@ -4,7 +4,6 @@
     var localNow = new Date(),
     localizedNow = localNow.toLocaleString('en-US', { timeZone: 'America/New_York', hour12: false }),
     localizedDateNow = localizedNow.substring(0, localizedNow.indexOf(','));
-    localizedTimeNow = localizedNow.substring(localizedNow.indexOf(',')).slice(2);
 
     var localizedDateNow2 = localNow.toLocaleDateString('en-US', { timeZone: 'America/New_York' });
 
@@ -26,7 +25,7 @@
         endTime = new Date(year, month, day, endHour, endMinute);
 
         var upcoming = (localNow.getTime() < ( startTime.getTime()-(900*1000) ));
-        var ShowTime = (localNow.getTime() > ( startTime.getTime()-(900*1000) ) && localNow.getTime() < ( endTime.getTime()+(900*1000) ));
+        var ShowTime = (localNow.getTime() > ( startTime.getTime()-(900*1000) ) && localNow.getTime() < ( endTime.getTime() ));
 
         if (upcoming) {
           $( this ).find(".addtocalendar").show();
