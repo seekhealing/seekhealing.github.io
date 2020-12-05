@@ -37,30 +37,7 @@
             {% for event in events %}
 
               {% comment %}
-              <!-- Generate Oxford comma-separated facilitator lists -->
-              {% endcomment %}
-              {% if event.facilitator %}
-                {% assign facilitators = event.facilitator %}
-              {% else %}
-                {% if event.facilitators.size == 1 %}
-                  {% assign facilitators = event.facilitators[0].name %}
-                {% elsif event.facilitators.size == 2 %}
-                  {% assign facilitators = event.facilitators[0].name | append: " and " | append: event.facilitators[1].name %}
-                {% else %}
-                  {% for facilitator in event.facilitators %}
-                    {% if forloop.first %}
-                      {% assign facilitators = facilitator.name %}
-                    {% elsif forloop.last %}
-                      {% assign facilitators = facilitators | append: ", and " | append: facilitator.name %}
-                    {% else %}
-                      {% assign facilitators = facilitators | append: ", " | append: facilitator.name %}
-                    {% endif %}
-                  {% endfor %}
-                {% endif %}
-              {% endif %}
-
-              {% comment %}
-              <!-- Compensate for CMS not saving times as strings -->
+              <!-- Compensate for CMS saving start & end times as integers -->
               {% endcomment %}
               {% if event.start-time contains ":" %}
                 {% assign start_time = event.start-time %}
@@ -80,49 +57,19 @@
               {% endif %}
 
             <div class="event-block"
-              data-date="{{ event.date | date: "%Y-%m-%d" }}"
+              data-date="{{ event.date | date: "%-m/%-e/%Y" }}"
               data-starthour="{{ start_hour }}"
               data-startminute="{{ start_minute }}"
               data-endhour="{{ end_hour }}"
-              data-endminute="{{ end_minute }}" />
+              data-endminute="{{ end_minute }}"
+              data-utcoffset="{{ event.utc-offset }}"
+              />
 
               <div class="event-box">
                 <div class="subnav-header">
 
-                  <div class="event-type">
-                    {% if event.event-type == "presentation" %}
-                    <p class="color-presentation"><i class="fas fa-chalkboard-teacher"></i>  Presentation</p>
-                    {% elsif event.event-type == "interactive" %}
-                    <p class="color-interactive"><i class="fas fa-users color-interactive"></i>  Interactive</p>
-                    {% elsif event.event-type == "interview" %}
-                    <p class="color-interview"><i class="fas fa-microphone-alt color-interview"></i>  Interview</p>
-                    {% elsif event.event-type == "music" %}
-                    <p class="color-music"><i class="fas fa-music color-music"></i>  Music</p>
-                    {% endif %}
-                  </div>
-
-                  <h3>{{ event.name }}</h3>
-                  {% if event.facilitator or event.facilitators %}
-                  <h4><span class="emphasized-header">{{ facilitators }}</span></h4>
-                  {% endif %}
-
-                  <blockquote class="event-timing">
-                    {% assign today_date = "today" | date: "%Y-%m-%d" %}
-                    {% assign event_date = event.date | date: "%Y-%m-%d" %}
-                    <h3 class="event-meta" style="margin-bottom: 0px;">
-                      {{ schedule.dates[index] | split: "," | first }}
-                      <i class="far fa-clock"></i>
-                      {{ start_time | date: "%l:%M%P" }} EST
-
-                      {% if today_date < event_date %}
-                      {% include widgets/addtocalendar.html slug=page.slug %}
-                      {% endif %}
-
-                      {% if today_date == event_date%}
-                      <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
-                      {% endif %}
-                    </h3>
-                  </blockquote>
+                  {% include webinar/schedule-event-meta.html %}
+                  {% include webinar/schedule-event-time-block.html overlay=false %}
 
                   <div class="event-content">
                     {% if event.tagline %}
@@ -138,7 +85,6 @@
               </div>
 
               <div id="{{ event.title }}" class="overlay">
-
                 <a class="cancel" href="#_"></a>
 
                 <div class="lightbox">
@@ -146,80 +92,9 @@
                     <div class="event-details lightbox-column-wide">
 
                       <div class="lightbox-content subnav-header">
-
-                        <div class="event-type">
-                          {% if event.event-type == "presentation" %}
-                          <p class="color-presentation"><i class="fas fa-chalkboard-teacher"></i>  Presentation</p>
-                          {% elsif event.event-type == "interactive" %}
-                          <p class="color-interactive"><i class="fas fa-users color-interactive"></i>  Interactive</p>
-                          {% elsif event.event-type == "interview" %}
-                          <p class="color-interview"><i class="fas fa-microphone-alt color-interview"></i>  Interview</p>
-                          {% elsif event.event-type == "music" %}
-                          <p class="color-music"><i class="fas fa-music color-music"></i>  Music</p>
-                          {% endif %}
-                        </div>
-
-                        <h3 class="event-name">{{ event.name }}</h3>
-                        {% if event.facilitator or event.facilitators %}
-                        <h4><span class="emphasized-header">{{ facilitators }}</span></h4>
-                        {% endif %}
-
-                        <blockquote class="event-timing">
-                          <h3 class="event-meta">
-                            <i class="far fa-calendar-alt"></i>
-                            {{ schedule.dates[index] }}
-                          </h3>
-                          {% assign today_date = "today" | date: "%Y-%m-%d" %}
-                          {% assign event_date = event.date | date: "%Y-%m-%d" %}
-                          <h3 class="event-meta" style="margin-bottom: 0px;">
-                            <i class="far fa-clock"></i>
-                            {{ start_time | date: "%l:%M%P" }}{% if end_time %} — {{ end_time | date: "%l:%M%P" }}{% endif %} EST
-
-                            {% if today_date < event_date %}
-                            {% include widgets/addtocalendar.html slug=page.slug %}
-                            {% endif %}
-
-                            {% if today_date == event_date%}
-                            <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
-                            {% endif %}
-                          </h3>
-                        </blockquote>
-
-                        <div class="event-content">
-                          {{ event.content | markdownify }}
-
-                          {% for facilitator in event.facilitators %}
-                          <blockquote class="facilitator-section">
-
-                            {% if facilitator.photo %}
-                            <p class="facilitator-photo">
-                              {% include responsive-image.html image=facilitator.photo alt=facilitator.name title=facilitator.name %}
-                            </p>
-                            {% endif %}
-
-                            <blockquote class="facilitator-text">
-                              {% assign paragraphs = facilitator.bio | newline_to_br | strip_newlines | split: '<br />' %}
-                              {% for paragraph in paragraphs %}
-                              <p class="facilitator-bio">{{ paragraph }}</p>
-                              {% endfor %}
-
-                              {% if facilitator.link %}
-                              <p class="facilitator-link">
-                                <a href="{{ facilitator.link }}" target="_blank">
-                                {% if facilitator.link-text %}
-                                  {{ facilitator.link-text }}
-                                {% else %}
-                                  {{ facilitator.link }}
-                                {% endif %}
-                                </a>
-                              </p>
-                              {% endif %}
-                            </blockquote>
-
-                          </blockquote>
-                          {% endfor %}
-                        </div>
-
+                        {% include webinar/schedule-event-meta.html %}
+                        {% include webinar/schedule-event-time-block.html overlay=true %}
+                        {% include webinar/schedule-event-content.html %}
                       </div>
 
                       <div class="lightbox-buttons">
@@ -241,7 +116,7 @@
 
         {% endfor %}
 
-
+        {% include webinar/schedule-event-link-js.html %}
 
       </div>
 

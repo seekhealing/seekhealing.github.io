@@ -8,6 +8,7 @@ day: 2
 date: 2020-12-05
 start-time: 14:00
 end-time: 15:00
+utc-offset: −05:00
 link: https://us02web.zoom.us/j/5097184720
 ---
 

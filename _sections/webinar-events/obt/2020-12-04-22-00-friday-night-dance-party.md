@@ -21,6 +21,7 @@ day: 1
 date: 2020-12-04
 start-time: 22:00
 end-time: 23:30
+utc-offset: −05:00
 link: https://us02web.zoom.us/j/5097184720
 ---
 

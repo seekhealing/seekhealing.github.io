@@ -29,6 +29,7 @@ day: 3
 date: 2020-12-06
 start-time: 18:00
 end-time: 19:00
+utc-offset: −05:00
 link: https://us02web.zoom.us/j/5097184720
 tagline: In this offering you’ll learn the different forms of sovereignty and how they can support in creating the highest and most supportive connections and the distinction of co-dependency and self-sacrificial relating. You’ll be able to answer questions that will allow you to explore where you’ve been leaning in your ways of relating. You’ll be guided through a Breathwork journey to support in integrating new pathways for relating and transmuting patterns that no longer serve you and humanity.
 ---

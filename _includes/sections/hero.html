@@ -24,82 +24,8 @@
             {{ hero.content | markdownify }}
 
             {% if page.title == "One Big Table" %}
-            <div class="event-promos">
-
-              {% for day in (1..3) %}
-
-              {% assign events = site.sections | where:"type","webinar-event" | where:"webinar","obt" | where:"day",day | sort: "start-time" %}
-              {% for event in events %}
-
-                {% comment %}
-                <!-- Generate Oxford comma-separated facilitator lists -->
-                {% endcomment %}
-                {% if event.facilitator %}
-                  {% assign facilitators = event.facilitator %}
-                {% else %}
-                  {% if event.facilitators.size == 1 %}
-                    {% assign facilitators = event.facilitators[0].name %}
-                  {% elsif event.facilitators.size == 2 %}
-                    {% assign facilitators = event.facilitators[0].name | append: " and " | append: event.facilitators[1].name %}
-                  {% else %}
-                    {% for facilitator in event.facilitators %}
-                      {% if forloop.first %}
-                        {% assign facilitators = facilitator.name %}
-                      {% elsif forloop.last %}
-                        {% assign facilitators = facilitators | append: ", and " | append: facilitator.name %}
-                      {% else %}
-                        {% assign facilitators = facilitators | append: ", " | append: facilitator.name %}
-                      {% endif %}
-                    {% endfor %}
-                  {% endif %}
-                {% endif %}
-
-                {% comment %}
-                <!-- Compensate for CMS not saving times as strings -->
-                {% endcomment %}
-                {% assign start_hour = event.start-time | divided_by: 60 | to_integer %}
-                {% assign start_minute = event.start-time | modulo: 60 | to_integer %}
-                {% assign end_hour = event.end-time | divided_by: 60 | to_integer %}
-                {% assign end_minute = event.end-time | modulo: 60 | to_integer %}
-
-              <div id="{{ event.title }}-promo" class="event-box event-promo-box"
-                data-date="{{ event.date | date: "%Y-%m-%d" }}"
-                data-starthour="{{ start_hour }}"
-                data-startminute="{{ start_minute }}"
-                data-endhour="{{ end_hour }}"
-                data-endminute="{{ end_minute }}"
-                />
-                <div class="subnav-header promo-row">
-
-                  <div class="promo-column">
-                    <h3 style="color: #444;">{{ event.name }}</h3>
-                    {% if event.facilitator or event.facilitators %}
-                    <h4><span class="emphasized-header">{{ facilitators }}</span></h4>
-                    {% endif %}
-                  </div>
-
-                  <div class="promo-column">
-                    <blockquote class="event-timing">
-                      <h3 class="event-meta">
-                        <i class="fa fa-circle Blink"></i>&nbsp;&nbsp;Streaming Now
-                        <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
-                      </h3>
-                    </blockquote>
-                  </div>
-
-                </div>
-              </div>
-
-              {% endfor %}
-
-              {% endfor %}
-
-            </div>
-
-
-
+            {% include webinar/hero-events.html webinar="obt"%}
             {% endif %}
-
           </div>
 
           <div class="col-md-6 col-xs-12">

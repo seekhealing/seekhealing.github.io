@@ -23,6 +23,7 @@ day: 3
 date: 2020-12-06
 start-time: 11:00
 end-time: 12:00
+utc-offset: −05:00
 link: https://us02web.zoom.us/j/8285470222
 ---
 

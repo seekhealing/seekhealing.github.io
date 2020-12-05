@@ -1,0 +1,46 @@
+<script>
+  window.setInterval(function() {
+
+    var localNow = new Date(),
+    localizedNow = localNow.toLocaleString('en-US', { timeZone: 'America/New_York', hour12: false }),
+    localizedDateNow = localizedNow.substring(0, localizedNow.indexOf(','));
+    localizedTimeNow = localizedNow.substring(localizedNow.indexOf(',')).slice(2);
+
+    var localizedDateNow2 = localNow.toLocaleDateString('en-US', { timeZone: 'America/New_York' });
+
+    $(".event-block").each(function() {
+      var date = $( this ).data( "date" ),
+      startHour = $( this ).data( "starthour" ),
+      startMinute = $( this ).data( "startminute" ),
+      endHour = $( this ).data( "endhour" ),
+      endMinute = $( this ).data( "endminute" );
+
+      if (localizedDateNow === date) {
+
+        var localizedDateArray = localizedDateNow.split("/"),
+        year = localizedDateArray[2],
+        month = localizedDateArray[0]-1,
+        day = localizedDateArray[1];
+
+        var startTime = new Date(year, month, day, startHour, startMinute),
+        endTime = new Date(year, month, day, endHour, endMinute);
+
+        var upcoming = (localNow.getTime() < ( startTime.getTime()-(900*1000) ));
+        var ShowTime = (localNow.getTime() > ( startTime.getTime()-(900*1000) ) && localNow.getTime() < ( endTime.getTime()+(900*1000) ));
+
+        if (upcoming) {
+          $( this ).find(".addtocalendar").show();
+          $( this ).find(".zoom-button").hide();
+        } else if (ShowTime) {
+          $( this ).find(".addtocalendar").hide();
+          $( this ).find(".zoom-button").show();
+        } else {
+          $( this ).find(".addtocalendar").hide();
+          $( this ).find(".zoom-button").hide();
+        }
+      }
+
+    });
+
+  }, 1000 * 10) // this will run every 10 seconds
+</script>

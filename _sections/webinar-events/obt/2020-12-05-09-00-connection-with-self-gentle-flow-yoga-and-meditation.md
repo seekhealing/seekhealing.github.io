@@ -28,6 +28,7 @@ day: 2
 date: 2020-12-05
 start-time: 09:00
 end-time: 10:00
+utc-offset: −05:00
 link: https://us02web.zoom.us/j/5097184720
 tagline: Join Beth for this practice in self study using pranayama, meditation, movement, inquiry, and rest. It is an opportunity to drop into your experience and come out of judgment and autopilot for truth telling. This class experience can be done on a mat or in a chair and is open and accessible for all bodies.
 ---

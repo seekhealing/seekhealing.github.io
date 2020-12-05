@@ -22,6 +22,7 @@ day: 2
 date: 2020-12-05
 start-time: 21:00
 end-time: 22:00
+utc-offset: −05:00
 link: https://us02web.zoom.us/j/5097184720
 tagline: Sarah integrates Interpersonal Neurobiology (IPNB) and empathy into the Family Constellations experience. When we step into the field created by the constellation, we are stepping into the seeker’s right hemisphere, with its connection to the body, emotions, and its orientation in our relational world.
 ---

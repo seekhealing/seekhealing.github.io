@@ -1,0 +1,35 @@
+{% assign overlay = include.overlay %}
+
+{% assign now_epoch = 'now' | date: "%s" | plus: 0 %}
+{% assign event_date_start_epoch = event.date | date: "%s" | plus: 0 %}
+{% assign event_date_end_epoch = event_date_start_epoch | plus: 86400 %}
+
+<blockquote class="event-timing">
+
+  {% if overlay %}
+  <h3 class="event-meta">
+    <i class="far fa-calendar-alt"></i>
+    {{ schedule.dates[index] }}
+  </h3>
+  {% endif %}
+
+  <h3 class="event-meta" style="margin-bottom: 0px;">
+    {% unless overlay %}
+    {{ schedule.dates[index] | split: "," | first }}
+    {% endunless %}
+
+    <i class="far fa-clock"></i>
+    {{ start_time | date: "%l:%M%P" }}{% if overlay and end_time %} — {{ end_time | date: "%l:%M%P" }}{% endif %} EST
+
+    {% if now_epoch < event_date_start_epoch %}
+    {% include widgets/addtocalendar.html %}
+    <a href="{{ event.link }}" class="button zoom-button" target="_blank" style="display: none;"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
+    {% endif %}
+
+    {% if now_epoch >= event_date_start_epoch and now_epoch < event_date_end_epoch %}
+    {% include widgets/addtocalendar.html hidden=true %}
+    <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
+    {% endif %}
+  </h3>
+
+</blockquote>
