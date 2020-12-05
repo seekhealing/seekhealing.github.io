@@ -24,4 +24,4 @@ utc-offset: −05:00
 link: https://us02web.zoom.us/j/8285470222
 ---
 
-Join Dr. Brack Jeffreys as he touches on the ineffable yet paramount concept of connection during recovery. From the rediscovery of relationship with self, to the evolution of social engagement with others, how we associate with the constructs of reality create the experience we have in this life.
+This lecture will discuss the the many different dynamics  and causes of disconnection, personal, social, collective and transpersonal and the vital “spiritual emergency” that this creates, expressed in the problem of addiction. We will also explore the role of birth, death and transcendence as pathways to re-connection and to the source of recovery and health for the individual, micro and macro social systems and global healing.
