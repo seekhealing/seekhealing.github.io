@@ -1,0 +1,56 @@
+<script>
+  window.setInterval(function() {
+    function toISOLocal(d) {
+      var z  = n =>  ('0' + n).slice(-2);
+      var zz = n => ('00' + n).slice(-3);
+      var off = d.getTimezoneOffset();
+      var sign = off < 0? '+' : '-';
+      off = Math.abs(off);
+
+      return d.getFullYear() + '-'
+             + z(d.getMonth()+1) + '-' +
+             z(d.getDate()) + 'T' +
+             z(d.getHours()) + ':'  +
+             z(d.getMinutes()) + ':' +
+             z(d.getSeconds()) + '.' +
+             zz(d.getMilliseconds()) +
+             sign + z(off/60|0) + ':' + z(off%60);
+    }
+    var NowUTC = new Date(),
+    Now = toISOLocal(NowUTC),
+    dateNow = Now.slice(0, 10);
+
+    $(".event-block").each(function() {
+      var date = $( this ).data( "date" );
+      year = date.slice(0, 4),
+      month = date.slice(5, 7),
+      day = date.slice(8, 10);
+
+      if (dateNow === date) {
+        var startHour = $( this ).data( "starthour" ),
+        startMinute = $( this ).data( "startminute" ),
+        endHour = $( this ).data( "endhour" ),
+        endMinute = $( this ).data( "endminute" );
+
+        var startTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), startHour, startMinute),
+        endTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), endHour, endMinute);
+
+        var upcomingEvent = (Now.getTime() < startTime.getTime());
+        var ShowTime = (Now.getTime() > startTime.getTime() && Now.getTime() < endTime.getTime());
+
+        if (upcomingEvent) {
+          $( this ).find(".addtocalendar").hide();
+          $( this ).find(".zoom-button").show();
+        } else if (ShowTime) {
+          $( this ).find(".addtocalendar").hide();
+          $( this ).find(".zoom-button").show();
+        } else {
+          $( this ).find(".addtocalendar").hide();
+          $( this ).find(".zoom-button").hide();
+        }
+      }
+
+    });
+
+  }, 1000 * 10) // this will run every 10 seconds
+</script>

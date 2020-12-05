@@ -1,0 +1,51 @@
+<div class="event-promos">
+  {% for day in (1..3) %}
+
+  {% assign events = site.sections | where:"type","webinar-event" | where:"webinar",include.webinar | where:"day",day | sort: "start-time" %}
+  {% for event in events %}
+
+    {% comment %}
+    <!-- Compensate for CMS saving start & end times as integers -->
+    {% endcomment %}
+    {% assign start_hour = event.start-time | divided_by: 60 | to_integer %}
+    {% assign start_minute = event.start-time | modulo: 60 | to_integer %}
+    {% assign end_hour = event.end-time | divided_by: 60 | to_integer %}
+    {% assign end_minute = event.end-time | modulo: 60 | to_integer %}
+
+  <div id="{{ event.title }}-promo" class="event-box event-promo-box"
+    data-date="{{ event.date | date: "%Y-%m-%d" }}"
+    data-starthour="{{ start_hour }}"
+    data-startminute="{{ start_minute }}"
+    data-endhour="{{ end_hour }}"
+    data-endminute="{{ end_minute }}"
+    data-utcoffset="{{ event.utc-offset }}"
+    />
+    <div class="subnav-header promo-row">
+
+      <div class="promo-column">
+        <h3 style="color: #444;">{{ event.name }}</h3>
+        
+        {% include webinar/event-facilitators.html %}
+        {% if event.facilitator or event.facilitators %}
+        <h4><span class="emphasized-header">{{ facilitators }}</span></h4>
+        {% endif %}
+      </div>
+
+      <div class="promo-column">
+        <blockquote class="event-timing">
+          <h3 class="event-meta">
+            <i class="fa fa-circle Blink"></i>&nbsp;&nbsp;Streaming Now
+            <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
+          </h3>
+        </blockquote>
+      </div>
+
+    </div>
+  </div>
+
+  {% endfor %}
+
+  {% endfor %}
+</div>
+
+{% include webinar/hero-event-js.html %}

@@ -1,0 +1,18 @@
+<div class="event-type">
+  {% if event.event-type == "presentation" %}
+  <p class="color-presentation"><i class="fas fa-chalkboard-teacher"></i>  Presentation</p>
+  {% elsif event.event-type == "interactive" %}
+  <p class="color-interactive"><i class="fas fa-users color-interactive"></i>  Interactive</p>
+  {% elsif event.event-type == "interview" %}
+  <p class="color-interview"><i class="fas fa-microphone-alt color-interview"></i>  Interview</p>
+  {% elsif event.event-type == "music" %}
+  <p class="color-music"><i class="fas fa-music color-music"></i>  Music</p>
+  {% endif %}
+</div>
+
+<h3 class="event-name">{{ event.name }}</h3>
+
+{% include webinar/event-facilitators.html %}
+{% if event.facilitator or event.facilitators %}
+<h4><span class="emphasized-header">{{ facilitators }}</span></h4>
+{% endif %}
