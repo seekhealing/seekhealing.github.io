@@ -57,7 +57,7 @@
               {% endif %}
 
             <div class="event-block"
-              data-date="{{ event.date | date: "%Y-%m-%d" }}"
+              data-date="{{ event.date | date: "%-m/%-e/%Y" }}"
               data-starthour="{{ start_hour }}"
               data-startminute="{{ start_minute }}"
               data-endhour="{{ end_hour }}"

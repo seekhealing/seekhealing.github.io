@@ -1,46 +1,36 @@
 <script>
   window.setInterval(function() {
-    function toISOLocal(d) {
-      var z  = n =>  ('0' + n).slice(-2);
-      var zz = n => ('00' + n).slice(-3);
-      var off = d.getTimezoneOffset();
-      var sign = off < 0? '+' : '-';
-      off = Math.abs(off);
 
-      return d.getFullYear() + '-'
-             + z(d.getMonth()+1) + '-' +
-             z(d.getDate()) + 'T' +
-             z(d.getHours()) + ':'  +
-             z(d.getMinutes()) + ':' +
-             z(d.getSeconds()) + '.' +
-             zz(d.getMilliseconds()) +
-             sign + z(off/60|0) + ':' + z(off%60);
-    }
-    var NowUTC = new Date(),
-    Now = toISOLocal(NowUTC),
-    dateNow = Now.slice(0, 10);
+    var localNow = new Date(),
+    localizedNow = localNow.toLocaleString('en-US', { timeZone: 'America/New_York', hour12: false }),
+    localizedDateNow = localizedNow.substring(0, localizedNow.indexOf(','));
+    localizedTimeNow = localizedNow.substring(localizedNow.indexOf(',')).slice(2);
+
+    var localizedDateNow2 = localNow.toLocaleDateString('en-US', { timeZone: 'America/New_York' });
 
     $(".event-block").each(function() {
-      var date = $( this ).data( "date" );
-      year = date.slice(0, 4),
-      month = date.slice(5, 7),
-      day = date.slice(8, 10);
+      var date = $( this ).data( "date" ),
+      startHour = $( this ).data( "starthour" ),
+      startMinute = $( this ).data( "startminute" ),
+      endHour = $( this ).data( "endhour" ),
+      endMinute = $( this ).data( "endminute" );
 
-      if (dateNow === date) {
-        var startHour = $( this ).data( "starthour" ),
-        startMinute = $( this ).data( "startminute" ),
-        endHour = $( this ).data( "endhour" ),
-        endMinute = $( this ).data( "endminute" );
+      if (localizedDateNow === date) {
 
-        var startTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), startHour, startMinute),
-        endTime = new Date(Now.getFullYear(), Now.getMonth(), Now.getDate(), endHour, endMinute);
+        var localizedDateArray = localizedDateNow.split("/"),
+        year = localizedDateArray[2],
+        month = localizedDateArray[0]-1,
+        day = localizedDateArray[1];
 
-        var upcomingEvent = (Now.getTime() < startTime.getTime());
-        var ShowTime = (Now.getTime() > startTime.getTime() && Now.getTime() < endTime.getTime());
+        var startTime = new Date(year, month, day, startHour, startMinute),
+        endTime = new Date(year, month, day, endHour, endMinute);
 
-        if (upcomingEvent) {
-          $( this ).find(".addtocalendar").hide();
-          $( this ).find(".zoom-button").show();
+        var upcoming = (localNow.getTime() < ( startTime.getTime()-(900*1000) ));
+        var ShowTime = (localNow.getTime() > ( startTime.getTime()-(900*1000) ) && localNow.getTime() < ( endTime.getTime()+(900*1000) ));
+
+        if (upcoming) {
+          $( this ).find(".addtocalendar").show();
+          $( this ).find(".zoom-button").hide();
         } else if (ShowTime) {
           $( this ).find(".addtocalendar").hide();
           $( this ).find(".zoom-button").show();

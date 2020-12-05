@@ -12,9 +12,8 @@
       startHour = $( this ).data( "starthour" ),
       startMinute = $( this ).data( "startminute" ),
       endHour = $( this ).data( "endhour" ),
-      endMinute = $( this ).data( "endminute" ),
-      utcOffset = $( this ).data( "utcoffset" );
-
+      endMinute = $( this ).data( "endminute" );
+      
       if (localizedDateNow === date) {
 
         var localizedDateArray = localizedDateNow.split("/"),
@@ -25,7 +24,7 @@
         var startTime = new Date(year, month, day, startHour, startMinute),
         endTime = new Date(year, month, day, endHour, endMinute);
 
-        var ShowTime = (localNow.getTime() > startTime.getTime() && localNow.getTime() < endTime.getTime());
+        var ShowTime = (localNow.getTime() > (startTime.getTime()-(300*1000)) && localNow.getTime() < (endTime.getTime()+(300*1000)));
 
         if (ShowTime) {
           $( this ).show();
