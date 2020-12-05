@@ -1,10 +1,10 @@
-<span class="addtocalendar atc-style-blue" style="margin: 10px 0 0;">
+<span class="addtocalendar atc-style-blue" {% if include.hidden %}style="display: none;"{% endif %}>
   <var class="atc_event">
-    <var class="atc_date_start">{{ event.date | date: "%Y-%m-%d " | append: start_time }}</var>
-    <var class="atc_date_end">{{ event.date | date: "%Y-%m-%d " | append: end_time }}</var>
+    <var class="atc_date_start">{{ event.date | date: "%F" | append: start_time }}</var>
+    <var class="atc_date_end">{{ event.date | date: "%F" | append: end_time }}</var>
     <var class="atc_timezone">America/New_York</var>
     <var class="atc_title">{{ event.name }}</var>
-    <var class="atc_description">{{ event.content | split: ">" | first | markdownify }}<br><br>{{ "https://seekhealing.org/" | append: include.slug | append: "/#" | append: event.title }}</var>
+    <var class="atc_description">{{ event.content | split: ">" | first | markdownify }}<br><br>{{ "https://seekhealing.org/" | append: page.slug | append: "/#" | append: event.title }}</var>
     <var class="atc_location">{{ event.link }}</var>
     <var class="atc_organizer">{{ facilitators }}</var>
     <var class="atc_organizer_email">info@seekhealing.org</var>
