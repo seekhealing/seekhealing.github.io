@@ -13,7 +13,7 @@
     {% assign end_minute = event.end-time | modulo: 60 | to_integer %}
 
   <div id="{{ event.title }}-promo" class="event-box event-promo-box"
-    data-date="{{ event.date | date: "%Y-%m-%d" }}"
+    data-date="{{ event.date | date: "%-m/%-e/%Y" }}"
     data-starthour="{{ start_hour }}"
     data-startminute="{{ start_minute }}"
     data-endhour="{{ end_hour }}"
@@ -24,7 +24,7 @@
 
       <div class="promo-column">
         <h3 style="color: #444;">{{ event.name }}</h3>
-        
+
         {% include webinar/event-facilitators.html %}
         {% if event.facilitator or event.facilitators %}
         <h4><span class="emphasized-header">{{ facilitators }}</span></h4>
