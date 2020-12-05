@@ -43,6 +43,7 @@ day: 2
 date: 2020-12-05
 start-time: 19:30
 end-time: 20:30
+utc-offset: −05:00
 link: https://us02web.zoom.us/j/8285470222
 tagline: Join renowned physician, speaker, and author Dr. Gabor Maté, along with SeekHealing Director of Science Dr. Rachel Wurzman, as they discuss the role of human connection in trauma management and addiction, incorporating the neuroscience research of social isolation in how to treat and integrate healing into these complex issues.
 ---

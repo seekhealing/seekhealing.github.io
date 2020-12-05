@@ -8,7 +8,8 @@ day: 3
 date: 2020-12-06
 start-time: 19:30
 end-time: 19:45
+utc-offset: −05:00
 link: https://us02web.zoom.us/j/8285470222
 ---
 
-Join us for the closing ceremony of One Big Table as we come together to share our gratitude for the shared experience of the weekends co-creation. 
+Join us for the closing ceremony of One Big Table as we come together to share our gratitude for the shared experience of the weekends co-creation.
