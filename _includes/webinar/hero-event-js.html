@@ -1,5 +1,5 @@
 <script>
-  window.setInterval(function() {
+  function heroStreamingNow() {
 
     var localNow = new Date(),
     localizedNow = localNow.toLocaleString('en-US', { timeZone: 'America/New_York', hour12: false }),
@@ -36,5 +36,7 @@
       }
     });
 
-  }, 1000 * 10) // this will run every 10 seconds
+  };
+  window.setInterval(heroStreamingNow, 1000 * 10);
+  window.setTimeout(heroStreamingNow, 1000);
 </script>
