@@ -10,3 +10,5 @@ video-embed: https://www.youtube.com/embed/7CqZSYfh7kk
 {:class="emphasized-header"}
 
 ## Join SeekHealing for this online festival to explore human connection and experience how we are each other's best medicine.
+
+[Full schedule](#schedule-of-events){:class="button cta"}
