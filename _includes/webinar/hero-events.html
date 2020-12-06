@@ -22,7 +22,7 @@
     />
     <div class="subnav-header promo-row">
 
-      <div class="promo-column">
+      <div class="promo-column" style="max-width: 60%">
         <h3 style="color: #444;">{{ event.name }}</h3>
 
         {% include webinar/event-facilitators.html %}
@@ -33,9 +33,17 @@
 
       <div class="promo-column">
         <blockquote class="event-timing">
-          <h3 class="event-meta">
-            <i class="fa fa-circle Blink"></i>&nbsp;&nbsp;Streaming Now
-            <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
+          <h3 class="event-meta" style="display: flex; flex-direction: column;">
+            <div>
+              <span style="margin-left: -100%; margin-right: -100%; text-align: center;">
+                <i class="fa fa-circle Blink" style="margin-left: 0;"></i>&nbsp;Live Zoom
+              </span>
+            </div>
+            <a href="{{ event.link }}" class="button zoom-button" target="_blank">
+              <span style="margin-left: -100%; margin-right: -100%; text-align: center;">
+                <i class="fas fa-hand-point-right" style="margin-left: 0;"></i>Join Now!
+              </span>
+            </a>
           </h3>
         </blockquote>
       </div>
