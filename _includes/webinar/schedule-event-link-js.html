@@ -1,11 +1,8 @@
 <script>
-  window.setInterval(function() {
+  function update_schedule() {
 
     var localNow = new Date(),
-    localizedNow = localNow.toLocaleString('en-US', { timeZone: 'America/New_York', hour12: false }),
-    localizedDateNow = localizedNow.substring(0, localizedNow.indexOf(','));
-
-    var localizedDateNow2 = localNow.toLocaleDateString('en-US', { timeZone: 'America/New_York' });
+    localizedDateNow = localNow.toLocaleDateString('en-US', { timeZone: 'America/New_York' });
 
     $(".event-block").each(function() {
       var date = $( this ).data( "date" ),
@@ -41,5 +38,7 @@
 
     });
 
-  }, 1000 * 10) // this will run every 10 seconds
+  }
+  window.setTimeout(update_schedule, 1000);
+  window.setInterval(update_schedule, 1000 * 10);
 </script>
