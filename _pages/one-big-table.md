@@ -12,6 +12,8 @@ sections:
     title: "obt-intro"
   - type: "subnav"
     title: "obt-subnav"
+  - type: "webinar-schedule"
+    title: "obt-schedule"
   - type: "banner"
     title: "obt-banner"
   - type: "triple"
@@ -20,8 +22,6 @@ sections:
     title: "obt-partners-row1"
   - type: "partners"
     title: "obt-partners-row2"
-  - type: "webinar-schedule"
-    title: "obt-schedule"
   - type: "single"
     title: "design-credit"
 ---
