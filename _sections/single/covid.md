@@ -4,13 +4,28 @@ title: covid
 header: subnav-header
 ---
 
-# **COVID-19 Updates**
-
 Connection Practice meetings and Listening Training classes are both now available online. Please check out the calendar [here](/calendar/), or sign up for Listening Training online [here](/listening-training/).
 
 Connection Practice meetings are also happening in-person locally in Asheville, NC at SeekHealing’s offices in the United Way Building. Please note that face-coverings are required at all in-person meetings.
 
 Remember, physical distancing doesn’t have to mean social distancing. Connection during this time is more important than ever.
+
+# **December 2020 Update**
+
+As the COVID-19 crisis continues to worsen every day, SeekHealing leadership has been carefully weighing the risks of continuing
+in-person meetings during the holidays (which are already a higher risk time for folks suffering with mental health challenges
+and addiction, under normal circumstances.
+
+As of right now, we have decided to keep in-person meetings alive in favor of the mental & emotional health of those seekers who
+need this support more than ever. However, we will be making some significant changes to increase safety precautions.
+
+* In-person meetings will continue with the following new precautions:
+* Require KN-95 or N95-masks worn appropriately (available for free at the start of every meeting)
+* Enforcing proper physical distance between humans
+* 24/7 use of three (3) medical-grade HEPA air filters in the meeting space
+* Mandatory temperature checks at the start of every meeting
+* Art meetings are either canceled or or converted it to a regular connection practice,
+* Emotional Social is modified to exclude food service.
 
 <br>
 
