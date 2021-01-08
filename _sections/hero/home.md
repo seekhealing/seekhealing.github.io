@@ -9,10 +9,8 @@ video: "/downloads/SH-WLOS.mp4"
 video-preview: "/assets/images/wlos-video-preview-2.png"
 ---
 
-# It's time to <span class="emphasized-header">#RethinkRehab</span>
+# <span class="emphasized-header">Connection</span> is medicine.
 
-## Healing from addiction through human connection
-
-Be a part of the solution to the overdose epidemic &rarr;
+## SeekHealing's social health programs inspire healthy human connections and bring communities together to heal from addiction, trauma, systemic shame, and loneliness.
 
 [Donate today!](https://secure.givelively.org/donate/seekhealing){:target="_blank" class="button cta"}
