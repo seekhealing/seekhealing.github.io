@@ -13,4 +13,4 @@ video-preview: "/assets/images/wlos-video-preview-2.png"
 
 ## SeekHealing's social health programs inspire healthy human connections and bring communities together to heal from addiction, trauma, systemic shame, and loneliness.
 
-[Learn more](/heal/){class="button cta"}
+[Learn more](/heal/){:class="button cta"}
