@@ -7,4 +7,4 @@ image: /assets/images/team-headshot-maureen.png
 order: 7
 ---
 
-Co-Founder, Center for Collaborative Awareness
+Social Scientist and Co-Founder, Center for Collaborative Awareness
