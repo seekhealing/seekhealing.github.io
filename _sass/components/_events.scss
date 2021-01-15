@@ -9,6 +9,23 @@
   div.col-md-12 {
     width: 100%;
   }
+
+  .upcoming-events,
+  .past-events {
+
+    .event-row {
+      display: flex;
+      align-items: center;
+
+      margin: 30px 0;
+    }
+
+    .subnav-header {
+      h1 {
+        margin-bottom: 15px;
+      }
+    }
+  }
 }
 
 .event-image {
@@ -17,6 +34,8 @@
   display: block;
   position: relative;
   text-align: left;
+
+  flex-shrink: 0;
 
   @media screen and (min-width: $screen-sm-min) {
     float: left;
@@ -35,7 +54,7 @@
     &.small-img {
       @media screen and (min-width: $screen-sm-min) {
         width: 300px;
-        padding-bottom: 70px;
+        // padding-bottom: 70px;
       }
     }
 
