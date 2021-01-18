@@ -11,6 +11,6 @@ video-preview: "/assets/images/wlos-video-preview-2.png"
 
 # <span class="emphasized-header">Connection</span> is medicine.
 
-## SeekHealing's social health programs inspire healthy human connections and bring communities together to heal from addiction, trauma, systemic shame, and loneliness.
+## SeekHealing rebuilds communities to heal from loneliness, systemic shame, trauma, and addiction.
 
 [Learn more](/heal/){:class="button cta"}
