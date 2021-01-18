@@ -1,11 +1,6 @@
 ---
-layout: page
-title: Upcoming Events
-sections:
-  - type: "single"
-    title: "upcoming-events-blurb"
-  - type: "events"
-    title: "upcoming"
-  - type: "events"
-    title: "past"
+layout: redirect
+sitemap: false
+permalink: /upcoming-events/
+redirect_to: /events/
 ---
