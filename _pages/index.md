@@ -2,7 +2,7 @@
 layout: page
 title: Home
 permalink: /
-description: "SeekHealing is a 501(c)3 non-profit serving people at risk for overdose. We provide free support services to anyone at any stage in the addiction healing process."
+description: "Social health non-profit providing free support services to people suffering with loneliness and addiction. Healing from trauma through human connection."
 transparent-header: true
 sections:
   - type: "hero"
