@@ -228,6 +228,10 @@ partners:
     image: "partner-firestorm-2.png"
     link: "https://www.firestorm.coop/"
     include-page: ["home-partners", "strategic-partners"]
+  - title: "Whole Foods"
+    image: "partner-whole-foods.png"
+    link: "https://www.wholefoodsmarket.com/"
+    include-page: ["home-partners", "strategic-partners"]
   - title: "ABC Office Systems (Sponsor)"
     image: "partner-sponsor-abc.png"
     link: "https://abcofficesystemswnc.com/"
