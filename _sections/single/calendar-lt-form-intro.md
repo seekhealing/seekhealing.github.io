@@ -9,5 +9,5 @@ padding: no-bot-padding
 
 Due to COVID-19 quarantine, we are no longer able to hold Listening Training retreats in person. Please check back often for updates.
 
-In the meantime, we are offering Listening Training online to the community every week. Please register here:
+In the meantime, we are offering Listening Training online to the community every week. Registration is required for all Listening Training events. Please register here:
 {:style="margin-bottom: 30px;"}
