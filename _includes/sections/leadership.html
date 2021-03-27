@@ -1,14 +1,10 @@
 {% comment %}
 <!--
-  Directors Section
-
-  This partial is used for directors types of layouts.  Currently used on the
-  Board of Directors page.
-
+  Leadership Section — This partial is used on the Leadership page.
 -->
 {% endcomment %}
 
-{% assign portfolio = site.sections |where:"type","team" |where:"category",include.title |sort: "order" %}
+{% assign portfolio = site.sections | where:"type","team" | where:"category",include.title | sort: "order" %}
 
 <section>
   <div class="section no-top-padding">
@@ -29,14 +25,36 @@
                 <img src="{{ site.baseurl }}{{ profile.image }}" alt="{{ profile.name }}, {{ profile.title }}">
               </div>
               <div class="director-desc">
+
                 {% if profile.name-link %}
                   <h2><a href="{{ profile.name-link }}">{{ profile.name }}</a></h2>
                 {% else %}
                   <h2>{{ profile.name }}</h2>
                 {% endif %}
+
+                {% if profile.role %}
                 <div class="director-content">
-                  {{ profile.content | markdownify }}
+                  <b>{{ profile.role | markdownify }}</b>
                 </div>
+                {% endif %}
+
+                <div class="director-content">
+                {% if profile.summary %}
+                  {{ profile.summary | markdownify }}
+                {% else %}
+                  {{ profile.content | markdownify }}
+                {% endif %}
+                </div>
+
+                {% if profile.location %}
+                <div class="location-icon" style="float: left; padding: .6em .5em .4em 0; vertical-align: bottom; color: #57AF98">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="director-content">
+                  {{ profile.location | markdownify }}
+                </div>
+                {% endif %}
+
               </div>
             </div>
           </div>
