@@ -4,8 +4,8 @@ title: Leadership
 sections:
   - type: "gauges"
     title: "Directors"
-  - type: "directors"
+  - type: "leadership"
     title: "Board of Directors"
-  - type: "directors"
+  - type: "leadership"
     title: "Advisory Council"
 ---

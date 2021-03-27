@@ -2,6 +2,8 @@
 layout: page
 title: Donations
 sections:
+  - type: "double"
+    title: "donations-widgets"
   - type: "subnav"
     title: "Donations"
   - type: "single"
