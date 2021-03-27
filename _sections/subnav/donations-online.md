@@ -9,4 +9,4 @@ order: 1
 
 ## Online
 
-[Make a donation now](https://secure.givelively.org/donate/seekhealing) with PayPal or any major credit card
+**[Make a donation now](https://secure.givelively.org/donate/seekhealing)** with any major credit card

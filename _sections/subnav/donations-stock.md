@@ -9,4 +9,4 @@ order: 3
 
 ## Stock
 
-Donate a gift of stock payable to “SeekHealing”
+Donate a gift of stock payable to “SeekHealing” or speak with your financial advisor about Donor Advised Funds.
