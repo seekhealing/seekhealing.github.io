@@ -77,10 +77,17 @@ collections:
         name: category
         widget: select
         options: ["Board of Directors", "Advisory Council"]
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Picture", name: "image", widget: "image"}
       - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
-      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Role", name: "role", widget: "string", required: false, hint: "e.g. President, Treasurer, etc."}
+      - {label: "Picture", name: "image", widget: "image"}
+      - {label: "Location", name: "location", widget: "string", required: false}
+      - label: Bio Summary
+        name: summary
+        widget: text
+        required: false
+        hint: If the Bio (below) is lengthy, please include a shortened (~20-30 words) summary version here to replace it on /leadership.
+      - {label: "Bio", name: "body", widget: "markdown"}
   - name: "team"
     label: "Team"
     label_singular: "Team Member"
