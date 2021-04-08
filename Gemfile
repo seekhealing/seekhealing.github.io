@@ -7,6 +7,7 @@ gem 'jekyll-sitemap'
 gem 'jekyll-last-modified-at'
 gem 'jekyll-paginate'
 gem 'jekyll-tidy'
+gem 'jekyll-target-blank'
 # gem 'jekyll-responsive-image' # https://community.netlify.com/t/error-on-deploying-jekyll-site-with-jekyll-responsive-image-plugin/16302
 gem 'mini_magick'
 gem 'jekyll-image-size', '~> 1.2'

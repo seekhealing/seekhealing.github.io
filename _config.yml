@@ -81,6 +81,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-redirect-from
   - jekyll-tidy
+  - jekyll-target-blank
   # - jekyll-responsive-image # https://community.netlify.com/t/error-on-deploying-jekyll-site-with-jekyll-responsive-image-plugin/16302
   - mini_magick
   - jekyll-image-size
