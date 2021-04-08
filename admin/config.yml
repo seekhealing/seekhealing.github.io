@@ -120,7 +120,7 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
       - label: 'Date'
         name: 'date'
         widget: 'date'
@@ -466,7 +466,7 @@ collections:
   #     - label: "Title"
   #       name: "title"
   #       widget: "string"
-  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
   #     - {label: "Article Header", name: "header", widget: "string"}
   #     - {label: "Article Header Image", name: "header-img", widget: "image", required: false}
   #     - {label: "Author Name", name: "author", widget: "string"}
@@ -484,7 +484,7 @@ collections:
   #     - label: "Title"
   #       name: "title"
   #       widget: "string"
-  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
   # - name: "section-connection-agent-form"
   #   label: "Section_Connection-Agent-form"
   #   folder: "_sections/connection-agent-form"
@@ -505,7 +505,7 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
       - label: "Width"
         name: "col-width"
         widget: "select"
@@ -548,7 +548,7 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
       - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
       - label: "Font Size"
         name: "apply-links"
@@ -610,7 +610,7 @@ collections:
   #     - label: "Title"
   #       name: "title"
   #       widget: "string"
-  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
   #     - {label: "Box Header", name: "header", widget: "string"}
   #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-parallax"
@@ -626,7 +626,7 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
       - label: "Font Size"
         name: "apply-links"
         widget: "select"
@@ -647,7 +647,7 @@ collections:
   #     - label: "Title"
   #       name: "title"
   #       widget: "string"
-  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
   #     - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
   #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-single"
@@ -663,7 +663,7 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
       - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
       - label: "Font Size"
         name: "apply-links"
@@ -707,7 +707,7 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
       - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-stripe"
   #   label: "Section_Stripe"
@@ -719,7 +719,7 @@ collections:
   #     - label: "Title"
   #       name: "title"
   #       widget: "string"
-  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
   #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-subnav"
     label: "Subnav sections"
@@ -735,11 +735,11 @@ collections:
       - label: "Subnav Group"
         name: "nav"
         widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - label: "Section Title"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
+      - label: "Title"
         name: "title"
         widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
       - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Link Image", name: "image", widget: "image"}
@@ -760,7 +760,7 @@ collections:
   #     - label: "Title"
   #       name: "title"
   #       widget: "string"
-  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
   #     - label: "Header Type"
   #       name: "header"
   #       widget: "select"
