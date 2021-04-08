@@ -732,17 +732,23 @@ collections:
     summary: "{{nav}} — {{title}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "subnav"}
+      - label: "Subnav Group"
+        name: "nav"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
       - label: "Section Title"
         name: "title"
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - label: "Navigation Grouping Title"
-        name: "nav"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Can not contain whitespace characters.  Alphanumeric and underscores and dashes only."]
-      - {label: "Subnav Link", name: "link", widget: "string"}
-      - {label: "Link Image", name: "image", widget: "image"}
       - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Link Image", name: "image", widget: "image"}
+      - label: "Open Link in new tab?"
+        name: "target-blank"
+        widget: "boolean"
+        default: ""
+        required: false
+        hint: Use this to make a redirect or other internal link (e.g. /donate, /events) open in a new tab. Note that all external links (to anywhere outside of seekhealing.org, e.g. https://secure.givelively.org/donate/seekhealing) will always open in a new tab automatically, regardless of this setting.
       - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-triple"
   #   label: "Section_Triple"
