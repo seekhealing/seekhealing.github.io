@@ -344,20 +344,12 @@ collections:
             fields:
               - {label: "Title", name: title, widget: string}
               - {label: "URL", name: url, widget: string}
-              - label: "Target"
-                name: target
-                widget: select
-                options: ["", "_blank"]
               - label: "SubMenu"
                 name: submenu
                 widget: list
                 fields:
                   - {label: "Title", name: title, widget: string}
                   - {label: "URL", name: url, widget: string}
-                  - label: "Target"
-                    name: target
-                    widget: select
-                    options: ["", "_blank"]
       - name: "footer"
         label: "Footer Links"
         file: "_data/footer.yaml"
@@ -370,10 +362,6 @@ collections:
           #   fields:
           #     - {label: "Title", name: title, widget: string}
           #     - {label: "URL", name: url, widget: string}
-          #     - label: "Target"
-          #       name: target
-          #       widget: select
-          #       options: ["", "_blank"]
           - label: "Footer Social Media Links"
             label_singular: "Footer Social Media Link"
             name: "social-media"
@@ -420,10 +408,6 @@ collections:
               - {label: "Sub-title", name: subtext, widget: string}
               - {label: "Link", name: url, widget: string}
               - {label: "Icon", name: icon, widget: string}
-              - label: "Target"
-                name: target
-                widget: select
-                options: ["", "_blank"]
       # - name: "asheville-pilot-program"
       #   label: "Asheville Pilot Content"
       #   file: "_data/asheville-pilot-program.yaml"

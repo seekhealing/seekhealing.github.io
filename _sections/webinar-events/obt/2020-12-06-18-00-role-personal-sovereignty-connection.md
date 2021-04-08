@@ -36,4 +36,4 @@ tagline: In this offering you’ll learn the different forms of sovereignty and 
 
 In this offering you’ll learn the different forms of sovereignty and how they can support in creating the highest and most supportive connections and the distinction of co-dependency and self-sacrificial relating. You’ll be able to answer questions that will allow you to explore where you’ve been leaning in your ways of relating. You’ll be guided through a Breathwork journey to support in integrating new pathways for relating and transmuting patterns that no longer serve you and humanity.
 
-[![The Spiritual Magic of a Queer POC by Shaunna Williams](/assets/images/obt-book-the-spiritual-magic-of-a-queer-poc.jpg)](https://www.firestorm.coop/onebigtable){:target="_blank"}
+[![The Spiritual Magic of a Queer POC by Shaunna Williams](/assets/images/obt-book-the-spiritual-magic-of-a-queer-poc.jpg)](https://www.firestorm.coop/onebigtable)

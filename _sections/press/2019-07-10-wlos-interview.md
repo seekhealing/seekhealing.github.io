@@ -8,4 +8,4 @@ date: 2019-07-10
 
 ## Addicted NC: SeekHealing
 
-<https://wlos.com/news/addicted-nc/addicted-nc-seekhealing/>{:target="_blank"}
+<https://wlos.com/news/addicted-nc/addicted-nc-seekhealing/>

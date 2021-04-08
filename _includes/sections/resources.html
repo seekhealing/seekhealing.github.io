@@ -1,10 +1,10 @@
-{% comment %} 
+{% comment %}
 <!--
   Resources Section
 
   This partial is used for resources sections of text.
-  
---> 
+
+-->
 {% endcomment %}
 
 {% assign singles = site.sections|where:"type","resource"|where:"title",include.title %}
@@ -25,9 +25,9 @@
 
             {% for resource in resources.resources %}
             <li>
-              <a href="{{ resource.url }}" class="pull-left"{% if resource.target %} target="{{ resource.target }}"{% endif %}><i class="{{ resource.icon }}" aria-hidden="true"></i></a>
+              <a href="{{ resource.url }}" class="pull-left" target="_blank" rel="noopener"><i class="{{ resource.icon }}" aria-hidden="true"></i></a>
               <div class="text-left resources-item">
-                <a href="{{ resource.url }}"{% if resource.target %} target="{{ resource.target }}"{% endif %}>{{ resource.title }}</a><br/>
+                <a href="{{ resource.url }}" target="_blank" rel="noopener">{{ resource.title }}</a><br/>
                 {{ resource.subtext }}
 
                 <p>{{ resource.blurb }}</p>

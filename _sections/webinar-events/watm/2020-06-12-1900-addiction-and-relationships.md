@@ -22,4 +22,4 @@ link: https://zoom.us/j/4463977749 # Jennifer Room
 tagline: Dr. Anita Gadhia-Smith and her husband Dr. Ron Smith have been through a lot in their lives, and this is a “bare all” as they weave the concepts of our self-care and self-love with caring for others in healthy ways.
 ---
 
-In this session, Dr. Anita Gadhia-Smith will focus on relationships -- as she has been lately on [www.DeepSoulfulLove.com](https://deepsoulfullove.com){:target="_blank"} -- and her husband Dr. Ron Smith will focus on the tragic and redemptive spiritual nature of addiction. Our presenters have been through a lot in their lives, and this is a “bare all” as they weave the concepts of our self-care and self-love with caring for others in healthy ways.
+In this session, Dr. Anita Gadhia-Smith will focus on relationships -- as she has been lately on [www.DeepSoulfulLove.com](https://deepsoulfullove.com) -- and her husband Dr. Ron Smith will focus on the tragic and redemptive spiritual nature of addiction. Our presenters have been through a lot in their lives, and this is a “bare all” as they weave the concepts of our self-care and self-love with caring for others in healthy ways.

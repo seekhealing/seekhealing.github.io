@@ -28,4 +28,4 @@ tagline: You’ll learn the Change Triangle, a practical map for understanding h
 
 You’ll learn the Change Triangle, a practical map for understanding how emotions work in the mind and body to help us connect us to our authentic self and others. Learn an effective wholistic tool to decrease anxiety and depression and connect more deeply to whomever or whatever you want. You’ll get a basic education in emotions and a new way to understand trauma and transformation.
 
-[![It's Not Always Depression by Hilary Jacobs Hendel](/assets/images/obt-book-its-not-always-depression.jpg)](https://www.firestorm.coop/onebigtable){:target="_blank"}
+[![It's Not Always Depression by Hilary Jacobs Hendel](/assets/images/obt-book-its-not-always-depression.jpg)](https://www.firestorm.coop/onebigtable)

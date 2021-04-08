@@ -39,7 +39,7 @@
                     <span class="emphasized-header"> and </span>
                     {% endif %}
                     {% if donor.website %}
-                    <span class="emphasized-header"><a href="{{ donor.website }}" target="_blank">{{ donor.name }}</a></span>
+                    <span class="emphasized-header"><a href="{{ donor.website }}">{{ donor.name }}</a></span>
                     {% else %}
                     <span class="emphasized-header">{{ donor.name }}</span>
                     {% endif %}
@@ -81,7 +81,7 @@
               {% if item.logos %}
               <blockquote class="sponsor-logos">
                 {% for logo in item.logos %}
-                <a href="{% if logo.link %}{{ logo.link }}{% elsif item.donors[0].website %}{{ item.donors[0].website }}{% endif %}" target="_blank" class="sponsor-logo">
+                <a href="{% if logo.link %}{{ logo.link }}{% elsif item.donors[0].website %}{{ item.donors[0].website }}{% endif %}" class="sponsor-logo">
                   <img src="{{ logo.path }}" alt="{% if logo.name %}{{ logo.name }}{% elsif item.donors[0].name %}{{ item.donors[0].name }}{% endif %}" title="{% if logo.name %}{{ logo.name }}{% elsif item.donors[0].name %}{{ item.donors[0].name }}{% endif %}">
                 </a>
                 {% endfor %}

@@ -7,4 +7,4 @@ date: 2019-05-01
 
 ## Addressing the Opioid Overdose Epidemic
 
-<https://www.capitalatplay.com/addressing-the-opioid-overdose-epidemic/>{:target="_blank"}
+<https://www.capitalatplay.com/addressing-the-opioid-overdose-epidemic/>

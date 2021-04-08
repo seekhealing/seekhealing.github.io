@@ -29,7 +29,6 @@ nav:
         url: /contact/
       - title: Program Sign-up
         url: https://form.jotform.com/90764612050148
-        target: _blank
     title: Connect
     url: /contact/
   - submenu:
@@ -51,5 +50,4 @@ nav:
     url: /they-were-here/
   - title: Donate
     class: "donate-header"
-    target: _blank
     url: https://seekhealing.org/giving

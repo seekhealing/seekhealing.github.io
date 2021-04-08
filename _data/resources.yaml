@@ -3,7 +3,6 @@ resources:
     subtext: "Alexander, Bruce K., et al. Pharmacology Biochemistry and Behavior 15.4 (1981): 571-576."
     url: "https://www.sciencedirect.com/science/article/pii/0091305781902112"
     icon: "far fa-file-pdf"
-    target: "_blank"
   - title: '"The Naked Empress. Modern neuro­science and the concept of addiction."'
     subtext: "Peter Cohen (2009), Presentation at the 12th Plaform for Drug Treatment, Mondsee Austria, 21­22 March 2009."
     url: "/downloads/Dr.Peter.Cohen.research-.The.naked.empress.pdf"
@@ -28,56 +27,46 @@ resources:
     subtext: "Dhruv Khullar NYT, 12/22/16"
     url: "https://www.nytimes.com/2016/12/22/upshot/how-social-isolation-is-killing-us.html"
     icon: "fas fa-external-link-alt"
-    target: "_blank"
   - title: 'American Carnage: The New Landscape of Opioid Addiction'
     subtext: "By Christopher Caldwell"
     url: "https://www.firstthings.com/article/2017/04/american-carnage"
     icon: "fas fa-external-link-alt"
-    target: "_blank"
   - title: 'Everything You Think You Know About Addiction Is Wrong'
     subtext: "By Johann Hari"
     url: "https://www.ted.com/talks/johann_hari_everything_you_think_you_know_about_addiction_is_wrong"
     icon: "fas fa-external-link-alt"
-    target: "_blank"
   - title: 'Lost Connections: Uncovering the Real Causes of Depression – and the Unexpected Solutions'
     subtext: "Johann Hari"
     blurb: "A brilliant synthesis of work across many disciplines showing how a lack of meaning, hope, relationships, nature, or other basic needs can be the ultimate cause of our prevalent mental health issues, including anxiety and addiction."
     url: "https://www.amazon.com/Lost-Connections-Uncovering-Depression-Unexpected/dp/163286830X"
     icon: "fas fa-book"
-    target: "_blank"
   - title: 'Loneliness: Human Nature and the Need for Social Connection'
     subtext: "John Cacioppo"
     blurb: "A broad look at our inherently gregarious nature: how we're designed to be constantly interacting with others, down to the cellular level, and just how much can go terribly wrong when we're lonely."
     url: "https://www.amazon.com/Loneliness-Human-Nature-Social-Connection/dp/0393335283"
     icon: "fas fa-book"
-    target: "_blank"
   - title: 'Social: Why Our Brains Are Wired to Connect'
     subtext: "Matthew Lieberman Broadway Books, 2014"
     blurb: "Another look at why the pain of loneliness shows up just like physical pain in the brain: because our need for empathy, for real human connection, is even more fundamental than our need for food and water."
     url: "https://www.amazon.com/Social-Why-Brains-Wired-Connect/dp/0307889106/ref=pd_lpo_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=1K9ZET2ZYS5M0N2VY3M9"
     icon: "fas fa-book"
-    target: "_blank"
   - title: 'In the Realm of Hungry Ghosts: Close Encounters with Addiction'
     subtext: "Gabor Mate North Atlantic Books, 2010"
     blurb: "A grueling account of work among the those hovering on the edge of death, showing the poignant reality of what a lonely childhood, even among the most caring family, can do. A distracted or stressed out parent, despite their best intentions, communicates anxiety to their child, and this unease can last a lifetime. For more on this topic, see also Mate's previous book, Scattered."
     url: "https://www.amazon.com/Realm-Hungry-Ghosts-Encounters-Addiction/dp/155643880X"
     icon: "fas fa-book"
-    target: "_blank"
   - title: 'The Globalization of Addiction: A Study in Poverty of the Spirit'
     subtext: "Bruce Alexander Oxford University Press, 2010"
     blurb: 'A history of "dislocation," the dynamic by which individuals and entire societies are uprooted and disconnected from the necessities of mental health. By the creator of the "Rat Park" experiment.'
     url: "https://www.amazon.com/Globalization-Addiction-Study-Poverty-Spirit/dp/0199588716/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=TWFA13ETV1Z830VADXG7"
     icon: "fas fa-book"
-    target: "_blank"
   - title: 'Nonviolent Communication: A Language of Life'
     subtext: "Marshall Rosenberg Puddledancer Press, 2003"
     blurb: 'Possibly the most valuable solution to every crisis we face, from addiction to climate change, this book outlines a "life-serving" approach to relating with each other and ourselves. Based on empathy, it argues that anything is possible once we share our feelings and our needs.'
     url: "https://www.amazon.com/Nonviolent-Communication-Language-Marshall-Rosenberg/dp/1892005034"
     icon: "fas fa-book"
-    target: "_blank"
   - title: "A New Earth: Awakening to Your Life's Purpose"
     subtext: "Eckhart Tolle Penguin, 2008"
     blurb: 'An incredible modern exposition of ancient wisdom pointing to the universal human challenge of overcoming the illusion of the ego: the false idea of separation that underlies loneliness, violence, and addiction, the insatiable need for "more."'
     url: "https://www.amazon.com/New-Earth-Awakening-Purpose-Selection/dp/0452289963"
     icon: "fas fa-book"
-    target: "_blank"

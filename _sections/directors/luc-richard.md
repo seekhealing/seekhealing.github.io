@@ -6,6 +6,6 @@ image: /assets/images/team-headshot-luc.jpg
 published: false
 ---
 
-Entrepreneur and Alumni of [The Circling Institute](https://www.circlinginstitute.com/){:target="_blank"}
+Entrepreneur and Alumni of [The Circling Institute](https://www.circlinginstitute.com/)
 
 <luc@seekhealing.org>

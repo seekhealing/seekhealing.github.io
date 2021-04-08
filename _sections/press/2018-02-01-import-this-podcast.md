@@ -8,4 +8,4 @@ published: false
 
 ## Import This Podcast: Jennifer Nicolaisen on Addiction, SeekHealing Non-Profit, Etc.
 
-<https://soundcloud.com/import-this/episode-15>{:target="_blank"}
+<https://soundcloud.com/import-this/episode-15>

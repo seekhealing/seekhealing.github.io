@@ -40,7 +40,7 @@ Check out these community service projects you can get involved in to support ot
 ![Herbal First Aid Kits](/assets/images/herbal-first-aid-5.jpg){:class="img-responsive"}
 
 Volunteers are assembling baskets filled with herbal comforts and remedies to support people in the community who are in involuntary opioid withdrawal due to the quarantine, or who are without housing or under-housed and suffering in fear and anxiety. \\
-Donate [here](https://secure.givelively.org/donate/seekhealing/herbal-first-aid-kits){:target="_blank"} or fill out [this form](https://form.jotform.com/200375804511043){:target="_blank"} to sign-up as a volunteer!
+Donate [here](https://secure.givelively.org/donate/seekhealing/herbal-first-aid-kits) or fill out [this form](https://form.jotform.com/200375804511043) to sign-up as a volunteer!
 
 <br>
 

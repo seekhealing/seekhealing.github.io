@@ -8,8 +8,8 @@ header: subnav-header
 
 It takes all of us stepping up to support and connect with each other on the days when we’re strong, so that someone else can do it for us on the days when we’re not. It’s a balance of giving and receiving.
 
-[Today I want to help someone else](https://form.jotform.com/200375804511043){:class="button button-green" target="_blank"}
-[Today I need someone to help me](https://form.jotform.com/201945583479064){:class="button button-green" target="_blank"}
+[Today I want to help someone else](https://form.jotform.com/200375804511043){:class="button button-green"}
+[Today I need someone to help me](https://form.jotform.com/201945583479064){:class="button button-green"}
 
 <br>
 
@@ -51,7 +51,7 @@ We need volunteers to support seekers who are facing heightened physical or emot
 - **SeekHealing Tour Guide and Welcome Party** gives new Seekers a welcome tour or direct personal connection to SeekHealing, answering questions and extending invitations to their first events.
 - **Reach Out to Check-In** with Seekers who are new to the community, or those who are isolating or facing acute challenges.
 
-[I need support like this today](https://form.jotform.com/201945583479064){:class="button button-green" target="_blank"}
+[I need support like this today](https://form.jotform.com/201945583479064){:class="button button-green"}
 
 <br>
 
@@ -75,4 +75,4 @@ We need drivers with vehicles who can shop for and deliver items, carpool, and  
 
 <br>
 
-[Volunteer Sign-up Form](https://form.jotform.com/200375804511043){:class="button button-green" target="_blank"}
+[Volunteer Sign-up Form](https://form.jotform.com/200375804511043){:class="button button-green"}
