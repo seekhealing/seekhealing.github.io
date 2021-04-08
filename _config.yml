@@ -89,6 +89,9 @@ plugins:
 paginate: 1
 paginate_path: "/blog/page/:num"
 
+# target-blank:
+#    noreferrer: false
+
 mini_magick:
   # 100x80: # Preset name
   #   source: assets/images # source directory - change this to whatever you want
