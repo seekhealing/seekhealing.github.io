@@ -50,4 +50,5 @@ nav:
     url: /they-were-here/
   - title: Donate
     class: "donate-header"
-    url: https://seekhealing.org/giving
+    url: /giving/
+    target: _blank
