@@ -51,4 +51,4 @@ nav:
   - title: Donate
     class: "donate-header"
     url: /giving/
-    target: _blank
+    target-blank: true
