@@ -4,7 +4,7 @@ backend:
   branch: content
   site_domain: seekhealing.shinedesigns.dev
 publish_mode: editorial_workflow
-media_folder: "/assets/images"
+media_folder: "assets/images"
 editor:
   preview: false
 collections:
@@ -159,6 +159,65 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Ticket Button Text", name: "ticket-btn", widget: "string", default: "Buy Tickets"}
       - {label: "Ticket Button URL", name: "ticket-url", widget: "string"}
+  - name: "webinars"
+    label: "Webinars"
+    label_singular: "Webinar"
+    folder: "_sections/events/webinars"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ['commit_date', 'date', 'title']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "events"}
+      - {label: "Subtype", name: "subtype", widget: "hidden", default: "webinar"}
+      - {label: "Title", name: "title", widget: "string"}
+      # - {label: "Title Markup", name: "name", widget: "string", required: false}
+      - label: "Event Dates"
+        label_singular: "Date"
+        name: "dates"
+        widget: "list"
+        collapsed: true
+        fields:
+          - label: "Date"
+            name: "date"
+            widget: "datetime"
+            date_format: true
+            time_format: false
+            # default: ""
+            format: "LL"
+      - label: "Approximate Dates"
+        name: "dates-approx"
+        widget: "string"
+        required: false
+        hint: This will replace any dates in promotional materials, in case the exact dates are not settled or advertised yet; e.g. "Spring of 2022"
+      - label: "Promotional Images"
+        label_singular: "Image"
+        name: "images"
+        widget: "list"
+        collapsed: true
+        min: 1
+        fields:
+          - {label: "Image", name: "image", widget: "image", media_folder: "/assets/images"}
+          - label: "Image Description"
+            name: "image-alt"
+            widget: "string"
+            # default: ""
+            hint: Not displayed by default, but required for accessibility purposes, i.e. screen-readers for the visually impaired.
+        add_to_top: true
+        hint: Only the first image in this list (at the top; the most recently added, by default) will be used. It will also link to the Signup URL (below).
+      - label: "Signup URL"
+        name: "signup-url"
+        widget: "string"
+        # required: false
+        hint: An internal landing page and/or registration URL (e.g. /one-big-table or /one-big-table#register), or external (e.g. Eventbrite) signup.
+      - label: "Signup Button Text"
+        name: "signup-text"
+        widget: "string"
+        # required: false
+        default: "Learn More"
+        hint: Defaults to "Learn More" for linking to a landing page. But alternatively, "Sign Up Now!" e.g. when directing to a registration form.
       - {label: "Description", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "watm-events"
     label: "WATM Events"
