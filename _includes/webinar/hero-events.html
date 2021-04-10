@@ -25,8 +25,12 @@
       <div class="promo-column" style="max-width: 60%">
         <h3 style="color: #444;">{{ event.name }}</h3>
 
-        {% include webinar/event-facilitators.html %}
-        {% if event.facilitator or event.facilitators %}
+        {% if event.facilitator %}
+          {% assign facilitators = event.facilitator %}
+        {% elsif event.facilitators %}
+          {% assign facilitators = event.facilitators | map: "name" | array_to_sentence_string %}
+        {% endif %}
+        {% if facilitators %}
         <h4><span class="emphasized-header">{{ facilitators }}</span></h4>
         {% endif %}
       </div>
