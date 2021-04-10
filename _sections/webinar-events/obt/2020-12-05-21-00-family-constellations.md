@@ -16,7 +16,7 @@ facilitators:
       Norton, The Your Resonant Self Workbook, is available for preorder on
       Amazon and will be published May 25, 2021.
     link: https://www.sarahpeyton.com
-    link: sarahpeyton.com
+    link-text: sarahpeyton.com
 event-type: interactive
 day: 2
 date: 2020-12-05

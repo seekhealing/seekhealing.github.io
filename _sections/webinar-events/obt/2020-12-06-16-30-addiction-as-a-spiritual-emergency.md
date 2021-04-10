@@ -14,7 +14,7 @@ facilitators:
       of spiritual emergency, mental health, addiction treatment, PTSD, clinical
       supervision and organizational development. "
     link: http://www.centerforspiritualemergence.com/
-    link: centerforspiritualemergence.com
+    link-text: centerforspiritualemergence.com
 event-type: presentation
 day: 3
 date: 2020-12-06
