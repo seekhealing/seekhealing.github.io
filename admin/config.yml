@@ -71,6 +71,7 @@ collections:
     format: yaml-frontmatter
     frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
+    sortable_fields: ['name', 'order', 'commit_date']
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "team"}
       - label: "Category"
@@ -86,7 +87,7 @@ collections:
         name: summary
         widget: text
         required: false
-        hint: If the Bio (below) is lengthy, please include a shortened (~20-30 words) summary version here to replace it on /leadership.
+        hint: If the Bio (below) is lengthy, please include a shortened (~20-30 words) summary version here to display on /leadership.
       - {label: "Bio", name: "body", widget: "markdown"}
   - name: "team"
     label: "Team"
@@ -96,15 +97,15 @@ collections:
     format: yaml-frontmatter
     frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
-    summary: "{{order}}. {{name}}"
-    sortable_fields: ['commit_date', 'date', 'name', 'order']
+    # summary: "{{order}}. {{name}}"
+    sortable_fields: ['name', 'order', 'commit_date']
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "team"}
       - {label: "Category", name: "category", widget: "hidden", default: "Team"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Job Title", name: "title", widget: "string"}
       - {label: "Picture", name: "image", widget: "image"}
-      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-press"
     label: "Press"
@@ -152,7 +153,7 @@ collections:
         options: ["upcoming", "past"]
         default: "upcoming"
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Title Markup", name: "name", widget: "string"}
+      # - {label: "Title Markup", name: "name", widget: "string"}
       - {label: "Date", name: "date", widget: "date", default: ""}
       - {label: "Time", name: "time", widget: "string"}
       - {label: "Location", name: "location", widget: "string"}
@@ -397,7 +398,8 @@ collections:
             name: "logo"
             widget: "image"
           - {label: "Logo Alt Text", name: "logo-alt", widget: "string"}
-          - label: "Header Navigation Items"
+          - label: "Header Nav Links"
+            label_singular: "Header Nav Link"
             name: nav
             widget: "list"
             fields:
@@ -409,7 +411,8 @@ collections:
                 required: false
                 default: ""
                 hint: Make an internal link/redirect (e.g. /giving) open in a new tab. External links always open in new tabs regardless of this setting.
-              - label: "SubMenu"
+              - label: "Dropdown Links"
+                label_singular: "Dropdown Link"
                 name: submenu
                 widget: list
                 fields:
