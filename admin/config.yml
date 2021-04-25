@@ -32,7 +32,7 @@ collections:
             widget: "select"
             options: ["article", "citation", "connect", "connection-agent-form", "directors", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "press", "resources", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
           - {label: "Section Title", name: "title", widget: "string"}
-        hint: Pages generally have (multiple) sections. Each section has a type, and a title. The most common section type is the "single" (single column layout). Another type is the "double" (double column layout). For example, the first section of the /oa101 page is a single titled "oa101-intro". To edit the content of that section, go back and look in the "Single sections" collection for the "oa101-intro" entry. Note that not all section types can be edited via this interface (yet). Ask your web dev for help with any section types not listed under Collections.
+        hint: Pages are made up of sections. Each section has a type, and a title. The most common section type is the "single" (single column layout). Another type is the "double" (double column layout). For example, the first section of the /oa101 page is a single titled "oa101-intro". To edit the content of that section, go back and look in the "Single sections" collection for the "oa101-intro" entry. Note that not all section types can be edited via this interface (yet). Ask your web dev for help with any section types not listed under Collections.
       # - {label: "Transparent Header?", name: "transparent-header", widget: "boolean", default: false}
       # - {label: "Body", name: "body", widget: "markdown", modes: ["raw"], required: false}
   - name: "redirects"
@@ -606,36 +606,36 @@ collections:
       - {label: "Center Column Content?", name: "center", widget: "boolean", default: false, required: false}
       - {label: "Is content a sticky note format?", name: "sticky-note", widget: "boolean", default: false, required: false}
       - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "section-double-full"
-    label: "Double Full sections"
-    label_singular: "Double Full section"
-    folder: "_sections/double-full"
-    create: true
-    format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "double-full"}
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
-      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
-      - label: "Font Size"
-        name: "apply-links"
-        widget: "select"
-        options: ["large", "regular"]
-        default: "regular"
-        required: false
-      - {label: "Background Image", name: "img", widget: "image"}
-      - label: "Background Image Position"
-        name: "img-pos"
-        widget: "select"
-        options: ["left", "right"]
-        default: "left"
-      - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
-      - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  # - name: "section-double-full"
+  #   label: "Double Full sections"
+  #   label_singular: "Double Full section"
+  #   folder: "_sections/double-full"
+  #   create: true
+  #   format: yaml-frontmatter
+  #   frontmatter_delimiter: ["---", "---\n\n"]
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "double-full"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
+  #     - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
+  #     - label: "Font Size"
+  #       name: "apply-links"
+  #       widget: "select"
+  #       options: ["large", "regular"]
+  #       default: "regular"
+  #       required: false
+  #     - {label: "Background Image", name: "img", widget: "image"}
+  #     - label: "Background Image Position"
+  #       name: "img-pos"
+  #       widget: "select"
+  #       options: ["left", "right"]
+  #       default: "left"
+  #     - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
+  #     - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "section-hero"
     label: "Hero sections"
     label_singular: "Hero section"
@@ -684,30 +684,30 @@ collections:
   #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
   #     - {label: "Box Header", name: "header", widget: "string"}
   #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "section-parallax"
-    label: "Parallax sections"
-    label_singular: "Parallax section"
-    folder: "_sections/parallax"
-    create: true
-    format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "parallax"}
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
-      - label: "Font Size"
-        name: "apply-links"
-        widget: "select"
-        options: ["large", "regular"]
-        default: "large"
-        required: false
-      - {label: "Background Image", name: "bg-img", widget: "image"}
-      - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
-      - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  # - name: "section-parallax"
+  #   label: "Parallax sections"
+  #   label_singular: "Parallax section"
+  #   folder: "_sections/parallax"
+  #   create: true
+  #   format: yaml-frontmatter
+  #   frontmatter_delimiter: ["---", "---\n\n"]
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "parallax"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
+  #     - label: "Font Size"
+  #       name: "apply-links"
+  #       widget: "select"
+  #       options: ["large", "regular"]
+  #       default: "large"
+  #       required: false
+  #     - {label: "Background Image", name: "bg-img", widget: "image"}
+  #     - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
+  #     - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-resources"
   #   label: "Section_Resources"
   #   folder: "_sections/resources"
@@ -765,21 +765,21 @@ collections:
         default: "false"
         required: false
       - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "section-story"
-    label: "Story sections"
-    label_singular: "Story section"
-    folder: "_sections/story"
-    create: true
-    format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{slug}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "story"}
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
-      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  # - name: "section-story"
+  #   label: "Story sections"
+  #   label_singular: "Story section"
+  #   folder: "_sections/story"
+  #   create: true
+  #   format: yaml-frontmatter
+  #   frontmatter_delimiter: ["---", "---\n\n"]
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - {label: "Type", name: "type", widget: "hidden", default: "story"}
+  #     - label: "Title"
+  #       name: "title"
+  #       widget: "string"
+  #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   # - name: "section-stripe"
   #   label: "Section_Stripe"
   #   folder: "_sections/stripe"
