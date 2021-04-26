@@ -5,7 +5,7 @@ padding: no-top-padding
 class: button-group
 ---
 
-[START A CONVERSATION TODAY](https://form.jotform.com/90764612050148){:class="button button-green" target="_blank"}
+[START A CONVERSATION TODAY](https://form.jotform.com/90764612050148){:class="button button-green"}
 
 Call or text 828-547-0222 to book your appointment.
 {:class="bold large"}

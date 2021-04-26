@@ -23,12 +23,12 @@
 
     {% if now_epoch < event_date_start_epoch %}
     {% include widgets/addtocalendar.html %}
-    <a href="{{ event.link }}" class="button zoom-button" target="_blank" style="display: none;"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
+    <a href="{{ event.link }}" class="button zoom-button" style="display: none;"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
     {% endif %}
 
     {% if now_epoch >= event_date_start_epoch and now_epoch < event_date_end_epoch %}
     {% include widgets/addtocalendar.html hidden=true %}
-    <a href="{{ event.link }}" class="button zoom-button" target="_blank"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
+    <a href="{{ event.link }}" class="button zoom-button"><i class="fas fa-hand-point-right"></i>Join in Zoom!</a>
     {% endif %}
   </h3>
 

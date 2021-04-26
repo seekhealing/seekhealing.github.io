@@ -1,7 +1,7 @@
 ---
 type: team
 category: Board of Directors
-name: Rachel Wurzman, PHD
+name: Rachel Wurzman, PhD
 image: /assets/images/team-headshot-rachel.jpg
 role: Director of Science
 location: Asheville, NC

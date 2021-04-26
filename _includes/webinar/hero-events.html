@@ -19,14 +19,18 @@
     data-endhour="{{ end_hour }}"
     data-endminute="{{ end_minute }}"
     data-utcoffset="{{ event.utc-offset }}"
-    />
+    >
     <div class="subnav-header promo-row">
 
       <div class="promo-column" style="max-width: 60%">
         <h3 style="color: #444;">{{ event.name }}</h3>
 
-        {% include webinar/event-facilitators.html %}
-        {% if event.facilitator or event.facilitators %}
+        {% if event.facilitator %}
+          {% assign facilitators = event.facilitator %}
+        {% elsif event.facilitators %}
+          {% assign facilitators = event.facilitators | map: "name" | array_to_sentence_string %}
+        {% endif %}
+        {% if facilitators %}
         <h4><span class="emphasized-header">{{ facilitators }}</span></h4>
         {% endif %}
       </div>
@@ -39,7 +43,7 @@
                 <i class="fa fa-circle Blink" style="margin-left: 0;"></i>&nbsp;Live Zoom
               </span>
             </div>
-            <a href="{{ event.link }}" class="button zoom-button" target="_blank">
+            <a href="{{ event.link }}" class="button zoom-button">
               <span style="margin-left: -100%; margin-right: -100%; text-align: center;">
                 <i class="fas fa-hand-point-right" style="margin-left: 0;"></i>Join Now!
               </span>

@@ -51,7 +51,7 @@
                 <div class="event-content">
                   {{ event.content | markdownify }}
                   {% if event.ticket-btn and include.title == 'upcoming' %}
-                    <a href="{{ event.ticket-url }}" target="_blank" class="button button-green rsvp">{{ event.ticket-btn }}</a>
+                    <a href="{{ event.ticket-url }}" class="button button-green rsvp">{{ event.ticket-btn }}</a>
                   {% endif %}
                 </div>
               </div>

@@ -1,11 +1,11 @@
-{% comment %} 
+{% comment %}
 <!--
   Header
 
   This partial is included on every page except to consistently
   display the same header on each page.
 
---> 
+-->
 {% endcomment %}
 
 {% assign header = site.data.header %}
@@ -37,7 +37,7 @@
             {% endif %}
 
             <li>
-              <a href="{{ nav_url }}"{% if nav.class %} class="{{ nav.class }}"{% endif %}{% if nav.target %} target="{{ nav.target }}"{% endif %}>
+              <a href="{{ nav_url }}"{% if nav.class %} class="{{ nav.class }}"{% endif %}{% if nav.target-blank %} target="_blank"{% endif %}>
                 {{ nav.title }}
               </a>
 
@@ -55,7 +55,7 @@
                   {% endif %}
 
                   <li>
-                    <a href="{{ subnav_url }}"{% if subnav.target %} target="{{ subnav.target }}"{% endif %}>
+                    <a href="{{ subnav_url }}"{% if subnav.target-blank %} target="_blank"{% endif %}>
                       {{ subnav.title }}
                     </a>
                   </li>
@@ -71,7 +71,7 @@
 
         </ul>
       </nav><!-- #primary-menu end -->
-      
+
 
       <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 

@@ -8,4 +8,4 @@ date: 2018-10-22
 
 ## Mountain Xpress Addressing the Real Cause of Addiction
 
-<https://mountainx.com/opinion/kiss-and-say-goodbye-addressing-the-real-cause-of-addiction/>{:target="_blank"}
+<https://mountainx.com/opinion/kiss-and-say-goodbye-addressing-the-real-cause-of-addiction/>

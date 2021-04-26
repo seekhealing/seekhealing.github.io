@@ -7,4 +7,4 @@ date: 2020-01-13
 
 ## Jennifer Nicolaisen and Dr Lisa Marie Bobby podcast:
 
-<https://www.growingself.com/the-power-of-connection/>{:target="_blank"}
+<https://www.growingself.com/the-power-of-connection/>

@@ -81,12 +81,16 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-redirect-from
   - jekyll-tidy
+  - jekyll-target-blank
   # - jekyll-responsive-image # https://community.netlify.com/t/error-on-deploying-jekyll-site-with-jekyll-responsive-image-plugin/16302
   - mini_magick
   - jekyll-image-size
 
 paginate: 1
 paginate_path: "/blog/page/:num"
+
+# target-blank:
+#    noreferrer: false
 
 mini_magick:
   # 100x80: # Preset name

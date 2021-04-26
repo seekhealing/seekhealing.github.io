@@ -33,4 +33,4 @@ Polarization, racism, anxiety, addiction, isolation. What do all of these human 
 
 Compelled by the growing sense of disconnection in the world, Authentic Relating International (ARI) is dedicated to fostering profound and sustainable human connections in marginalized communities. Through experiential workshops and other programming, we are transforming prisons into places of human connection, empowering Inmates to return to their communities more equipped to be productive, healthy members of society. ARI’s mission: Re-humanizing the world, one human at a time.
 
-[www.authenticrelating.org](https://www.authenticrelating.org){:target="_blank"}
+[www.authenticrelating.org](https://www.authenticrelating.org)

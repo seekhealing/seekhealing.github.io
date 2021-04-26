@@ -8,4 +8,4 @@ published: false
 
 ## Asheville FM News Team Speaks With Seek Healing
 
-<https://www.ashevillefm.org/post/afm-news-team-speaks-with-seek-healing/>{:target="_blank"}
+<https://www.ashevillefm.org/post/afm-news-team-speaks-with-seek-healing/>
