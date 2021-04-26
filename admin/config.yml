@@ -9,7 +9,7 @@ editor:
   preview: false
 collections:
   - name: "pages"
-    label: "Pages (Table of Contents)"
+    label: "*Pages*"
     label_singular: "Page"
     folder: "_pages"
     create: true
@@ -30,13 +30,14 @@ collections:
           - label: "Section Type"
             name: "type"
             widget: "select"
+            # options: ["article", "citation", "connect", "connection-agent-form", "directors", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "press", "resources", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
             options: ["article", "citation", "connect", "connection-agent-form", "directors", "double", "double-full", "events", "gauges", "hero", "locations", "memorial-wall", "message-box", "parallax", "press", "resources", "single", "stories", "stripe", "subnav", "subscribe", "team", "triple"]
           - {label: "Section Title", name: "title", widget: "string"}
-        hint: Pages are made up of sections. Each section has a type, and a title. The most common section type is the "single" (single column layout). Another type is the "double" (double column layout). For example, the first section of the /oa101 page is a single titled "oa101-intro". To edit the content of that section, go back and look in the "Single sections" collection for the "oa101-intro" entry. Note that not all section types can be edited via this interface (yet). Ask your web dev for help with any section types not listed under Collections.
+        hint: Pages are made up of sections. Each section has a type, and a title. The most common type of section is the "single" (single column layout). Another type is the "double" (double column layout). For example, the first section of the /oa101 page is a single, titled "oa101-intro". To edit the content of that section, go back and look in the "singles" collection for the "oa101-intro" entry. Please note that not every type of section can be edited via this web interface (yet), so ask your web dev for help with any section types not listed under Collections.
       # - {label: "Transparent Header?", name: "transparent-header", widget: "boolean", default: false}
       # - {label: "Body", name: "body", widget: "markdown", modes: ["raw"], required: false}
   - name: "redirects"
-    label: "Redirects"
+    label: "*Redirects*"
     label_singular: "Redirect"
     folder: "_pages"
     create: true
@@ -54,343 +55,24 @@ collections:
         widget: "string"
         pattern: ['^\/.*\/$', "Slug must begin and end with forward slashes, e.g. /2020/"]
       - {label: "Redirect to", name: "redirect_to", widget: "string"}
-  # - name: "posts"
-  #   label: "Posts"
-  #   label_singular: "Post"
-  #   folder: "_posts"
-  #   create: true
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" #i.e. YYYY-MM-DD-title.md
-  #   fields:
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "leadership"
-    label: "Leadership"
-    folder: "_sections/directors"
-    create: true
-    format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{slug}}"
-    sortable_fields: ['name', 'order', 'commit_date']
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "team"}
-      - label: "Category"
-        name: category
-        widget: select
-        options: ["Board of Directors", "Advisory Council"]
-      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Role", name: "role", widget: "string", required: false, hint: "e.g. President, Treasurer, etc."}
-      - {label: "Picture", name: "image", widget: "image"}
-      - {label: "Location", name: "location", widget: "string", required: false}
-      - label: Bio Summary
-        name: summary
-        widget: text
-        required: false
-        hint: If the Bio (below) is lengthy, please include a shortened (~20-30 words) summary version here to display on /leadership.
-      - {label: "Bio", name: "body", widget: "markdown"}
-  - name: "team"
-    label: "Team"
-    label_singular: "Team Member"
-    folder: "_sections/team"
-    create: true
-    format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{slug}}"
-    # summary: "{{order}}. {{name}}"
-    sortable_fields: ['name', 'order', 'commit_date']
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "team"}
-      - {label: "Category", name: "category", widget: "hidden", default: "Team"}
-      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Job Title", name: "title", widget: "string"}
-      - {label: "Picture", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "section-press"
-    label: "Press"
-    label_singular: "Press entry"
-    folder: "_sections/press"
-    create: true
-    format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{date}}-{{title}}"
-    summary: "{{date}} — {{title}}"
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "message-box"}
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
-      - label: 'Date'
-        name: 'date'
-        widget: 'date'
-        # default: ''
-        format: 'YYYY-MM-DD'
-      - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - {label: "Featured Video (embed URL)", name: "video", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "events"
-    label: "Events"
-    label_singular: "Event"
-    folder: "_sections/events"
-    create: true
-    format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{slug}}"
-    summary: "{{date}} — {{title}}"
-    sortable_fields: ['commit_date', 'date', 'title']
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "events"}
-      - label: "What type of event is this?"
-        name: "subtype"
-        widget: "select"
-        options: ["Regular event", "Overdose and Addiction 101", "Listening Training"]
-        default: "Regular event"
-      - label: "Is this event upcoming or already past?"
-        name: "timing"
-        widget: "select"
-        options: ["upcoming", "past"]
-        default: "upcoming"
-      - {label: "Title", name: "title", widget: "string"}
-      # - {label: "Title Markup", name: "name", widget: "string"}
-      - {label: "Date", name: "date", widget: "date", default: ""}
-      - {label: "Time", name: "time", widget: "string"}
-      - {label: "Location", name: "location", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Ticket Button Text", name: "ticket-btn", widget: "string", default: "Buy Tickets"}
-      - {label: "Ticket Button URL", name: "ticket-url", widget: "string"}
-  - name: "webinars"
-    label: "Webinars"
-    label_singular: "Webinar"
-    folder: "_sections/events/webinars"
-    create: true
-    format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{slug}}"
-    summary: "{{date}} — {{title}}"
-    sortable_fields: ['commit_date', 'date', 'title']
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "events"}
-      - {label: "Subtype", name: "subtype", widget: "hidden", default: "webinar"}
-      - {label: "Title", name: "title", widget: "string"}
-      # - {label: "Title Markup", name: "name", widget: "string", required: false}
-      - label: "Event Dates"
-        label_singular: "Date"
-        name: "dates"
-        widget: "list"
-        collapsed: true
-        fields:
-          - label: "Date"
-            name: "date"
-            widget: "datetime"
-            date_format: true
-            time_format: false
-            # default: ""
-            format: "LL"
-      - label: "Approximate Dates"
-        name: "dates-approx"
-        widget: "string"
-        required: false
-        hint: This will replace any dates in promotional materials, in case the exact dates are not settled or advertised yet; e.g. "Spring of 2022"
-      - label: "Promotional Images"
-        label_singular: "Image"
-        name: "images"
-        widget: "list"
-        collapsed: true
-        min: 1
-        fields:
-          - {label: "Image", name: "image", widget: "image", media_folder: "/assets/images"}
-          - label: "Image Description"
-            name: "image-alt"
-            widget: "string"
-            # default: ""
-            hint: Not displayed by default, but required for accessibility purposes, i.e. screen-readers for the visually impaired.
-        add_to_top: true
-        hint: Only the first image in this list (at the top; the most recently added, by default) will be used. It will also link to the Signup URL (below).
-      - label: "Signup URL"
-        name: "signup-url"
-        widget: "string"
-        # required: false
-        hint: An internal landing page and/or registration URL (e.g. /one-big-table or /one-big-table#register), or external (e.g. Eventbrite) signup.
-      - label: "Signup Button Text"
-        name: "signup-text"
-        widget: "string"
-        # required: false
-        default: "Learn More"
-        hint: Defaults to "Learn More" for linking to a landing page. But alternatively, "Sign Up Now!" e.g. when directing to a registration form.
-      - {label: "Description", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "watm-events"
-    label: "WATM Events"
-    label_singular: "WATM Event"
-    folder: "_sections/webinar-events/watm"
-    create: true
-    format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n\n"]
-    identifier_field: name
-    slug: "{{date}}-{{start-time}}-{{slug}}"
-    summary: "{{date}} {{start-time}} {{slug}}"
-    sortable_fields: ['commit_date', 'date', 'title']
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
-      - {label: "Webinar", name: "webinar", widget: "hidden", default: "watm"}
-      - label: Title
-        name: name
-        widget: string
-        hint: e.g. A Performance Comparison between Jekyll and WordPress
-      - label: Title Slug
-        name: title
-        widget: string
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters and dashes only"]
-        hint: Should be short (for SEO) and must be a valid URL slug, e.g. jekyll-vs-wordpress-performance
-      # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
-      - label: "Facilitators"
-        label_singular: "Facilitator"
-        name: "facilitators"
-        widget: "list"
-        fields:
-          - {label: "Name", name: name, widget: string}
-          - {label: "Photo", name: photo, widget: image, allow_multiple: false, required: false}
-          - {label: "Bio", name: bio, widget: text}
-          - label: Link
-            name: link
-            widget: string
-            required: false
-            hint: Must be a valid URL with http prefix, e.g. https://example.com
-          - label: Link Text
-            name: link-text
-            widget: string
-            required: false
-            hint: Text to display in place of the above URL, e.g. example.com
-      - label: "Event Subtype"
-        name: "event-type"
-        widget: "select"
-        options: ["presentation", "interactive", "music", "interview"]
-      - label: Day
-        name: day
-        widget: number
-        valueType: int
-        min: 1
-        max: 3
-        hint: For a Friday-Sunday webinar, 1 means Friday, 2 means Saturday, and 3 means Sunday.
-      - {label: "Date", name: "date", widget: "date", format: 'YYYY-MM-DD'}
-      - label: "Start Time"
-        name: "start-time"
-        widget: "datetime"
-        default: ""
-        date_format: "" # none
-        time_format: "HH:mm" # e.g. 21:07
-        format: "HH:mm"
-        picker_utc: false
-      - label: "End Time"
-        name: "end-time"
-        widget: "datetime"
-        default: ""
-        date_format: "" # none
-        time_format: "HH:mm" # e.g. 21:07
-        format: "HH:mm"
-        picker_utc: false
-      - {label: "Zoom Link", name: "link", widget: "string"}
-      - label: Event Summary
-        name: tagline
-        widget: text
-        required: false
-        hint: If the event description (below) is long, please include a shortened version here for the webinar schedule section event block.
-      - {label: "Event Description", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "obt-events"
-    label: "OBT Events"
-    label_singular: "OBT Event"
-    folder: "_sections/webinar-events/obt"
-    create: true
-    format: yaml-frontmatter
-    frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{date}}-{{start-time}}-{{title}}"
-    summary: "{{date}} {{start-time}} {{title}}"
-    sortable_fields: ['commit_date', 'date', 'title']
-    fields:
-      - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
-      - {label: "Webinar", name: "webinar", widget: "hidden", default: "obt"}
-      - label: Title
-        name: name
-        widget: string
-        hint: e.g. A Performance Comparison between Jekyll and WordPress
-      - label: Title Slug
-        name: title
-        widget: string
-        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters and dashes only"]
-        hint: Should be short (for SEO) and must be a valid URL slug, e.g. jekyll-vs-wordpress-performance
-      # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
-      - label: "Facilitators"
-        label_singular: "Facilitator"
-        name: "facilitators"
-        widget: "list"
-        fields:
-          - {label: "Name", name: name, widget: string}
-          - {label: "Photo", name: photo, widget: image, allow_multiple: false, required: false}
-          - {label: "Bio", name: bio, widget: text}
-          - label: Link
-            name: link
-            widget: string
-            required: false
-            hint: Must be a valid URL with http prefix, e.g. https://example.com
-          - label: Link Text
-            name: link-text
-            widget: string
-            required: false
-            hint: Text to display in place of the above URL, e.g. example.com
-      - label: "Event Subtype"
-        name: "event-type"
-        widget: "select"
-        options: ["presentation", "interactive", "music", "interview"]
-      - label: Day
-        name: day
-        widget: number
-        valueType: int
-        min: 1
-        max: 3
-        hint: For a Friday-Sunday webinar, 1 means Friday, 2 means Saturday, and 3 means Sunday.
-      - {label: "Date", name: "date", widget: "date", format: 'YYYY-MM-DD'}
-      - label: "Start Time"
-        name: "start-time"
-        widget: "datetime"
-        default: ""
-        date_format: "" # none
-        time_format: "HH:mm" # e.g. 21:07
-        format: "HH:mm"
-        picker_utc: false
-      - label: "End Time"
-        name: "end-time"
-        widget: "datetime"
-        default: ""
-        date_format: "" # none
-        time_format: "HH:mm" # e.g. 21:07
-        format: "HH:mm"
-        picker_utc: false
-      - {label: "Zoom Link", name: "link", widget: "string"}
-      - label: Event Summary
-        name: tagline
-        widget: text
-        required: false
-        hint: If the event description (below) is long, please include a shortened version here for the webinar schedule section event block.
-      - {label: "Event Description", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "otherContent"
-    label: "Miscellaneous"
+  - name: "site-data"
+    label: "*Site Data*"
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: false
     files:
-      - name: "global"
-        label: "Global Site Content"
-        file: "_data/global.yaml"
-        description: "Global content"
-        fields:
-          - {label: "Email Address", name: "email", widget: "string"}
-          - {label: "Email Icon", name: "email-icon", widget: "string"}
-          - {label: "Subscribe Form Submission URL", name: "subscribe-url", widget: "string"}
-          - {label: "Subscribe Form Text", name: "subscribe-text", widget: "string"}
-          - {label: "Subscribe Form Button Text", name: "subscribe-btn-text", widget: "string"}
+      # - name: "global"
+      #   label: "Global Site Content"
+      #   file: "_data/global.yaml"
+      #   description: "Global content"
+      #   fields:
+      #     - {label: "Email Address", name: "email", widget: "string"}
+      #     - {label: "Email Icon", name: "email-icon", widget: "string"}
+      #     - {label: "Subscribe Form Submission URL", name: "subscribe-url", widget: "string"}
+      #     - {label: "Subscribe Form Text", name: "subscribe-text", widget: "string"}
+      #     - {label: "Subscribe Form Button Text", name: "subscribe-btn-text", widget: "string"}
       - name: "header"
-        label: "Header Content"
+        label: "Header"
         file: "_data/header.yaml"
         description: "Header content"
         fields:
@@ -405,12 +87,12 @@ collections:
             fields:
               - {label: "Title", name: title, widget: string}
               - {label: "URL", name: url, widget: string}
-              - label: "Open in a new tab?"
-                name: target-blank
-                widget: "boolean"
-                required: false
-                default: ""
-                hint: Make an internal link/redirect (e.g. /giving) open in a new tab. External links always open in new tabs regardless of this setting.
+              # - label: "Open in a new tab?"
+              #   name: target-blank
+              #   widget: "boolean"
+              #   required: false
+              #   default: ""
+              #   hint: Make an internal link/redirect (e.g. /giving) open in a new tab. External links always open in new tabs regardless of this setting.
               - label: "Dropdown Links"
                 label_singular: "Dropdown Link"
                 name: submenu
@@ -418,16 +100,16 @@ collections:
                 fields:
                   - {label: "Title", name: title, widget: string}
                   - {label: "URL", name: url, widget: string}
-                  - label: "Open in a new tab?"
-                    name: target-blank
-                    widget: "boolean"
-                    required: false
-                    default: ""
-                    hint: Make an internal link/redirect (e.g. /giving) open in a new tab. External links always open in new tabs regardless of this.
+                  # - label: "Open in a new tab?"
+                  #   name: target-blank
+                  #   widget: "boolean"
+                  #   required: false
+                  #   default: ""
+                  #   hint: Make an internal link/redirect (e.g. /giving) open in a new tab. External links always open in new tabs regardless of this.
       - name: "footer"
-        label: "Footer Links"
+        label: "Footer"
         file: "_data/footer.yaml"
-        description: "Footer Links"
+        description: "Footer content"
         fields:
           # - {label: "Copyright Text", name: "copyright-text", widget: "string"}
           # - label: "Footer Navigation Items"
@@ -457,18 +139,6 @@ collections:
       #         - {label: "State", name: state, widget: string}
       #         - {label: "Contact Email Address", name: email, widget: string}
       #     - {label: "Connect Header", name: "connect-header", widget: "string"}
-      - name: "memorial-wall"
-        label: "Memorial Wall"
-        file: "_data/memorial-wall.yaml"
-        description: "People listed on the Memorial Wall"
-        fields:
-          - label: "In Memorium"
-            name: memorium
-            widget: "list"
-            fields:
-              - {label: "Name", name: name, widget: string}
-              - {label: "Remembered By", name: remembered-by, widget: string}
-              - {label: "Quote", name: quote, widget: string}
       - name: "resources"
         label: "Resources"
         file: "_data/resources.yaml"
@@ -482,6 +152,28 @@ collections:
               - {label: "Sub-title", name: subtext, widget: string}
               - {label: "Link", name: url, widget: string}
               - {label: "Icon", name: icon, widget: string}
+      - name: "memorial-wall"
+        label: "Memorial Wall"
+        file: "_data/memorial-wall.yaml"
+        description: "People listed on the Memorial Wall"
+        fields:
+          - label: "In Memorium"
+            name: memorium
+            widget: "list"
+            fields:
+              - {label: "Name", name: name, widget: string}
+              - {label: "Remembered By", name: remembered-by, widget: string}
+              - {label: "Quote", name: quote, widget: string}
+  # - name: "posts"
+  #   label: "Posts"
+  #   label_singular: "Post"
+  #   folder: "_posts"
+  #   create: true
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" #i.e. YYYY-MM-DD-title.md
+  #   fields:
+  #     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
       # - name: "asheville-pilot-program"
       #   label: "Asheville Pilot Content"
       #   file: "_data/asheville-pilot-program.yaml"
@@ -568,9 +260,9 @@ collections:
   #     - {label: "Type", name: "type", widget: "hidden", default: "connection-agent-form"}
   #     - {label: "Form", name: "form", widget: "hidden", default: "connection-agent-form"}
   #     - {label: "Form Header", name: "header", widget: "string"}
-  - name: "section-double"
-    label: "Double sections"
-    label_singular: "Double section"
+  - name: "doubles"
+    label: "doubles"
+    label_singular: "double"
     folder: "_sections/double"
     create: true
     slug: "{{slug}}"
@@ -593,15 +285,15 @@ collections:
         required: false
       - {label: "White Background?", name: "white-bg", widget: "boolean", default: false, required: false}
       - {label: "Bottom Border?", name: "section-bottom-border", widget: "boolean", default: false, required: false}
-  - name: "section-double-columns"
-    label: "Double Column sections"
-    label_singular: "Double Column section"
+  - name: "double-columns"
+    label: "double columns"
+    label_singular: "double column"
     folder: "_sections/double-columns"
     create: true
     format: yaml-frontmatter
     frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{double}}-column-{{column}}"
-    summary: "{{double}} {{column}}"
+    summary: "{{double}} / column {{column}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "double-column"}
       - {label: "Double", name: "double", widget: "string"}
@@ -639,9 +331,9 @@ collections:
   #     - {label: "Quote on Image", name: "img-quote", widget: "string", required: false}
   #     - {label: "Image Quote's Author", name: "img-quote-author", widget: "string", required: false}
   #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "section-hero"
-    label: "Hero sections"
-    label_singular: "Hero section"
+  - name: "heroes"
+    label: "heroes"
+    label_singular: "hero"
     folder: "_sections/hero"
     create: true
     format: yaml-frontmatter
@@ -657,9 +349,9 @@ collections:
       - {label: "Darken Background?", name: "darkened", widget: "boolean", default: false}
       - {label: "Video Embed URL", name: "video-embed", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "section-lightbox"
-    label: "Lightbox sections"
-    label_singular: "Lightbox section"
+  - name: "lightboxes"
+    label: "lightboxes"
+    label_singular: "lightbox"
     folder: "_sections/lightboxes"
     create: true
     format: yaml-frontmatter
@@ -724,9 +416,9 @@ collections:
   #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
   #     - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
   #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "section-single"
-    label: "Single sections"
-    label_singular: "Single section"
+  - name: "singles"
+    label: "singles"
+    label_singular: "single"
     folder: "_sections/single"
     create: true
     format: yaml-frontmatter
@@ -738,31 +430,31 @@ collections:
         name: "title"
         widget: "string"
         pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
-      - {label: "White Background Color?", name: "white-bg", widget: "boolean", default: false, required: false}
-      - label: "Font Size"
-        name: "apply-links"
-        widget: "select"
-        options: ["large", "regular"]
-        default: "regular"
-        required: false
-      - label: "Header Type"
-        name: "header"
-        widget: "select"
-        options: ["regular", "subnav-header"]
-        default: "regular"
-        required: false
-      - label: "Column Width"
+      - label: "Single Column Width"
         name: "col-width"
         widget: "select"
-        options: ["regular", "sticky", "thin", "wide"]
+        options: ["regular", "thin", "wide"]
         default: "regular"
         required: false
-      - label: "Sticky Note Content"
-        name: "sticky-header"
-        widget: "string"
-        default: ""
-        required: false
-      - label: "Bottom Border on Section?"
+      - {label: "White Background?", name: "white-bg", widget: "boolean", default: false, required: false}
+      # - label: "Font Size"
+      #   name: "apply-links"
+      #   widget: "select"
+      #   options: ["large", "regular"]
+      #   default: "regular"
+      #   required: false
+      # - label: "Header Type"
+      #   name: "header"
+      #   widget: "select"
+      #   options: ["regular", "subnav-header"]
+      #   default: "regular"
+      #   required: false
+      # - label: "Sticky Note Content"
+      #   name: "sticky-header"
+      #   widget: "string"
+      #   default: ""
+      #   required: false
+      - label: "Bottom Border?"
         name: "section-bottom-border"
         widget: "boolean"
         default: "false"
@@ -795,15 +487,15 @@ collections:
   #       widget: "string"
   #       pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
   #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
-  - name: "section-subnav"
-    label: "Subnav sections"
-    label_singular: "Subnav section"
+  - name: "subnav-links"
+    label: "subnav links"
+    label_singular: "subnav link"
     folder: "_sections/subnav"
     create: true
     format: yaml-frontmatter
     frontmatter_delimiter: ["---", "---\n\n"]
     slug: "{{slug}}"
-    summary: "{{nav}} — {{title}}"
+    summary: "{{nav}} / {{title}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "subnav"}
       - label: "Subnav Group"
@@ -859,3 +551,342 @@ collections:
   #     - {label: "Column Grouping Name", name: "col-names", widget: "string"}
   #     - {label: "Column Order Display", name: "order", widget: "number", valueType: "int", min: 1}
   #     - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "advisory-council"
+    label: "Advisory Council"
+    label_singular: "Advisor"
+    folder: "_sections/directors"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    sortable_fields: ['order', 'name', 'commit_date']
+    filter: {field: "category", value: "Advisory Council"}
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "team"}
+      - label: "Category"
+        name: category
+        widget: select
+        options: ["Board of Directors", "Advisory Council"]
+        default: "Advisory Council"
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Role", name: "role", widget: "string", required: false, hint: "e.g. President, Treasurer, etc."}
+      - {label: "Picture", name: "image", widget: "image"}
+      - {label: "Location", name: "location", widget: "string", required: false}
+      - label: Bio Summary
+        name: summary
+        widget: text
+        required: false
+        hint: If the Bio (below) is lengthy, please include a shortened (~20-30 words) summary version here to display on /leadership.
+      - {label: "Bio", name: "body", widget: "markdown"}
+  - name: "board-of-directors"
+    label: "Board of Directors"
+    label_singular: "Director"
+    folder: "_sections/directors"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    sortable_fields: ['order', 'name', 'commit_date']
+    filter: {field: "category", value: "Board of Directors"}
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "team"}
+      - label: "Category"
+        name: category
+        widget: select
+        options: ["Board of Directors", "Advisory Council"]
+        default: "Board of Directors"
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Role", name: "role", widget: "string", required: false, hint: "e.g. President, Treasurer, etc."}
+      - {label: "Picture", name: "image", widget: "image"}
+      - {label: "Location", name: "location", widget: "string", required: false}
+      - label: Bio Summary
+        name: summary
+        widget: text
+        required: false
+        hint: If the Bio (below) is lengthy, please include a shortened (~20-30 words) summary version here to display on /leadership.
+      - {label: "Bio", name: "body", widget: "markdown"}
+  - name: "press"
+    label: "Press"
+    label_singular: "Press"
+    folder: "_sections/press"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{date}}-{{title}}"
+    summary: "{{date}} — {{title}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "message-box"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters, underscores, and dashes only"]
+      - label: 'Date'
+        name: 'date'
+        widget: 'date'
+        # default: ''
+        format: 'YYYY-MM-DD'
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Featured Video (embed URL)", name: "video", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "team"
+    label: "SeekHealing Team"
+    label_singular: "Teammate"
+    folder: "_sections/team"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    # summary: "{{order}}. {{name}}"
+    sortable_fields: ['name', 'order', 'commit_date']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "team"}
+      - {label: "Category", name: "category", widget: "hidden", default: "Team"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Job Title", name: "title", widget: "string"}
+      - {label: "Picture", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "special-events"
+    label: "Special Events"
+    label_singular: "Special Event"
+    folder: "_sections/events"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    summary: "{{date}} — {{title}}"
+    sortable_fields: ['commit_date', 'date', 'title']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "events"}
+      - label: "What type of event is this?"
+        name: "subtype"
+        widget: "select"
+        options: ["Regular event", "Overdose and Addiction 101", "Listening Training"]
+        default: "Regular event"
+      - label: "Is this event upcoming or already past?"
+        name: "timing"
+        widget: "select"
+        options: ["upcoming", "past"]
+        default: "upcoming"
+      - {label: "Title", name: "title", widget: "string"}
+      # - {label: "Title Markup", name: "name", widget: "string"}
+      - {label: "Date", name: "date", widget: "date", default: ""}
+      - {label: "Time", name: "time", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Ticket Button Text", name: "ticket-btn", widget: "string", default: "Buy Tickets"}
+      - {label: "Ticket Button URL", name: "ticket-url", widget: "string"}
+  - name: "webinars"
+    label: "Webinars"
+    label_singular: "Webinar"
+    folder: "_sections/events/webinars"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{slug}}"
+    sortable_fields: ['commit_date', 'date', 'title']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "events"}
+      - {label: "Subtype", name: "subtype", widget: "hidden", default: "webinar"}
+      - {label: "Title", name: "title", widget: "string"}
+      # - {label: "Title Markup", name: "name", widget: "string", required: false}
+      - label: "Event Dates"
+        label_singular: "Date"
+        name: "dates"
+        widget: "list"
+        collapsed: true
+        fields:
+          - label: "Date"
+            name: "date"
+            widget: "datetime"
+            date_format: true
+            time_format: false
+            # default: ""
+            format: "LL"
+      - label: "Approximate Dates"
+        name: "dates-approx"
+        widget: "string"
+        required: false
+        hint: This will replace any dates in promotional materials, in case the exact dates are not settled or advertised yet; e.g. "Spring of 2022"
+      - label: "Promotional Images"
+        label_singular: "Image"
+        name: "images"
+        widget: "list"
+        collapsed: true
+        min: 1
+        fields:
+          - {label: "Image", name: "image", widget: "image", media_folder: "/assets/images"}
+          - label: "Image Description"
+            name: "image-alt"
+            widget: "string"
+            # default: ""
+            hint: Not displayed by default, but required for accessibility purposes, i.e. screen-readers for the visually impaired.
+        add_to_top: true
+        hint: Only the first image in this list (at the top; the most recently added, by default) will be used. It will also link to the Signup URL (below).
+      - label: "Signup URL"
+        name: "signup-url"
+        widget: "string"
+        # required: false
+        hint: An internal landing page and/or registration URL (e.g. /one-big-table or /one-big-table#register), or external (e.g. Eventbrite) signup.
+      - label: "Signup Button Text"
+        name: "signup-text"
+        widget: "string"
+        # required: false
+        default: "Learn More"
+        hint: Defaults to "Learn More" for linking to a landing page. But alternatively, "Sign Up Now!" e.g. when directing to a registration form.
+      - {label: "Description", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "obt-events"
+    label: "OBT Events"
+    label_singular: "OBT Event"
+    folder: "_sections/webinar-events/obt"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    slug: "{{date}}-{{start-time}}-{{title}}"
+    summary: "{{date}} {{start-time}} {{title}}"
+    sortable_fields: ['commit_date', 'date', 'title']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
+      - {label: "Webinar", name: "webinar", widget: "hidden", default: "obt"}
+      - label: Title
+        name: name
+        widget: string
+        hint: e.g. A Performance Comparison between Jekyll and WordPress
+      - label: Title Slug
+        name: title
+        widget: string
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters and dashes only"]
+        hint: Should be short (for SEO) and must be a valid URL slug, e.g. jekyll-vs-wordpress-performance
+      # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
+      - label: "Facilitators"
+        label_singular: "Facilitator"
+        name: "facilitators"
+        widget: "list"
+        fields:
+          - {label: "Name", name: name, widget: string}
+          - {label: "Photo", name: photo, widget: image, allow_multiple: false, required: false}
+          - {label: "Bio", name: bio, widget: text}
+          - label: Link
+            name: link
+            widget: string
+            required: false
+            hint: Must be a valid URL with http prefix, e.g. https://example.com
+          - label: Link Text
+            name: link-text
+            widget: string
+            required: false
+            hint: Text to display in place of the above URL, e.g. example.com
+      - label: "Event Subtype"
+        name: "event-type"
+        widget: "select"
+        options: ["presentation", "interactive", "music", "interview"]
+      - label: Day
+        name: day
+        widget: number
+        valueType: int
+        min: 1
+        max: 3
+        hint: For a Friday-Sunday webinar, 1 means Friday, 2 means Saturday, and 3 means Sunday.
+      - {label: "Date", name: "date", widget: "date", format: 'YYYY-MM-DD'}
+      - label: "Start Time"
+        name: "start-time"
+        widget: "datetime"
+        default: ""
+        date_format: "" # none
+        time_format: "HH:mm" # e.g. 21:07
+        format: "HH:mm"
+        picker_utc: false
+      - label: "End Time"
+        name: "end-time"
+        widget: "datetime"
+        default: ""
+        date_format: "" # none
+        time_format: "HH:mm" # e.g. 21:07
+        format: "HH:mm"
+        picker_utc: false
+      - {label: "Zoom Link", name: "link", widget: "string"}
+      - label: Event Summary
+        name: tagline
+        widget: text
+        required: false
+        hint: If the event description (below) is long, please include a shortened version here for the webinar schedule section event block.
+      - {label: "Event Description", name: "body", widget: "markdown", modes: ["raw"]}
+  - name: "watm-events"
+    label: "WATM Events"
+    label_singular: "WATM Event"
+    folder: "_sections/webinar-events/watm"
+    create: true
+    format: yaml-frontmatter
+    frontmatter_delimiter: ["---", "---\n\n"]
+    identifier_field: name
+    slug: "{{date}}-{{start-time}}-{{title}}"
+    summary: "{{date}} {{start-time}} {{title}}"
+    sortable_fields: ['commit_date', 'date', 'title']
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "webinar-event"}
+      - {label: "Webinar", name: "webinar", widget: "hidden", default: "watm"}
+      - label: Title
+        name: name
+        widget: string
+        hint: e.g. A Performance Comparison between Jekyll and WordPress
+      - label: Title Slug
+        name: title
+        widget: string
+        pattern: ['^[a-zA-Z0-9_\-]+$', "Alphanumeric characters and dashes only"]
+        hint: Should be short (for SEO) and must be a valid URL slug, e.g. jekyll-vs-wordpress-performance
+      # - {label: "Facilitator(s)", name: "facilitator", widget: "string"}
+      - label: "Facilitators"
+        label_singular: "Facilitator"
+        name: "facilitators"
+        widget: "list"
+        fields:
+          - {label: "Name", name: name, widget: string}
+          - {label: "Photo", name: photo, widget: image, allow_multiple: false, required: false}
+          - {label: "Bio", name: bio, widget: text}
+          - label: Link
+            name: link
+            widget: string
+            required: false
+            hint: Must be a valid URL with http prefix, e.g. https://example.com
+          - label: Link Text
+            name: link-text
+            widget: string
+            required: false
+            hint: Text to display in place of the above URL, e.g. example.com
+      - label: "Event Subtype"
+        name: "event-type"
+        widget: "select"
+        options: ["presentation", "interactive", "music", "interview"]
+      - label: Day
+        name: day
+        widget: number
+        valueType: int
+        min: 1
+        max: 3
+        hint: For a Friday-Sunday webinar, 1 means Friday, 2 means Saturday, and 3 means Sunday.
+      - {label: "Date", name: "date", widget: "date", format: 'YYYY-MM-DD'}
+      - label: "Start Time"
+        name: "start-time"
+        widget: "datetime"
+        default: ""
+        date_format: "" # none
+        time_format: "HH:mm" # e.g. 21:07
+        format: "HH:mm"
+        picker_utc: false
+      - label: "End Time"
+        name: "end-time"
+        widget: "datetime"
+        default: ""
+        date_format: "" # none
+        time_format: "HH:mm" # e.g. 21:07
+        format: "HH:mm"
+        picker_utc: false
+      - {label: "Zoom Link", name: "link", widget: "string"}
+      - label: Event Summary
+        name: tagline
+        widget: text
+        required: false
+        hint: If the event description (below) is long, please include a shortened version here for the webinar schedule section event block.
+      - {label: "Event Description", name: "body", widget: "markdown", modes: ["raw"]}
