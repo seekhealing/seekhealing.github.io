@@ -9,6 +9,6 @@ darkened: true
 
 # <span class="emphasized-header">Connection</span> is medicine.
 
-## SeekHealing provides social health programs to rebuild disconnected communities, healing loneliness, systemic shame, trauma, and addiction.
+## SeekHealing provides social health programs to rebuild disconnected communities -- healing loneliness, systemic shame, trauma, and addiction.
 
 [Learn more](/heal/){:class="button cta"}
