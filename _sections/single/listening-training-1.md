@@ -21,7 +21,7 @@ Ideal both for those struggling with addiction and their family members, or for 
 
 _Note: This course is required for anyone seeking to volunteer or practice facilitation within the SeekHealing community._
 
-By completing this training, you’ll become part of a radically different addiction treatment program in Buncombe County, NC. The disease of addiction shows up in individuals because it is first a disease of the community: a problem with how individuals within a group relate with one another.
+By completing this training, you’ll become part of a radically different addiction treatment program. The disease of addiction shows up in individuals because it is first a disease of the community: a problem with how individuals within a group relate with one another.
 
 Through this training, we are “treating” addiction disease at the community level and you are a part of the treatment. Listening Training empowers human beings of all kinds to give each other the best and cheapest medicine available for treating addiction: connection.
 
