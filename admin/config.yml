@@ -637,7 +637,7 @@ collections:
     create: true
     format: yaml-frontmatter
     frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{slug}}"
+    slug: "{{name}}"
     # summary: "{{order}}. {{name}}"
     sortable_fields: ['name', 'order', 'commit_date']
     fields:
