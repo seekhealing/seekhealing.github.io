@@ -127,18 +127,21 @@
   width: 100%;
   margin: 0 auto;
 
-  @media screen and (min-width: $screen-sm-min) {
-    width: 200px;
-  }
-
-  @media screen and (min-width: $screen-lg-min) {
-    width: 250px;
-  }
-
   img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     border-radius: 50%;
+    object-fit: scale-down;
+
+    @media screen and (min-width: $screen-sm-min) {
+      width: 200px;
+      height: 200px;
+    }
+
+    @media screen and (min-width: $screen-lg-min) {
+      width: 250px;
+      height: 250px;
+    }
   }
 }
 
