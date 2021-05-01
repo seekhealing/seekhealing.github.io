@@ -637,7 +637,7 @@ collections:
     create: true
     format: yaml-frontmatter
     frontmatter_delimiter: ["---", "---\n\n"]
-    slug: "{{slug}}"
+    slug: "{{name}}"
     # summary: "{{order}}. {{name}}"
     sortable_fields: ['name', 'order', 'commit_date']
     fields:
@@ -646,7 +646,10 @@ collections:
       - {label: "Order", name: "order", widget: "number", valueType: "int", min: 1}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Job Title", name: "title", widget: "string"}
-      - {label: "Picture", name: "image", widget: "image"}
+      - label: "Picture"
+        name: "image"
+        widget: "image"
+        hint: Please ensure that new images are cropped square and named team-headshot-first-last.jpg
       - {label: "Body", name: "body", widget: "markdown", modes: ["raw"]}
   - name: "special-events"
     label: "Special Events"

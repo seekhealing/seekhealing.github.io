@@ -1,10 +1,10 @@
 ---
 type: team
 category: Team
-name: Maribeth Collins
-title: Community Navigator
-image: /assets/images/team-headshot-maribeth.jpg
-order: 1
+order: 7
+name: Dan Guttman
+title: Fundraising Co-Manager
+image: /assets/images/owl-science-250.png
 ---
 
-<maribeth@seekhealing.org>
+<dan@seekhealing.org>
