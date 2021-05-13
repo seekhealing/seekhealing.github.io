@@ -111,20 +111,28 @@ collections:
         file: "_data/footer.yaml"
         description: "Footer content"
         fields:
-          # - {label: "Copyright Text", name: "copyright-text", widget: "string"}
-          # - label: "Footer Navigation Items"
-          #   name: nav
-          #   widget: "list"
-          #   fields:
-          #     - {label: "Title", name: title, widget: string}
-          #     - {label: "URL", name: url, widget: string}
+          - {label: "Copyright Text", name: "copyright-text", widget: "string"}
+          - {label: "Street", name: "street", widget: "string"}
+          - {label: "City", name: "city", widget: "string"}
+          - {label: "State", name: "state", widget: "string"}
+          - {label: "Zip", name: "zip", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
           - label: "Footer Social Media Links"
             label_singular: "Footer Social Media Link"
             name: "social-media"
             widget: "list"
             fields:
-              - {label: "Icon class", name: icon, widget: string}
               - {label: "URL", name: url, widget: string}
+              - {label: "FontAwesome icon class", name: icon, widget: string}
+          - label: "Footer Badges"
+            label_singular: "Footer Badge"
+            name: "badges"
+            widget: "list"
+            fields:
+              - {label: "URL", name: url, widget: string}
+              - {label: "Image", name: src, widget: image}
+              - {label: "Title", name: alt, widget: string, required: false}
       # - name: "contact"
       #   label: "Contact Page Content"
       #   file: "_data/contact.yaml"
