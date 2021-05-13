@@ -26,14 +26,14 @@
           <!-- Footer Copyright
           ============================================= -->
           <div class="copyright-links">
-            &copy; 2020 <span class="org">SeekHealing</span>
+            &copy; {{ 'now' | date: "%Y" }} <span class="org">{{ footer.copyright-text }}</span>
           </div>
 
           <!-- Address
           ============================================= -->
           <span class="adr">
-            <span class="street-address">50 S. French Broad Avenue #300</span><br>
-            <span class="locality">Asheville</span>, <span class="region">NC</span> <span class="postal-code">28801</span>
+            <span class="street-address">{{ footer.street }}</span><br>
+            <span class="locality">{{ footer.city }}</span>, <span class="region">{{ footer.state }}</span> <span class="postal-code">{{ footer.zip }}</span>
           </span>
 
         </div>
@@ -42,17 +42,11 @@
         ============================================= -->
         <div id="footer-section-2" class="col-xs-12 col-sm-4">
 
-          <!-- GuideStar Seal
-          ============================================= -->
-          <a href="https://www.guidestar.org/profile/81-4832857">
-            <img src="/assets/images/footer-guidestar-badge.svg"/>
+          {% for badge in footer.badges %}
+          <a href="{{ badge.url }}">
+            <img src="{{ badge.src }}"  alt="{{ badge.alt }}" title="{{ badge.alt }}"/>
           </a>
-
-          <!-- GreatNonprofits Badge
-          ============================================= -->
-          <a href="https://greatnonprofits.org/org/seekhealing">
-            <img src="/assets/images/footer-greatnonprofits-badge.png" title="Seekhealing Nonprofit Overview and Reviews on GreatNonprofits"/>
-          </a>
+          {% endfor %}
 
         </div>
 
@@ -76,14 +70,14 @@
             ============================================= -->
             <span class="email">
               <!-- <i class="email {{ global.email-icon }}"></i> -->
-              <a href="mailto:{{ global.email }}" style="border-bottom: none;">{{ global.email }}</a>
+              <a href="mailto:{{ footer.email }}" style="border-bottom: none;">{{ footer.email }}</a>
             </span><br>
 
             <!-- Phone Number
             ============================================= -->
             <span class="tel">
               <!-- <i class="phone {{ global.phone-icon }}"></i> -->
-              {{ global.phone }}
+              {{ footer.phone }}
             </span>
 
           </span>
