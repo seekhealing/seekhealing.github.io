@@ -23,7 +23,7 @@ social-media:
     url: 'https://www.youtube.com/channel/UCSM8rmdOFdHop_8z2UFz5-g'
 badges:
   - url: 'https://www.guidestar.org/profile/81-4832857'
-    src: /assets/images/footer-guidestar-badge.svg
+    src: '/assets/images/footer-guidestar-badge.svg'
   - url: 'https://greatnonprofits.org/org/seekhealing'
-    src: /assets/images/footer-greatnonprofits-badge.png
-    alt: 'Seekhealing Nonprofit Overview and Reviews on GreatNonprofits'
+    src: '/assets/images/footer-greatnonprofits-badge.png'
+    alt: 'Seekhealing Overview and Reviews on GreatNonprofits'
