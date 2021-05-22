@@ -111,28 +111,32 @@ collections:
         file: "_data/footer.yaml"
         description: "Footer content"
         fields:
-          - {label: "Copyright Text", name: "copyright-text", widget: "string"}
-          - {label: "Street", name: "street", widget: "string"}
+          - {label: "Copyright Credit", name: "copyright-text", widget: "string"}
+          - {label: "Street Address", name: "street", widget: "string"}
           - {label: "City", name: "city", widget: "string"}
           - {label: "State", name: "state", widget: "string"}
           - {label: "Zip", name: "zip", widget: "string"}
-          - {label: "Email", name: "email", widget: "string"}
-          - {label: "Phone", name: "phone", widget: "string"}
-          - label: "Footer Social Media Links"
-            label_singular: "Footer Social Media Link"
-            name: "social-media"
-            widget: "list"
-            fields:
-              - {label: "URL", name: url, widget: string}
-              - {label: "FontAwesome icon class", name: icon, widget: string}
-          - label: "Footer Badges"
-            label_singular: "Footer Badge"
+          - label: "Badges"
+            label_singular: "Badge"
             name: "badges"
             widget: "list"
             fields:
               - {label: "URL", name: url, widget: string}
               - {label: "Image", name: src, widget: image}
-              - {label: "Title", name: alt, widget: string, required: false}
+              - label: "Description"
+                name: alt
+                widget: string
+                required: false
+                hint: e.g. "Seekhealing Overview and Reviews on GreatNonprofits"
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - label: "Social Media Links"
+            label_singular: "Social Media Link"
+            name: "social-media"
+            widget: "list"
+            fields:
+              - {label: "URL", name: url, widget: string}
+              - {label: "FontAwesome icon class", name: icon, widget: string}
       # - name: "contact"
       #   label: "Contact Page Content"
       #   file: "_data/contact.yaml"
@@ -147,6 +151,26 @@ collections:
       #         - {label: "State", name: state, widget: string}
       #         - {label: "Contact Email Address", name: email, widget: string}
       #     - {label: "Connect Header", name: "connect-header", widget: "string"}
+      - name: "partners"
+        label: "Partners"
+        file: "_data/partners.yml"
+        fields:
+        - label: "Partners"
+          label_singular: "Partner"
+          name: "partners"
+          widget: "list"
+          add_to_top: true
+          fields:
+            - {label: "Name", name: title, widget: string}
+            - {label: "Link", name: link, widget: string}
+            - {label: "Logo", name: image, widget: image}
+            - label: "Groupings"
+              name: "include-page"
+              widget: "list"
+              # max: 4
+              # min: 1
+              default: ["partners"]
+              hint: Enter a comma-separated list, e.g. "partners, home-partners, strategic-partners, conn-agent-partners"
       - name: "resources"
         label: "Resources"
         file: "_data/resources.yaml"

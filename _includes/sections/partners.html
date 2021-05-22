@@ -7,9 +7,9 @@
 -->
 {% endcomment %}
 
-{% assign partner_pages = site.sections|where:"type","partners"|where:"title",include.title %}
+{% assign partner_pages = site.sections | where:"type","partners" | where:"title",include.title %}
 
-{% assign partners = site.data.partners.partners|where:"include-page",include.title %}
+{% assign partners = site.data.partners.partners | where:"include-page",include.title %}
 
 {% for partner_page in partner_pages %}
 
@@ -34,8 +34,7 @@
               {% endif %}
 
                 {% if partner.image %}
-                {% assign partner_image_path = partner.image | prepend: "/assets/images/" %}
-                {% include responsive-image.html image=partner_image_path alt=partner.title title=partner.title %}
+                {% include responsive-image.html image=partner.image alt=partner.title title=partner.title %}
                 {% else %}
                 {{ partner.title }}
                 {% endif %}
