@@ -20,14 +20,14 @@ memorium:
     remembered-by: "Michael Kaiser"
   - name: Adam Frankel
     remembered-by: "Michael Kaiser"
-  - name: Cameron Toler
-    remembered-by: "Jennifer Nicolaisen, Khrystyne Williams, Travis Peterson, and the SeekHealing Community in Asheville"
-    quote: "Somewhere between hello & goodbye"
+  # - name: Cameron Toler
+  #   remembered-by: "Jennifer Nicolaisen, Khrystyne Williams, Travis Peterson, and the SeekHealing Community in Asheville"
+  #   quote: "Somewhere between hello & goodbye"
   - name: "Michael Marro"
     remembered-by: "Melissa Beach"
     quote: 'His Laugh'
   - name: "Eric Dandy"
-    remembered-by: 
+    remembered-by:
       - "Pam Ellis-Phipps and Ellie Combs"
       - "Evelyn Rhodes and Ellie Combs"
       - "the Oxford House Chaney"
