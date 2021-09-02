@@ -7,8 +7,7 @@ transparent-header: true
 sections:
   - type: "hero"
     title: "home"
-  - type: "banner"
-    title: "covid19-alert"
+  - type: "subscribe"
   - type: "single"
     title: "elevator-pitch"
   - type: "double"
@@ -23,7 +22,6 @@ sections:
     title: "featured-article"
   - type: "single"
     title: "home-asheville"
-  - type: "subscribe"
   - type: "double-flex"
     title: "testimonial-travis"
   - type: "double-flex"
