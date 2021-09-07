@@ -5,7 +5,7 @@ background: /assets/images/home-bkgrnd.jpg
 # video: /downloads/SH-WLOS.mp4
 # video-preview: /assets/images/wlos-video-preview-2.png
 darkened: true
-video-embed: https://www.youtube.com/embed/MlvV4P5jsa0
+video-embed: https://www.youtube.com/embed/pIRlLM16tms
 ---
 
 # <span class="emphasized-header">Connection</span> is medicine.
